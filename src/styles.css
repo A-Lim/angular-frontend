@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*-------------------------*/
+/* Form Validation         */
+/*-------------------------*/
+
+.form-group.error label{
+    color: #FF5B5C;
+}
+
+/*-------------------------*/
+/* Tabs                    */
+/*-------------------------*/
+.nav.nav-pills~.tab-content {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+}

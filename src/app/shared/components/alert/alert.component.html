@@ -1,0 +1,4 @@
+  
+<div *ngIf="messages" [ngClass]="{ 'alert mb-1': messages, 'alert-success': type === 'success', 'alert-danger': type === 'error' }" role="alert">
+    <span class="alert-message" *ngFor="let message of messages">{{ message }}</span>
+</div>
