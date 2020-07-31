@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { SharedModule } from 'app/shared.module';
+import { SharedModule } from 'app/shared/shared.module';
 import { LoginComponent } from 'app/modules/auth/login/login.component';
 import { RegisterComponent } from 'app/modules/auth/register/register.component';
 import { ForgotPasswordComponent } from 'app/modules/auth/forgot-password/forgot-password.component';

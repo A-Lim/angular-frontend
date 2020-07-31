@@ -1,0 +1,62 @@
+<!-- BEGIN: Content-->
+<div class="app-content content">
+  <div class="content-overlay"></div>
+  <div class="content-wrapper">
+    <div class="content-header row">
+      <div class="content-header-left col-12 mb-2 mt-1">
+        <div class="row breadcrumbs-top">
+          <div class="col-12">
+            <h5 class="content-header-title float-left pr-1 mb-0">Products</h5>
+            <div class="breadcrumb-wrapper col-12">
+              <ol class="breadcrumb p-0 mb-0">
+                <li class="breadcrumb-item"><a href="index.html"><i class="bx bx-home-alt"></i></a>
+                </li>
+                <li class="breadcrumb-item active"> Products
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-body">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <a class="btn btn-primary float-right" [routerLink]="['/admin/products/create']">Create Product</a>
+            </div>
+            <div class="card-content">
+              <div class="card-body">
+                <ag-grid-angular #agGrid style="width: 100%;" domLayout='autoHeight' class="ag-theme-balham"
+                  (gridReady)="onGridReady($event)" [gridOptions]="gridOptions" [columnDefs]="columnDefs">
+                </ag-grid-angular>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #actionsCell let-row>
+  <ng-container *ngIf="row">
+    <a class="btn btn-xs btn-icon rounded-circle btn-primary" [routerLink]="['/admin/products', row.id]"> <i
+        class="bx bxs-edit"></i></a>&nbsp;
+    <a class="btn btn-xs btn-icon rounded-circle btn-danger text-white" (click)="delete(row.id)"> <i class="bx bx-trash"></i></a>
+  </ng-container>
+</ng-template>
+
+<ng-template #statusCell let-row>
+  <ng-container *ngIf="row" [ngSwitch]="row.status">
+    <span *ngSwitchCase="'active'" class="badge badge-xs badge-light-success">{{ row.status | titlecase }}</span>
+    <span *ngSwitchCase="'unverified'"
+      class="badge badge-xs badge-light-warning">{{ row.status | titlecase }}</span>
+    <span *ngSwitchCase="'locked'" class="badge badge-xs badge-light-danger">{{ row.status | titlecase }}</span>
+    <span *ngSwitchCase="'banned'"
+      class="badge badge-xs badge-pill badge-light-danger">{{ row.status | titlecase }}</span>
+    <span *ngSwitchDefault class="badge badge-xs badge-pill badge-default">None</span>
+  </ng-container>
+</ng-template>
+<!-- END: Content-->

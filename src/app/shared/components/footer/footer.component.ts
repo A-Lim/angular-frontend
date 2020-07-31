@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { App } from 'app/configs/app.config';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'shared-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })

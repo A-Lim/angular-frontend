@@ -10,7 +10,16 @@ export const ScriptStore: Scripts[] = [
   // dashboard
   { name: 'apexCharts', src: 'assets/vendors/js/charts/apexcharts.min.js', location: 'vendor-scripts' },
   { name: 'dragula', src: 'assets/vendors/js/extensions/dragula.min.js', location: 'vendor-scripts' },
-  { name: 'dashboardAnalytics', src: 'assets/js/scripts/pages/dashboard-analytics.js', location: 'page-scripts' }
+  { name: 'dashboardAnalytics', src: 'assets/js/scripts/pages/dashboard-analytics.js', location: 'page-scripts' },
+  { name: 'select2', src: 'assets/vendors/js/forms/select/select2.full.min.js', location: 'vendor-scripts' },
+
+  // { name: 'livicons-tools', src: 'assets/fonts/LivIconsEvo/js/LivIconsEvo.tools.min.js', location: 'vendor-scripts' },
+  // { name: 'livicons-defaults', src: 'assets/fonts/LivIconsEvo/js/LivIconsEvo.defaults.min.js', location: 'vendor-scripts' },
+  // { name: 'livicons', src: 'assets/fonts/LivIconsEvo/js/LivIconsEvo.min.js', location: 'vendor-scripts' },
+
+  // { name: 'vertical-menu-light', src: 'assets/js/scripts/configs/vertical-menu-light.min.js', location: 'vendor-scripts' },
+  // { name: 'app-menu', src: 'assets/js/core/app-menu.min.js', location: 'vendor-scripts' },
+  // { name: 'app', src: 'assets/js/core/app.min.js', location: 'vendor-scripts' },
 ]
 
 declare var document: any;

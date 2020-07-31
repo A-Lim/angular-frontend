@@ -16,7 +16,7 @@ export class AuthInterceptor implements HttpInterceptor {
     private alertService: AlertService) { }
 
   intercept(req: HttpRequest<any>, next: HttpHandler) {
-    const accessToken = this.authService.getAccessToken();
+    const accessToken = this.authService.accessToken;
     const authRequest = this.addToken(req, accessToken);
 
     return next.handle(authRequest).pipe(
@@ -44,8 +44,7 @@ export class AuthInterceptor implements HttpInterceptor {
       // error during refresh token
       // clear authdata and redirect to login page
       catchError(error => {
-        this.authService.resetService();
-        this.authService.clearLocalAuthData();
+        this.authService.reset();
         this.alertService.error('Session expired.', true);
         this.router.navigate(['login']);
         return throwError(error);

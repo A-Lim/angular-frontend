@@ -7,7 +7,7 @@ import ValidationUtil from 'app/shared/helpers/validation.util';
 import { AuthService } from 'app/core/services/auth.service';
 
 @Component({
-  selector: 'app-profile-general-tab',
+  selector: 'profile-general-tab',
   templateUrl: './profile-general-tab.component.html',
   styleUrls: ['./profile-general-tab.component.css']
 })
@@ -36,13 +36,14 @@ export class ProfileGeneralTabComponent extends BaseFormComponent implements OnI
 
   ngOnInit() {
     this.startLoading();
-    this.authService.getProfile().subscribe(response => {
-      this.user = response.data;
-      this.populateForm();
-      this.endLoading();
-    }, error => {
-      this.endLoading();
-    });
+    this.authService.getProfile()
+      .subscribe(response => {
+        this.user = response.data;
+        this.form.patchValue(response.data);
+        this.endLoading();
+      }, _ => {
+        this.endLoading();
+      });
   }
 
   onSubmit() {
@@ -62,22 +63,13 @@ export class ProfileGeneralTabComponent extends BaseFormComponent implements OnI
       newPassword_confirmation: this.form.value.confirmPassword
     }
 
-    this.authService.updateProfile(input).subscribe(response => {
-      this.alertService.success(response.message);
-      this.user = response.data;
-      this.endLoading();
-    }, _ => {
-      this.endLoading();
-    });
-  }
-
-  populateForm() {
-    this.form.setValue({
-      name: this.user.name,
-      email: this.user.email,
-      oldPassword: '',
-      newPassword: '',
-      confirmPassword: ''
-    });
+    this.authService.updateProfile(input)
+      .subscribe(response => {
+        this.alertService.success(response.message);
+        this.user = response.data;
+        this.endLoading();
+      }, _ => {
+        this.endLoading();
+      });
   }
 }

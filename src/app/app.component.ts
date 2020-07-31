@@ -1,7 +1,10 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Subscription, Observable } from 'rxjs';
 import { AuthService } from './core/services/auth.service';
+
 import { Router } from '@angular/router';
+import { App } from './configs/app.config';
+import { User } from './shared/models/user.model';
 
 @Component({
   selector: 'app-root',
@@ -9,26 +12,20 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit, OnDestroy {
-  title = 'angular-frontend';
-  public isAuthenticated = false;
-  public user: object;
-  private authListenerSubscriber: Subscription;
+  title = App.NAME;
+
+  public isAuthenticated$: Observable<boolean>;
+  public user$: Observable<User>;
 
   constructor(private authService: AuthService, public router: Router) {
   }
 
   ngOnInit() {
     this.authService.autoAuthUser();
-    this.isAuthenticated = this.authService.checkIsAuthenticated();
-    this.authListenerSubscriber = this.authService
-      .getAuthStatusListener()
-      .subscribe(data => {
-        this.isAuthenticated = data.isAuthenticated;
-        this.user = data.user;
-      });
+    this.isAuthenticated$ = this.authService.isAuthenticated$;
+    this.user$ = this.authService.user$;
   }
 
   ngOnDestroy() {
-    this.authListenerSubscriber.unsubscribe();
   }
 }

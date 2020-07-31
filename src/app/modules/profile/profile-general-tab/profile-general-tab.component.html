@@ -1,84 +1,91 @@
 <div class="row">
-    <div class="col-md-3 user-profile-card">
-        <div class="card">
-            <div class="card-header mx-auto pt-3">
-                <div class="avatar bg-rgba-primary p-50">
-                    <img class="img-fluid" src="assets/images/profile/user-uploads/social-2.jpg" height="134" width="134">
-                </div>
-            </div>
-            <div class="card-content">
-                <div class="card-body text-center">
-                    <h4 *ngIf="user">{{ user.name }}</h4>
-                    <p *ngIf="user">
-                        <span class="badge text-bold-500 py-10"
-                            [class.badge-light-success]="user.status === 'active'"
-                            [class.badge-light-warning]="user.status === 'unverified'"
-                            [class.badge-light-danger]="user.status === 'locked'"
-                            [class.badge-light-danger]="user.status === 'banned'">{{ user.status }}</span>
-                    </p>
-                </div>
-            </div>
+  <div class="col-md-3 user-profile-card">
+    <div class="card">
+      <div class="card-header mx-auto pt-3">
+        <div class="avatar bg-rgba-primary p-50">
+          <img class="img-fluid" src="assets/images/profile/user-uploads/social-2.jpg" height="134" width="134">
         </div>
-    </div>
-    <div class="col-md-9">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">Update Profile</div>
-            </div>
-            <div class="card-content">
-                <div class="card-body">
-                    <form method="POST" [formGroup]="form" (ngSubmit)="onSubmit()">
-                        <app-alert></app-alert>
-                        <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.name.errors }">
-                            <label class="text-bold-600" for="name">Name</label>
-                            <input type="text" class="form-control" id="name" formControlName="name" placeholder="Name">
-                            <div class="help-block" *ngIf="submitted && f.name.errors">
-                                <ul role="alert">
-                                    <li *ngIf="f.name.errors.required" class="text-danger" role="alert">Name is required.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.email.errors }">
-                            <label class="text-bold-600" for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" formControlName="email" placeholder="Email address">
-                        </div>
-                        <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.oldPassword.errors }">
-                            <label class="text-bold-600" for="oldPassword">Old Password</label>
-                            <input type="password" formControlName="oldPassword" class="form-control" id="oldPassword" placeholder="Old Password">
-                            <div class="help-block" *ngIf="submitted && f.oldPassword.errors">
-                                <ul role="alert">
-                                    <li *ngIf="f.oldPassword.errors.requiredIf" class="text-danger" role="alert">Old password is required.</li>
-                                    <li *ngIf="f.oldPassword.errors.minlength " class="text-danger" role="alert">Old Password must be at least 6 characters.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.newPassword.errors }">
-                            <label class="text-bold-600" for="password">New Password</label>
-                            <input type="password" formControlName="newPassword" class="form-control" id="newPassword" placeholder="New Password">
-                            <div class="help-block" *ngIf="submitted && f.newPassword.errors">
-                                <ul role="alert">
-                                    <li *ngIf="f.newPassword.errors.requiredIf" class="text-danger" role="alert">New password is required.</li>
-                                    <li *ngIf="f.newPassword.errors.minlength " class="text-danger" role="alert">New Password must be at least 6 characters.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="form-group mb-2" [ngClass]="{ 'error': submitted && f.confirmPassword.errors }">
-                            <label class="text-bold-600" for="confirmPassword">Confirm Password</label>
-                            <input type="password" formControlName="confirmPassword" class="form-control" id="confirmPassword" placeholder="Confirm Password">
-                            <div class="help-block" *ngIf="submitted && f.confirmPassword.errors">
-                                <ul role="alert">
-                                    <li *ngIf="f.confirmPassword.errors.matchValue" class="text-danger" role="alert">Confirm password does not match.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="form-actions d-flex justify-content-end">
-                            <button type="submit" class="btn btn-primary pull-right" [disabled]="isLoading">
-                                <span *ngIf="isLoading" class="spinner-border spinner-border-sm"></span> Update
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+      </div>
+      <div class="card-content">
+        <div class="card-body text-center">
+          <h4 *ngIf="user">{{ user.name }}</h4>
+          <p *ngIf="user">
+            <span class="badge text-bold-500 py-10" [class.badge-light-success]="user.status === 'active'"
+              [class.badge-light-warning]="user.status === 'unverified'"
+              [class.badge-light-danger]="user.status === 'locked'"
+              [class.badge-light-danger]="user.status === 'banned'">{{ user.status }}</span>
+          </p>
         </div>
+      </div>
     </div>
+  </div>
+  <div class="col-md-9">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Profile Details</div>
+      </div>
+      <div class="card-content">
+        <div class="card-body">
+          <form method="POST" [formGroup]="form" (ngSubmit)="onSubmit()">
+            <shared-alert></shared-alert>
+            <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.name.errors }">
+              <label class="text-bold-600" for="name">Name</label>
+              <input type="text" class="form-control" id="name" formControlName="name" placeholder="Name">
+              <div class="help-block" *ngIf="submitted && f.name.errors">
+                <ul role="alert">
+                  <li *ngIf="f.name.errors.required" class="text-danger" role="alert">Name is required.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.email.errors }">
+              <label class="text-bold-600" for="email">Email address</label>
+              <input type="email" class="form-control" id="email" formControlName="email" placeholder="Email address">
+            </div>
+            <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.oldPassword.errors }">
+              <label class="text-bold-600" for="oldPassword">Old Password</label>
+              <input type="password" formControlName="oldPassword" class="form-control" id="oldPassword"
+                placeholder="Old Password">
+              <div class="help-block" *ngIf="submitted && f.oldPassword.errors">
+                <ul role="alert">
+                  <li *ngIf="f.oldPassword.errors.requiredIf" class="text-danger" role="alert">Old password is required.
+                  </li>
+                  <li *ngIf="f.oldPassword.errors.minlength " class="text-danger" role="alert">Old Password must be at
+                    least 6 characters.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.newPassword.errors }">
+              <label class="text-bold-600" for="password">New Password</label>
+              <input type="password" formControlName="newPassword" class="form-control" id="newPassword"
+                placeholder="New Password">
+              <div class="help-block" *ngIf="submitted && f.newPassword.errors">
+                <ul role="alert">
+                  <li *ngIf="f.newPassword.errors.requiredIf" class="text-danger" role="alert">New password is required.
+                  </li>
+                  <li *ngIf="f.newPassword.errors.minlength " class="text-danger" role="alert">New Password must be at
+                    least 6 characters.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="form-group mb-2" [ngClass]="{ 'error': submitted && f.confirmPassword.errors }">
+              <label class="text-bold-600" for="confirmPassword">Confirm Password</label>
+              <input type="password" formControlName="confirmPassword" class="form-control" id="confirmPassword"
+                placeholder="Confirm Password">
+              <div class="help-block" *ngIf="submitted && f.confirmPassword.errors">
+                <ul role="alert">
+                  <li *ngIf="f.confirmPassword.errors.matchValue" class="text-danger" role="alert">Confirm password does
+                    not match.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="form-actions d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary pull-right" [disabled]="isLoading">
+                <span *ngIf="isLoading" class="spinner-border spinner-border-sm"></span> Edit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

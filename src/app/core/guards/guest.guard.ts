@@ -9,7 +9,7 @@ export class GuestGuard implements CanActivate {
   constructor(private authService: AuthService, private router: Router, private location: Location) { }
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) : boolean | Observable<boolean> | Promise <boolean> {
-    const isAuthenticated = this.authService.checkIsAuthenticated();
+    const isAuthenticated = this.authService.isAuthenticated();
     if (isAuthenticated) {
       this.location.back();
       // this.router.navigate(['admin/dashboard']);

@@ -1,0 +1,324 @@
+<!-- BEGIN: Content-->
+<div class="app-content content">
+  <div class="content-overlay"></div>
+  <div class="content-wrapper">
+    <div class="content-header row">
+      <div class="content-header-left col-12 mb-2 mt-1">
+        <div class="row breadcrumbs-top">
+          <div class="col-12">
+            <h5 class="content-header-title float-left pr-1 mb-0">Orders</h5>
+            <div class="breadcrumb-wrapper col-12">
+              <ol class="breadcrumb p-0 mb-0">
+                <li class="breadcrumb-item"><a routerLink="/admin/dashboard"><i class="bx bx-home-alt"></i></a>
+                </li>
+                <li class="breadcrumb-item"><a routerLink="/admin/orders"> Orders</a>
+                </li>
+                <li class="breadcrumb-item active">Order Details
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-body">
+      <div class="row">
+        <div class="col-md-8">
+          <!-- Order Details -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-title">Order Details</div>
+                </div>
+                <div class="card-content">
+                  <div *ngIf="order" class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Order #</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <span>{{ order.refNo }}</span>
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Status</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <ng-container *ngIf="order" [ngSwitch]="order.status">
+                          <span *ngSwitchCase="'refunded'"
+                            class="badge badge-xs badge-light-danger">{{ order.status | titlecase }}</span>
+                          <span *ngSwitchCase="'paid'"
+                            class="badge badge-xs badge-light-info">{{ order.status | titlecase }}</span>
+                          <span *ngSwitchCase="'completed'"
+                            class="badge badge-xs badge-light-success">{{ order.status | titlecase }}</span>
+                          <span *ngSwitchCase="'pending'"
+                            class="badge badge-xs badge-light-warning">{{ order.status | titlecase }}</span>
+                        </ng-container>
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Name</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <span>{{ order.requirement.name }}</span>
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Email</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <span>{{ order.email || '&lt;unspecified&gt;' }}</span>
+                        <!-- <span *ngIf="!order.email"></span> -->
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Password</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <span *ngIf="!showPassword">
+                          ****************** &nbsp;
+                          <button class="btn p-0" (click)="toggleShowPassword()" title="Show Password"><i
+                              class="bx bx-show"></i></button>
+                        </span>
+                        <span *ngIf="showPassword">{{ order.password }}</span>
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Total</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <span>${{ order.total }}</span>
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Ordered At</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <span>{{ order.created_at }}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- Order Requirements -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-title">Order Requirements</div>
+                </div>
+                <div class="card-content">
+                  <div *ngIf="order" class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>File</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <a href="{{ API_BASE_URL + '/' + order.requirement.fileUrl }}" target="_blank">
+                          <span><i class="bx bx-file"></i>{{ order.requirement.file }}</span>
+                        </a>
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Translation</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <span>From {{ order.requirement.fromLang | titlecase }} to
+                          {{ order.requirement.toLang | titlecase }}</span>
+                      </div>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label>Description</label>
+                      </div>
+                      <div class="col-sm-9">
+                        <span>{{ order.requirement.description }}</span>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+                
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Submit Work Order -->
+          <div *ngIf="order?.requirement.submitted" class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-title">Submit Work Order</div>
+                </div>
+                <div class="card-content">
+                  <div class="card-body">
+                    <form autocomplete="off" [formGroup]="form" (ngSubmit)="onSubmit()">
+                      <div class="row">
+                        <div class="form-group col-md-12" 
+                          [ngClass]="{ 'error': submitted && f.fileUploadType.errors }">
+                          <label class="mb-1">File Upload Type</label>
+                          <ul class="list-unstyled mb-0">
+                            <li class="d-inline-block mr-2">
+                              <div class="radio">
+                                <input type="radio" formControlName="fileUploadType" name="fileUploadType" id="uploadfile" [value]="0">
+                                <label for="uploadfile">File</label>
+                              </div>
+                            </li>
+                            <li class="d-inline-block mr-2">
+                              <div class="radio">
+                                <input type="radio" formControlName="fileUploadType" name="fileUploadType" id="externalfile" [value]="1">
+                                <label for="externalfile">External</label>
+                              </div>
+                            </li>
+                          </ul>
+                          <div class="help-block" *ngIf="submitted && f.fileUploadType.errors">
+                            <ul role="alert">
+                              <li *ngIf="f.fileUploadType.errors.required" class="text-danger" role="alert">File Upload Type is required.</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- file -->
+                        <div *ngIf="f.fileUploadType.value === 0" class="form-group col-md-12" 
+                          [ngClass]="{ 'error': submitted && f.file.errors }">
+                          <label>File</label>
+                          <shared-formcontrol-fileinput formControlName="file" name="file" id="file"></shared-formcontrol-fileinput>
+                          <div class="help-block" *ngIf="submitted && f.file.errors">
+                            <ul role="alert">
+                              <li *ngIf="f.file.errors.requiredIfValue" class="text-danger" role="alert">File is required.</li>
+                              <li *ngIf="f.file.errors.allowedFileTypes" class="text-danger" role="alert">File type is invalid.</li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <!-- fileurl -->
+                        <div *ngIf="f.fileUploadType.value === 1" 
+                          class="form-group col-md-12"
+                          [ngClass]="{ 'error': submitted && f.externalFileUrl.errors }">
+                          <label>External File Url</label>
+                          <input type="text" formControlName="externalFileUrl" class="form-control" name="externalFileUrl" id="externalFileUrl" />
+                          <div class="help-block" *ngIf="submitted && f.externalFileUrl.errors">
+                            <ul role="alert">
+                              <li *ngIf="f.externalFileUrl.errors.requiredIfValue" class="text-danger" role="alert">External File Url is required.</li>
+                            </ul>
+                          </div>
+                        </div>
+  
+                        <div class="form-group col-md-12"
+                          [ngClass]="{ 'error': submitted && f.message.errors }">
+                          <label>Message</label>
+                          <textarea class="form-control" rows="4" formControlName="message" name="message" id="message"></textarea>
+                          <div class="help-block" *ngIf="submitted && f.message.errors">
+                            <ul role="alert">
+                            </ul>
+                          </div>
+                        </div>
+  
+                        <div class="col-md-12">
+                          <div class="form-actions d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary pull-right" [disabled]="isLoading">
+                              <span *ngIf="isLoading" class="spinner-border spinner-border-sm"></span> Submit
+                            </button>
+                          </div>
+                        </div>
+  
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Timeline -->
+        <div class="col-md-4">
+          <div class="card ">
+            <div class="card-header">
+              <h4 class="card-title">
+                Order Timeline
+              </h4>
+            </div>
+            <div class="card-content">
+              <div class="card-body">
+                <ul *ngIf="order" class="widget-timeline mb-0">
+                  <!-- workitems -->
+                  <li *ngFor="let workitem of order.workitems"
+                    class="timeline-items timeline-icon-primary active">
+                    <div class="timeline-time">{{ workitem.created_at }}</div>
+                    <h6 class="timeline-title">
+                      Work Item Submitted <i class="bx bx-pencil icon-edit " (click)="showWorkItemDetails(workitem)"></i>
+                    </h6>
+                    <p class="timeline-text">
+                      <ng-container *ngIf="workitem.file">
+                        <a href="{{ API_BASE_URL + '/' + workitem.fileUrl }}" target="_blank">
+                          <span><i class="bx bx-file"></i>{{ workitem.file }}</span>
+                        </a>
+                      </ng-container>
+
+                      <ng-container *ngIf="workitem.externalFileUrl">
+                        <a href="{{ API_BASE_URL + '/' + workitem.externalFileUrl }}" target="_blank">
+                          <span><i class="bx bx-link"></i>External File</span>
+                        </a>
+                      </ng-container>
+                    </p>
+                  </li>
+
+
+                  <!-- transactions -->
+                  <li *ngFor="let transaction of order.transactions"
+                    class="timeline-items timeline-icon-primary active">
+                    <div class="timeline-time">{{ transaction.created_at }}</div>
+                    <h6 class="timeline-title">{{ transaction.action | titlecase }} on
+                      {{ transaction.payment_platform | titlecase }}</h6>
+                    <p class="timeline-text">
+                      <ng-container [ngSwitch]="transaction.status">
+                        <span *ngSwitchCase="'succeeded'"
+                          class="badge badge-xs badge-light-success">{{ transaction.status | titlecase }}</span>
+                        <span *ngSwitchCase="'approved'"
+                          class="badge badge-xs badge-light-success">{{ transaction.status | titlecase }}</span>
+                        <span *ngSwitchCase="'fail'"
+                          class="badge badge-xs badge-light-danger">{{ transaction.status | titlecase }}</span>
+                      </ng-container>
+                    </p>
+                  </li>
+
+                  <li class="timeline-items timeline-icon-primary active">
+                    <div class="timeline-time">{{ order.created_at }}</div>
+                    <h6 class="timeline-title">Order Created</h6>
+                    <!-- <p class="timeline-text">2 hours ago</p> -->
+                    <div class="timeline-content">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END: Content-->

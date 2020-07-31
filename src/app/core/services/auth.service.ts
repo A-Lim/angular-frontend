@@ -1,197 +1,158 @@
 import { Injectable } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
-import { Router } from '@angular/router';
-import { Subject, Observable } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import { tap, map } from 'rxjs/operators';
 
 import { API_BASE_URL, API_VERSION } from 'app/configs/app.config';
 import { User } from 'app/shared/models/user.model';
-import { LoginResponse } from 'app/shared/models/responses/loginresponse.model';
+import { LoginData } from 'app/shared/models/responses/logindata.model';
+import { ResponseResult } from 'app/shared/models/responses/responseresult.model';
+
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private url = `${API_BASE_URL}/api/${API_VERSION}`;
-  private user: User;
-  private accessToken: string;
-  private refreshToken: string;
-  private tokenTimer: any;
-  private isAuthenticated = false;
-  private authStatusListener = new Subject<{isAuthenticated: boolean, user: User}>();
+  private _url = `${API_BASE_URL}/api/${API_VERSION}`;
+  private _accessToken: string;
+  private _refreshToken: string;
 
-  constructor(private http: HttpClient, private router: Router) {
+  private _isAuthenticatedBS = new BehaviorSubject<boolean>(false);
+  private _userBS = new BehaviorSubject<User>(null);
+
+  public isAuthenticated$ = this._isAuthenticatedBS.asObservable();
+  public user$ = this._userBS.asObservable();
+
+  constructor(private http: HttpClient, private route: ActivatedRoute,) { }
+
+  get accessToken(): string {
+    return this._accessToken;
   }
 
-  getAccessToken(): string {
-    return this.accessToken;
-  }
-
-  getRefreshToken(): string {
-    return this.refreshToken;
-  }
-
-  getUser(): User {
-    return this.user;
-  }
-
-  checkIsAuthenticated(): boolean {
-    return this.isAuthenticated;
-  }
-
-  getAuthStatusListener(): Observable<{isAuthenticated: boolean, user: User}> {
-    return this.authStatusListener.asObservable();
+  get refreshToken(): string {
+    return this._refreshToken;
   }
 
   refreshAuthToken() {
     const data = { refreshToken: this.refreshToken };
-    return this.http.post<any>(`${this.url}/token/refresh` , data)
+    return this.http.post<ResponseResult<any>>(`${this._url}/token/refresh` , data)
       .pipe(
         tap(response => {
           const tokenData = response.data;
-          this.saveAuthData(tokenData.accessToken, tokenData.refreshToken, tokenData.expiresIn);
-        })
-      );
-  }
-
-  register(data: any) {
-    return this.http.post<any>(`${this.url}/register` , data)
-      .pipe(
-        tap(response => {
-          if (response.data) {
-            const registrationResponse = response.data;
-            // save token
-            this.accessToken = registrationResponse.accessToken;
-            this.refreshToken = registrationResponse.refreshToken;
-
-            // set timer to log user out after token expires
-            this.setAuthTimer(registrationResponse.expiresIn);
-
-            this.isAuthenticated = true;
-            this.user = registrationResponse.user;
-            this.authStatusListener.next({ isAuthenticated: this.isAuthenticated, user: this.user });
-            this.saveAuthData(this.accessToken, this.refreshToken, registrationResponse.expiresIn, this.user);
-          }
+          this._saveAuthData(tokenData.accessToken, tokenData.refreshToken, tokenData.expiresIn);
         })
       );
   }
 
   login(data: any) {
-    return this.http.post<{ data: LoginResponse }>(`${this.url}/login` , data)
+    const returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/admin/dashboard';
+    return this.http.post<ResponseResult<LoginData>>(`${this._url}/login` , data)
       .pipe(
         tap(response => {
           if (response.data) {
-            const loginData = response.data;
+            const data = response.data;
+            this._accessToken = data.accessToken;
+            this._refreshToken = data.refreshToken;
 
-            // save tokens
-            this.accessToken = loginData.accessToken;
-            this.refreshToken = loginData.refreshToken;
+            this._saveAuthData(data.accessToken, data.refreshToken, data.expiresIn);
+            this._saveUserData(data.user);
 
-            // set timer to log user out after token expires
-            this.setAuthTimer(loginData.expiresIn);
-
-            this.isAuthenticated = true;
-            this.user = loginData.user;
-            this.authStatusListener.next({ isAuthenticated: this.isAuthenticated, user: this.user });
-            this.saveAuthData(this.accessToken, this.refreshToken, loginData.expiresIn, this.user);
+            this._isAuthenticatedBS.next(true);
+            this._userBS.next(data.user);
           }
+        }),
+        map(_ => returnUrl)
+      );
+  }
+
+  register(data: any) {
+    return this.http.post<any>(`${this._url}/register` , data)
+      .pipe(
+        tap(response => {
+          // if (response.data) {
+          //   const data = response.data;
+          //   this._accessToken = data.accessToken;
+          //   this._refreshToken = data.refreshToken;
+
+          //   this._saveAuthData(data.accessToken, data.refreshToken, data.expiresIn);
+          //   this._saveUserData(data.user);
+          //   // todo check for redirect
+
+          //   this._isAuthenticatedBS.next(true);
+          //   this._userBS.next(data.user);
+          // }
         })
       );
   }
 
   forgotPassword(data: any) {
-    return this.http.post<{ message: string }>(`${this.url}/forgot-password`, data);
-  }
-
-  resetPassword(data: any) {
-    return this.http.post<{ message: string }>(`${this.url}/reset-password`, data);
+    return this.http.post<ResponseResult<undefined>>(`${this._url}/forgot-password`, data);
   }
 
   logout() {
-    return this.http.post<{ message: string }>(`${this.url}/logout`, null)
-      .pipe(
-        tap(_ => {
-          this.resetService();
-          this.clearLocalAuthData();
-        })
-      );
+    return this.http.post<ResponseResult<undefined>>(`${this._url}/logout`, null)
+      .pipe(tap(_ => this.reset()));
+  }
+
+  resetPassword(data: any) {
+    return this.http.post<ResponseResult<undefined>>(`${this._url}/reset-password`, data);
   }
 
   getProfile() {
-    return this.http.get<{ data: User }>(`${this.url}/profile`);
+    return this.http.get<ResponseResult<User>>(`${this._url}/profile`);
   }
 
   updateProfile(data: any) {
-    // remove properties with empty string
-    var filtered = Object.entries(data).reduce((a,[k,v]) => (v ? {...a, [k]:v} : a), {});
-    return this.http.patch<{message: string, data: User}>(`${this.url}/profile` , filtered)
+    // remove oldPassword with empty string
+    if (data.oldPassword === '')
+      delete data.oldPassword;
+      
+    return this.http.patch<ResponseResult<User>>(`${this._url}/profile` , data)
       .pipe(
         tap(response => {
-          this.user = response.data;
+          this._userBS.next(response.data);
           // update local storage data
-          this.saveUserData(this.user);
-          this.authStatusListener.next({ isAuthenticated: true, user: this.user });
+          this._saveUserData(response.data);
         })
       );
   }
 
   // authenticate user if token is found in localstorage
   autoAuthUser(): void {
-    const authData = this.getLocalAuthData();
+    const authData = this._getLocalData();
     // if no data in localstorage, exit function
-    if (!authData) {
+    if (!authData)
       return;
-    }
 
     const now = new Date();
     const expiresIn = authData.expirationDate.getTime() - now.getTime();
 
     if (expiresIn > 0) {
-      this.accessToken = authData.accessToken;
-      this.isAuthenticated = true;
-      this.user = authData.user;
-      // divide by 1000 cause expiresIn is in seconds and setTimer accepts milliseconds
-      this.setAuthTimer(expiresIn / 1000);
-      this.authStatusListener.next({
-        isAuthenticated: this.isAuthenticated,
-        user: authData.user,
-      });
+      this._accessToken = authData.accessToken;
+      this._refreshToken = authData.refreshToken;
+      
+      this._isAuthenticatedBS.next(true);
+      this._userBS.next(authData.user);
     }
   }
 
-  // reset all properties 
-  resetService() {
-    this.accessToken = null;
-    this.refreshToken = null;
-    this.user = null;
-    this.isAuthenticated = false;
-    this.authStatusListener.next({ isAuthenticated: false, user: null });
-    clearTimeout(this.tokenTimer);
+  isAuthenticated(): boolean {
+    return this._isAuthenticatedBS.getValue();
   }
 
-  // clear local storage
-  clearLocalAuthData(): void {
+  reset() {
+    this._accessToken = null;
+    this._refreshToken = null;
+
+    this._isAuthenticatedBS.next(false);
+    this._userBS.next(null);
+
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
     localStorage.removeItem('expiration');
     localStorage.removeItem('user');
   }
 
-  private setAuthTimer(duration: number): void {
-    // this.tokenTimer = setTimeout(() => {
-    //   // // once token expires
-    //   // // send refresh token
-    //   // this.refreshAuthToken().subscribe(response => {
-    //   //   const tokenData = response.data;
-    //   //   this.saveAuthData(tokenData.accessToken, tokenData.refreshToken, tokenData.expiresIn);
-    //   // }, error => {
-    //     // this.resetService();
-    //     // this.clearLocalAuthData();
-    //     // this.router.navigate(['login']);
-    //   // });
-    // }, duration * 1000);
-  }
-
-  // save token and expiration to local storage
-  private saveAuthData(accessToken: string, refreshToken: string, expiresIn: number, user: User = null): void {
+  private _saveAuthData(accessToken: string, refreshToken: string, expiresIn: number) {
     // calculate expiration date time
     const now = new Date();
     const expirationDate = new Date(now.getTime() + expiresIn * 1000);
@@ -199,22 +160,21 @@ export class AuthService {
     localStorage.setItem('accessToken', accessToken);
     localStorage.setItem('refreshToken', refreshToken);
     localStorage.setItem('expiration', expirationDate.toISOString());
-
-    if (user)
-      this.saveUserData(user);
   }
 
-  private saveUserData(user: User) {
+  private _saveUserData(user: User) {
     localStorage.setItem('user', JSON.stringify(user));
   }
 
-  private getLocalAuthData(): { accessToken: string, expirationDate: Date, user: User } {
+  private _getLocalData() {
     const accessToken = localStorage.getItem('accessToken');
+    const refreshToken = localStorage.getItem('refreshToken');
     const expirationDate = localStorage.getItem('expiration');
     const user = JSON.parse(localStorage.getItem('user'));
 
     return {
       accessToken,
+      refreshToken,
       expirationDate: new Date(expirationDate),
       user
     };

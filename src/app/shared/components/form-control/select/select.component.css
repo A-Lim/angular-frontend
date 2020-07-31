@@ -1,0 +1,123 @@
+.form-control-select > .selection {
+  display: table;
+  min-height: 38px; 
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: text;
+  display: table;
+  width: 100%;
+  padding: .47rem .4rem;
+}
+
+.form-control-select.focus > .selection {
+  border-color: #5A8DEE !important;
+  outline: none;
+}
+
+.form-control-select > .selection > .wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-control-select > .selection > .wrapper > ul {
+  list-style-type: none; 
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+}
+
+.choice { 
+  background-color: #5A8DEE;
+  padding: 0 5px; 
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.choice > .remove {
+  font-weight: bold;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.search-input { width: 100%; outline: none; padding: 4px; }
+.search-input:focus { outline: 1px solid #5A8DEE; }
+
+/* .dropdown-result { */
+  /* position: relative; */
+  /* display: none; */
+/* } */
+
+.form-control-select.focus > .dropdown-result {
+  display: block;
+}
+
+.dropdown-result > .wrapper {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.dropdown-result > .wrapper > ul {
+  width: 100%;
+  color: #727E8C;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.option-wrapper {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.option-group,
+.option-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.option-group > li > .option-list > li {
+  padding-left: 1rem !important;
+}
+
+.option-list > li {
+  padding: 6px;
+}
+
+.option-list > li:hover {
+  background-color: #5A8DEE;
+  color: #fff;
+}
+
+.option-header { 
+  cursor: default;
+  display: block;
+  padding: 6px;
+  color: #727E8C;
+}
+
+.form-control-select.bottom.focus > .selection {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.form-control-select.bottom > .selection:focus { outline: none; }
+
+/* .form-control-select.bottom.focus > .dropdown-result > .wrapper {
+  border-top: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+} */
+
+div[data-popper-placement="bottom"] > .dropdown-result > .wrapper {
+  border-top: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}

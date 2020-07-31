@@ -1,0 +1,93 @@
+<!-- BEGIN: Content-->
+<div class="app-content content">
+  <div class="content-overlay"></div>
+  <div class="content-wrapper">
+    <div class="content-header row">
+      <div class="content-header-left col-12 mb-2 mt-1">
+        <div class="row breadcrumbs-top">
+          <div class="col-12">
+            <h5 class="content-header-title float-left pr-1 mb-0">Orders</h5>
+            <div class="breadcrumb-wrapper col-12">
+              <ol class="breadcrumb p-0 mb-0">
+                <li class="breadcrumb-item"><a href="index.html"><i class="bx bx-home-alt"></i></a>
+                </li>
+                <li class="breadcrumb-item active"> Orders
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <div class="avatar bg-rgba-primary m-0 p-25 mr-75 mr-xl-2">
+                <div class="avatar-content"><i class="bx bx-bar-chart-alt-2 text-primary font-medium-2"></i></div>
+              </div>
+              <div>
+                <h5 class="mb-0">{{ statistics?.orders_today_count || 0 }}</h5>
+                <small class="text-muted">Orders Today</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <div class="avatar bg-rgba-success m-0 p-25 mr-75 mr-xl-2">
+                <div class="avatar-content"><i class="bx bx-dollar text-success font-medium-2"></i></div>
+              </div>
+              <div>
+                <h5 class="mb-0">${{ statistics?.orders_today_total | number:'1.0':'en-US' || 0 }}</h5>
+                <small class="text-muted">Total Sales Today</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-body">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <a class="btn btn-primary float-right" [routerLink]="['/admin/orders/create']">Create Custom Order</a>
+            </div>
+            <div class="card-content">
+              <div class="card-body">
+                <ag-grid-angular #agGrid style="width: 100%;" domLayout='autoHeight' class="ag-theme-balham"
+                  (gridReady)="onGridReady($event)" [gridOptions]="gridOptions" [columnDefs]="columnDefs">
+                </ag-grid-angular>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #actionsCell let-row>
+  <ng-container *ngIf="row">
+    <a class="btn btn-xs btn-icon rounded-circle btn-primary" [routerLink]="['/admin/orders', row.id]"> <i
+        class="bx bxs-edit"></i></a>
+  </ng-container>
+</ng-template>
+
+<ng-template #statusCell let-row>
+  <ng-container *ngIf="row" [ngSwitch]="row.status">
+    <span *ngSwitchCase="'refunded'" class="badge badge-xs badge-light-danger">{{ row.status | titlecase }}</span>
+    <span *ngSwitchCase="'paid'" class="badge badge-xs badge-light-info">{{ row.status | titlecase }}</span>
+    <span *ngSwitchCase="'completed'" class="badge badge-xs badge-light-success">{{ row.status | titlecase }}</span>
+    <span *ngSwitchCase="'pending'" class="badge badge-xs badge-light-warning">{{ row.status | titlecase }}</span>
+  </ng-container>
+</ng-template>
+<!-- END: Content-->

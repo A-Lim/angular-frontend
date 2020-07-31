@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-systemsettings-general-tab',
+  selector: 'systemsettings-general-tab',
   templateUrl: './systemsettings-general-tab.component.html',
   styleUrls: ['./systemsettings-general-tab.component.css']
 })

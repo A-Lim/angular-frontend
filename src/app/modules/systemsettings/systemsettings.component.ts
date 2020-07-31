@@ -1,6 +1,4 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
-import { BaseComponent } from 'app/shared/components/base.component';
-import { PageType } from 'app/shared/models/enums';
 import { Title } from '@angular/platform-browser';
 import { App } from 'app/configs/app.config';
 
@@ -9,11 +7,9 @@ import { App } from 'app/configs/app.config';
   templateUrl: './systemsettings.component.html',
   styleUrls: ['./systemsettings.component.css']
 })
-export class SystemSettingsComponent extends BaseComponent implements OnInit {
+export class SystemSettingsComponent implements OnInit {
 
-  constructor(private titleService: Title, public renderer: Renderer2) { 
-    super(renderer);
-    this.configureBodyClass(PageType.WithSideMenu);
+  constructor(private titleService: Title) {
   }
 
   ngOnInit() {

@@ -31,7 +31,7 @@
                                                 </div>
                                             </div>
                                             <form method="POST" [formGroup]="form" (ngSubmit)="onSubmit()">
-                                                <app-alert></app-alert>
+                                                <shared-alert></shared-alert>
                                                 <div class="form-group mb-50" [ngClass]="{ 'error': submitted && f.email.errors }">
                                                     <label class="text-bold-600" for="email">Email address</label>
                                                     <input type="email" class="form-control" id="email" formControlName="email" placeholder="Email address">

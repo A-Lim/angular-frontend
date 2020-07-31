@@ -1,0 +1,147 @@
+<!-- BEGIN: Content-->
+<div class="app-content content">
+  <div class="content-overlay"></div>
+  <div class="content-wrapper">
+    <div class="content-header row">
+      <div class="content-header-left col-12 mb-2 mt-1">
+        <div class="row breadcrumbs-top">
+          <div class="col-12">
+            <h5 class="content-header-title float-left pr-1 mb-0">Products</h5>
+            <div class="breadcrumb-wrapper col-12">
+              <ol class="breadcrumb p-0 mb-0">
+                <li class="breadcrumb-item"><a routerLink="/admin/dashboard"><i class="bx bx-home-alt"></i></a>
+                </li>
+                <li class="breadcrumb-item"><a routerLink="/admin/products"> Products</a>
+                </li>
+                <li class="breadcrumb-item active">Product Details
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content-body">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Product Details</div>
+            </div>
+            <div class="card-content">
+              <div class="card-body">
+                <form autocomplete="off" [formGroup]="form" (ngSubmit)="onSubmit()">
+                  <shared-alert></shared-alert>
+                  <div class="row">
+                    <!-- name -->
+                    <div class="col-md-6 form-group mb-50" [ngClass]="{ 'error': submitted && f.name.errors }">
+                      <label class="text-bold-600" for="name">Name</label>
+                      <input type="text" class="form-control" id="name" formControlName="name" placeholder="Name">
+                      <div class="help-block" *ngIf="submitted && f.name.errors">
+                        <ul role="alert">
+                          <li *ngIf="f.name.errors.required" class="text-danger" role="alert">Name is required.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- status -->
+                    <div class="col-md-6 form-group mb-50" [ngClass]="{ 'error': submitted && f.status.errors }">
+                      <label class="text-bold-600" for="status">Status</label>
+                      <select class="form-control" formControlName="status">
+                        <option value="active" selected>Active</option>
+                        <option value="inactive">Inactive</option>
+                      </select>
+                      <div class="help-block" *ngIf="submitted && f.status.errors">
+                        <ul role="alert">
+                          <li *ngIf="f.status.errors.required" class="text-danger" role="alert">Status is required.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <!-- price -->
+                    <div class="col-md-6 form-group mb-50" [ngClass]="{ 'error': submitted && f.price.errors }">
+                      <label class="text-bold-600" for="price">Price</label>
+                      <input type="number" class="form-control" id="price" formControlName="price" placeholder="Price">
+                      <div class="help-block" *ngIf="submitted && f.price.errors">
+                        <ul role="alert">
+                          <li *ngIf="f.price.errors.required" class="text-danger" role="alert">Price is required.</li>
+                        </ul>
+                      </div>
+                    </div>
+  
+                    <!-- seq no -->
+                    <div class="col-md-6 form-group mb-50" [ngClass]="{ 'error': submitted && f.seqNo.errors }">
+                      <label class="text-bold-600" for="seqNo">Sequence No</label>
+                      <input type="text" class="form-control" id="seqNo" formControlName="seqNo" placeholder="SeqNo">
+                      <div class="help-block" *ngIf="submitted && f.seqNo.errors">
+                        <ul role="alert">
+                          <li *ngIf="f.seqNo.errors.required" class="text-danger" role="alert">SeqNo is required.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="row mt-50">
+                    <!-- delivery days -->
+                    <div class="col-md-6 form-group mb-50" [ngClass]="{ 'error': submitted && f.delivery_days.errors }">
+                      <label class="text-bold-600" for="delivery_days">Delivery Days</label>
+                      <input type="text" class="form-control" id="delivery_days" formControlName="delivery_days" placeholder="Delivery Days">
+                      <div class="help-block" *ngIf="submitted && f.delivery_days.errors">
+                        <ul role="alert">
+                          <li *ngIf="f.delivery_days.errors.required" class="text-danger" role="alert">Delivery Days is required.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <!-- highlighted -->
+                    <div class="col-md-12 form-group mb-50" [ngClass]="{ 'error': submitted && f.highlighted.errors }">
+                      <div class="custom-control custom-switch custom-control-inline mb-1">
+                        <input type="checkbox" class="custom-control-input" id="highlighted" formControlName="highlighted">
+                        <label class="custom-control-label mr-1" for="highlighted"></label>
+                        <span>Highlighted</span>
+                      </div>
+                    </div>
+  
+                    <!-- custom -->
+                    <div class="col-md-12 form-group mb-50" [ngClass]="{ 'error': submitted && f.custom.errors }">
+                      <div class="custom-control custom-switch custom-control-inline mb-1">
+                        <input type="checkbox" class="custom-control-input" id="custom" formControlName="custom">
+                        <label class="custom-control-label mr-1" for="custom"></label>
+                        <span>Custom</span>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <!-- delivery days -->
+                    <div class="col-md-12 form-group mb-50" [ngClass]="{ 'error': submitted && f.description.errors }">
+                      <label class="text-bold-600" for="description">Description</label>
+                      <ckeditor [editor]="Editor" id="description" formControlName="description"></ckeditor>
+                      <div class="help-block" *ngIf="submitted && f.description.errors">
+                        <ul role="alert">
+                          <li *ngIf="f.description.errors.required" class="text-danger" role="alert">Description is required.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="form-actions d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary pull-right" [disabled]="isLoading">
+                      <span *ngIf="isLoading" class="spinner-border spinner-border-sm"></span> Edit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END: Content-->

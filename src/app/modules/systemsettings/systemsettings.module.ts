@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { SharedModule } from 'app/shared.module';
+import { SharedModule } from 'app/shared/shared.module';
 
 import { SystemSettingsRoutingModule } from './systemsettings.routing';
 import { SystemSettingsComponent } from 'app/modules/systemsettings/systemsettings.component';

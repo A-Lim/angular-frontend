@@ -1,11 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+/*-------------------------*/
+/* Third Party             */
+/*-------------------------*/
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+
+/*-------------------------*/
+/* AG GRID Override        */
+/*-------------------------*/
+.ag-theme-balham .ag-ltr .ag-cell {
+    display: flex;
+    align-items: center;
+}
 
 /*-------------------------*/
 /* Form Validation         */
 /*-------------------------*/
 
-.form-group.error label{
+.form-group.error label {
     color: #FF5B5C;
+}
+
+.form-group.error > .select2-container > .selection > .select2-selection { 
+    border-color: #FF5B5C;
 }
 
 /*-------------------------*/
@@ -17,3 +34,22 @@
     border-radius: 0;
     padding: 0;
 }
+
+/*-------------------------*/
+/* Tabs                    */
+/*-------------------------*/
+.badge { text-transform: none; }
+.badge-xs { font-size: 11px; padding: 3px 10px;}
+
+
+/*-------------------------*/
+/* Buttons                 */
+/*-------------------------*/
+.btn-xs i { top: 2px; left: 0.5px }
+.btn-xs.btn-icon { padding: .2rem .4rem };
+
+
+/*-------------------------*/
+/* Select2                 */
+/*-------------------------*/
+/* .form-group.error */

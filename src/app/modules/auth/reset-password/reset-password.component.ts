@@ -11,7 +11,7 @@ import { BaseFormComponent } from 'app/shared/components/baseform.component';
 import ValidationUtil from 'app/shared/helpers/validation.util';
 
 @Component({
-  selector: 'app-reset-password',
+  selector: 'auth-reset-password',
   templateUrl: './reset-password.component.html',
   styleUrls: ['./reset-password.component.css']
 })
@@ -20,29 +20,32 @@ export class ResetPasswordComponent extends BaseFormComponent implements OnInit 
   public token: string;
 
   constructor(private titleService: Title, private formBuilder: FormBuilder, 
-              private route: ActivatedRoute, private alertService: AlertService, 
-              public renderer: Renderer2, 
+              private route: ActivatedRoute, private alertService: AlertService,
               public authService: AuthService) {
-    super(renderer);
-    this.configureBodyClass(PageType.NoSideMenu);
+    super();
+  }
 
+  ngOnInit() {
+    this.initForm();
+    this.titleService.setTitle(`${App.NAME} | Reset Password`);
+
+    this.token = this.route.snapshot.queryParamMap.get('token');
+    this.email = this.route.snapshot.queryParamMap.get('email');
+    
+    if (this.token === null || this.token === "" ||
+        this.email === null || this.email === "") {
+      this.form.disable();
+      this.alertService.error("Invalid link");
+    }
+  }
+
+  initForm() {
     this.form = this.formBuilder.group({
       password: ['', [Validators.required, Validators.minLength(8)]],
       confirmPassword: ['', []]
     }, {
       validator: ValidationUtil.matchValue('password', 'confirmPassword')
     });
-  }
-
-  ngOnInit() {
-    this.titleService.setTitle(`${App.NAME} | Reset Password`);
-    this.token = this.route.snapshot.queryParamMap.get('token');
-    this.email = this.route.snapshot.queryParamMap.get('email');
-    if (this.token === null || this.token === "" ||
-        this.email === null || this.email === "") {
-      this.form.disable();
-      this.alertService.error("Invalid link");
-    }
   }
 
   onSubmit() {
