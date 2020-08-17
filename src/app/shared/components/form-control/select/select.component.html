@@ -1,7 +1,7 @@
 <div #select class="form-control-select bottom" 
   [ngClass]="{ 'focus': isFocused }">
   <div #origin class="selection" tabIndex="0" 
-    (focus)="onFocus($event)" 
+    (focus)="onFocus()" 
     (click)="open(dropdown, origin)">
     <div class="wrapper">
       <ul>

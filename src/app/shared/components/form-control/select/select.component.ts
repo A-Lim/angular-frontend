@@ -9,7 +9,7 @@ import { createPopper, Instance, Placement } from '@popperjs/core';
   styleUrls: ['./select.component.css']
 })
 export class SelectComponent implements OnInit {
-  @ViewChild('select', { static: false })
+  @ViewChild('select')
   selectControl: ElementRef<any>;
 
   @Output() 

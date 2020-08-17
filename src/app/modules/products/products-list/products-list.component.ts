@@ -18,7 +18,7 @@ import { Subject } from 'rxjs';
   styleUrls: ['./products-list.component.css']
 })
 export class ProductsListComponent implements OnInit, OnDestroy {
-  @ViewChild('agGrid', { static: false }) agGrid: AgGridAngular;
+  @ViewChild('agGrid') agGrid: AgGridAngular;
   @ViewChild('actionsCell', { static: true }) actionsCell: TemplateRef<any>;
   @ViewChild('statusCell', { static: true }) statusCell: TemplateRef<any>;
 

@@ -4,9 +4,10 @@ import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AgGridModule } from 'ag-grid-angular';
+import { OverlayModule } from '@angular/cdk/overlay';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 
-import { ModalComponent } from 'app/shared/components/modal/modal.component';
+import { DefaultModalComponent } from 'app/shared/components/modal/default.modal.component';
 import { AlertComponent } from 'app/shared/components/alert/alert.component';
 import { NavComponent } from 'app/shared/components/nav/nav.component';
 import { FooterComponent } from 'app/shared/components/footer/footer.component';
@@ -35,7 +36,7 @@ import { DefaultLayoutComponent } from 'app/shared/components/layouts/default.la
     AdminLayoutComponent,
     DefaultLayoutComponent,
 
-    ModalComponent
+    DefaultModalComponent
 
     // Directives
   ],
@@ -48,6 +49,7 @@ import { DefaultLayoutComponent } from 'app/shared/components/layouts/default.la
     AgGridModule.withComponents([
       TemplateRendererComponent
     ]),
+    OverlayModule
   ],
   exports: [
     CommonModule,
@@ -67,9 +69,6 @@ import { DefaultLayoutComponent } from 'app/shared/components/layouts/default.la
     // form controls
     SelectComponent,
     FileInputComponent,
-
-    ModalComponent,
-
     // Directives
   ]
 })

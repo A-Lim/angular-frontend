@@ -20,7 +20,7 @@ import { OrderStatistics } from 'app/shared/models/orderstatistics.model';
   providers: [DatePipe],
 })
 export class OrdersListComponent implements OnInit, OnDestroy {
-  @ViewChild('agGrid', { static: false }) agGrid: AgGridAngular;
+  @ViewChild('agGrid') agGrid: AgGridAngular;
   @ViewChild('actionsCell', { static: true }) actionsCell: TemplateRef<any>;
   @ViewChild('statusCell', { static: true }) statusCell: TemplateRef<any>;
 

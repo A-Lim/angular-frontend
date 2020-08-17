@@ -1,0 +1,46 @@
+<div class="modal-header">
+  <h3 class="modal-title">Work Item Details</h3>
+  <button type="button" class="close rounded-pill" aria-label="close" (click)="close()"><i class="bx bx-x"></i></button>
+</div>
+<div class="modal-body">
+  <!-- file -->
+  <div class="row">
+    <div class="col-sm-2">
+      <label>File</label>
+    </div>
+    <div class="col-sm-10">
+      <!-- file -->
+      <ng-container *ngIf="workItem.file">
+        <a href="{{ API_BASE_URL + '/' + workItem.fileUrl }}" target="_blank">
+          <span><i class="bx bx-file"></i>{{ workItem.file }}</span>
+        </a>
+      </ng-container>
+
+      <!-- externalfile -->
+      <ng-container *ngIf="workItem.externalFileUrl">
+        <a href="workItem.externalFileUrl">External File Url</a>
+      </ng-container>
+
+    </div>
+  </div>
+
+  <!-- created at -->
+  <div class="row">
+    <div class="col-sm-3">
+      <label>Created At</label>
+    </div>
+    <div class="col-sm-9">
+      {{ workItem.created_at }}
+    </div>
+  </div>
+
+  <!-- message -->
+  <div class="row">
+    <div class="form-group col-12">
+      <textarea class="form-control" [value]="workItem.message" disabled></textarea>
+    </div>
+  </div>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-light-secondary" (click)="close()">Close</button>
+</div>

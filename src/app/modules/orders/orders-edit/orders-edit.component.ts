@@ -13,6 +13,8 @@ import ValidationUtil from 'app/shared/helpers/validation.util';
 // import { ModalWorkItemDetailsComponent } from './modal-work-item-details/modal-work-item-details.component';
 import { OrderWorkItem } from 'app/shared/models/orderworkitem.model';
 
+import { ModalWorkItemDetailsComponent } from './modal-work-item-details/modal-work-item-details.component';
+
 @Component({
   selector: 'orders-edit',
   templateUrl: './orders-edit.component.html',
@@ -27,8 +29,7 @@ export class OrdersEditComponent extends BaseFormComponent implements OnInit {
     private alertService: AlertService,
     private orderService: OrderService,
     private modalService: ModalService,
-    private route: ActivatedRoute,
-    private _vcr: ViewContainerRef) { 
+    private route: ActivatedRoute) { 
     super(); 
   }
 
@@ -61,9 +62,11 @@ export class OrdersEditComponent extends BaseFormComponent implements OnInit {
     });
   }
 
-  async showWorkItemDetails(workItem: OrderWorkItem) {
-    const { ModalWorkItemDetailsComponent } = await import('app/modules/orders/orders-edit/modal-work-item-details/modal-work-item-details.component');
-    const modalInstance = this.modalService.open(this._vcr, ModalWorkItemDetailsComponent);
+  showWorkItemDetails(workItem: OrderWorkItem) {
+    const modal = this.modalService.open(ModalWorkItemDetailsComponent, workItem);
+
+    modal.afterClosed$.subscribe(res => {
+    });
   }
 
   onFileInputChanged(event: any) {

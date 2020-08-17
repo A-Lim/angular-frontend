@@ -6,12 +6,38 @@
 @import "~ag-grid-community/dist/styles/ag-theme-balham.css";
 
 /*-------------------------*/
+/* Angular CDK overlay     */
+/*-------------------------*/
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+/*-------------------------*/
 /* AG GRID Override        */
 /*-------------------------*/
 .ag-theme-balham .ag-ltr .ag-cell {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
+/*-------------------------*/
+/* Overlay Override        */
+/*-------------------------*/
+.modal {
+  display: block;
+  overflow-y: scroll;
+}
+
+.modal-backdrop {
+  opacity: .5 !important;
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal-sm { width: 300px; }
+.modal-lg { width: 800px; }
+.modal-xl { width: 1140px; }
+.modal-full { width: 94%; }
 
 /*-------------------------*/
 /* Form Validation         */
@@ -36,20 +62,27 @@
 }
 
 /*-------------------------*/
-/* Tabs                    */
+/* Badges                  */
 /*-------------------------*/
 .badge { text-transform: none; }
-.badge-xs { font-size: 11px; padding: 3px 10px;}
+.badge-xs { font-size: 11px; padding: 3px 10px; }
 
 
 /*-------------------------*/
 /* Buttons                 */
 /*-------------------------*/
-.btn-xs i { top: 2px; left: 0.5px }
-.btn-xs.btn-icon { padding: .2rem .4rem };
-
+.btn-xs i { top: 2px; left: 0.5px; }
+.btn-xs.btn-icon { padding: .2rem .4rem; }
+button:focus { outline: none; }
 
 /*-------------------------*/
 /* Select2                 */
 /*-------------------------*/
 /* .form-group.error */
+
+/*-------------------------*/
+/* Side Menu               */
+/*-------------------------*/
+.main-menu {
+  z-index: 1000;
+}

@@ -14,10 +14,10 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
   ]
 })
 export class FileInputComponent implements OnInit, OnDestroy, ControlValueAccessor {
-  @ViewChild('fileinput', { static: false })
+  @ViewChild('fileinput')
   fileInputElement: ElementRef<any>;
 
-  @ViewChild('customFileInput', { static: false })
+  @ViewChild('customFileInput')
   fileLabelElement: ElementRef<any>;
 
   @Input() multiple: boolean = false;

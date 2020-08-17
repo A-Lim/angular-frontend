@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { OrderWorkItem } from 'app/shared/models/orderworkitem.model';
+import { CustomOverlayRef } from 'app/shared/helpers/customoverlayref';
+import { API_BASE_URL } from 'app/configs/app.config';
 
 @Component({
   selector: 'modal-work-item-details',
@@ -7,10 +9,24 @@ import { OrderWorkItem } from 'app/shared/models/orderworkitem.model';
   styleUrls: ['./modal-work-item-details.component.css']
 })
 export class ModalWorkItemDetailsComponent implements OnInit {
-  @Input()
   workItem: OrderWorkItem;
 
-  ngOnInit() {
+  constructor(private ref: CustomOverlayRef<OrderWorkItem, OrderWorkItem>) {
   }
 
+  ngOnInit() {
+    this.workItem = this.ref.data;
+  }
+
+  close() {
+    this.ref.close();
+  }
+
+  save() {
+    this.ref.close(this.workItem);
+  }
+
+  get API_BASE_URL() {
+    return API_BASE_URL;
+  }
 }
