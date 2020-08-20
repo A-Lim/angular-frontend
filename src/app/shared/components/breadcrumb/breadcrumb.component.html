@@ -1,0 +1,18 @@
+<div class="row breadcrumbs-top">
+  <div class="col-12">
+    <h5 class="content-header-title float-left pr-1 mb-0">{{ module | titlecase }}</h5>
+    <div class="breadcrumb-wrapper col-12">
+      <ol class="breadcrumb p-0 mb-0">
+        <li class="breadcrumb-item"><a [routerLink]="homeUrl">
+          <i class="bx bx-home-alt"></i></a>
+        </li>
+        <li *ngFor="let breadcrumb of breadcrumbs" class="breadcrumb-item">
+
+          <!-- routerLinkActive="active" #rla="routerLinkActive" -->
+          <!-- <span *ngIf="rla.isActive"> {{ breadcrumb.label | titlecase }}</span>
+          <a *ngIf="!rla.isActive" [routerLink]="breadcrumb.url"> {{ breadcrumb.label | titlecase }}</a> -->
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>

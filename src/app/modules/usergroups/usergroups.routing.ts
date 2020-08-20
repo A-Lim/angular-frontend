@@ -7,9 +7,24 @@ import { UserGroupsEditComponent } from 'app/modules/usergroups/usergroups-edit/
 import { UserGroupsCreateComponent } from 'app/modules/usergroups/usergroups-create/usergroups-create.component';
 
 const routes: Routes = [
-  { path: '', component: UserGroupsListComponent, canActivate: [AuthGuard] },
-  { path: 'create', component: UserGroupsEditComponent, canActivate: [AuthGuard] },
-  { path: ':id', component: UserGroupsCreateComponent, canActivate: [AuthGuard] }
+  { 
+    path: '', 
+    component: UserGroupsListComponent, 
+    data: { breadcrumb: 'user groups' },
+    canActivate: [AuthGuard] 
+  },
+  { 
+    path: 'create', 
+    component: UserGroupsCreateComponent, 
+    data: { breadcrumb: 'create user group' },
+    canActivate: [AuthGuard] 
+  },
+  {
+    path: ':id', 
+    component: UserGroupsEditComponent, 
+    data: { breadcrumb: 'edit user group' },
+    canActivate: [AuthGuard] 
+  }
 ];
 
 @NgModule({

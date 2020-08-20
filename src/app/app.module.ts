@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Injector } from '@angular/core';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 // import { AngularSvgIconModule } from 'angular-svg-icon';
-
+import { ServiceLocator } from './shared/services/servicelocator';
 import { AppRoutingModule } from 'app/app-routing.module';
 import { AppComponent } from 'app/app.component';
 // interceptor
@@ -11,6 +11,7 @@ import { AuthInterceptor } from 'app/core/interceptors/auth.interceptor';
 import { HttpErrorInterceptor } from 'app/core/interceptors/httperror.interceptor';
 // modules
 import { SharedModule } from 'app/shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -29,4 +30,8 @@ import { SharedModule } from 'app/shared/shared.module';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(private injector: Injector) {
+    ServiceLocator.injector = this.injector;
+  }
+}

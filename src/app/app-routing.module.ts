@@ -15,31 +15,33 @@ const routes: Routes = [
     children: [
       { 
         path: 'admin/dashboard', 
+        data: { breadcrumb: 'dashboard', module: 'dashboard' },
         loadChildren: () => import('app/modules/dashboard/dashboard.module').then(m => m.DashboardModule), 
       },
       { 
         path: 'admin/profile', 
+        data: { breadcrumb: 'profile', module: 'profile' },
         loadChildren: () => import('app/modules/profile/profile.module').then(m => m.ProfileModule), 
       },
       { 
         path: 'admin/systemsettings', 
+        data: { breadcrumb: 'system settings', module: 'system settings' },
         loadChildren: () => import('app/modules/systemsettings/systemsettings.module').then(m => m.SystemSettingsModule), 
       },
       { 
         path: 'admin/users', 
+        data: { breadcrumb: 'users', module: 'users' },
         loadChildren: () => import('app/modules/users/users.module').then(m => m.UsersModule), 
       },
       { 
         path: 'admin/usergroups', 
+        data: { breadcrumb: 'user groups', module: 'user groups' },
         loadChildren: () => import('app/modules/usergroups/usergroups.module').then(m => m.UserGroupsModule), 
       },
       { 
         path: 'admin/products', 
+        data: { breadcrumb: 'products', module: 'products' },
         loadChildren: () => import('app/modules/products/products.module').then(m => m.ProductsModule), 
-      },
-      { 
-        path: 'admin/orders', 
-        loadChildren: () => import('app/modules/orders/orders.module').then(m => m.OrdersModule), 
       },
     ]
   },

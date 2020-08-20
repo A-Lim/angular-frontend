@@ -12,6 +12,7 @@ import { AlertComponent } from 'app/shared/components/alert/alert.component';
 import { NavComponent } from 'app/shared/components/nav/nav.component';
 import { FooterComponent } from 'app/shared/components/footer/footer.component';
 import { SideMenuComponent } from 'app/shared/components/side-menu/side-menu.component';
+import { BreadCrumbComponent } from './components/breadcrumb/breadcrumb.component';
 
 import { SelectComponent } from 'app/shared/components/form-control/select/select.component';
 import { FileInputComponent } from 'app/shared/components/form-control/fileinput/fileinput.component';
@@ -20,14 +21,14 @@ import { TemplateRendererComponent } from 'app/shared/components/template-render
 import { AdminLayoutComponent } from 'app/shared/components/layouts/admin/admin.layout.component';
 import { DefaultLayoutComponent } from 'app/shared/components/layouts/default.layout.component.css/default.layout.component';
 
-
-
 @NgModule({
   declarations: [
     AlertComponent,
     NavComponent,
     FooterComponent,
     SideMenuComponent,
+    BreadCrumbComponent,
+
     TemplateRendererComponent,
     // Form Input
     SelectComponent,
@@ -61,6 +62,8 @@ import { DefaultLayoutComponent } from 'app/shared/components/layouts/default.la
     NavComponent,
     FooterComponent,
     SideMenuComponent,
+    BreadCrumbComponent,
+    
     // ag-grid
     AgGridModule,
     TemplateRendererComponent,
