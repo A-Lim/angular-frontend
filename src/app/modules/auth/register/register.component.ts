@@ -1,12 +1,10 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
-import { Title } from '@angular/platform-browser';
-import { FormBuilder, Validators } from '@angular/forms';
+import { Component, OnInit, Renderer2, ViewChild, OnDestroy } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
-import { AlertService } from 'app/shared/services/alert.service';
 import { AuthService } from 'app/core/services/auth.service';
-import { BaseFormComponent } from 'app/shared/components/baseform.component';
-import { App } from 'app/configs/app.config';
-import ValidationUtil from 'app/shared/helpers/validation.util';
+import { SystemSettingService } from 'app/modules/systemsettings/systemsettings.service';
+import { Base } from 'app/shared/components/base.component';
+import { RegisterVm } from 'app/modules/auth/models/register.model.vm';
 
 
 @Component({
@@ -14,54 +12,50 @@ import ValidationUtil from 'app/shared/helpers/validation.util';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
-export class RegisterComponent extends BaseFormComponent implements OnInit {
+export class RegisterComponent extends Base implements OnInit, OnDestroy {
 
-  constructor(private titleService: Title, private formBuilder: FormBuilder, 
-              private alertService: AlertService, public authService: AuthService) {
+  @ViewChild('form')
+  form: NgForm;
+
+  registerVm: RegisterVm;
+  allowPublicRegistration: boolean;
+
+  constructor(public authSvc: AuthService, private systemSettingSvc: SystemSettingService) {
     super();
   }
 
   ngOnInit() {
-    this.initForm();
-    this.titleService.setTitle(`${App.NAME} | Register`);
+    super.ngOnInit();
+    this.setTitle('Register');
+
+    this.systemSettingSvc.allowPublicRegistration()
+      .subscribe(response => this.allowPublicRegistration = response.data);
+
+    this.registerVm = new RegisterVm();
   }
 
-  initForm() {
-    this.form = this.formBuilder.group({
-      name: ['', [Validators.required]],
-      email: ['', [Validators.required, Validators.email]],
-      password: ['', [Validators.required, Validators.minLength(8)]],
-      confirmPassword: ['', []]
-    }, {
-      validator: ValidationUtil.matchValue('password', 'confirmPassword')
-    });
+  ngOnDestroy() {
+    super.ngOnDestroy();
   }
 
   onSubmit() {
-    super.onSubmit();
+    this.submitted = true;
     // validate form
     if (!this.form.valid) {
       return;
     }
 
-    this.startLoading();
-    // format form value
-    const input = {
-      name: this.form.value.name,
-      email: this.form.value.email,
-      password: this.form.value.password,
-      password_confirmation: this.form.value.confirmPassword
-    }
+    this.isLoading = true;
 
-    this.authService.register(input).subscribe(response => {
-      if (response.message) {
-        this.alertService.success(response.message);
-      }
-      this.submitted = false;
-      this.form.reset();
-      this.endLoading();
-    }, _ => {
-      this.endLoading();
-    });
+    this.authSvc.register(this.registerVm)
+      .subscribe(response => {
+        if (response.message)
+          this.alertSvc.success(response.message);
+        
+        this.submitted = false;
+        this.isLoading = false;
+      }, _ => {
+        this.isLoading = false;
+      });
   }
 }

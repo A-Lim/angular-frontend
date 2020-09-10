@@ -1,10 +1,10 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Subscription, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { AuthService } from './core/services/auth.service';
 
 import { Router } from '@angular/router';
-import { App } from './configs/app.config';
-import { User } from './shared/models/user.model';
+import { App } from 'app/configs/app.config';
+import { User } from 'app/modules/users/models/user.model';
 
 @Component({
   selector: 'app-root',
@@ -17,13 +17,13 @@ export class AppComponent implements OnInit, OnDestroy {
   public isAuthenticated$: Observable<boolean>;
   public user$: Observable<User>;
 
-  constructor(private authService: AuthService, public router: Router) {
+  constructor(private authSvc: AuthService, public router: Router) {
   }
 
   ngOnInit() {
-    this.authService.autoAuthUser();
-    this.isAuthenticated$ = this.authService.isAuthenticated$;
-    this.user$ = this.authService.user$;
+    this.authSvc.autoAuthUser();
+    this.isAuthenticated$ = this.authSvc.isAuthenticated$;
+    this.user$ = this.authSvc.user$;
   }
 
   ngOnDestroy() {

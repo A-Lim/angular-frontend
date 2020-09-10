@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { OrderWorkItem } from 'app/shared/models/orderworkitem.model';
+import { OrderWorkItem } from 'app/modules/orders/models/orderworkitem.model';
 import { CustomOverlayRef } from 'app/shared/helpers/customoverlayref';
 import { API_BASE_URL } from 'app/configs/app.config';
 

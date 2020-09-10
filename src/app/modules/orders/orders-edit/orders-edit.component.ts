@@ -7,13 +7,12 @@ import { BaseFormComponent } from 'app/shared/components/baseform.component';
 import { OrderService } from 'app/modules/orders/orders.service';
 import { AlertService } from 'app/shared/services/alert.service';
 import { ModalService } from 'app/shared/services/modal.service';
-import { Order } from 'app/shared/models/order.model';
+import { Order } from 'app/modules/orders/models/order.model';
 import { App, API_BASE_URL } from 'app/configs/app.config';
 import ValidationUtil from 'app/shared/helpers/validation.util';
-// import { ModalWorkItemDetailsComponent } from './modal-work-item-details/modal-work-item-details.component';
-import { OrderWorkItem } from 'app/shared/models/orderworkitem.model';
 
-import { ModalWorkItemDetailsComponent } from './modal-work-item-details/modal-work-item-details.component';
+import { OrderWorkItem } from 'app/modules/orders/models/orderworkitem.model';
+import { ModalWorkItemDetailsComponent } from 'app/modules/orders/orders-edit/modal-work-item-details/modal-work-item-details.component';
 
 @Component({
   selector: 'orders-edit',
@@ -44,7 +43,7 @@ export class OrdersEditComponent extends BaseFormComponent implements OnInit {
         this.order = response.data;
         this.form.patchValue(this.order);
         this.endLoading();
-      })
+      }, _ => { this.isLoading = false; })
     
   }
 

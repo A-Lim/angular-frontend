@@ -12,11 +12,11 @@ export class AuthInterceptor implements HttpInterceptor {
   private isRefreshing = false;
   private refreshTokenSubject: BehaviorSubject<any> = new BehaviorSubject<any>(null);
 
-  constructor(private router: Router, private authService: AuthService, 
-    private alertService: AlertService) { }
+  constructor(private router: Router, private authSvc: AuthService, 
+    private alertSvc: AlertService) { }
 
   intercept(req: HttpRequest<any>, next: HttpHandler) {
-    const accessToken = this.authService.accessToken;
+    const accessToken = this.authSvc.accessToken;
     const authRequest = this.addToken(req, accessToken);
 
     return next.handle(authRequest).pipe(
@@ -33,7 +33,7 @@ export class AuthInterceptor implements HttpInterceptor {
   }
   
   private refreshToken(req: HttpRequest<any>, next: HttpHandler) {
-    return this.authService.refreshAuthToken().pipe(
+    return this.authSvc.refreshAuthToken().pipe(
       switchMap(response => {
         const refreshResponse = response.data;
 
@@ -44,8 +44,8 @@ export class AuthInterceptor implements HttpInterceptor {
       // error during refresh token
       // clear authdata and redirect to login page
       catchError(error => {
-        this.authService.reset();
-        this.alertService.error('Session expired.', true);
+        this.authSvc.reset();
+        this.alertSvc.error('Session expired.', false, true);
         this.router.navigate(['login']);
         return throwError(error);
       })

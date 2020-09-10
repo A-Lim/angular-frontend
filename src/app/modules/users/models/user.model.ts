@@ -1,4 +1,4 @@
-import { UserGroup } from '../../modules/usergroups/models/usergroup.model';
+import { UserGroup } from 'app/modules/usergroups/models/usergroup.model';
 
 export interface User {
     id: number;

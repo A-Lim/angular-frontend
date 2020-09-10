@@ -1,9 +1,7 @@
-import { User } from 'app/shared/models/user.model';
+import { User } from 'app/modules/users/models/user.model';
+import { TokenData } from 'app/shared/models/responses/tokendata.model';
 
-export interface LoginData {
-  tokenType: string;
-  expiresIn: number;
-  accessToken: string;
-  refreshToken: string;
-  user: User
+export interface LoginData extends TokenData {
+  user: User;
+  permissions: string[];
 }

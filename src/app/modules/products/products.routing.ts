@@ -8,9 +8,24 @@ import { ProductsCreateComponent } from './products-create/products-create.compo
 import { ProductsEditComponent } from './products-edit/products-edit.component';
 
 const routes: Routes = [
-  { path: '', component: ProductsListComponent, canActivate: [AuthGuard] },
-  { path: 'create', component: ProductsCreateComponent, canActivate: [AuthGuard] },
-  { path: ':id', component: ProductsEditComponent, canActivate: [AuthGuard] }
+  { 
+    path: '', 
+    component: ProductsListComponent, 
+    data: { breadcrumb: 'products' },
+    canActivate: [AuthGuard] 
+  },
+  { 
+    path: 'create', 
+    component: ProductsCreateComponent, 
+    data: { breadcrumb: 'create product' },
+    canActivate: [AuthGuard] 
+  },
+  { 
+    path: ':id', 
+    component: ProductsEditComponent, 
+    data: { breadcrumb: 'edit product' },
+    canActivate: [AuthGuard] 
+  }
 ];
 
 @NgModule({

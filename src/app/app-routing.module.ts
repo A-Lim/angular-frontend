@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AdminLayoutComponent } from 'app/shared/components/layouts/admin/admin.layout.component';
-import { DefaultLayoutComponent } from './shared/components/layouts/default.layout.component.css/default.layout.component';
+import { DefaultLayoutComponent } from 'app/shared/components/layouts/default.layout.component.css/default.layout.component';
+import { PageNotFoundComponent } from 'app/shared/pages/pagenotfound/pagenotfound.component';
+import { ForbiddenComponent } from 'app/shared/components/forbidden/forbidden.component';
 
 const routes: Routes = [
   { 
@@ -43,8 +45,26 @@ const routes: Routes = [
         data: { breadcrumb: 'products', module: 'products' },
         loadChildren: () => import('app/modules/products/products.module').then(m => m.ProductsModule), 
       },
+      { 
+        path: 'admin/orders', 
+        data: { breadcrumb: 'orders', module: 'orders' },
+        loadChildren: () => import('app/modules/orders/orders.module').then(m => m.OrdersModule), 
+      },
     ]
   },
+  {
+    path: '404', 
+    component: DefaultLayoutComponent,
+    children: [
+      {
+        path: '',
+        component: PageNotFoundComponent
+      }
+    ]
+  },
+  {
+    path: '**', redirectTo: '/404'
+  }
 ];
 
 @NgModule({

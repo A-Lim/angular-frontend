@@ -12,6 +12,7 @@ export class DefaultLayoutComponent implements OnInit {
   ngOnInit() {
     this.renderer.addClass(document.body, '1-column');
     this.renderer.addClass(document.body, 'blank-page');
+    this.renderer.addClass(document.body, 'bg-full-screen-image');
     this.renderer.removeClass(document.body, '2-column');
     this.renderer.setAttribute(document.body, 'data-col', '1-column');
   }

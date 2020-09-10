@@ -1,87 +1,96 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
-import { ActivatedRoute } from "@angular/router";
-import { map } from 'rxjs/operators';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { ActivatedRoute, Router } from "@angular/router";
+import { Observable, Subject, concat, of } from 'rxjs';
+import { distinctUntilChanged, tap, switchMap, catchError, map, debounceTime } from 'rxjs/operators';
 
-import { User } from 'app/shared/models/user.model';
+import { Base } from 'app/shared/components/base.component';
+import { User } from 'app/modules/users/models/user.model';
+import { UserVm } from 'app/modules/users/models/user.model.vm';
 import { UserGroup } from 'app/modules/usergroups/models/usergroup.model';
-import { AlertService } from 'app/shared/services/alert.service';
 import { UserService } from 'app/modules/users/users.service';
-import { BaseFormComponent } from 'app/shared/components/baseform.component';
-import { forkJoin } from 'rxjs';
 import { UserGroupService } from 'app/modules/usergroups/usergroups.service';
+import { Ability } from '@casl/ability';
 
 @Component({
   selector: 'users-edit-general-tab',
   templateUrl: './users-edit-general-tab.component.html',
   styleUrls: ['./users-edit-general-tab.component.css']
 })
-export class UsersEditGeneralTabComponent extends BaseFormComponent implements OnInit {
-  public user: User;
-  public usergroups: UserGroup[];
+export class UsersEditGeneralTabComponent extends Base implements OnInit {
+  @Input()
+  user: User;
 
-  constructor(public alertService: AlertService, public userService: UserService,
-    private userGroupService: UserGroupService,
-    private formBuilder: FormBuilder, private route: ActivatedRoute) {
+  @Input()
+  userVm: UserVm;
+  
+  userGroupInput$ = new Subject<string>();
+  userGroups$: Observable<UserGroup[]>;
+  userGroupsReqLoading: boolean;
+
+  @ViewChild('form')
+  form: NgForm;
+
+  constructor(public userService: UserService, private userGroupSvc: UserGroupService) {
     super();
-
-    this.form = this.formBuilder.group({
-      name: ['', [Validators.required]],
-      email: [{ value: '', disabled: true }, [Validators.required, Validators.email]],
-      status: ['', [Validators.required]],
-      usergroups: ['', [Validators.required]]
-    });
   }
 
   ngOnInit() {
-    this.startLoading();
-    // (+) operator converts string to number
-    const id = +this.route.snapshot.paramMap.get('id');
-    // const userReq = this.userService.getUser(id);
-    // const userGroupReq = this.userGroupService.getUserGroups();
+    super.ngOnInit();
+    this.loadUserGroup();
+  }
 
-    // forkJoin([userReq, userGroupReq])
-    //   .subscribe(results => {
-    //     this.user = results[0].data;
-    //     this.usergroups = results[1].data;
+  loadUserGroup() {
+    this.userGroupsReqLoading = false;
 
-    //     // this.form.patchValue(this.user);
-    //     this.form.patchValue({
-    //       name: this.user.name,
-    //       email: this.user.email,
-    //       status: this.user.status,
-    //       usergroups: this.user.usergroups.map(x => x.id)
-    //     });
-    //     this.endLoading();
-    //   });
+    this.userGroups$ = concat(
+      this.getUserGroupsFn$(null, this.userVm.usergroups), // default items
+      this.userGroupInput$.pipe(
+        debounceTime(500),
+        distinctUntilChanged(),
+        tap(_ => this.userGroupsReqLoading = true),
+        switchMap(searchStr => this.getUserGroupsFn$(searchStr))
+      )
+    );
+  }
 
-    this.userService.getUser(id)
-      .subscribe(result => {
-        this.user = result.data;
-        this.form.patchValue({
-          name: this.user.name,
-          email: this.user.email,
-          status: this.user.status,
-        });
-        this.endLoading();
-      });
+  trackByFn(userGroup: UserGroup) {
+    return userGroup.id;
   }
 
   onSubmit() {
-    super.onSubmit();
     // validate form
     if (!this.form.valid)
       return;
 
-    // this.startLoading();
-    // console.log(this.form.value);
-    this.userService.updateUser(this.user.id, this.form.value)
+    this.isLoading = true;
+    this.userService.updateUser(this.user.id, this.userVm)
       .subscribe(response => {
-        this.alertService.success(response.message);
         this.user = response.data;
-        this.endLoading();
-      }, _ => {
-        this.endLoading();
-    });
+        this.isLoading = false;
+        this.swalAlert('Success', response.message, 'success')
+          .subscribe(_ => this.router.navigate(['admin/users']));
+      }, _ => { this.isLoading = false; });
+  }
+
+  private getUserGroupsFn$(searchStr?: string ,ids?: number[]) {
+    let params: any = { limit: 10, page: 1, type: 'formcontrol' };
+
+    if (searchStr != null && searchStr != '')
+     params.name = `contains:${searchStr}`;
+
+    if (ids && ids.length > 0) {
+      ids.forEach(function (id, index) {
+        params['id[' + index + ']'] = id;
+      });
+      // if ids count > 10, override limit 
+      params.limit = ids.length > 10 ? ids.length : 10;
+    }
+
+    return this.userGroupSvc.getUserGroups(params).pipe(
+      tap(_ => this.userGroupsReqLoading = false),
+      map(response => response.data.data),
+      catchError(() => of([])), // empty list on error
+    )
   }
 }

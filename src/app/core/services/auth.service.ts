@@ -2,19 +2,28 @@ import { Injectable } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
-import { tap, map } from 'rxjs/operators';
+import { tap } from 'rxjs/operators';
+import { AbilityBuilder, Ability } from '@casl/ability';
 
 import { API_BASE_URL, API_VERSION } from 'app/configs/app.config';
-import { User } from 'app/shared/models/user.model';
+import { User } from 'app/modules/users/models/user.model';
+import { TokenData } from 'app/shared/models/responses/tokendata.model';
 import { LoginData } from 'app/shared/models/responses/logindata.model';
 import { ResponseResult } from 'app/shared/models/responses/responseresult.model';
 
+import { LoginVm } from 'app/modules/auth/models/login.model.vm';
+import { ProfileVm } from 'app/modules/profile/models/profile.model.vm';
+import { ForgotPasswordVm } from 'app/modules/auth/models/forgotpassword.model.vm';
+import { RegisterVm } from 'app/modules/auth/models/register.model.vm';
+import { ResetPasswordVm } from 'app/modules/auth/models/resetpassword.model.vm';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   private _url = `${API_BASE_URL}/api/${API_VERSION}`;
   private _accessToken: string;
   private _refreshToken: string;
+  // private _ability: PureAbility;
+  // private _permissions: string[];
 
   private _isAuthenticatedBS = new BehaviorSubject<boolean>(false);
   private _userBS = new BehaviorSubject<User>(null);
@@ -22,7 +31,7 @@ export class AuthService {
   public isAuthenticated$ = this._isAuthenticatedBS.asObservable();
   public user$ = this._userBS.asObservable();
 
-  constructor(private http: HttpClient, private route: ActivatedRoute,) { }
+  constructor(private http: HttpClient, private route: ActivatedRoute, private ability: Ability) { }
 
   get accessToken(): string {
     return this._accessToken;
@@ -32,39 +41,31 @@ export class AuthService {
     return this._refreshToken;
   }
 
+  // get permissions(): string[] {
+  //   return this._permissions;
+  // }
+  
+
   refreshAuthToken() {
     const data = { refreshToken: this.refreshToken };
-    return this.http.post<ResponseResult<any>>(`${this._url}/token/refresh` , data)
+    return this.http.post<ResponseResult<TokenData>>(`${this._url}/token/refresh` , data)
       .pipe(
         tap(response => {
           const tokenData = response.data;
+          this._accessToken = tokenData.accessToken;
+          this._refreshToken = tokenData.refreshToken;
           this._saveAuthData(tokenData.accessToken, tokenData.refreshToken, tokenData.expiresIn);
         })
       );
   }
 
-  login(data: any) {
-    const returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/admin/dashboard';
+  login(data: LoginVm) {
+    // const returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/admin/dashboard';
     return this.http.post<ResponseResult<LoginData>>(`${this._url}/login` , data)
-      .pipe(
-        tap(response => {
-          if (response.data) {
-            const data = response.data;
-            this._accessToken = data.accessToken;
-            this._refreshToken = data.refreshToken;
-
-            this._saveAuthData(data.accessToken, data.refreshToken, data.expiresIn);
-            this._saveUserData(data.user);
-
-            this._isAuthenticatedBS.next(true);
-            this._userBS.next(data.user);
-          }
-        }),
-        map(_ => returnUrl)
-      );
+      .pipe(tap(response => this._handleLoginData(response.data)));
   }
 
-  register(data: any) {
+  register(data: RegisterVm) {
     return this.http.post<any>(`${this._url}/register` , data)
       .pipe(
         tap(response => {
@@ -84,7 +85,7 @@ export class AuthService {
       );
   }
 
-  forgotPassword(data: any) {
+  forgotPassword(data: ForgotPasswordVm) {
     return this.http.post<ResponseResult<undefined>>(`${this._url}/forgot-password`, data);
   }
 
@@ -93,7 +94,7 @@ export class AuthService {
       .pipe(tap(_ => this.reset()));
   }
 
-  resetPassword(data: any) {
+  resetPassword(data: ResetPasswordVm) {
     return this.http.post<ResponseResult<undefined>>(`${this._url}/reset-password`, data);
   }
 
@@ -101,7 +102,7 @@ export class AuthService {
     return this.http.get<ResponseResult<User>>(`${this._url}/profile`);
   }
 
-  updateProfile(data: any) {
+  updateProfile(data: ProfileVm) {
     // remove oldPassword with empty string
     if (data.oldPassword === '')
       delete data.oldPassword;
@@ -117,7 +118,7 @@ export class AuthService {
   }
 
   // authenticate user if token is found in localstorage
-  autoAuthUser(): void {
+  autoAuthUser() {
     const authData = this._getLocalData();
     // if no data in localstorage, exit function
     if (!authData)
@@ -129,6 +130,8 @@ export class AuthService {
     if (expiresIn > 0) {
       this._accessToken = authData.accessToken;
       this._refreshToken = authData.refreshToken;
+
+      this._defineAbilities(authData.permissions);
       
       this._isAuthenticatedBS.next(true);
       this._userBS.next(authData.user);
@@ -152,6 +155,36 @@ export class AuthService {
     localStorage.removeItem('user');
   }
 
+  private _handleLoginData(data: LoginData) {
+    this._accessToken = data.accessToken;
+    this._refreshToken = data.refreshToken;
+
+    this._saveAuthData(data.accessToken, data.refreshToken, data.expiresIn);
+    this._saveUserData(data.user);
+    this._savePermissions(data.permissions);
+    this._defineAbilities(data.permissions);
+
+    this._isAuthenticatedBS.next(true);
+    this._userBS.next(data.user);
+  }
+
+  private _defineAbilities(permissions: string[]) {
+    const { can, rules } = new AbilityBuilder<Ability>(Ability);
+    
+    for (let i = 0; i < permissions.length; i++) {
+      const permission = permissions[i].split('.');
+      const module = permission[0];
+      const action = permission[1];
+
+      can(action, module);
+    }
+    this.ability.update(rules);
+  }
+
+  private _savePermissions(permissions: string[]) {
+    localStorage.setItem('permissions', JSON.stringify(permissions));
+  }
+
   private _saveAuthData(accessToken: string, refreshToken: string, expiresIn: number) {
     // calculate expiration date time
     const now = new Date();
@@ -171,12 +204,14 @@ export class AuthService {
     const refreshToken = localStorage.getItem('refreshToken');
     const expirationDate = localStorage.getItem('expiration');
     const user = JSON.parse(localStorage.getItem('user'));
+    const permissions = JSON.parse(localStorage.getItem('permissions'));
 
     return {
       accessToken,
       refreshToken,
       expirationDate: new Date(expirationDate),
-      user
+      user,
+      permissions,
     };
   }
 }

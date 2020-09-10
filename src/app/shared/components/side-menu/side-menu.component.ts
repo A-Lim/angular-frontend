@@ -1,6 +1,7 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { OrderService } from 'app/modules/orders/orders.service';
-import { OrderBadge } from 'app/shared/models/orderbadge.model';
+import { OrderBadge } from 'app/modules/orders/models/orderbadge.model';
+import { Ability } from '@casl/ability';
 
 @Component({
   selector: 'shared-side-menu',
@@ -12,7 +13,7 @@ export class SideMenuComponent implements OnInit {
   public isHoverOver: boolean = false;
   public badges: OrderBadge[];
 
-  constructor(private renderer: Renderer2, private orderService: OrderService) { }
+  constructor(private renderer: Renderer2, private orderService: OrderService, private ability: Ability) { }
 
   ngOnInit() {
     this.orderService.getBadges()

@@ -6,11 +6,15 @@
         <li class="breadcrumb-item"><a [routerLink]="homeUrl">
           <i class="bx bx-home-alt"></i></a>
         </li>
-        <li *ngFor="let breadcrumb of breadcrumbs" class="breadcrumb-item">
+        <li *ngFor="let breadcrumb of breadcrumbs" class="breadcrumb-item"
+          [class.active]="breadcrumb.url | isrouteactive">
+          <ng-container *ngIf="breadcrumb.url | isrouteactive; else inactiveRoute;">
+            <span> {{ breadcrumb.label | titlecase }}</span>
+          </ng-container>
 
-          <!-- routerLinkActive="active" #rla="routerLinkActive" -->
-          <!-- <span *ngIf="rla.isActive"> {{ breadcrumb.label | titlecase }}</span>
-          <a *ngIf="!rla.isActive" [routerLink]="breadcrumb.url"> {{ breadcrumb.label | titlecase }}</a> -->
+          <ng-template #inactiveRoute>
+            <a [routerLink]="breadcrumb.url"> {{ breadcrumb.label | titlecase }}</a>
+          </ng-template>
         </li>
       </ol>
     </div>

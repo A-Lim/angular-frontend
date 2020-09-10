@@ -3,8 +3,6 @@ import { Title } from '@angular/platform-browser';
 
 import { App } from 'app/configs/app.config';
 import { DynamicScriptLoaderService } from 'app/shared/services/dynamicscriptloader.service';
-import { PageType } from 'app/shared/models/enums';
-
 
 @Component({
   selector: 'app-dashboard',

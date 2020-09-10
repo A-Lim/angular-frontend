@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { User } from 'app/shared/models/user.model';
-import { UserGroup } from 'app/modules/usergroups/models/usergroup.model';
+import { User } from 'app/modules/users/models/user.model';
+import { UserVm } from 'app/modules/users/models/user.model.vm';
 import { API_BASE_URL, API_VERSION } from 'app/configs/app.config';
 import { PaginationResponse } from 'app/shared/models/responses/pagination.response';
 import { ResponseResult } from 'app/shared/models/responses/responseresult.model';
+
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
@@ -27,7 +28,7 @@ export class UserService {
 
   }
 
-  updateUser(id:number, data: any) {
-    return this.http.patch<ResponseResult<User>>(`${this.userUrl}/${id}`, data);
+  updateUser(id: number, userVm: UserVm) {
+    return this.http.patch<ResponseResult<User>>(`${this.userUrl}/${id}`, userVm);
   }
 }

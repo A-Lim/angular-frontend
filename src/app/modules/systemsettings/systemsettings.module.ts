@@ -3,12 +3,14 @@ import { SharedModule } from 'app/shared/shared.module';
 
 import { SystemSettingsRoutingModule } from './systemsettings.routing';
 import { SystemSettingsComponent } from 'app/modules/systemsettings/systemsettings.component';
-import { SystemsettingsGeneralTabComponent } from 'app/modules/systemsettings/systemsettings-general-tab/systemsettings-general-tab.component';
+import { SystemSettingsGeneralTabComponent } from 'app/modules/systemsettings/systemsettings-general-tab/systemsettings-general-tab.component';
+import { SystemSettingsAuthTabComponent } from './systemsettings-auth-tab/systemsettings-auth-tab.component';
 
 @NgModule({
   declarations: [
     SystemSettingsComponent,
-    SystemsettingsGeneralTabComponent,
+    SystemSettingsGeneralTabComponent,
+    SystemSettingsAuthTabComponent,
   ],
   imports: [
     SystemSettingsRoutingModule,

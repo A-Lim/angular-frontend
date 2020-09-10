@@ -7,9 +7,24 @@ import { UsersCreateComponent } from 'app/modules/users/users-create/users-creat
 import { UsersEditComponent } from 'app/modules/users/users-edit/users-edit.component';
 
 const routes: Routes = [
-  { path: '', component: UsersListComponent, canActivate: [AuthGuard] },
-  { path: 'create', component: UsersCreateComponent, canActivate: [AuthGuard] },
-  { path: ':id', component: UsersEditComponent, canActivate: [AuthGuard] }
+  { 
+    path: '', 
+    component: UsersListComponent, 
+    data: { breadcrumb: 'users' },
+    canActivate: [AuthGuard] 
+  },
+  { 
+    path: 'create', 
+    component: UsersCreateComponent, 
+    data: { breadcrumb: 'create users' },
+    canActivate: [AuthGuard] 
+  },
+  { 
+    path: ':id', 
+    component: UsersEditComponent, 
+    data: { breadcrumb: 'edit users' },
+    canActivate: [AuthGuard] 
+  }
 ];
 
 @NgModule({

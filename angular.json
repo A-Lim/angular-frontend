@@ -24,12 +24,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/vendors/css/forms/select/select2.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "src/styles_animation.css"
             ],
             "scripts": [
-              "src/assets/vendors/js/forms/select/select2.full.min.js"
-            ]
+            ],
+            "allowedCommonJsDependencies": [
+              "ag-grid-angular"
+           ]
           },
           "configurations": {
             "production": {

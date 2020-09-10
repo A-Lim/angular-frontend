@@ -1,47 +1,30 @@
-<!-- BEGIN: Content-->
-<div class="app-content content">
-  <div class="content-overlay"></div>
-  <div class="content-wrapper">
-    <div class="content-header row">
-      <div class="content-header-left col-12 mb-2 mt-1">
-        <div class="row breadcrumbs-top">
-          <div class="col-12">
-            <h5 class="content-header-title float-left pr-1 mb-0">Profile</h5>
-            <div class="breadcrumb-wrapper col-12">
-              <ol class="breadcrumb p-0 mb-0">
-                <li class="breadcrumb-item"><a href="index.html"><i class="bx bx-home-alt"></i></a>
-                </li>
-                <li class="breadcrumb-item active">Profile
-                </li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="content-wrapper">
+  <div class="content-header row">
+    <div class="content-header-left col-12 mb-2 mt-1">
+      <shared-breadcrumb></shared-breadcrumb>
     </div>
-    <div class="content-body">
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" id="general-tab" data-toggle="pill" href="#general"
-            aria-expanded="true">General</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="settings-tab" data-toggle="pill" href="#settings" aria-expanded="false">Settings</a>
-        </li>
-      </ul>
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="general" aria-labelledby="general-tab" aria-expanded="true">
-          <profile-general-tab></profile-general-tab>
-        </div>
-        <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" aria-expanded="false">
-          <p>
-            Carrot cake dragée chocolate. Lemon drops ice cream wafer gummies dragée. Chocolate bar liquorice
-            cheesecake cookie chupa chups marshmallow oat cake biscuit. Dessert toffee fruitcake ice cream powder
-            tootsie roll cake.
-          </p>
-        </div>
+  </div>
+  <div class="content-body">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" id="general-tab" data-toggle="pill" href="#general"
+          aria-expanded="true">General</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="settings-tab" data-toggle="pill" href="#settings" aria-expanded="false">Settings</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="general" aria-labelledby="general-tab" aria-expanded="true">
+        <profile-general-tab></profile-general-tab>
+      </div>
+      <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" aria-expanded="false">
+        <p>
+          Carrot cake dragée chocolate. Lemon drops ice cream wafer gummies dragée. Chocolate bar liquorice
+          cheesecake cookie chupa chups marshmallow oat cake biscuit. Dessert toffee fruitcake ice cream powder
+          tootsie roll cake.
+        </p>
       </div>
     </div>
   </div>
 </div>
-<!-- END: Content-->

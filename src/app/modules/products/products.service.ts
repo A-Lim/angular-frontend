@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { Product } from 'app/shared/models/product.model';
+import { Product } from 'app/modules/products/models/product.model';
 import { API_BASE_URL, API_VERSION } from 'app/configs/app.config';
 import { PaginationResponse } from 'app/shared/models/responses/pagination.response';
 import { ResponseResult } from 'app/shared/models/responses/responseresult.model';
+import { ProductVm } from 'app/modules/products/models/product.model.vm';
 
 
 @Injectable({ providedIn: 'root' })
@@ -22,11 +23,11 @@ export class ProductService {
     return this.http.get<ResponseResult<Product>>(`${this.productUrl}/${id}`);
   }
 
-  createProduct(product: Product) {
+  createProduct(product: ProductVm) {
     return this.http.post<ResponseResult<Product>>(`${this.productUrl}`, product);
   }
 
-  updateProduct(id: number, data: any) {
+  updateProduct(id: number, data: ProductVm) {
     return this.http.patch<ResponseResult<Product>>(`${this.productUrl}/${id}`, data);
   }
 

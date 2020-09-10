@@ -1,75 +1,73 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { Component, OnInit, OnDestroy, AfterViewInit, ViewChild } from '@angular/core';
+import { FormBuilder, Validators, NgForm } from '@angular/forms';
 import { BaseFormComponent } from 'app/shared/components/baseform.component';
 import { AlertService } from 'app/shared/services/alert.service';
-import { User } from 'app/shared/models/user.model';
+import { User } from 'app/modules/users/models/user.model';
 import ValidationUtil from 'app/shared/helpers/validation.util';
 import { AuthService } from 'app/core/services/auth.service';
+import { Base } from 'app/shared/components/base.component';
+import { ProfileVm } from '../models/profile.model.vm';
 
 @Component({
   selector: 'profile-general-tab',
   templateUrl: './profile-general-tab.component.html',
   styleUrls: ['./profile-general-tab.component.css']
 })
-export class ProfileGeneralTabComponent extends BaseFormComponent implements OnInit {
-  public user: User;
+export class ProfileGeneralTabComponent extends Base implements OnInit, OnDestroy, AfterViewInit {
+  
+  user: User;
+  profileVm: ProfileVm;
 
-  constructor(public alertService: AlertService, public authService: AuthService, 
-    private formBuilder: FormBuilder) {
+  @ViewChild('form')
+  form: NgForm;
+
+  constructor(public authService: AuthService) {
     super();
-
-    this.form = this.formBuilder.group({
-      name: ['', [Validators.required]],
-      email: [{ value: '', disabled: true }, [Validators.required, Validators.email]],
-      oldPassword: ['', Validators.minLength(8)],
-      newPassword: ['', [Validators.minLength(8)]],
-      confirmPassword: ['', []]
-    }, {
-      validator: [
-        ValidationUtil.matchValue('newPassword', 'confirmPassword'),
-        // if either oldPassword or newPassword is filled, the other will be required
-        ValidationUtil.requiredIf('oldPassword', 'newPassword'),
-        ValidationUtil.requiredIf('newPassword', 'oldPassword')
-      ]
-    });
   }
 
   ngOnInit() {
-    this.startLoading();
+    super.ngOnInit();
+    this.loadProfile();
+  }
+
+  ngOnDestroy() {
+    super.ngOnDestroy();
+  }
+
+  ngAfterViewInit() {
+
+  }
+
+  loadProfile() {
+    this.isLoading = true;
     this.authService.getProfile()
       .subscribe(response => {
         this.user = response.data;
-        this.form.patchValue(response.data);
-        this.endLoading();
-      }, _ => {
-        this.endLoading();
-      });
+        this.profileVm = <ProfileVm> { name: response.data.name };
+        this.isLoading = false;
+      }, _ => { this.isLoading = false; });
   }
 
   onSubmit() {
-    super.onSubmit();
+    this.submitted = true;
+
     // validate form
-    if (!this.form.valid) {
+    if (!this.form.valid)
       return;
-    }
 
-    this.startLoading();
-    // format form value
-    const input = {
-      name: this.form.value.name,
-      email: this.form.value.email,
-      oldPassword: this.form.value.oldPassword,
-      newPassword: this.form.value.newPassword,
-      newPassword_confirmation: this.form.value.confirmPassword
-    }
+    this.isLoading = true;
 
-    this.authService.updateProfile(input)
+    this.authService.updateProfile(this.profileVm)
       .subscribe(response => {
-        this.alertService.success(response.message);
+        this.swalAlert('Success', response.message, 'success');
         this.user = response.data;
-        this.endLoading();
-      }, _ => {
-        this.endLoading();
-      });
+
+        this.profileVm.oldPassword = null;
+        this.profileVm.newPassword = null;
+        this.profileVm.newPassword_confirmation = null;
+        
+        this.submitted = false;
+        this.isLoading = false;
+      }, _ => { this.isLoading = false; });
   }
 }

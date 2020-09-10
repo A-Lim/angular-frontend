@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SelectComponent } from './select.component';
+import { AuthorizedContentComponent } from './authorized-content.component';
 
-describe('SelectComponent', () => {
-  let component: SelectComponent;
-  let fixture: ComponentFixture<SelectComponent>;
+describe('AuthorizedContentComponent', () => {
+  let component: AuthorizedContentComponent;
+  let fixture: ComponentFixture<AuthorizedContentComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SelectComponent ]
+      declarations: [ AuthorizedContentComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SelectComponent);
+    fixture = TestBed.createComponent(AuthorizedContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

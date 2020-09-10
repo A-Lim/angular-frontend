@@ -1,19 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { App } from 'app/configs/app.config';
+import { Base } from 'app/shared/components/base.component';
 
 @Component({
   selector: 'profile',
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.css']
 })
-export class ProfileComponent implements OnInit {
+export class ProfileComponent extends Base implements OnInit, OnDestroy {
   
-  constructor(private titleService: Title) {
+  constructor() {
+    super();
   }
 
   ngOnInit() {
-    this.titleService.setTitle(`${App.NAME} | Profile`);
+    super.ngOnInit();
+    this.setTitle('Create Product');
+  }
+
+  ngOnDestroy() {
+    super.ngOnDestroy();
   }
 
 }

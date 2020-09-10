@@ -6,6 +6,8 @@ import { API_BASE_URL, API_VERSION } from 'app/configs/app.config';
 import { PaginationResponse } from 'app/shared/models/responses/pagination.response';
 import { ResponseResult } from 'app/shared/models/responses/responseresult.model';
 import { PermissionModule } from 'app/modules/usergroups/models/permissionmodule.model';
+import { UserGroupVm } from './models/usergroup.model.vm';
+import { map, tap } from 'rxjs/operators';
 
 
 @Injectable({ providedIn: 'root' })
@@ -14,6 +16,10 @@ export class UserGroupService {
   private permissionUrl = `${API_BASE_URL}/api/${API_VERSION}/permissions`;
 
   constructor(private http: HttpClient) {
+  }
+
+  checkCodeExists(code: string, userGroupId?: number) {
+    return this.http.post<ResponseResult<boolean>>(`${this.userGroupUrl}/exists`, { code, userGroupId });
   }
 
   getPermissions() {
@@ -28,12 +34,12 @@ export class UserGroupService {
     return this.http.get<ResponseResult<UserGroup>>(`${this.userGroupUrl}/${id}`);
   }
 
-  createProduct(product: UserGroup) {
-    return this.http.post<ResponseResult<UserGroup>>(`${this.userGroupUrl}`, product);
+  createUserGroup(userGroupVm: UserGroupVm) {
+    return this.http.post<ResponseResult<UserGroup>>(`${this.userGroupUrl}`, userGroupVm);
   }
 
-  updateUserGroup(id:number, data: any) {
-    return this.http.patch<ResponseResult<UserGroup>>(`${this.userGroupUrl}/${id}`, data);
+  updateUserGroup(id:number, userGroupVm: UserGroupVm) {
+    return this.http.patch<ResponseResult<UserGroup>>(`${this.userGroupUrl}/${id}`, userGroupVm);
   }
 
   deleteUserGroup(id: number) {

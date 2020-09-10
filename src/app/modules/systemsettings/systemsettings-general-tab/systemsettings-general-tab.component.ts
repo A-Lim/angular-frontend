@@ -6,7 +6,7 @@ import { BaseFormComponent } from 'app/shared/components/baseform.component';
   templateUrl: './systemsettings-general-tab.component.html',
   styleUrls: ['./systemsettings-general-tab.component.css']
 })
-export class SystemsettingsGeneralTabComponent extends BaseFormComponent implements OnInit {
+export class SystemSettingsGeneralTabComponent extends BaseFormComponent implements OnInit {
 
   constructor() { 
     super();

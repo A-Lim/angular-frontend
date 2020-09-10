@@ -12,6 +12,8 @@ import { HttpErrorInterceptor } from 'app/core/interceptors/httperror.intercepto
 // modules
 import { SharedModule } from 'app/shared/shared.module';
 
+import { AbilityModule } from '@casl/angular';
+import { Ability, PureAbility } from '@casl/ability';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,7 @@ import { SharedModule } from 'app/shared/shared.module';
     AppRoutingModule,
     HttpClientModule,
     SharedModule,
-    
+    AbilityModule,
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },

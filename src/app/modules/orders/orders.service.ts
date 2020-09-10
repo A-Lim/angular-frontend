@@ -3,11 +3,11 @@ import { HttpClient } from '@angular/common/http';
 
 import { API_BASE_URL, API_VERSION } from 'app/configs/app.config';
 import { PaginationResponse } from 'app/shared/models/responses/pagination.response';
-import { Order } from 'app/shared/models/order.model';
-import { OrderBadge } from 'app/shared/models/orderbadge.model';
-import { OrderStatistics } from 'app/shared/models/orderstatistics.model';
+import { Order } from 'app/modules/orders/models/order.model';
+import { OrderBadge } from 'app/modules/orders/models/orderbadge.model';
+import { OrderStatistics } from 'app/modules/orders/models/orderstatistics.model';
 import { ResponseResult } from 'app/shared/models/responses/responseresult.model';
-import { OrderWorkItem } from 'app/shared/models/orderworkitem.model';
+import { OrderWorkItem } from 'app/modules/orders/models/orderworkitem.model';
 
 
 @Injectable({ providedIn: 'root' })

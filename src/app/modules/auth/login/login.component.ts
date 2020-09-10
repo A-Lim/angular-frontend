@@ -1,60 +1,50 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
-import { Title } from '@angular/platform-browser';
-import { FormBuilder, Validators, FormGroup } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
-import { App } from 'app/configs/app.config';
 import { AuthService } from 'app/core/services/auth.service';
-import { BaseFormComponent } from 'app/shared/components/baseform.component';
+import { Base } from 'app/shared/components/base.component';
+import { LoginVm } from 'app/modules/auth/models/login.model.vm';
+
 
 @Component({
   selector: 'auth-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent extends BaseFormComponent implements OnInit {
-  public form: FormGroup;
-  public submitted: boolean = false;
+export class LoginComponent extends Base implements OnInit, OnDestroy {
+  
+  @ViewChild('form')
+  form: NgForm;
+  
+  loginVm: LoginVm;
 
-  constructor(private titleService: Title, private formBuilder: FormBuilder,
-              private router: Router, public authService: AuthService) {
+  constructor(public authSvc: AuthService) {
     super();
-
-    
   }
   
   ngOnInit() {
-    this.initForm();
-    this.titleService.setTitle(`${App.NAME} | Login`);
+    super.ngOnInit();
+    this.setTitle('Login');
+    this.loginVm = new LoginVm();
   }
 
-  initForm() {
-    // initialize form with validations
-    this.form = this.formBuilder.group({
-      email: ['', [Validators.required, Validators.email]],
-      password: ['', [Validators.required, Validators.minLength(8)]]
-    });
+  ngOnDestroy() {
+    super.ngOnDestroy();
   }
 
   onSubmit() {
-    super.onSubmit();
+    this.submitted = true;
     // validate form
-    if (!this.form.valid) {
+    if (!this.form.valid)
       return;
-    }
 
-    const authData = {
-      email: this.form.value.email,
-      password: this.form.value.password,
-      rememberMe: false,
-    };
-
-    this.startLoading();
-    this.authService.login(authData).subscribe(returnUrl => {
-      this.endLoading();
-      this.router.navigate([returnUrl]);
-    }, _ => {
-      this.endLoading();
-    });
+    this.isLoading = true;
+    this.authSvc.login(this.loginVm)
+      .subscribe(_ => {
+        this.isLoading = false;
+        this.router.navigate(['admin/dashboard']);
+      }, _ => {
+        this.isLoading = false;
+      });
   }
 }

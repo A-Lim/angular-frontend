@@ -1,8 +1,8 @@
-import { FormGroup, Validators, FormControl, ValidatorFn, AbstractControl } from '@angular/forms';
+import { FormGroup, ValidatorFn, AbstractControl, ValidationErrors } from '@angular/forms';
 
 export default class ValidationUtil {
   // check if first field matches the second field
-  static matchValue(firstControlName: string, secondControlName: string): any {
+  static matchValue(firstControlName: string, secondControlName: string) {
     return (formGroup: FormGroup) => {
       const firstControl = formGroup.controls[firstControlName];
       const secondControl = formGroup.controls[secondControlName];
@@ -27,7 +27,7 @@ export default class ValidationUtil {
   }
 
   // validate second field as required if firstfield is not null
-  static requiredIf(firstControlName: string, secondControlName: string): any {
+  static requiredIf(firstControlName: string, secondControlName: string) {
     return (formGroup: FormGroup) => {
       const firstControl = formGroup.controls[firstControlName];
       const secondControl = formGroup.controls[secondControlName];
@@ -45,14 +45,13 @@ export default class ValidationUtil {
   }
 
   // validate second field as required if based on value of first field
-  static requiredIfValue(firstControlName: string, firstControlValue: any, secondControlName: string): any {
+  static requiredIfValue(firstControlName: string, firstControlValue: any, secondControlName: string): ValidatorFn {
     return (formGroup: FormGroup) => {
       const firstControl = formGroup.controls[firstControlName];
       const secondControl = formGroup.controls[secondControlName];
 
       if (secondControl.errors && !secondControl.errors.requiredIf)
         return null;
-      
 
       if (firstControl.value == firstControlValue && !secondControl.value)
         secondControl.setErrors({ requiredIfValue: true });
@@ -61,22 +60,12 @@ export default class ValidationUtil {
     };
   }
 
-  // static allowedFileTypes(types: string[]) {
-  //   return function (control: FormControl) {
-  //     const file = control.value;
-  //     if (!file)
-  //       return null;
+  static isInt() {
 
-  //     const extension = file.name.split('.')[1].toLowerCase();
-  //     if (!types.includes(extension))
-  //       control.setErrors({ allowedFileTypes: true });
-  //     else 
-  //       control.setErrors(null);
-  //   };
-  // }
+  }
 
   static allowedFileTypes(types: string[]): ValidatorFn {
-    return (control: AbstractControl): {[key: string]: any} | null => {
+    return (control: AbstractControl): ValidationErrors | null => {
       const file = control.value;
       if (!file)
         return null;

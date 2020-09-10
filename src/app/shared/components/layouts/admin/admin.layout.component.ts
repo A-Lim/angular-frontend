@@ -12,6 +12,7 @@ export class AdminLayoutComponent implements OnInit {
   ngOnInit() {
     this.renderer.removeClass(document.body, '1-column');
     this.renderer.removeClass(document.body, 'blank-page');
+    this.renderer.removeClass(document.body, 'bg-full-screen-image');
     this.renderer.addClass(document.body, '2-column');
     this.renderer.setAttribute(document.body, 'data-col', '2-columns');
   }

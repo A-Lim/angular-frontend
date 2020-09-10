@@ -2,103 +2,63 @@
   <div class="content-header row">
     <div class="content-header-left col-12 mb-2 mt-1">
       <shared-breadcrumb></shared-breadcrumb>
-      <!-- <div class="row breadcrumbs-top">
-        <div class="col-12">
-          <h5 class="content-header-title float-left pr-1 mb-0">User Groups</h5>
-          <div class="breadcrumb-wrapper col-12">
-            {{ breadcrumbs$ | async }}
-            <ol class="breadcrumb p-0 mb-0">
-              <li class="breadcrumb-item"><a routerLink="/admin/dashboard"><i class="bx bx-home-alt"></i></a>
-              </li>
-              <li class="breadcrumb-item"><a routerLink="/admin/usergroups"> User Groups</a>
-              </li>
-              <li class="breadcrumb-item active">Create User Group
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div> -->
     </div>
   </div>
+  
   <div class="content-body">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title">
-              Create User Group
+    <shared-authorized-content 
+    [permissions]="['create.usergroups']">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-body">
+            <div class="alert mb-1 alert-info" role="alert">
+              <span class="alert-message">Updates will only take effect after user logs in again.</span>
+            </div>
+            <!-- <shared-alert></shared-alert> -->
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" [class.bg-danger]="submitted && !generalTabValid"
+                  id="general-tab" data-toggle="pill" href="#general"
+                  aria-expanded="true">
+                  <span *ngIf="submitted && !generalTabValid">!</span> General
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [class.bg-danger]="submitted && !usersTabValid"
+                  id="users-tab" data-toggle="pill" href="#users" 
+                  aria-expanded="false">
+                  <span *ngIf="submitted && !usersTabValid">!</span> Users
+                </a>
+              </li>
+            </ul>
+  
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="general" aria-labelledby="general-tab" aria-expanded="true">
+                <usergroups-create-general-tab 
+                  [userGroupVm]="userGroupVm"
+                  [permissionModules$]="permissionModules$"
+                  [submitted]="submitted"
+                  [isLoading]="isLoading"
+                  (formValid)="onFormStatusChange(UserGroupTab.General, $event)"></usergroups-create-general-tab>
+              </div>
+              <div class="tab-pane" id="users" role="tabpanel" aria-labelledby="users-tab" aria-expanded="false">
+                <usergroups-create-users-tab
+                  [userGroupVm]="userGroupVm"
+                  [submitted]="submitted"
+                  [isLoading]="isLoading"
+                  (formValid)="onFormStatusChange(UserGroupTab.Users, $event)"></usergroups-create-users-tab>
+              </div>
+            </div>
+  
+            <div class="form-actions d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary pull-right" (click)="onSubmit()"
+                [disabled]="isLoading">
+                <span *ngIf="isLoading" class="spinner-border spinner-border-sm"></span> Create
+              </button>
             </div>
           </div>
-          <div class="card-content">
-            <div class="card-body">
-              <form autocomplete="off">
-                <div class="row">
-                  <!-- name -->
-                  <!-- <div class="col-md-6 form-group mb-50" [ngClass]="{ 'error': submitted && f.name.errors }">
-                    <label class="text-bold-600" for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Name">
-                    <div class="help-block" *ngIf="submitted && f.name.errors">
-                      <ul role="alert">
-                        <li *ngIf="f.name.errors.required" class="text-danger" role="alert">Name is required.</li>
-                      </ul>
-                    </div>
-                  </div> -->
-
-                  <!-- code -->
-                  <!-- <div class="col-md-6 form-group mb-50" [ngClass]="{ 'error': submitted && f.name.errors }">
-                    <label class="text-bold-600" for="code">Code</label>
-                    <input type="text" class="form-control" id="code" placeholder="Code">
-                    <div class="help-block" *ngIf="submitted && f.name.errors">
-                      <ul role="alert">
-                        <li *ngIf="f.code.errors.required" class="text-danger" role="alert">Code is required.</li>
-                      </ul>
-                    </div>
-                  </div> -->
-                </div>
-
-                <div class="row">
-                  <!-- status -->
-                  <!-- <div class="col-md-6 form-group mb-50" [ngClass]="{ 'error': submitted && f.status.errors }">
-                    <label class="text-bold-600" for="status">Status</label>
-                    <select class="form-control">
-                      <option value="active" selected>Active</option>
-                      <option value="inactive">Inactive</option>
-                    </select>
-                    <div class="help-block" *ngIf="submitted && f.status.errors">
-                      <ul role="alert">
-                        <li *ngIf="f.status.errors.required" class="text-danger" role="alert">Status is required.</li>
-                      </ul>
-                    </div>
-                  </div> -->
-                </div>
-
-                <!-- permissions -->
-                <!-- <div class="row">
-                  <div *ngFor="let module of permissionModules" class="col-md-3">
-                    <label>{{ module.name }}</label>
-                    <div class="row">
-                      <div *ngFor="let permission of module.permissions" class="col-12 mb-50">
-                        <div class="checkbox">
-                          <input type="checkbox" class="checkbox-input" 
-                            id="permission_{{ permission.name }}">
-                          <label for="permission_{{ permission.name }}">{{ permission.name }}</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-                
-                <div class="form-actions d-flex justify-content-end">
-                  <button type="submit" class="btn btn-primary pull-right" [disabled]="isLoading">
-                    <span *ngIf="isLoading" class="spinner-border spinner-border-sm"></span> Create
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          
         </div>
       </div>
-    </div>
+    </shared-authorized-content>
   </div>
 </div>

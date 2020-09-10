@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription, Observable } from 'rxjs';
 
-import { User } from 'app/shared/models/user.model';
+import { User } from 'app/modules/users/models/user.model';
 import { AuthService } from 'app/core/services/auth.service';
 import { AlertService } from 'app/shared/services/alert.service';
 import { Router } from '@angular/router';
@@ -12,17 +12,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  // private authListenerSubscriber: Subscription;
-  // public isAuthenticated = false;
-  // public user: User;
+
   public isAuthenticated$: Observable<boolean>;
   public user$: Observable<User>;
 
-  constructor(private authService: AuthService, private alertService: AlertService, private router: Router) { }
+  constructor(private authSvc: AuthService, private alertService: AlertService, private router: Router) { }
 
   ngOnInit() {
-    this.isAuthenticated$ = this.authService.isAuthenticated$;
-    this.user$ = this.authService.user$;
+    this.isAuthenticated$ = this.authSvc.isAuthenticated$;
+    this.user$ = this.authSvc.user$;
     // authListenerSubscriber block might not be initialize first cause synchronous code
     // call checkIsAuthenticated first in case subscriber is not called
     // this.isAuthenticated = this.authService.isAuthenticated();
@@ -36,7 +34,7 @@ export class NavComponent implements OnInit {
   }
   
   onLogout() {
-    this.authService.logout()
+    this.authSvc.logout()
       .subscribe(response => {
         this.alertService.success(response.message, true);
         this.router.navigate(['login']);
