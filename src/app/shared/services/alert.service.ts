@@ -30,20 +30,23 @@ export class AlertService {
   success(message: any, hideAfterDelay: boolean = true, keepAfterRouteChange: boolean = false) {
     this.hideAfterDelay = hideAfterDelay;
     this.keepAfterRouteChange = keepAfterRouteChange;
-    const alert: Alert = { type: AlertType.success, message };
+    const alert = <Alert>{ type: AlertType.success, message };
+    console.log(message);
+    console.log(alert);
     this.alertBS.next(alert);
   }
 
   error(message: any, hideAfterDelay: boolean = true, keepAfterRouteChange: boolean = false) {
     this.hideAfterDelay = hideAfterDelay;
     this.keepAfterRouteChange = keepAfterRouteChange;
-    const alert: Alert = { type: AlertType.error, message };
+    const alert = <Alert>{ type: AlertType.error, message };
     this.alertBS.next(alert);
   }
 
 
 
   clear() {
+    console.log("CLEAR");
     this.alertBS.next(null);
   }
 }

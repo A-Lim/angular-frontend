@@ -23,13 +23,14 @@ export class AlertComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.clear$.pipe(
-      delay(5000),
-    ).subscribe(_ => this.alertService.clear());
+    // this.clear$.pipe(
+    //   delay(5000),
+    // ).subscribe(_ => this.alertService.clear());
 
     this.alertService.alert$
       .pipe(takeUntil(this.destroy$))
       .subscribe(data => {
+        console.log(data);
         if (data) {
           this.type = data.type;
           // check if data type

@@ -21,36 +21,42 @@ export class AuthInterceptor implements HttpInterceptor {
 
     return next.handle(authRequest).pipe(
       catchError(error => {
-        if (error.status === 401 && error.error.message === 'Unauthenticated.') {
-          this.isRefreshing = true;
-          this.refreshTokenSubject.next(null);
-
-          return this.refreshToken(req, next);
+        if (error.status === 401) {
+          this.authSvc.reset();
+          this.alertSvc.error('Session expired.', true, true);
+          this.router.navigate(['login']);
         }
+
+        // if (error.status === 401 && error.error.message === 'Unauthenticated.') {
+        //   this.isRefreshing = true;
+        //   this.refreshTokenSubject.next(null);
+
+        //   return this.refreshToken(req, next);
+        // }
         return throwError(error);
       })
     );
   }
   
-  private refreshToken(req: HttpRequest<any>, next: HttpHandler) {
-    return this.authSvc.refreshAuthToken().pipe(
-      switchMap(response => {
-        const refreshResponse = response.data;
+  // private refreshToken(req: HttpRequest<any>, next: HttpHandler) {
+  //   return this.authSvc.refreshAuthToken().pipe(
+  //     switchMap(response => {
+  //       const refreshResponse = response.data;
 
-        this.isRefreshing = false;
-        this.refreshTokenSubject.next(refreshResponse.refreshToken);
-        return next.handle(this.addToken(req, refreshResponse.accessToken));
-      }),
-      // error during refresh token
-      // clear authdata and redirect to login page
-      catchError(error => {
-        this.authSvc.reset();
-        this.alertSvc.error('Session expired.', false, true);
-        this.router.navigate(['login']);
-        return throwError(error);
-      })
-  );
-  }
+  //       this.isRefreshing = false;
+  //       this.refreshTokenSubject.next(refreshResponse.refreshToken);
+  //       return next.handle(this.addToken(req, refreshResponse.accessToken));
+  //     }),
+  //     // error during refresh token
+  //     // clear authdata and redirect to login page
+  //     catchError(error => {
+  //       this.authSvc.reset();
+  //       this.alertSvc.error('Session expired.', false, true);
+  //       this.router.navigate(['login']);
+  //       return throwError(error);
+  //     })
+  //   );
+  // }
 
   private addToken(req: HttpRequest<any>, accessToken: string) {
     return req.clone({

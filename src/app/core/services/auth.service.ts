@@ -21,9 +21,7 @@ import { ResetPasswordVm } from 'app/modules/auth/models/resetpassword.model.vm'
 export class AuthService {
   private _url = `${API_BASE_URL}/api/${API_VERSION}`;
   private _accessToken: string;
-  private _refreshToken: string;
-  // private _ability: PureAbility;
-  // private _permissions: string[];
+  // private _refreshToken: string;
 
   private _isAuthenticatedBS = new BehaviorSubject<boolean>(false);
   private _userBS = new BehaviorSubject<User>(null);
@@ -37,52 +35,30 @@ export class AuthService {
     return this._accessToken;
   }
 
-  get refreshToken(): string {
-    return this._refreshToken;
-  }
-
-  // get permissions(): string[] {
-  //   return this._permissions;
+  // get refreshToken(): string {
+  //   return this._refreshToken;
   // }
-  
 
-  refreshAuthToken() {
-    const data = { refreshToken: this.refreshToken };
-    return this.http.post<ResponseResult<TokenData>>(`${this._url}/token/refresh` , data)
-      .pipe(
-        tap(response => {
-          const tokenData = response.data;
-          this._accessToken = tokenData.accessToken;
-          this._refreshToken = tokenData.refreshToken;
-          this._saveAuthData(tokenData.accessToken, tokenData.refreshToken, tokenData.expiresIn);
-        })
-      );
-  }
+  // refreshAuthToken() {
+  //   const data = { refreshToken: this.refreshToken };
+  //   return this.http.post<ResponseResult<TokenData>>(`${this._url}/token/refresh` , data)
+  //     .pipe(
+  //       tap(response => {
+  //         const tokenData = response.data;
+  //         this._accessToken = tokenData.accessToken;
+  //         this._refreshToken = tokenData.refreshToken;
+  //         this._saveAuthData(tokenData.accessToken, tokenData.refreshToken, tokenData.expiresIn);
+  //       })
+  //     );
+  // }
 
   login(data: LoginVm) {
-    // const returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/admin/dashboard';
     return this.http.post<ResponseResult<LoginData>>(`${this._url}/login` , data)
       .pipe(tap(response => this._handleLoginData(response.data)));
   }
 
   register(data: RegisterVm) {
-    return this.http.post<any>(`${this._url}/register` , data)
-      .pipe(
-        tap(response => {
-          // if (response.data) {
-          //   const data = response.data;
-          //   this._accessToken = data.accessToken;
-          //   this._refreshToken = data.refreshToken;
-
-          //   this._saveAuthData(data.accessToken, data.refreshToken, data.expiresIn);
-          //   this._saveUserData(data.user);
-          //   // todo check for redirect
-
-          //   this._isAuthenticatedBS.next(true);
-          //   this._userBS.next(data.user);
-          // }
-        })
-      );
+    return this.http.post<any>(`${this._url}/register` , data);
   }
 
   forgotPassword(data: ForgotPasswordVm) {
@@ -129,7 +105,7 @@ export class AuthService {
 
     if (expiresIn > 0) {
       this._accessToken = authData.accessToken;
-      this._refreshToken = authData.refreshToken;
+      // this._refreshToken = authData.refreshToken;
 
       this._defineAbilities(authData.permissions);
       
@@ -144,22 +120,23 @@ export class AuthService {
 
   reset() {
     this._accessToken = null;
-    this._refreshToken = null;
+    // this._refreshToken = null;
 
     this._isAuthenticatedBS.next(false);
     this._userBS.next(null);
 
     localStorage.removeItem('accessToken');
-    localStorage.removeItem('refreshToken');
+    // localStorage.removeItem('refreshToken');
     localStorage.removeItem('expiration');
     localStorage.removeItem('user');
   }
 
   private _handleLoginData(data: LoginData) {
     this._accessToken = data.accessToken;
-    this._refreshToken = data.refreshToken;
+    // this._refreshToken = data.refreshToken;
 
-    this._saveAuthData(data.accessToken, data.refreshToken, data.expiresIn);
+    // this._saveAuthData(data.accessToken, data.refreshToken, data.expiresIn);
+    this._saveAuthData(data.accessToken, data.expiresIn);
     this._saveUserData(data.user);
     this._savePermissions(data.permissions);
     this._defineAbilities(data.permissions);
@@ -185,13 +162,14 @@ export class AuthService {
     localStorage.setItem('permissions', JSON.stringify(permissions));
   }
 
-  private _saveAuthData(accessToken: string, refreshToken: string, expiresIn: number) {
+  // private _saveAuthData(accessToken: string, refreshToken: string, expiresIn: number) {
+  private _saveAuthData(accessToken: string, expiresIn: number) {
     // calculate expiration date time
     const now = new Date();
     const expirationDate = new Date(now.getTime() + expiresIn * 1000);
     
     localStorage.setItem('accessToken', accessToken);
-    localStorage.setItem('refreshToken', refreshToken);
+    // localStorage.setItem('refreshToken', refreshToken);
     localStorage.setItem('expiration', expirationDate.toISOString());
   }
 
@@ -201,14 +179,14 @@ export class AuthService {
 
   private _getLocalData() {
     const accessToken = localStorage.getItem('accessToken');
-    const refreshToken = localStorage.getItem('refreshToken');
+    // const refreshToken = localStorage.getItem('refreshToken');
     const expirationDate = localStorage.getItem('expiration');
     const user = JSON.parse(localStorage.getItem('user'));
     const permissions = JSON.parse(localStorage.getItem('permissions'));
 
     return {
       accessToken,
-      refreshToken,
+      // refreshToken,
       expirationDate: new Date(expirationDate),
       user,
       permissions,

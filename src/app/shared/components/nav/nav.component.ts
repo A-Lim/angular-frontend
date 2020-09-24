@@ -16,7 +16,7 @@ export class NavComponent implements OnInit {
   public isAuthenticated$: Observable<boolean>;
   public user$: Observable<User>;
 
-  constructor(private authSvc: AuthService, private alertService: AlertService, private router: Router) { }
+  constructor(private authSvc: AuthService, private alertSvc: AlertService, private router: Router) { }
 
   ngOnInit() {
     this.isAuthenticated$ = this.authSvc.isAuthenticated$;
@@ -36,10 +36,10 @@ export class NavComponent implements OnInit {
   onLogout() {
     this.authSvc.logout()
       .subscribe(response => {
-        this.alertService.success(response.message, true);
+        this.alertSvc.success(response.message, true, true);
         this.router.navigate(['login']);
       }, error => {
-        this.alertService.error(error);
+        this.alertSvc.error(error);
       });
   }
 
