@@ -2,6 +2,9 @@
   "root": true,
   "ignorePatterns": ["!**/*"],
   "plugins": ["@nx"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
   "overrides": [
     {
       "files": ["*.ts"],

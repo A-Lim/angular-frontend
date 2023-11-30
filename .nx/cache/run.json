@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx serve",
-    "startTime": "2023-11-30T13:39:32.624Z",
-    "endTime": "2023-11-30T13:48:56.043Z",
+    "startTime": "2023-11-30T14:35:17.610Z",
+    "endTime": "2023-11-30T14:46:39.768Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "angular-frontend:serve:development",
       "target": "serve",
       "projectName": "angular-frontend",
-      "hash": "9782355895675993164",
-      "startTime": "2023-11-30T13:39:32.630Z",
-      "endTime": "2023-11-30T13:48:56.041Z",
+      "hash": "7897374199237329362",
+      "startTime": "2023-11-30T14:35:17.616Z",
+      "endTime": "2023-11-30T14:46:39.766Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

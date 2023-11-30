@@ -34,6 +34,7 @@
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
+    "autoprefixer": "^10.4.0",
     "eslint": "~8.46.0",
     "eslint-config-prettier": "8.1.0",
     "jest": "^29.4.1",
@@ -42,7 +43,9 @@
     "jsonc-eslint-parser": "^2.1.0",
     "nx": "16.10.0",
     "nx-cloud": "latest",
+    "postcss": "^8.4.5",
     "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.2",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
     "typescript": "~5.1.3"
@@ -59,7 +62,7 @@
         },
         {
           "file": ".eslintrc.json",
-          "hash": "2232027051750015508"
+          "hash": "8556151632730127452"
         },
         {
           "file": ".gitignore",
@@ -67,31 +70,31 @@
         },
         {
           "file": ".nx/cache/d/daemon.log",
-          "hash": "3244421341483603138"
+          "hash": "9516231258495346974"
         },
         {
           "file": ".nx/cache/d/server-process.json",
-          "hash": "3244421341483603138"
+          "hash": "17940731345491469641"
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "16997933818465204859"
+          "hash": "18305702580747070550"
         },
         {
           "file": ".nx/cache/lockfile.hash",
-          "hash": "13156199694797018063"
+          "hash": "16691419492279062350"
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "11925844531877125479"
+          "hash": "16284535157826516151"
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "8880056288012756165"
+          "hash": "15451515951563834277"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "8333672429004018011"
+          "hash": "202767765027247888"
         },
         {
           "file": ".nx/cache/terminalOutputs/10282923682753078730",
@@ -100,6 +103,14 @@
         {
           "file": ".nx/cache/terminalOutputs/5253330584888433673",
           "hash": "5046693848166783669"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/5308413561120233626",
+          "hash": "3500334094716108167"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/7897374199237329362",
+          "hash": "6756759636635984617"
         },
         {
           "file": ".nx/cache/terminalOutputs/9782355895675993164",
@@ -116,6 +127,10 @@
         {
           "file": ".vscode/extensions.json",
           "hash": "9392732878363658046"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "3485341486138170105"
         },
         {
           "file": "README.md",
@@ -138,11 +153,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "5361943721198063807"
+          "hash": "12661774193600137014"
         },
         {
           "file": "package.json",
-          "hash": "6842737073168928529",
+          "hash": "10300874222281793557",
           "deps": [
             "npm:@angular/animations",
             "npm:@angular/common",
@@ -176,6 +191,7 @@
             "npm:@types/node",
             "npm:@typescript-eslint/eslint-plugin",
             "npm:@typescript-eslint/parser",
+            "npm:autoprefixer",
             "npm:eslint",
             "npm:eslint-config-prettier",
             "npm:jest",
@@ -184,6 +200,7 @@
             "npm:jsonc-eslint-parser",
             "npm:nx",
             "npm:nx-cloud",
+            "npm:postcss",
             "npm:prettier",
             "npm:ts-jest",
             "npm:ts-node",
@@ -223,14 +240,6 @@
           "hash": "7177864686882522586",
           "deps": [
             "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "src/app/app.config.ts",
-          "hash": "13197659159207210090",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
           ]
         },
         {
@@ -313,14 +322,14 @@
         },
         {
           "file": "src/main.ts",
-          "hash": "13650350014265137701",
+          "hash": "14191774545949582757",
           "deps": [
             "npm:@angular/platform-browser-dynamic"
           ]
         },
         {
           "file": "src/styles.scss",
-          "hash": "5195668842064076916"
+          "hash": "17788899824995975898"
         },
         {
           "file": "src/test-setup.ts",
@@ -332,6 +341,14 @@
         {
           "file": "src/theme.less",
           "hash": "4328193622599512339"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "4616538962241029475",
+          "deps": [
+            "npm:@nx/angular",
+            "npm:path"
+          ]
         },
         {
           "file": "tsconfig.app.json",
@@ -350,15 +367,7 @@
           "hash": "16287279946930924495"
         },
         {
-          "file": ".nx/cache/terminalOutputs/5308413561120233626",
-          "hash": "3500334094716108167"
-        },
-        {
-          "file": ".vscode/launch.json",
-          "hash": "3485341486138170105"
-        },
-        {
-          "file": ".nx/cache/terminalOutputs/7897374199237329362",
+          "file": ".nx/cache/terminalOutputs/7517767730060856286",
           "hash": "3244421341483603138"
         }
       ]
