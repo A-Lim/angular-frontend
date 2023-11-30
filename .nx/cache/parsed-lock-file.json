@@ -135,6 +135,15 @@
         "hash": "sha512-BPssCHrBD+0YrxviOa3QzpqwhNIXKEtOa2jQrm4FlmkC2apYgRnQcmPWiGZDlGxiNtltnUFolMe8497Esry+jA=="
       }
     },
+    "npm:@babel/generator@7.17.7": {
+      "type": "npm",
+      "name": "npm:@babel/generator@7.17.7",
+      "data": {
+        "version": "7.17.7",
+        "packageName": "@babel/generator",
+        "hash": "sha512-oLcVCTeIFadUoArDTwpluncplrYBmTCCZZgXCbgNGvOBBiSDDK3eWO4b/+eOTli5tKv1lg+a5/NAXg+nTcei1w=="
+      }
+    },
     "npm:@babel/plugin-transform-async-to-generator@7.22.5": {
       "type": "npm",
       "name": "npm:@babel/plugin-transform-async-to-generator@7.22.5",
@@ -1339,6 +1348,15 @@
         "version": "0.6.1",
         "packageName": "source-map",
         "hash": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
+      }
+    },
+    "npm:source-map@0.5.7": {
+      "type": "npm",
+      "name": "npm:source-map@0.5.7",
+      "data": {
+        "version": "0.5.7",
+        "packageName": "source-map",
+        "hash": "sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ=="
       }
     },
     "npm:source-map": {
@@ -3078,6 +3096,15 @@
         "hash": "sha512-czx7Xy5a6sapWWRx61m1Ke1Ra4vczu1mCTtJam5zRTBOonfdJ+S/B6HYmGYu3fJtr8GGET3si6IhgWVBhJ/m8w=="
       }
     },
+    "npm:@babel/traverse@7.23.2": {
+      "type": "npm",
+      "name": "npm:@babel/traverse@7.23.2",
+      "data": {
+        "version": "7.23.2",
+        "packageName": "@babel/traverse",
+        "hash": "sha512-azpe59SQ48qG6nu2CzcMLbxUudtN+dOM9kDbUqGq3HXUJRlo7i8fvPoxQUzYgLZ4cMVmuZgm8vvBpNeRhd6XSw=="
+      }
+    },
     "npm:@babel/types": {
       "type": "npm",
       "name": "npm:@babel/types",
@@ -3085,6 +3112,15 @@
         "version": "7.23.5",
         "packageName": "@babel/types",
         "hash": "sha512-ON5kSOJwVO6xXVRTvOI0eOnWe7VdUcIpsovGo9U/Br4Ie4UVFQTboO2cYnDhAGU6Fp+UxSiT+pMft0SMHfuq6w=="
+      }
+    },
+    "npm:@babel/types@7.17.0": {
+      "type": "npm",
+      "name": "npm:@babel/types@7.17.0",
+      "data": {
+        "version": "7.17.0",
+        "packageName": "@babel/types",
+        "hash": "sha512-TmKSNO4D5rzhL5bjWFcVHHLETzfQ/AmbKpKPOSjlP0WoHZ6L911fgoOKY4Alp/emzG4cHJdyN49zpgkbXFEHHw=="
       }
     },
     "npm:@bcoe/v8-coverage": {
@@ -4201,6 +4237,15 @@
         "version": "10.3.0",
         "packageName": "@sinonjs/fake-timers",
         "hash": "sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA=="
+      }
+    },
+    "npm:@trivago/prettier-plugin-sort-imports": {
+      "type": "npm",
+      "name": "npm:@trivago/prettier-plugin-sort-imports",
+      "data": {
+        "version": "4.3.0",
+        "packageName": "@trivago/prettier-plugin-sort-imports",
+        "hash": "sha512-r3n0onD3BTOVUNPhR4lhVK4/pABGpbA7bW3eumZnYdKaHkf1qEC+Mag6DPbGNuuh0eG8AaYj+YqmVHSiGslaTQ=="
       }
     },
     "npm:@trysound/sax": {
@@ -8503,6 +8548,15 @@
         "version": "10.8.7",
         "packageName": "jake",
         "hash": "sha512-ZDi3aP+fG/LchyBzUM804VjddnwfSfsdeYkwt8NcbKRvo4rFkjhs456iLFn3k2ZUWvNe4i48WACDbza8fhq2+w=="
+      }
+    },
+    "npm:javascript-natural-sort": {
+      "type": "npm",
+      "name": "npm:javascript-natural-sort",
+      "data": {
+        "version": "0.7.1",
+        "packageName": "javascript-natural-sort",
+        "hash": "sha512-nO6jcEfZWQXDhOiBtG2KvKyEptz7RVbpGP4vTD2hLBdmNQSsCiicO2Ioinv6UI4y9ukqnBpy+XZ9H6uLNgJTlw=="
       }
     },
     "npm:jest": {
@@ -18966,6 +19020,151 @@
     {
       "source": "npm:@sinonjs/fake-timers",
       "target": "npm:@sinonjs/commons",
+      "type": "static"
+    },
+    {
+      "source": "npm:@trivago/prettier-plugin-sort-imports",
+      "target": "npm:prettier",
+      "type": "static"
+    },
+    {
+      "source": "npm:@trivago/prettier-plugin-sort-imports",
+      "target": "npm:@babel/generator@7.17.7",
+      "type": "static"
+    },
+    {
+      "source": "npm:@trivago/prettier-plugin-sort-imports",
+      "target": "npm:@babel/parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@trivago/prettier-plugin-sort-imports",
+      "target": "npm:@babel/traverse@7.23.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:@trivago/prettier-plugin-sort-imports",
+      "target": "npm:@babel/types@7.17.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@trivago/prettier-plugin-sort-imports",
+      "target": "npm:javascript-natural-sort",
+      "type": "static"
+    },
+    {
+      "source": "npm:@trivago/prettier-plugin-sort-imports",
+      "target": "npm:lodash",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/generator@7.17.7",
+      "target": "npm:@babel/types@7.17.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/generator@7.17.7",
+      "target": "npm:jsesc",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/generator@7.17.7",
+      "target": "npm:source-map@0.5.7",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:@babel/code-frame",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:@babel/generator",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:@babel/helper-environment-visitor",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:@babel/helper-function-name",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:@babel/helper-hoist-variables",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:@babel/helper-split-export-declaration",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:@babel/parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:@babel/types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:debug",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/traverse@7.23.2",
+      "target": "npm:globals",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/generator",
+      "target": "npm:@babel/types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/generator",
+      "target": "npm:@jridgewell/gen-mapping",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/generator",
+      "target": "npm:@jridgewell/trace-mapping",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/generator",
+      "target": "npm:jsesc",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/types",
+      "target": "npm:@babel/helper-string-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/types",
+      "target": "npm:@babel/helper-validator-identifier",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/types",
+      "target": "npm:to-fast-properties",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/types@7.17.0",
+      "target": "npm:@babel/helper-validator-identifier",
+      "type": "static"
+    },
+    {
+      "source": "npm:@babel/types@7.17.0",
+      "target": "npm:to-fast-properties",
       "type": "static"
     },
     {

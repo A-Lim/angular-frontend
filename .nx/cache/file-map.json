@@ -11,6 +11,7 @@
     "@angular/platform-browser-dynamic": "~16.2.0",
     "@angular/router": "~16.2.0",
     "@nx/angular": "16.10.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "ng-zorro-antd": "^16.2.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -70,31 +71,31 @@
         },
         {
           "file": ".nx/cache/d/daemon.log",
-          "hash": "9516231258495346974"
+          "hash": "7653447968195236060"
         },
         {
           "file": ".nx/cache/d/server-process.json",
-          "hash": "17940731345491469641"
+          "hash": "3244421341483603138"
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "18305702580747070550"
+          "hash": "2744018170283212832"
         },
         {
           "file": ".nx/cache/lockfile.hash",
-          "hash": "16691419492279062350"
+          "hash": "10996010830701206563"
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "16284535157826516151"
+          "hash": "8519635625321933007"
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "15451515951563834277"
+          "hash": "14969112714592794139"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "202767765027247888"
+          "hash": "1195052716792406592"
         },
         {
           "file": ".nx/cache/terminalOutputs/10282923682753078730",
@@ -107,6 +108,10 @@
         {
           "file": ".nx/cache/terminalOutputs/5308413561120233626",
           "hash": "3500334094716108167"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/7517767730060856286",
+          "hash": "3400165951816700238"
         },
         {
           "file": ".nx/cache/terminalOutputs/7897374199237329362",
@@ -122,7 +127,7 @@
         },
         {
           "file": ".prettierrc",
-          "hash": "16267754514737964994"
+          "hash": "17430804432372218860"
         },
         {
           "file": ".vscode/extensions.json",
@@ -153,11 +158,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "12661774193600137014"
+          "hash": "13343173002684876553"
         },
         {
           "file": "package.json",
-          "hash": "10300874222281793557",
+          "hash": "17096505366612134874",
           "deps": [
             "npm:@angular/animations",
             "npm:@angular/common",
@@ -168,6 +173,7 @@
             "npm:@angular/platform-browser-dynamic",
             "npm:@angular/router",
             "npm:@nx/angular",
+            "npm:@trivago/prettier-plugin-sort-imports",
             "npm:ng-zorro-antd",
             "npm:rxjs",
             "npm:tslib",
@@ -202,6 +208,7 @@
             "npm:nx-cloud",
             "npm:postcss",
             "npm:prettier",
+            "npm:tailwindcss",
             "npm:ts-jest",
             "npm:ts-node",
             "npm:typescript"
@@ -244,14 +251,13 @@
         },
         {
           "file": "src/app/app.module.ts",
-          "hash": "6296860830478763973",
+          "hash": "17298736572828176697",
           "deps": [
-            "npm:@angular/core",
-            "npm:@angular/platform-browser",
-            "npm:@angular/router",
             "npm:@angular/common",
-            "npm:ng-zorro-antd",
-            "npm:@angular/forms"
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:ng-zorro-antd"
           ]
         },
         {
@@ -367,8 +373,8 @@
           "hash": "16287279946930924495"
         },
         {
-          "file": ".nx/cache/terminalOutputs/7517767730060856286",
-          "hash": "3244421341483603138"
+          "file": ".vscode/settings.json",
+          "hash": "14301477466686108105"
         }
       ]
     }

@@ -1,3 +1,26 @@
 {
-  "singleQuote": true
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "trailingComma": "es5",
+  "endOfLine": "auto",
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports"
+  ],
+  "importOrder": [
+    "^@angular$",
+    "rxjs",
+    "^@ngrx/(.*)$",
+    "^@ngneat/(.*)$",
+    "ng-zorro-antd/(.*)$",
+    "^@environment/(.*)$",
+    "^@core/(.*)$",
+    "^@shared/(.*)$",
+    "^@modules/(.*)$",
+    "^@layouts/(.*)$",
+    "^[./|~/]"
+  ],
+  "importOrderSortSpecifiers": true,
+  "importOrderParserPlugins": ["decorators-legacy", "typescript"]
 }
