@@ -3618,6 +3618,69 @@
         "hash": "sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A=="
       }
     },
+    "npm:@ngrx/component-store": {
+      "type": "npm",
+      "name": "npm:@ngrx/component-store",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "@ngrx/component-store",
+        "hash": "sha512-c52V2bHnKV1MRjA+270oEpRa9hTUD7xP8t1eElYzV0ISisILO8xfWB9/C6XOJtjkK6+j6tHQmtiIGK9gZyIh3g=="
+      }
+    },
+    "npm:@ngrx/effects": {
+      "type": "npm",
+      "name": "npm:@ngrx/effects",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "@ngrx/effects",
+        "hash": "sha512-hpmON8p7kT44jIiruLBy3raFkYhNzQ45was0puKPkGhv41VrAoo44UcEn4Aysdx5yHaJc/CMCtI/+emFIpqgGA=="
+      }
+    },
+    "npm:@ngrx/entity": {
+      "type": "npm",
+      "name": "npm:@ngrx/entity",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "@ngrx/entity",
+        "hash": "sha512-LUqcFnH9+Civwq5F3bQ5CIrev6NYG89q918kDnM2ETmhIm7penjLmSj5uR8C4Byl14MpXArKaQuHQeMWovewFQ=="
+      }
+    },
+    "npm:@ngrx/router-store": {
+      "type": "npm",
+      "name": "npm:@ngrx/router-store",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "@ngrx/router-store",
+        "hash": "sha512-2lqKK3d6g15VwBH09aIgTEKSGZ2CYcflpYyaHVja0GAg/iGPpc69P9fF76Z3GomsuMD2g8dCYYoFn6fbrqJp+Q=="
+      }
+    },
+    "npm:@ngrx/schematics": {
+      "type": "npm",
+      "name": "npm:@ngrx/schematics",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "@ngrx/schematics",
+        "hash": "sha512-NLRSQF6kjgVFi5/JVTFU6PuuMrQ4lL6SIK81ZPCFEIm3wZH0e4FcQhsKe0D/gqoENTunFquRR4PWr9tdbsa5pg=="
+      }
+    },
+    "npm:@ngrx/store": {
+      "type": "npm",
+      "name": "npm:@ngrx/store",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "@ngrx/store",
+        "hash": "sha512-KkYzF3j29qKOzHcmiArRJgT+ABLqbddj1DuxerNq3A8zWnTDdC4YgNpDOKru8hQWb3pQ77ZbglLati5K9F8HnQ=="
+      }
+    },
+    "npm:@ngrx/store-devtools": {
+      "type": "npm",
+      "name": "npm:@ngrx/store-devtools",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "@ngrx/store-devtools",
+        "hash": "sha512-fOk/etV2ldgPgy3BD7v0yK4ocsxNUx7iktjMOVSvfPY/eg6KsfUy0ObQ2/kJasan32wN9rADCVRD6PzLg1Zo8g=="
+      }
+    },
     "npm:@ngtools/webpack": {
       "type": "npm",
       "name": "npm:@ngtools/webpack",
@@ -8548,6 +8611,15 @@
         "version": "10.8.7",
         "packageName": "jake",
         "hash": "sha512-ZDi3aP+fG/LchyBzUM804VjddnwfSfsdeYkwt8NcbKRvo4rFkjhs456iLFn3k2ZUWvNe4i48WACDbza8fhq2+w=="
+      }
+    },
+    "npm:jasmine-marbles": {
+      "type": "npm",
+      "name": "npm:jasmine-marbles",
+      "data": {
+        "version": "0.9.2",
+        "packageName": "jasmine-marbles",
+        "hash": "sha512-T7RjG4fRsdiGGzbQZ6Kj39qYt6O1/KIcR4FkUNsD3DUGkd/AzpwzN+xtk0DXlLWEz5BaVdK1SzMgQDVw879c4Q=="
       }
     },
     "npm:javascript-natural-sort": {
@@ -17828,6 +17900,121 @@
       "type": "static"
     },
     {
+      "source": "npm:@ngrx/component-store",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/component-store",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/component-store",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/effects",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/effects",
+      "target": "npm:@ngrx/store",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/effects",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/effects",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/entity",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/entity",
+      "target": "npm:@ngrx/store",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/entity",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/entity",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:@angular/common",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:@angular/router",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:@ngrx/store",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/store",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/store",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/store",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/store-devtools",
+      "target": "npm:@ngrx/store",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/store-devtools",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/store-devtools",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
       "source": "npm:@ngtools/webpack",
       "target": "npm:@angular/compiler-cli",
       "type": "static"
@@ -23470,6 +23657,16 @@
     {
       "source": "npm:minimatch@3.1.2",
       "target": "npm:brace-expansion",
+      "type": "static"
+    },
+    {
+      "source": "npm:jasmine-marbles",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:jasmine-marbles",
+      "target": "npm:lodash",
       "type": "static"
     },
     {

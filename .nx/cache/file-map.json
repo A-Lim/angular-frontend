@@ -10,6 +10,11 @@
     "@angular/platform-browser": "~16.2.0",
     "@angular/platform-browser-dynamic": "~16.2.0",
     "@angular/router": "~16.2.0",
+    "@ngrx/component-store": "~16.0.0",
+    "@ngrx/effects": "~16.0.0",
+    "@ngrx/entity": "~16.0.0",
+    "@ngrx/router-store": "~16.0.0",
+    "@ngrx/store": "~16.0.0",
     "@nx/angular": "16.10.0",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "ng-zorro-antd": "^16.2.2",
@@ -25,6 +30,8 @@
     "@angular/cli": "~16.2.0",
     "@angular/compiler-cli": "~16.2.0",
     "@angular/language-service": "~16.2.0",
+    "@ngrx/schematics": "~16.0.0",
+    "@ngrx/store-devtools": "~16.0.0",
     "@nx/eslint-plugin": "16.10.0",
     "@nx/jest": "16.10.0",
     "@nx/js": "16.10.0",
@@ -38,6 +45,7 @@
     "autoprefixer": "^10.4.0",
     "eslint": "~8.46.0",
     "eslint-config-prettier": "8.1.0",
+    "jasmine-marbles": "~0.9.1",
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
     "jest-preset-angular": "~13.1.0",
@@ -67,31 +75,31 @@
         },
         {
           "file": ".gitignore",
-          "hash": "2178144051909739023"
+          "hash": "3888646179945963699"
         },
         {
           "file": ".nx/cache/d/daemon.log",
-          "hash": "7653447968195236060"
+          "hash": "16214340876637371679"
         },
         {
           "file": ".nx/cache/d/server-process.json",
-          "hash": "3244421341483603138"
+          "hash": "15105929400680793973"
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "2744018170283212832"
+          "hash": "560387744678893527"
         },
         {
           "file": ".nx/cache/lockfile.hash",
-          "hash": "10996010830701206563"
+          "hash": "4715834395545481887"
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "8519635625321933007"
+          "hash": "13013329991934808583"
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "14969112714592794139"
+          "hash": "4376959471231975997"
         },
         {
           "file": ".nx/cache/run.json",
@@ -138,6 +146,14 @@
           "hash": "3485341486138170105"
         },
         {
+          "file": ".vscode/settings.json",
+          "hash": "14301477466686108105"
+        },
+        {
+          "file": ".vscode/tailwind.json",
+          "hash": "4377559521686677920"
+        },
+        {
           "file": "README.md",
           "hash": "13251935611530325523"
         },
@@ -158,11 +174,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "13343173002684876553"
+          "hash": "8970443300572604863"
         },
         {
           "file": "package.json",
-          "hash": "17096505366612134874",
+          "hash": "11263134340984054314",
           "deps": [
             "npm:@angular/animations",
             "npm:@angular/common",
@@ -172,6 +188,11 @@
             "npm:@angular/platform-browser",
             "npm:@angular/platform-browser-dynamic",
             "npm:@angular/router",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/effects",
+            "npm:@ngrx/entity",
+            "npm:@ngrx/router-store",
+            "npm:@ngrx/store",
             "npm:@nx/angular",
             "npm:@trivago/prettier-plugin-sort-imports",
             "npm:ng-zorro-antd",
@@ -187,6 +208,7 @@
             "npm:@angular/cli",
             "npm:@angular/compiler-cli",
             "npm:@angular/language-service",
+            "npm:@ngrx/schematics",
             "npm:@nx/eslint-plugin",
             "npm:@nx/jest",
             "npm:@nx/js",
@@ -200,6 +222,7 @@
             "npm:autoprefixer",
             "npm:eslint",
             "npm:eslint-config-prettier",
+            "npm:jasmine-marbles",
             "npm:jest",
             "npm:jest-environment-jsdom",
             "npm:jest-preset-angular",
@@ -251,12 +274,15 @@
         },
         {
           "file": "src/app/app.module.ts",
-          "hash": "17298736572828176697",
+          "hash": "1959863361586771299",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
             "npm:@angular/forms",
             "npm:@angular/platform-browser",
+            "npm:@ngrx/effects",
+            "npm:@ngrx/store",
+            "npm:@ngrx/store-devtools",
             "npm:ng-zorro-antd"
           ]
         },
@@ -373,8 +399,8 @@
           "hash": "16287279946930924495"
         },
         {
-          "file": ".vscode/settings.json",
-          "hash": "14301477466686108105"
+          "file": ".nx/cache/terminalOutputs/15999998183906859441",
+          "hash": "3244421341483603138"
         }
       ]
     }
