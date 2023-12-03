@@ -62,9 +62,12 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
-    "nonProjectFiles": [],
     "projectFileMap": {
       "angular-frontend": [
+        {
+          "file": ".devcontainer/devcontainer.json",
+          "hash": "1802096928120395731"
+        },
         {
           "file": ".eslintignore",
           "hash": "7663861978715868291"
@@ -79,7 +82,7 @@
         },
         {
           "file": ".nx/cache/d/daemon.log",
-          "hash": "16214340876637371679"
+          "hash": "14702997405016644159"
         },
         {
           "file": ".nx/cache/d/server-process.json",
@@ -87,11 +90,11 @@
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "560387744678893527"
+          "hash": "416681814771735387"
         },
         {
           "file": ".nx/cache/lockfile.hash",
-          "hash": "4715834395545481887"
+          "hash": "12870551037810211120"
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
@@ -99,15 +102,27 @@
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "4376959471231975997"
+          "hash": "1375544299316371652"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "1195052716792406592"
+          "hash": "5125317533328579860"
         },
         {
           "file": ".nx/cache/terminalOutputs/10282923682753078730",
           "hash": "2157057855075656103"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/15267579166436036770",
+          "hash": "3479490571231926887"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/15999998183906859441",
+          "hash": "2164740346322849364"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/2942407142901121264",
+          "hash": "3244421341483603138"
         },
         {
           "file": ".nx/cache/terminalOutputs/5253330584888433673",
@@ -139,7 +154,7 @@
         },
         {
           "file": ".vscode/extensions.json",
-          "hash": "9392732878363658046"
+          "hash": "15843449849029176399"
         },
         {
           "file": ".vscode/launch.json",
@@ -174,7 +189,7 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "8970443300572604863"
+          "hash": "10431324286334055345"
         },
         {
           "file": "package.json",
@@ -243,7 +258,7 @@
         },
         {
           "file": "src/app/app-routing.module.ts",
-          "hash": "2612070792095696222",
+          "hash": "10034530894795225955",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -251,7 +266,7 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "4148358255155700617"
+          "hash": "9581978245197307148"
         },
         {
           "file": "src/app/app.component.scss",
@@ -300,6 +315,63 @@
             "npm:@angular/core",
             "npm:ng-zorro-antd",
             "npm:@ant-design/icons-angular"
+          ]
+        },
+        {
+          "file": "src/app/modules/auth/auth.routes.ts",
+          "hash": "10213653792948047307",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/modules/auth/components/form-login/form-login.component.html",
+          "hash": "15849187382650943864"
+        },
+        {
+          "file": "src/app/modules/auth/components/form-login/form-login.component.ts",
+          "hash": "2966699413930094137",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/auth/layouts/layout-auth/layout-auth.component.html",
+          "hash": "528055423389167937"
+        },
+        {
+          "file": "src/app/modules/auth/layouts/layout-auth/layout-auth.component.ts",
+          "hash": "7464591748705290570",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/auth/pages/page-login/page-login.component.html",
+          "hash": "17179065317743906315"
+        },
+        {
+          "file": "src/app/modules/auth/pages/page-login/page-login.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/modules/auth/pages/page-login/page-login.component.ts",
+          "hash": "8633762230447678768",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/modules/shared/extended/form-group.extended.ts",
+          "hash": "13714871487210814049",
+          "deps": [
+            "npm:@angular/forms"
           ]
         },
         {
@@ -397,12 +469,9 @@
         {
           "file": "tsconfig.spec.json",
           "hash": "16287279946930924495"
-        },
-        {
-          "file": ".nx/cache/terminalOutputs/15999998183906859441",
-          "hash": "3244421341483603138"
         }
       ]
-    }
+    },
+    "nonProjectFiles": []
   }
 }
