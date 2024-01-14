@@ -1,0 +1,48 @@
+<nz-header class="pl-0 pr-4 flex justify-between">
+  <ul nz-menu nzTheme="dark" nzMode="horizontal" class="menu-left">
+    <li class="trigger cursor-pointer px-4" (click)="toggle.emit()">
+      <i
+        class="text-white"
+        nz-icon
+        [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
+      ></i>
+    </li>
+  </ul>
+  <ul
+    *ngIf="user$ | async as user"
+    nz-menu
+    nzTheme="dark"
+    nzMode="horizontal"
+    class="menu-right"
+  >
+    <li
+      nz-dropdown
+      [nzDropdownMenu]="menu"
+      [nzPlacement]="'bottomRight'"
+      class="cursor-pointer"
+    >
+      <nz-avatar
+        *ngIf="user.avatar; else defaultAvatar"
+        [nzSrc]="user.avatar.url"
+      ></nz-avatar>
+      <ng-template #defaultAvatar>
+        <nz-avatar *ngIf="!user.avatar" nzIcon="user"></nz-avatar>
+      </ng-template>
+    </li>
+  </ul>
+</nz-header>
+
+<nz-dropdown-menu #menu="nzDropdownMenu">
+  <ng-container *transloco="let trans">
+    <ul nz-menu nzTheme="dark" class="profile-menu p-2 space-y-2 min-w-[8rem]">
+      <li nz-menu-item routerLink="/admin/profile">
+        <i nz-icon nzType="profile"></i>
+        <span class="ml-2">{{ trans('profile') }}</span>
+      </li>
+      <li nz-menu-item (click)="logout()">
+        <i nz-icon nzType="logout"></i>
+        <span class="ml-2">{{ trans('logout') }}</span>
+      </li>
+    </ul>
+  </ng-container>
+</nz-dropdown-menu>

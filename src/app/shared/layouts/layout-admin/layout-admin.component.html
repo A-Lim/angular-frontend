@@ -1,0 +1,42 @@
+<nz-layout class="app-layout">
+  <nz-sider
+    class="menu-sidebar min-h-screen md:h-screen"
+    nzCollapsible
+    nzWidth="256px"
+    nzBreakpoint="md"
+    [(nzCollapsed)]="isCollapsed"
+    [nzTrigger]="null"
+  >
+    <div class="sidebar-logo">
+      <div
+        class="flex h-16 px-4 items-center space-x-2"
+        [ngClass]="{
+          'px-4': !isCollapsed,
+          'px-6': isCollapsed
+        }"
+      >
+        <img
+          class="w-8"
+          src="https://ng.ant.design/assets/img/logo.svg"
+          alt="logo"
+        />
+        <h1 *ngIf="!isCollapsed" class="text-white">{{ appName }}</h1>
+      </div>
+    </div>
+    <app-side-menu
+      class="flex flex-col flex-1 overflow-y-auto"
+      [isCollapsed]="isCollapsed"
+    ></app-side-menu>
+  </nz-sider>
+  <nz-layout>
+    <app-top-menu
+      [isCollapsed]="isCollapsed"
+      (toggle)="isCollapsed = !isCollapsed"
+    ></app-top-menu>
+    <nz-content>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+  </nz-layout>
+</nz-layout>

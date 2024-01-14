@@ -1,0 +1,14 @@
+<app-layout-page-content>
+  <app-ui-breadcrumb
+    breadcrumb
+    *transloco="let trans"
+    [title]="trans('users')"
+    [breadcrumbs]="[{ name: trans('user-list') }]"
+  ></app-ui-breadcrumb>
+
+  <ng-container content>
+    <nz-card>
+      <app-table-users></app-table-users>
+    </nz-card>
+  </ng-container>
+</app-layout-page-content>

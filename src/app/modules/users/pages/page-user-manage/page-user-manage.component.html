@@ -1,0 +1,28 @@
+<app-layout-page-content>
+  <ng-container breadcrumb>
+    <ng-container *ngIf="user$ | async as user">
+      <app-ui-breadcrumb
+        *transloco="let trans"
+        [title]="trans('users')"
+        [breadcrumbs]="[
+          { name: trans('user-list'), icon: 'user', url: '/admin/users' },
+          { name: user.name }
+        ]"
+      ></app-ui-breadcrumb>
+    </ng-container>
+  </ng-container>
+
+  <ng-container content>
+    <div class="grid grid-cols-12 gap-x-4 space-y-4 md:space-y-0">
+      <div class="col-span-12 lg:col-span-3">
+        <nz-card>
+          <app-user-info [user]="user$ | async"></app-user-info>
+        </nz-card>
+      </div>
+
+      <nz-card class="col-span-12 lg:col-span-9">
+        <app-form-user [user]="user$ | async"></app-form-user>
+      </nz-card>
+    </div>
+  </ng-container>
+</app-layout-page-content>

@@ -1,0 +1,120 @@
+<ng-container *transloco="let trans">
+  <form
+    *ngIf="formGroup$ | async as formGroup"
+    nz-form
+    nzLayout="vertical"
+    [formGroup]="formGroup"
+    (ngSubmit)="submit()"
+  >
+    <div class="grid grid-cols-none md:grid-cols-2 gap-x-4">
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="err">
+          <nz-form-label nzNoColon="true" nzRequired>{{
+            trans('name')
+          }}</nz-form-label>
+          <input
+            type="text"
+            nz-input
+            formControlName="name"
+            [placeholder]="trans('name')"
+          />
+          <ng-template #err let-control>
+            <app-ui-form-control-errors
+              [name]="trans('name')"
+              [control]="formGroup.controls['name']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="err">
+          <nz-form-label nzNoColon="true" nzRequired>{{
+            trans('email')
+          }}</nz-form-label>
+          <input
+            type="text"
+            nz-input
+            formControlName="email"
+            [placeholder]="trans('email')"
+          />
+          <ng-template #err let-control>
+            <app-ui-form-control-errors
+              [name]="trans('email')"
+              [control]="formGroup.controls['email']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="err">
+          <nz-form-label nzNoColon="true">{{ trans('phone') }}</nz-form-label>
+          <input
+            type="text"
+            nz-input
+            formControlName="phone"
+            [placeholder]="trans('phone')"
+          />
+          <ng-template #err let-control>
+            <app-ui-form-control-errors
+              [name]="trans('phone')"
+              [control]="formGroup.controls['phone']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="err">
+          <nz-form-label nzNoColon="true">{{
+            trans('date-of-birth')
+          }}</nz-form-label>
+          <nz-date-picker
+            class="block"
+            nz-input
+            [nzAllowClear]="true"
+            [nzInputReadOnly]="true"
+            [nzFormat]="DATE_FORMAT"
+            formControlName="date_of_birth"
+          >
+          </nz-date-picker>
+          <ng-template #err let-control>
+            <app-ui-form-control-errors
+              [name]="trans('date-of-birth')"
+              [control]="formGroup.controls['date_of_birth']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label nzNoColon="true" nzRequired>{{
+          trans('status')
+        }}</nz-form-label>
+        <nz-form-control [nzErrorTip]="err">
+          <nz-select formControlName="status">
+            <nz-option
+              *ngFor="let status of statuses$ | async"
+              [nzValue]="status"
+              nzLabel="{{ status | titlecase }}"
+            ></nz-option>
+          </nz-select>
+
+          <ng-template #err let-control>
+            <app-ui-form-control-errors
+              [name]="trans('status')"
+              [control]="formGroup.controls['status']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+
+    <div class="flex justify-end">
+      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async">
+        {{ trans('update') }}
+      </button>
+    </div>
+  </form>
+</ng-container>

@@ -1,0 +1,51 @@
+<div *transloco="let trans" class="flex flex-col items-center space-y-2">
+  <div class="relative">
+    <div
+      class="rounded-full flex justify-center items-center absolute top-0 right-0 left-0 bottom-0 z-10 bg-gray-600 opacity-0 hover:opacity-70 cursor-pointer"
+      [ngClass]="{
+        'opacity-70': loading$ | async
+      }"
+      [title]="trans('upload-avatar')"
+      (click)="avatarUpload.click()"
+    >
+      <span
+        nz-icon
+        nzTheme="outline"
+        class="text-2xl text-white"
+        [nzType]="(loading$ | async) ? 'sync' : 'plus'"
+        [nzSpin]="loading$ | async"
+      ></span>
+    </div>
+    <input
+      #avatarUpload
+      type="file"
+      accept="image/*"
+      hidden
+      [multiple]="false"
+      (change)="uploadAvatar($event)"
+    />
+
+    <ng-container *ngIf="avatar$ | async as avatar; else defaultAvatar">
+      <nz-avatar [nzSize]="128" [nzSrc]="avatar.url"></nz-avatar>
+    </ng-container>
+    <ng-template #defaultAvatar>
+      <nz-avatar [nzSize]="128" nzIcon="user"></nz-avatar>
+    </ng-template>
+  </div>
+
+  <h2 class="text-lg font-semi-bold">{{ user?.name }}</h2>
+  <ng-container [ngSwitch]="user?.status">
+    <nz-tag *ngSwitchCase="'active'" nzColor="success">{{
+      trans('user-status-types.' + user?.status) | titlecase
+    }}</nz-tag>
+    <nz-tag *ngSwitchCase="'unverified'" nzColor="warning">{{
+      trans('user-status-types.' + user?.status) | titlecase
+    }}</nz-tag>
+    <nz-tag *ngSwitchCase="'inactive'" nzColor="warning">{{
+      trans('user-status-types.' + user?.status) | titlecase
+    }}</nz-tag>
+    <nz-tag *ngSwitchCase="'locked'" nzColor="error">{{
+      trans('user-status-types.' + user?.status) | titlecase
+    }}</nz-tag>
+  </ng-container>
+</div>

@@ -2,4 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "ag-grid-community/styles/ag-grid.min.css";
+@import "ag-grid-community/styles/ag-theme-quartz.min.css";
+
+
 /* You can add global styles to this file, and also import other style files */
+@import "assets/scss/utilities.scss";
+
+.ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
+
+.anticon {
+  vertical-align: 0.2em;
+}
+
+input[class^=ag-]:not([type]):focus,
+input[class^=ag-][type=date]:focus,
+input[class^=ag-][type=datetime-local]:focus,
+input[class^=ag-][type=number]:focus, input[class^=ag-][type=tel]:focus,
+input[class^=ag-][type=text]:focus, textarea[class^=ag-]:focus {
+  box-shadow: none;
+}

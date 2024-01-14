@@ -1,0 +1,36 @@
+{
+  "profile": "Profile",
+  "logout": "Logout",
+  "edit": "Edit",
+  "delete": "Delete",
+  "update": "Update",
+  "status": "Status",
+  "phone": "Phone",
+  "date-of-birth": "Date of Birth",
+  "name": "Name",
+  "log-in": "Log in",
+  "email": "Email",
+  "password": "Password",
+  "old-password": "Old Password",
+  "new-password": "New Password",
+  "users": "Users",
+  "user-list": "User List",
+  "upload-avatar": "Upload Avatar",
+  "user-groups": "User Groups",
+  "add-user-groups": "Add User Group",
+  "user-group-list": "User Group List",
+  "general": "General",
+  "code": "Code",
+  "gender": "Gender",
+  "admin": "Admin",
+  "permissions": "Permissions",
+  "user-status-types": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "locked": "Locked",
+    "unverified": "Unverified"
+  },
+  "messages": {
+    "sign-in-to-your-account": "Sign in to your account"
+  }
+}

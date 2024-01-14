@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { environment } from '@environments/environment';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { PageLoginComponent } from '../../pages/page-login/page-login.component';
 
@@ -10,4 +11,6 @@ import { PageLoginComponent } from '../../pages/page-login/page-login.component'
   templateUrl: './layout-auth.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LayoutAuthComponent {}
+export class LayoutAuthComponent {
+  readonly appName = environment.name;
+}

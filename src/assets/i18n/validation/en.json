@@ -1,0 +1,5 @@
+{
+  "required": "{{field}} is required.",
+  "email": "{{field}} is invalid.",
+  "match": "{{field}} does not match"
+}

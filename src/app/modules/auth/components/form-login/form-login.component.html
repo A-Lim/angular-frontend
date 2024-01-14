@@ -1,17 +1,58 @@
-<form nz-form [formGroup]="formGroup" class="login-form" (ngSubmit)="submit()">
-  <nz-form-item>
-    <nz-form-control nzErrorTip="Please input your username!">
-      <nz-input-group nzPrefixIcon="user">
-        <input type="text" nz-input placeholder="Username" />
-      </nz-input-group>
-    </nz-form-control>
-  </nz-form-item>
-  <nz-form-item>
-    <nz-form-control nzErrorTip="Please input your Password!">
-      <nz-input-group nzPrefixIcon="lock">
-        <input type="password" nz-input placeholder="Password" />
-      </nz-input-group>
-    </nz-form-control>
-  </nz-form-item>
-  <button class="block w-full" nz-button [nzType]="'primary'">Log in</button>
-</form>
+<ng-container *transloco="let trans">
+  <form
+    *ngIf="formGroup$ | async as formGroup"
+    nz-form
+    nzLayout="vertical"
+    [formGroup]="formGroup"
+    (ngSubmit)="submit()"
+  >
+    <nz-form-item>
+      <nz-form-control [nzErrorTip]="err">
+        <nz-form-label nzNoColon="true" nzRequired>{{
+          trans('email')
+        }}</nz-form-label>
+        <input
+          type="text"
+          nz-input
+          formControlName="email"
+          [placeholder]="trans('email')"
+        />
+        <ng-template #err let-control>
+          <app-ui-form-control-errors
+            [name]="trans('email')"
+            [control]="formGroup.controls['email']"
+          ></app-ui-form-control-errors>
+        </ng-template>
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-control [nzErrorTip]="err">
+        <nz-form-label nzNoColon="true" nzRequired>{{
+          trans('password')
+        }}</nz-form-label>
+        <input
+          type="password"
+          nz-input
+          formControlName="password"
+          [placeholder]="trans('password')"
+        />
+        <ng-template #err let-control>
+          <app-ui-form-control-errors
+            [name]="trans('password')"
+            [control]="formGroup.controls['password']"
+          ></app-ui-form-control-errors>
+        </ng-template>
+      </nz-form-control>
+    </nz-form-item>
+
+    <button
+      class="block w-full"
+      nz-button
+      [nzType]="'primary'"
+      [nzLoading]="loading$ | async"
+    >
+      Log in
+    </button>
+  </form>
+</ng-container>

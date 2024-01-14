@@ -13,7 +13,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "@core/*": ["src/app/core/*"],
+      "@environments/*": ["src/app/environments/*"],
+      "@modules/*": ["src/app/modules/*"],
+      "@shared/*": ["src/app/shared/*"]
+    },
     "useDefineForClassFields": false,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

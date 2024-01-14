@@ -1,0 +1,9 @@
+<div role="alert" *transloco="let trans; scope: 'validation'">
+  <ng-container *ngIf="control.invalid && control.dirty && !control.disabled">
+    <ul>
+      <li *ngFor="let error of control.errors | keyvalue" class="text-sm">
+        {{ trans('validation.' + error.key, { field: name }) }}
+      </li>
+    </ul>
+  </ng-container>
+</div>

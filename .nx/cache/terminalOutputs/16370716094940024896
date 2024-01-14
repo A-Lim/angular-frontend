@@ -1,0 +1,1347 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m5.61 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m905.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m333.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m [96m91.19 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m6.91 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:24:17.002Z[39m[37m[22m - Hash: [1m[37m16dfa7bc846f5d90[39m[37m[22m - Time: [1m[37m9311[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m91.36 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:27:51.662Z[39m[37m[22m - Hash: [1m[37m22b3f2872b22c25f[39m[37m[22m - Time: [1m[37m1712[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/shared/component-stores/form.component-store.ts[0m:[93m45[0m:[93m11[0m - [91merror[0m[90m TS2304: [0mCannot find name 'control'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m           control.updateValueAndValidity({ onlySelf: true });[39m[22m
+[1m[31m[7m  [0m [91m          ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m91.39 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:28:02.371Z[39m[37m[22m - Hash: [1m[37m600e850fb5750baa[39m[37m[22m - Time: [1m[37m764[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:30:36.579Z[39m[37m[22m - Hash: [1m[37m600e850fb5750baa[39m[37m[22m - Time: [1m[37m806[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:31:01.511Z[39m[37m[22m - Hash: [1m[37m600e850fb5750baa[39m[37m[22m - Time: [1m[37m804[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:31:05.877Z[39m[37m[22m - Hash: [1m[37m600e850fb5750baa[39m[37m[22m - Time: [1m[37m503[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:31:56.375Z[39m[37m[22m - Hash: [1m[37m600e850fb5750baa[39m[37m[22m - Time: [1m[37m743[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:32:03.704Z[39m[37m[22m - Hash: [1m[37m600e850fb5750baa[39m[37m[22m - Time: [1m[37m1666[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m91.39 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:32:04.840Z[39m[37m[22m - Hash: [1m[37mec2bb3a1925a7f06[39m[37m[22m - Time: [1m[37m824[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m91.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:32:17.123Z[39m[37m[22m - Hash: [1m[37md48022a292a21427[39m[37m[22m - Time: [1m[37m1353[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:35:27.382Z[39m[37m[22m - Hash: [1m[37md48022a292a21427[39m[37m[22m - Time: [1m[37m4205[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:38:47.461Z[39m[37m[22m - Hash: [1m[37md48022a292a21427[39m[37m[22m - Time: [1m[37m1270[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:38:53.795Z[39m[37m[22m - Hash: [1m[37md48022a292a21427[39m[37m[22m - Time: [1m[37m565[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:39:02.747Z[39m[37m[22m - Hash: [1m[37md48022a292a21427[39m[37m[22m - Time: [1m[37m503[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:39:07.420Z[39m[37m[22m - Hash: [1m[37md48022a292a21427[39m[37m[22m - Time: [1m[37m487[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:39:20.708Z[39m[37m[22m - Hash: [1m[37md48022a292a21427[39m[37m[22m - Time: [1m[37m557[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:40:42.718Z[39m[37m[22m - Hash: [1m[37md48022a292a21427[39m[37m[22m - Time: [1m[37m929[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:41:31.478Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m665[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:41:38.249Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m421[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:42:09.612Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m912[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:42:34.661Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m481[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:43:13.056Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m826[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:43:32.116Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m647[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:43:38.881Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m524[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:44:20.311Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m836[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:44:21.074Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m439[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:44:28.975Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m525[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:45:58.270Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m794[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:46:01.757Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m451[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:46:13.281Z[39m[37m[22m - Hash: [1m[37mcf56acbdac06fe28[39m[37m[22m - Time: [1m[37m439[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m83.98 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:47:31.334Z[39m[37m[22m - Hash: [1m[37m198d9131353f5cc6[39m[37m[22m - Time: [1m[37m696[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m NG5002: [0mOpening tag "app-form-control-errors" not terminated.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m 21[0m           <app-form-control-errors [name]="trans('auth.email')" [control]="formGroup.controls['email']" [errors]="formGroup.controls.errors></app-form-control-errors>[39m[22m
+[1m[31m[7m   [0m [91m          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 22[0m           <span>{{ control.errors | json }}</span>[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m 27[0m     <nz-form-item>[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 28[0m       <nz-form-control nzErrorTip="Please input your Password!">[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m38[0m:[93m7[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "nz-form-control". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m       </nz-form-control>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component For[39m[22m[1m[31mmLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m91.83 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:47:48.584Z[39m[37m[22m - Hash: [1m[37m53849ef0f5ae13b9[39m[37m[22m - Time: [1m[37m678[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m NG8001: [0m'app-form-control-errors' is not a known element:[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m 21[0m           <app-form-control-errors[39m[22m
+[1m[31m[7m   [0m [91m          ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 22[0m             [name]="trans('auth.email')"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m 24[0m             [errors]="formGroup.controls.errors"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 25[0m           ></app-form-control-errors>[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m22[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'name' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'name' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m22[0m             [name]="trans('auth.email')"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~[39m[22m[1m[31m~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'control' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'control' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m             [control]="formGroup.controls['email']"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m24[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'errors' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'errors' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow a[39m[22m[1m[31mny property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m             [errors]="formGroup.controls.errors"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m24[0m:[93m42[0m - [91merror[0m[90m TS4111: [0mProperty 'errors' comes from an index signature, so it must be accessed with ['errors'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m             [errors]="formGroup.controls.errors"[39m[22m
+[1m[31m[7m  [0m [91m                                         ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m91.84 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:47:57.878Z[39m[37m[22m - Hash: [1m[37mc52a60f53e0c551a[39m[37m[22m - Time: [1m[37m520[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m NG8001: [0m'app-form-control-errors' is not a known element:[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m 21[0m           <app-form-control-errors[39m[22m
+[1m[31m[7m   [0m [91m          ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 22[0m             [name]="trans('auth.email')"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m 24[0m             [errors]="formGroup.controls['email'].errors"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 25[0m           ></app-form-control-errors>[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m22[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'name' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'name' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m22[0m             [name]="trans('auth.email')"[39m[22m
+[1m[31m[7m  [0m [91m     [39m[22m[1m[31m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'control' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'control' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m             [control]="formGroup.controls['email']"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m24[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'errors' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'errors' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this mess[39m[22m[1m[31mage.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m             [errors]="formGroup.controls['email'].errors"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:48:23.987Z[39m[37m[22m - Hash: [1m[37mc52a60f53e0c551a[39m[37m[22m - Time: [1m[37m639[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m NG8001: [0m'app-form-control-errors' is not a known element:[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m 21[0m           <app-form-control-errors[39m[22m
+[1m[31m[7m   [0m [91m          ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 22[0m             [name]="trans('auth.email')"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m 24[0m             [errors]="formGroup.controls['email'].errors"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 25[0m           ></app-form-control-errors>[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m22[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'name' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'name' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m22[0m             [name]="trans('auth.email')"[39m[22m
+[1m[31m[7m  [0m [91m     [39m[22m[1m[31m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'control' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'control' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m             [control]="formGroup.controls['email']"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m24[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'errors' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'errors' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this mess[39m[22m[1m[31mage.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m             [errors]="formGroup.controls['email'].errors"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:48:27.113Z[39m[37m[22m - Hash: [1m[37m20020e83c673e4ec[39m[37m[22m - Time: [1m[37m868[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m24[0m:[93m14[0m - [91merror[0m[90m TS2322: [0mType 'ValidationErrors | null' is not assignable to type 'ValidationErrors'.[39m[22m
+[1m[31m  Type 'null' is not assignable to type 'ValidationErrors'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m             [errors]="formGroup.controls['email'].errors"[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m30[0m:[93m16[0m[39m[22m
+[1m[31m    [7m30[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:48:55.201Z[39m[37m[22m - Hash: [1m[37m284a664af57c461d[39m[37m[22m - Time: [1m[37m910[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m24[0m:[93m14[0m - [91merror[0m[90m TS2322: [0mType 'ValidationErrors | null' is not assignable to type 'ValidationErrors | undefined'.[39m[22m
+[1m[31m  Type 'null' is not assignable to type 'ValidationErrors | undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m             [errors]="formGroup.controls['email'].errors"[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m30[0m:[93m16[0m[39m[22m
+[1m[31m    [7m30[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:49:25.493Z[39m[37m[22m - Hash: [1m[37m65cf076a5b96d943[39m[37m[22m - Time: [1m[37m1664[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.49 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:49:47.357Z[39m[37m[22m - Hash: [1m[37mef58b21de6ee6574[39m[37m[22m - Time: [1m[37m857[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.45 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:50:22.835Z[39m[37m[22m - Hash: [1m[37mb6280871054afa7f[39m[37m[22m - Time: [1m[37m1044[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m24[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'errors' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'errors' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m             [errors]="formGroup.controls['email'].errors"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m30[0m:[93m16[0m[39m[22m
+[1m[31m    [7m30[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/shared/components/form-control-errors/form-control-errors.component.html[0m:[93m4[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty 'errors' does not exist on type 'FormControlErrorsComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m4[0m       <li *ngFor="let error of errors | keyvalue" class="text-sm">[39m[22m
+[1m[31m[7m [0m [91m                               ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/shared/components/form-control-errors/form-control-errors.component.ts[0m:[93m10[0m:[93m16[0m[39m[22m
+[1m[31m    [7m10[0m   templateUrl: './form-control-errors.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormControlErrorsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.46 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:50:26.509Z[39m[37m[22m - Hash: [1m[37m2a9e1004c4249222[39m[37m[22m - Time: [1m[37m503[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component.html[0m:[93m24[0m:[93m13[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'errors' since it isn't a known property of 'app-form-control-errors'.[39m[22m
+[1m[31m1. If 'app-form-control-errors' is an Angular component and it has 'errors' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'app-form-control-errors' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m             [errors]="formGroup.controls['email'].errors"[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/auth/components/form-login/form-login.component.ts[0m:[93m30[0m:[93m16[0m[39m[22m
+[1m[31m    [7m30[0m   templateUrl: './form-login.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormLoginComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.40 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:50:33.164Z[39m[37m[22m - Hash: [1m[37m65787b33bb92a0a2[39m[37m[22m - Time: [1m[37m665[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:51:52.500Z[39m[37m[22m - Hash: [1m[37me06adbc45b66c2e9[39m[37m[22m - Time: [1m[37m1067[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:53:03.582Z[39m[37m[22m - Hash: [1m[37mb4fc7fd5e0378ac2[39m[37m[22m - Time: [1m[37m1177[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/shared/components/form-control-errors/form-control-errors.component.html[0m:[93m10[0m:[93m27[0m - [91merror[0m[90m NG8004: [0mNo pipe found with name 'json'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m <span>{{ control.errors | json }}</span>[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/shared/components/form-control-errors/form-control-errors.component.ts[0m:[93m11[0m:[93m16[0m[39m[22m
+[1m[31m    [7m11[0m   templateUrl: './form-control-errors.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormControlErrorsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m93.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:53:18.382Z[39m[37m[22m - Hash: [1m[37mb45e324046ebc3c3[39m[37m[22m - Time: [1m[37m630[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/shared/components/form-control-errors/form-control-errors.component.ts[0m:[93m10[0m:[93m12[0m - [91merror[0m[90m NG1010: [0m'imports' must be an array of components, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value is of type '[(not statically analyzable), NgIf, NgForOf, KeyValuePipe, TranslocoModule]'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   imports: [JsonPipe, NgIf, NgFor, KeyValuePipe, TranslocoModule],[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/shared/components/form-control-errors/form-control-errors.component.ts[0m:[93m10[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'JsonPipe'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   imports: [JsonPipe, NgIf, NgFor, KeyValuePipe, TranslocoModule],[39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:53:22.732Z[39m[37m[22m - Hash: [1m[37mb7c83e321c831859[39m[37m[22m - Time: [1m[37m791[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:54:03.059Z[39m[37m[22m - Hash: [1m[37md134cdd577c2473e[39m[37m[22m - Time: [1m[37m1091[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.40 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:54:19.125Z[39m[37m[22m - Hash: [1m[37mc97a270b37cc9e67[39m[37m[22m - Time: [1m[37m740[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.27 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:54:45.637Z[39m[37m[22m - Hash: [1m[37m617ff86a525cdb5d[39m[37m[22m - Time: [1m[37m999[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.27 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:55:16.199Z[39m[37m[22m - Hash: [1m[37mea3a16e48ee8d251[39m[37m[22m - Time: [1m[37m964[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.45 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:56:04.388Z[39m[37m[22m - Hash: [1m[37m09e63053f9f7c00c[39m[37m[22m - Time: [1m[37m1126[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component-store.ts[0m:[93m57[0m:[93m42[0m - [91merror[0m[90m TS2345: [0mArgument of type 'ActionCreator<"[Auth] Login", (props: { email: string; password: string; }) => { email: string; password: string; } & TypedAction<"[Auth] Login">>' is not assignable to parameter of type '((props: { email: string; password: string; }) => { email: string; password: string; } & TypedAction<"[Auth] Login">) & TypedAction<"[Auth] Login"> & "Functions are not allowed to be dispatched. Did you forget to call the action creator function?"'.[39m[22m
+[1m[31m  Type 'ActionCreator<"[Auth] Login", (props: { email: string; password: string; }) => { email: string; password: string; } & TypedAction<"[Auth] Login">>' is not assignable to type '"Functions are not allowed to be dispatched. Did you forget to call the action creator function?"'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m57[0m               () => this._store.dispatch(AuthActions.login),[39m[22m
+[1m[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.28 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:56:44.261Z[39m[37m[22m - Hash: [1m[37m797bef558533b12b[39m[37m[22m - Time: [1m[37m927[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component-store.ts[0m:[93m55[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m55[0m           this._store.dispatch(AuthActions.login(formGroup.value);[39m[22m
+[1m[31m[7m  [0m [91m                                                                 ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:57:58.467Z[39m[37m[22m - Hash: [1m[37m797bef558533b12b[39m[37m[22m - Time: [1m[37m766[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component-store.ts[0m:[93m55[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m55[0m           this._store.dispatch(AuthActions.login(formGroup.value);[39m[22m
+[1m[31m[7m  [0m [91m                                                                 ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:58:57.847Z[39m[37m[22m - Hash: [1m[37m797bef558533b12b[39m[37m[22m - Time: [1m[37m760[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component-store.ts[0m:[93m55[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m55[0m           this._store.dispatch(AuthActions.login(formGroup.value);[39m[22m
+[1m[31m[7m  [0m [91m                                                                 ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:59:14.464Z[39m[37m[22m - Hash: [1m[37m797bef558533b12b[39m[37m[22m - Time: [1m[37m399[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component-store.ts[0m:[93m55[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m55[0m           this._store.dispatch(AuthActions.login(formGroup.value);[39m[22m
+[1m[31m[7m  [0m [91m                                                                 ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m96.87 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T15:59:26.505Z[39m[37m[22m - Hash: [1m[37mf7838d35e854baad[39m[37m[22m - Time: [1m[37m1054[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T16:00:04.296Z[39m[37m[22m - Hash: [1m[37mf7838d35e854baad[39m[37m[22m - Time: [1m[37m925[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m98.10 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T16:00:18.565Z[39m[37m[22m - Hash: [1m[37ma51838eaebed2579[39m[37m[22m - Time: [1m[37m726[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component-store.ts[0m:[93m32[0m:[93m12[0m - [91merror[0m[90m TS4114: [0mThis member must have an 'override' modifier because it overrides a member in the base class 'FormComponentStore<FormLoginState>'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m32[0m   readonly loading$ = this._store.select(selectAuthenticating);[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m98.10 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T16:00:30.432Z[39m[37m[22m - Hash: [1m[37m14ea2f90752782de[39m[37m[22m - Time: [1m[37m1135[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.79 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T16:00:44.585Z[39m[37m[22m - Hash: [1m[37mfc134e4cd95237f3[39m[37m[22m - Time: [1m[37m1113[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.79 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T16:00:49.653Z[39m[37m[22m - Hash: [1m[37m473fc5f5647bf06f[39m[37m[22m - Time: [1m[37m730[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m103.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m  [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T16:01:28.108Z[39m[37m[22m - Hash: [1m[37m9531235d1472be8c[39m[37m[22m - Time: [1m[37m2133[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/core/state/auth.reducer.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: /workspaces/angular-frontend/src/app/core/state/auth.reducer.ts: Unexpected token (11:30)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m  9 |[39m[31m     [33m...[39m[31mstate[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 10 |[39m[31m     error[33m:[39m[31m undefined[33m.[39m[31m[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 11 |[39m[31m         authenticating[33m,[39m[31m [36mtrue[39m[31m[33m:[39m[31m [33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m                               [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m }))[33m,[39m[31m on([33mAuthActions[39m[31m[33m.[39m[31mloginSuccess[33m,[39m[31m (state) [33m=>[39m[31m ({[0m[39m[22m
+[1m[31m[0m [90m 13 |[39m[31m     [33m...[39m[31mstate[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m     authenticating[33m:[39m[31m [36mfalse[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.reducer.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS18050: [0mThe value 'undefined' cannot be used here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m17[0m     error: undefined.[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.reducer.ts[0m:[93m18[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m     authenticating: true,[39m[22m
+[1m[31m[7m  [0m [91m                  ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.reducer.ts[0m:[93m18[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m':' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m     authenticating: true,[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-07T16:01:28.988Z[39m[37m[22m - Hash: [1m[37meac69947daf1404c[39m[37m[22m - Time: [1m[37m518[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.93 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:14:39.990Z[39m[37m[22m - Hash: [1m[37mb741512079d97b5f[39m[37m[22m - Time: [1m[37m2065[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.67 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:14:59.652Z[39m[37m[22m - Hash: [1m[37m3268bea3c0fc914c[39m[37m[22m - Time: [1m[37m696[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m103.48 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m  [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:18:57.849Z[39m[37m[22m - Hash: [1m[37mc5306cf9b49afe3e[39m[37m[22m - Time: [1m[37m966[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/core/state/auth.actions.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: /workspaces/angular-frontend/src/app/core/state/auth.actions.ts: Unexpected token (5:73)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 3 |[39m[31m     source[33m:[39m[31m [32m'Auth'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 4 |[39m[31m     events[33m:[39m[31m {[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 5 |[39m[31m         [33mLogin[39m[31m[33m:[39m[31m props [33m<[39m[31m { loginData[33m:[39m[31m email[33m,[39m[31m string[33m,[39m[31m password[33m:[39m[31m string } [33m>[39m[31m ()[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m   |[39m[31m                                                                          [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 6 |[39m[31m         [32m'Login Success'[39m[31m[33m:[39m[31m props()[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 7 |[39m[31m         [32m'Login Failure'[39m[31m[33m:[39m[31m props()[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 8 |[39m[31m         [32m'Clear Error'[39m[31m[33m:[39m[31m emptyProps()[33m,[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'boolean' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m     Login: props<{ loginData: email: string; password: string }>(),[39m[22m
+[1m[31m[7m [0m [91m    ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m8[0m:[93m12[0m - [91merror[0m[90m TS2365: [0mOperator '<' cannot be applied to types '<P extends SafeProps, SafeProps = NotAllowedInPropsCheck<P>>() => ActionCreatorProps<P>' and '{ loginData: any; string: any; password: any; }'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m     Login: props<{ loginData: email: string; password: string }>(),[39m[22m
+[1m[31m[7m [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m8[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'email'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m     Login: props<{ loginData: email: string; password: string }>(),[39m[22m[1m[31m[39m[22m
+[1m[31m[7m [0m [91m                              ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m8[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m     Login: props<{ loginData: email: string; password: string }>(),[39m[22m
+[1m[31m[7m [0m [91m                                   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m8[0m:[93m38[0m - [91merror[0m[90m TS2693: [0m'string' only refers to a type, but is being used as a value here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m     Login: props<{ loginData: email: string; password: string }>(),[39m[22m
+[1m[31m[7m [0m [91m                                     ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m8[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m     Login: props<{ loginData: email: string; password: string }>(),[39m[22m
+[1m[31m[7m [0m [91m                                           ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m8[0m:[93m56[0m - [91merror[0m[90m TS2693: [0m'string' only refers to a type, but is being used as a value here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m     Login: props<{ loginData: email: string; password: string }>(),[39m[22m
+[1m[31m[7m [0m [91m                                                       ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m8[0m:[93m66[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m     Login: props<{ loginData: email: string; password: string }>(),[39m[22m
+[1m[31m[7m [0m [91m                                                                 ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ActionCreatorProps<{ authData: AuthData; }>' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m     'Login Success': props<{ authData: AuthData }>(),[39m[22m
+[1m[31m[7m [0m [91m    ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.act[39m[22m[1m[31mions.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ActionCreatorProps<{ error: string; }>' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m     'Login Failure': props<{ error: string }>(),[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m11[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ActionCreatorProps<void>' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m     'Clear Error': emptyProps(),[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ActionCreatorProps<{ authData: AuthData; }>' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m     'Store Auth Data': props<{ authData: AuthData }>(),[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ActionCreatorProps<void>' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m     'Load Auth Data': emptyProps(),[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ActionCreatorProps<{ user: User; accessToken: string; expiresAt: Date; }>' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m     'Load Auth Data Success': props<{[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m19[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ActionCreatorProps<void>' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m19[0m     'Load Auth Data Failure': emptyProps(),[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.actions.ts[0m:[93m20[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ActionCreatorProps<void>' is not assignable to type 'never'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m     'Clear Au[39m[22m[1m[31mth Data': emptyProps(),[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m18[0m:[93m26[0m - [91merror[0m[90m TS4111: [0mProperty 'login' comes from an index signature, so it must be accessed with ['login'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m       ofType(AuthActions.login),[39m[22m
+[1m[31m[7m  [0m [91m                         ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m22[0m:[93m25[0m - [91merror[0m[90m TS4111: [0mProperty 'loginSuccess' comes from an index signature, so it must be accessed with ['loginSuccess'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m22[0m             AuthActions.loginSuccess({ authData: response.data })[39m[22m
+[1m[31m[7m  [0m [91m                        ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m25[0m:[93m28[0m - [91merror[0m[90m TS4111: [0mProperty 'loginFailure' comes from an index signature, so it must be accessed with ['loginFailure'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m25[0m             of(AuthActions.loginFailure(error.error.message))[39m[22m
+[1m[31m[7m  [0m [91m                           ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m34[0m:[93m26[0m - [91merror[0m[90m TS4111: [0mProperty 'loginSuccess' comes from an index signature, so it must be accessed with ['loginSuccess'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m34[0m       ofType(AuthActions.loginSuccess),[39m[22m
+[1m[31m[7m  [0m [91m                         ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m35[0m:[93m33[0m - [91merror[0m[90m TS4111: [0mProperty 'storeAuthData' comes from an index signature, so it must be accessed with ['storeAuthData'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m35[0m       map((data) => AuthActions.storeAuthData({ authData: data.authData }))[39m[22m
+[1m[31m[7m  [0m [91m                                ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m35[0m:[93m64[0m - [91merror[0m[90m TS2339: [0mProperty 'authData' does not exist on [39m[22m[1m[31mtype 'TypedAction<`[Auth] ${string}`>'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m35[0m       map((data) => AuthActions.storeAuthData({ authData: data.authData }))[39m[22m
+[1m[31m[7m  [0m [91m                                                               ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m43[0m:[93m28[0m - [91merror[0m[90m TS4111: [0mProperty 'storeAuthData' comes from an index signature, so it must be accessed with ['storeAuthData'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m43[0m         ofType(AuthActions.storeAuthData),[39m[22m
+[1m[31m[7m  [0m [91m                           ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m44[0m:[93m16[0m - [91merror[0m[90m TS2339: [0mProperty 'authData' does not exist on type 'TypedAction<`[Auth] ${string}`>'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         tap(({ authData }) => {[39m[22m
+[1m[31m[7m  [0m [91m               ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m56[0m:[93m28[0m - [91merror[0m[90m TS4111: [0mProperty 'loadAuthData' comes from an index signature, so it must be accessed with ['loadAuthData'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m56[0m         ofType(AuthActions.loadAuthData),[39m[22m
+[1m[31m[7m  [0m [91m                           ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m66[0m:[93m32[0m - [91merror[0m[90m TS4111: [0mProperty 'loadAuthDataSuccess' comes from an index signature, so it must be accessed with ['loadAuthDataSuccess'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m66[0m             return AuthActions.loadAuthDataSuccess({[39m[22m
+[1m[31m[7m  [0m [91m                               ~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m73[0m:[93m30[0m - [91merror[0m[90m TS4111: [0mProperty 'loadAuthDataFailure' comes from an index signature, so it must be accessed with ['loadAuthDataFailure'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m73[0m           return AuthActions.loadAuthDataFailure();[39m[22m
+[1m[31m[7m  [0m [91m                             ~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/[39m[22m[1m[31mapp/core/state/auth.reducer.ts[0m:[93m15[0m:[93m18[0m - [91merror[0m[90m TS4111: [0mProperty 'login' comes from an index signature, so it must be accessed with ['login'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   on(AuthActions.login, (state) => ({[39m[22m
+[1m[31m[7m  [0m [91m                 ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.reducer.ts[0m:[93m21[0m:[93m18[0m - [91merror[0m[90m TS4111: [0mProperty 'loginSuccess' comes from an index signature, so it must be accessed with ['loginSuccess'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m21[0m   on(AuthActions.loginSuccess, (state) => ({[39m[22m
+[1m[31m[7m  [0m [91m                 ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.reducer.ts[0m:[93m26[0m:[93m18[0m - [91merror[0m[90m TS4111: [0mProperty 'loginFailure' comes from an index signature, so it must be accessed with ['loginFailure'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m26[0m   on(AuthActions.loginFailure, (state) => ({[39m[22m
+[1m[31m[7m  [0m [91m                 ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.reducer.ts[0m:[93m31[0m:[93m18[0m - [91merror[0m[90m TS4111: [0mProperty 'storeAuthData' comes from an index signature, so it must be accessed with ['storeAuthData'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m31[0m   on(AuthActions.storeAuthData, (state, { authData }) => ({[39m[22m
+[1m[31m[7m  [0m [91m                 ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.reducer.ts[0m:[93m31[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'authData' does not exist on type 'TypedAction<`[Auth] ${string}`> & { type: `[Auth] ${string}`; }'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m31[0m   on(AuthActions.storeAuthData, (state, { authData }) => ({[39m[22m
+[1m[31m[7m  [0m [91m                                          ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/auth/components/form-login/form-login.component-store.ts[0m:[93m52[0m:[93m44[0m - [91merror[0m[90m TS4111: [0mProperty 'login' comes from an index signature, so it must be accessed with ['login'].[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m52[0m           this._store.dispatch(AuthActions.login(f[39m[22m[1m[31mormGroup.value));[39m[22m
+[1m[31m[7m  [0m [91m                                           ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.67 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:18:59.302Z[39m[37m[22m - Hash: [1m[37m6ba98fa148621467[39m[37m[22m - Time: [1m[37m675[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.68 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:21:10.184Z[39m[37m[22m - Hash: [1m[37mf58b19f08958dfe0[39m[37m[22m - Time: [1m[37m1140[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:23:14.667Z[39m[37m[22m - Hash: [1m[37mbb8c40d15c9d44b6[39m[37m[22m - Time: [1m[37m1072[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:23:54.899Z[39m[37m[22m - Hash: [1m[37m0f93fadaaf04f84a[39m[37m[22m - Time: [1m[37m756[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m20[0m:[93m41[0m - [91merror[0m[90m TS2339: [0mProperty 'loginData' does not exist on type '{ email: string; password: string; } & TypedAction<"[Auth] Login">'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m         this._authApiService.login(data.loginData).pipe([39m[22m
+[1m[31m[7m  [0m [91m                                        ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.76 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:24:18.660Z[39m[37m[22m - Hash: [1m[37m7116c619e810d254[39m[37m[22m - Time: [1m[37m744[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.74 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:27:29.489Z[39m[37m[22m - Hash: [1m[37mf18244c7705969c2[39m[37m[22m - Time: [1m[37m992[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.73 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:28:00.675Z[39m[37m[22m - Hash: [1m[37m3795c50b071aa07b[39m[37m[22m - Time: [1m[37m688[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/core/state/auth.effects.ts[0m:[93m64[0m:[93m39[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m[22m
+[1m[31m  Overload 1 of 4, '(value: string | number | Date): Date', gave the following error.[39m[22m
+[1m[31m    Argument of type 'string | null' is not assignable to parameter of type 'string | number | Date'.[39m[22m
+[1m[31m      Type 'null' is not assignable to type 'string | number | Date'.[39m[22m
+[1m[31m  Overload 2 of 4, '(value: string | number): Date', gave the following error.[39m[22m
+[1m[31m    Argument of type 'string | null' is not assignable to parameter of type 'string | number'.[39m[22m
+[1m[31m      Type 'null' is not assignable to type 'string | number'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m64[0m           const expireDate = new Date(expiresAt);[39m[22m
+[1m[31m[7m  [0m [91m                                      ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m97.79 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-12-08T01:31:57.780Z[39m[37m[22m - Hash: [1m[37m6c899ff9b1d8af21[39m[37m[22m - Time: [1m[37m885[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
