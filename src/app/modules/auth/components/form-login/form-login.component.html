@@ -7,7 +7,7 @@
     (ngSubmit)="submit()"
   >
     <nz-form-item>
-      <nz-form-control [nzErrorTip]="err">
+      <nz-form-control [nzErrorTip]="emailErr">
         <nz-form-label nzNoColon="true" nzRequired>{{
           trans('email')
         }}</nz-form-label>
@@ -17,7 +17,7 @@
           formControlName="email"
           [placeholder]="trans('email')"
         />
-        <ng-template #err let-control>
+        <ng-template #emailErr let-control>
           <app-ui-form-control-errors
             [name]="trans('email')"
             [control]="formGroup.controls['email']"
@@ -27,7 +27,7 @@
     </nz-form-item>
 
     <nz-form-item>
-      <nz-form-control [nzErrorTip]="err">
+      <nz-form-control [nzErrorTip]="passwordErr">
         <nz-form-label nzNoColon="true" nzRequired>{{
           trans('password')
         }}</nz-form-label>
@@ -37,7 +37,7 @@
           formControlName="password"
           [placeholder]="trans('password')"
         />
-        <ng-template #err let-control>
+        <ng-template #passwordErr let-control>
           <app-ui-form-control-errors
             [name]="trans('password')"
             [control]="formGroup.controls['password']"

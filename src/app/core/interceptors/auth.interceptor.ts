@@ -8,8 +8,8 @@ import { Router } from '@angular/router';
 import { throwError } from 'rxjs';
 import { catchError, switchMap, take, tap } from 'rxjs/operators';
 import { Store } from '@ngrx/store';
-import { AuthActions } from '@core/state/auth.actions';
-import { selectAccessToken } from '@core/state/auth.selectors';
+import { AuthActions } from '@core/states/auth/auth.actions';
+import { selectAccessToken } from '@core/states/auth/auth.selectors';
 
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {

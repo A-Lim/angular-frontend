@@ -1,6 +1,6 @@
 <ng-container *transloco="let trans">
   <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
-    <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
+    <!-- <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
       <ul>
         <li nz-menu-item nzMatchRouter>
           <a routerLink="/welcome">Welcome</a>
@@ -19,14 +19,15 @@
           <a>Basic Form</a>
         </li>
       </ul>
-    </li>
-    <li nz-menu-item nzMatchRouter>
+    </li> -->
+
+    <li *hasPermissions="['users.viewAny']" nz-menu-item nzMatchRouter>
       <a class="block text-white" routerLink="/admin/users">
         <span nz-icon nzType="user"></span>
         <span>{{ trans('users') }}</span>
       </a>
     </li>
-    <li nz-menu-item nzMatchRouter>
+    <li *hasPermissions="['usergroups.viewAny']" nz-menu-item nzMatchRouter>
       <a class="block text-white" routerLink="/admin/user-groups">
         <span nz-icon nzType="usergroup-add"></span>
         <span>{{ trans('user-groups') }}</span>

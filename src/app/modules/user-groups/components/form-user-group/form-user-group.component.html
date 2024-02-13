@@ -1,1 +1,107 @@
-<p>form-user-group works!</p>
+<ng-container *transloco="let trans">
+  <form
+    *ngIf="formGroup$ | async as formGroup"
+    nz-form
+    nzLayout="vertical"
+    [formGroup]="formGroup"
+    (ngSubmit)="submit()"
+  >
+    <div class="grid grid-cols-none md:grid-cols-2 gap-x-4">
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="nameErr">
+          <nz-form-label nzNoColon="true" nzRequired>{{ trans('name') }}</nz-form-label>
+          <input type="text" nz-input formControlName="name" [placeholder]="trans('name')" />
+          <ng-template #nameErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('name')"
+              [control]="formGroup.controls['name']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="codeErr">
+          <nz-form-label nzNoColon="true" nzRequired>{{ trans('code') }}</nz-form-label>
+          <input type="text" nz-input formControlName="code" [placeholder]="trans('code')" />
+          <ng-template #codeErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('code')"
+              [control]="formGroup.controls['code']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="statusErr">
+          <nz-form-label nzNoColon="true" nzRequired>{{ trans('status') }}</nz-form-label>
+          <nz-select formControlName="status">
+            <nz-option
+              *ngFor="let status of statuses$ | async"
+              [nzValue]="status"
+              nzLabel="{{ status | titlecase }}"
+            ></nz-option>
+          </nz-select>
+
+          <ng-template #statusErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('status')"
+              [control]="formGroup.controls['status']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+
+    <div class="grid grid-cols-none md:grid-cols-2 lg:grid-cols-4 gap-x-4">
+      <div *ngFor="let group of checkboxGroups | keyvalue">
+        <div class="mt-2">
+          <label
+            class="select-none"
+            nz-checkbox
+            [(ngModel)]="group.value!.checked"
+            [ngModelOptions]="{ standalone: true }"
+            [nzIndeterminate]="group.value!.indeterminate"
+            [nzDisabled]="group.value!.disabled"
+            (nzCheckedChange)="moduleChange(group.key, $event)"
+          >
+            <strong>{{ group.key | uppercase }}</strong>
+          </label>
+        </div>
+
+        <div class="mt-2 mb-4">
+          <div
+            *ngFor="
+              let checkbox of group.value!.checkboxes | keyvalue;
+              trackBy: trackByPermissionId
+            "
+          >
+            <label
+              class="select-none"
+              nz-checkbox
+              [(ngModel)]="checkbox.value!.checked"
+              [ngModelOptions]="{ standalone: true }"
+              [nzDisabled]="checkbox.value!.disabled"
+              (nzCheckedChange)="permissionChange(group.key, checkbox.key, $event)"
+            >
+              {{ checkbox.value!.label | titlecase }}
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-end">
+      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async">
+        <ng-container *ngIf="userGroup$ | async; else updateText">
+          {{ trans('update') }}
+        </ng-container>
+
+        <ng-template #updateText>
+          {{ trans('create') }}
+        </ng-template>
+      </button>
+    </div>
+  </form>
+</ng-container>

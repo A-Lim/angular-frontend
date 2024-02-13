@@ -8,7 +8,7 @@
   >
     <div class="grid grid-cols-none md:grid-cols-2 gap-x-4">
       <nz-form-item>
-        <nz-form-control [nzErrorTip]="err">
+        <nz-form-control [nzErrorTip]="nameErr">
           <nz-form-label nzNoColon="true" nzRequired>{{
             trans('name')
           }}</nz-form-label>
@@ -18,7 +18,7 @@
             formControlName="name"
             [placeholder]="trans('name')"
           />
-          <ng-template #err let-control>
+          <ng-template #nameErr let-control>
             <app-ui-form-control-errors
               [name]="trans('name')"
               [control]="formGroup.controls['name']"
@@ -28,7 +28,7 @@
       </nz-form-item>
 
       <nz-form-item>
-        <nz-form-control [nzErrorTip]="err">
+        <nz-form-control [nzErrorTip]="emailErr">
           <nz-form-label nzNoColon="true" nzRequired>{{
             trans('email')
           }}</nz-form-label>
@@ -38,7 +38,7 @@
             formControlName="email"
             [placeholder]="trans('email')"
           />
-          <ng-template #err let-control>
+          <ng-template #emailErr let-control>
             <app-ui-form-control-errors
               [name]="trans('email')"
               [control]="formGroup.controls['email']"
@@ -48,7 +48,7 @@
       </nz-form-item>
 
       <nz-form-item>
-        <nz-form-control [nzErrorTip]="err">
+        <nz-form-control [nzErrorTip]="phoneErr">
           <nz-form-label nzNoColon="true">{{ trans('phone') }}</nz-form-label>
           <input
             type="text"
@@ -56,7 +56,7 @@
             formControlName="phone"
             [placeholder]="trans('phone')"
           />
-          <ng-template #err let-control>
+          <ng-template #phoneErr let-control>
             <app-ui-form-control-errors
               [name]="trans('phone')"
               [control]="formGroup.controls['phone']"
@@ -66,7 +66,7 @@
       </nz-form-item>
 
       <nz-form-item>
-        <nz-form-control [nzErrorTip]="err">
+        <nz-form-control [nzErrorTip]="dobErr">
           <nz-form-label nzNoColon="true">{{
             trans('date-of-birth')
           }}</nz-form-label>
@@ -79,7 +79,7 @@
             formControlName="date_of_birth"
           >
           </nz-date-picker>
-          <ng-template #err let-control>
+          <ng-template #dobErr let-control>
             <app-ui-form-control-errors
               [name]="trans('date-of-birth')"
               [control]="formGroup.controls['date_of_birth']"
@@ -92,7 +92,7 @@
         <nz-form-label nzNoColon="true" nzRequired>{{
           trans('status')
         }}</nz-form-label>
-        <nz-form-control [nzErrorTip]="err">
+        <nz-form-control [nzErrorTip]="statusErr">
           <nz-select formControlName="status">
             <nz-option
               *ngFor="let status of statuses$ | async"
@@ -101,7 +101,7 @@
             ></nz-option>
           </nz-select>
 
-          <ng-template #err let-control>
+          <ng-template #statusErr let-control>
             <app-ui-form-control-errors
               [name]="trans('status')"
               [control]="formGroup.controls['status']"

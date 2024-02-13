@@ -3,9 +3,14 @@
   "logout": "Logout",
   "edit": "Edit",
   "delete": "Delete",
+  "create": "Create",
   "update": "Update",
   "status": "Status",
+  "add-users": "Add Users",
+  "view": "View",
+  "remove": "Remove",
   "phone": "Phone",
+  "loading": "Loading",
   "date-of-birth": "Date of Birth",
   "name": "Name",
   "log-in": "Log in",
@@ -17,13 +22,20 @@
   "user-list": "User List",
   "upload-avatar": "Upload Avatar",
   "user-groups": "User Groups",
-  "add-user-groups": "Add User Group",
+  "create-user-group": "Create User Group",
   "user-group-list": "User Group List",
   "general": "General",
   "code": "Code",
   "gender": "Gender",
   "admin": "Admin",
   "permissions": "Permissions",
+  "search-user-by-email": "Search user by email",
+  "usergroup": {
+    "delete": "Delete User Group",
+    "delete-message": "Are you sure you want to delete this user group?",
+    "remove-user": "Remove User",
+    "remove-user-message": "Are you sure you want to remove this user from this user group?"
+  },
   "user-status-types": {
     "active": "Active",
     "inactive": "Inactive",
@@ -31,6 +43,7 @@
     "unverified": "Unverified"
   },
   "messages": {
-    "sign-in-to-your-account": "Sign in to your account"
+    "sign-in-to-your-account": "Sign in to your account",
+    "unauthorized-to-edit-this-resource": "You do not have permission to edit this resource."
   }
 }

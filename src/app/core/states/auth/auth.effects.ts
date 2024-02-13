@@ -1,10 +1,12 @@
 import { Injectable, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { catchError, map, of, switchMap, tap } from 'rxjs';
+import { tapResponse } from '@ngrx/component-store';
 import { Actions, concatLatestFrom, createEffect, ofType } from '@ngrx/effects';
 import { Store } from '@ngrx/store';
 import { AuthApiService } from '@core/services/auth.api-service';
-import { AuthActions } from '@core/state/auth.actions';
+import { AuthActions } from '@core/states/auth/auth.actions';
+import { PermissionApiService } from '@shared/services/permissions.api-service';
 import { selectUser } from './auth.selectors';
 
 @Injectable({ providedIn: 'root' })
@@ -13,21 +15,16 @@ export class AuthEffects {
   private _actions$ = inject(Actions);
   private _router = inject(Router);
   private _authApiService = inject(AuthApiService);
+  private _permissionsApiService = inject(PermissionApiService);
 
   readonly login$ = createEffect(() =>
     this._actions$.pipe(
       ofType(AuthActions.login),
       switchMap((data) =>
-        this._authApiService
-          .login({ email: data.email, password: data.password })
-          .pipe(
-            map((response) =>
-              AuthActions.loginSuccess({ authData: response.data })
-            ),
-            catchError((error) =>
-              of(AuthActions.loginFailure(error.error.message))
-            )
-          )
+        this._authApiService.login({ email: data.email, password: data.password }).pipe(
+          map((response) => AuthActions.loginSuccess({ authData: response.data })),
+          catchError((error) => of(AuthActions.loginFailure(error.error.message)))
+        )
       )
     )
   );
@@ -40,13 +37,24 @@ export class AuthEffects {
     )
   );
 
+  readonly getMyPermissions$ = createEffect(() =>
+    this._actions$.pipe(
+      ofType(AuthActions.getMyPermissions),
+      switchMap(() =>
+        this._permissionsApiService
+          .getMyPermissions()
+          .pipe(
+            map((response) => AuthActions.getMyPermissionsSuccess({ permissions: response.data }))
+          )
+      )
+    )
+  );
+
   readonly logout$ = createEffect(() =>
     this._actions$.pipe(
       ofType(AuthActions.logout),
       switchMap((data) =>
-        this._authApiService
-          .logout()
-          .pipe(map(() => AuthActions.logoutSuccess()))
+        this._authApiService.logout().pipe(map(() => AuthActions.logoutSuccess()))
       )
     )
   );
@@ -77,17 +85,16 @@ export class AuthEffects {
     { dispatch: false }
   );
 
-  readonly storeAuthData$ = createEffect(
-    () =>
-      this._actions$.pipe(
-        ofType(AuthActions.storeAuthData),
-        tap(({ authData }) => {
-          localStorage.setItem('accessToken', authData.accessToken);
-          localStorage.setItem('expiresAt', authData.expiresAt);
-          localStorage.setItem('user', JSON.stringify(authData.user));
-        })
-      ),
-    { dispatch: false }
+  readonly storeAuthData$ = createEffect(() =>
+    this._actions$.pipe(
+      ofType(AuthActions.storeAuthData),
+      tap(({ authData }) => {
+        localStorage.setItem('accessToken', authData.accessToken);
+        localStorage.setItem('expiresAt', authData.expiresAt);
+        localStorage.setItem('user', JSON.stringify(authData.user));
+      }),
+      map(() => AuthActions.getMyPermissions())
+    )
   );
 
   readonly loadAuthData$ = createEffect(() =>
@@ -113,6 +120,13 @@ export class AuthEffects {
 
         return AuthActions.loadAuthDataFailure();
       })
+    )
+  );
+
+  readonly loadAuthDataSuccess$ = createEffect(() =>
+    this._actions$.pipe(
+      ofType(AuthActions.loadAuthDataSuccess),
+      map(() => AuthActions.getMyPermissions())
     )
   );
 }

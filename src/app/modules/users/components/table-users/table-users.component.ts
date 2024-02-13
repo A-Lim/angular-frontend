@@ -1,10 +1,4 @@
-import {
-  AsyncPipe,
-  NgIf,
-  NgSwitch,
-  NgSwitchCase,
-  TitleCasePipe,
-} from '@angular/common';
+import { AsyncPipe, NgIf, NgSwitch, NgSwitchCase, TitleCasePipe } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -13,6 +7,7 @@ import {
   ViewChild,
   inject,
 } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { TranslocoModule } from '@ngneat/transloco';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzIconModule } from 'ng-zorro-antd/icon';
@@ -33,6 +28,7 @@ import { TableUsersComponentStore } from './table-users.component-store';
     NgSwitchCase,
     AsyncPipe,
     TitleCasePipe,
+    RouterLink,
     UiGridComponent,
     UiTemplateRendererComponent,
     NzTagModule,
@@ -43,29 +39,18 @@ import { TableUsersComponentStore } from './table-users.component-store';
   ],
   templateUrl: './table-users.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [
-    TableUsersComponentStore,
-    UtilAggridService,
-    UtilUrlQueryBuilderService,
-  ],
+  providers: [TableUsersComponentStore],
 })
 export class TableUsersComponent implements OnInit {
-  @ViewChild('phoneCell', { static: true }) phoneCell!: TemplateRef<any>;
   @ViewChild('actionsCell', { static: true }) actionsCell!: TemplateRef<any>;
   @ViewChild('statusCell', { static: true }) statusCell!: TemplateRef<any>;
 
   private _tableUsersComponentStore = inject(TableUsersComponentStore);
-  readonly columnDefs$ = this._tableUsersComponentStore.columnDef$;
-  readonly dataSourceCallback$ =
-    this._tableUsersComponentStore.dataSourceCallback$;
+  readonly columnDefs$ = this._tableUsersComponentStore.columnDefs$;
+  readonly dataSource$ = this._tableUsersComponentStore.dataSource$;
 
   ngOnInit() {
-    this._tableUsersComponentStore.setPhoneCell(this.phoneCell);
     this._tableUsersComponentStore.setActionCell(this.actionsCell);
     this._tableUsersComponentStore.setStatusCell(this.statusCell);
-  }
-
-  navigateTo(route: string) {
-    this._tableUsersComponentStore.navigateTo(route);
   }
 }

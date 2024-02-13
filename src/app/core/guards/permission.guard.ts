@@ -7,7 +7,7 @@ import {
 } from '@angular/router';
 import { filter, map } from 'rxjs';
 import { Store } from '@ngrx/store';
-import { selectHasPermissions } from '@core/state/auth.selectors';
+import { selectHasPermissions } from '@core/states/auth/auth.selectors';
 
 export const permissionGuardFn: CanActivateFn = (
   route: ActivatedRouteSnapshot,

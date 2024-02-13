@@ -1,30 +1,38 @@
 <app-ui-grid
-  [dataSourceCallback]="dataSourceCallback$ | async"
+  #grid
+  [dataSource]="dataSource$ | async"
   [columnDefs]="columnDefs$ | async"
 ></app-ui-grid>
 
-<!-- <ng-container *transloco="let trans"> </ng-container> -->
-
-<ng-template #phoneCell let-row>
-  <ng-container *ngIf="row">
-    <a [href]="'tel:' + row.phone">{{ row.phone }}</a>
-  </ng-container>
-</ng-template>
-
 <ng-template #actionsCell let-row>
   <ng-container *transloco="let trans">
-    <ng-container *ngIf="row">
-      <button
+    <div *ngIf="row" class="space-x-2">
+      <a
         nz-button
         nz-tooltip
         nzType="primary"
         nzShape="circle"
         [nzTooltipTitle]="trans('edit')"
-        (click)="navigateTo('/admin/user-groups/' + row.id + '/edit')"
+        [routerLink]="['/admin/user-groups/' + row.id + '/edit']"
       >
         <i nz-icon nzType="edit" nzTheme="outline"></i>
-      </button>
-    </ng-container>
+      </a>
+
+      <ng-container *ngIf="!row.is_admin">
+        <button
+          *hasPermissions="['usergroups.delete']"
+          nz-button
+          nz-tooltip
+          nzDanger
+          nzType="primary"
+          nzShape="circle"
+          [nzTooltipTitle]="trans('delete')"
+          (click)="deleteUserGroup(row.id)"
+        >
+          <i nz-icon nzType="delete" nzTheme="outline"></i>
+        </button>
+      </ng-container>
+    </div>
   </ng-container>
 </ng-template>
 

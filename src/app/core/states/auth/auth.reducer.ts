@@ -1,6 +1,6 @@
 import { createReducer, on } from '@ngrx/store';
-import { AuthActions } from '@core/state/auth.actions';
-import { AuthState } from '@core/state/auth.state';
+import { AuthActions } from '@core/states/auth/auth.actions';
+import { AuthState } from '@core/states/auth/auth.state';
 
 export const AUTH_FEATURE_KEY = 'auth';
 
@@ -45,22 +45,24 @@ export const AUTH_REDUCER = createReducer<AuthState>(
     user,
   })),
 
-  on(
-    AuthActions.loadAuthDataSuccess,
-    (state, { user, accessToken, expiresAt }) => ({
-      ...state,
-      user,
-      accessToken,
-      expiresAt,
-    })
-  ),
+  on(AuthActions.getMyPermissionsSuccess, (state, { permissions }) => ({
+    ...state,
+    permissionsLoaded: true,
+    permissions,
+  })),
+
+  on(AuthActions.loadAuthDataSuccess, (state, { user, accessToken, expiresAt }) => ({
+    ...state,
+    user,
+    accessToken,
+    expiresAt,
+  })),
 
   on(AuthActions.storeAuthData, (state, { authData }) => ({
     ...state,
     accessToken: authData.accessToken,
     expiresAt: new Date(authData.expiresAt).toJSON(),
     user: authData.user,
-    permissions: authData.permissions,
   })),
 
   on(AuthActions.logoutSuccess, () => ({

@@ -4707,6 +4707,24 @@
         "hash": "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA=="
       }
     },
+    "npm:@types/lodash": {
+      "type": "npm",
+      "name": "npm:@types/lodash",
+      "data": {
+        "version": "4.14.202",
+        "packageName": "@types/lodash",
+        "hash": "sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ=="
+      }
+    },
+    "npm:@types/lodash-es": {
+      "type": "npm",
+      "name": "npm:@types/lodash-es",
+      "data": {
+        "version": "4.17.12",
+        "packageName": "@types/lodash-es",
+        "hash": "sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ=="
+      }
+    },
     "npm:@types/mime": {
       "type": "npm",
       "name": "npm:@types/mime",
@@ -9439,6 +9457,15 @@
         "version": "4.17.21",
         "packageName": "lodash",
         "hash": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+      }
+    },
+    "npm:lodash-es": {
+      "type": "npm",
+      "name": "npm:lodash-es",
+      "data": {
+        "version": "4.17.21",
+        "packageName": "lodash-es",
+        "hash": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw=="
       }
     },
     "npm:lodash.debounce": {
@@ -19851,6 +19878,11 @@
     {
       "source": "npm:parse5@7.1.2",
       "target": "npm:entities",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/lodash-es",
+      "target": "npm:@types/lodash",
       "type": "static"
     },
     {

@@ -14,7 +14,6 @@ import { environment } from '@environments/environment';
 import { AgGridAngular, AgGridModule } from 'ag-grid-angular';
 import {
   ColDef,
-  GridApi,
   GridOptions,
   GridReadyEvent,
   IDatasource,
@@ -22,9 +21,9 @@ import {
 } from 'ag-grid-community';
 import { Observable, auditTime, fromEvent } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
+import { UiGridDateFilterComponent } from '@shared/components/ui-grid-date-filter/ui-grid-date-filter.component';
 import { UtilAggridService } from '@shared/services/util-aggrid.service';
 import { UtilUrlQueryBuilderService } from '@shared/services/util.urlquerybuilder.service';
-import { UiGridDateFilterComponent } from '../ui-grid-date-filter/ui-grid-date-filter.component';
 
 @UntilDestroy()
 @Component({
@@ -41,7 +40,7 @@ export class UiGridComponent implements OnInit, OnChanges, AfterViewInit {
   readonly _utilAggridService = inject(UtilAggridService);
   readonly _utilUrlQueryBuilderService = inject(UtilUrlQueryBuilderService);
 
-  @Input() dataSourceCallback?: ((qParams: any) => Observable<any>) | null;
+  @Input() dataSource?: ((qParams: any) => Observable<any>) | null;
   @Input() columnDefs?: ColDef[] | null;
   @Input() gridOptions: GridOptions = {
     defaultColDef: {
@@ -72,9 +71,8 @@ export class UiGridComponent implements OnInit, OnChanges, AfterViewInit {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes['columnDefs'] || changes['dataSourceCallback']) {
-      if (this.columnDefs != undefined && this.dataSourceCallback != undefined)
-        this.setDataSource();
+    if (changes['columnDefs'] || changes['dataSource']) {
+      if (this.columnDefs != undefined && this.dataSource != undefined) this.setDataSource();
     }
   }
 
@@ -98,14 +96,10 @@ export class UiGridComponent implements OnInit, OnChanges, AfterViewInit {
   private setDataSource() {
     this._dataSource = {
       getRows: (params: IGetRowsParams) => {
-        const urlParams =
-          this._utilUrlQueryBuilderService.buildUrlFromAgGrid(params);
+        const urlParams = this._utilUrlQueryBuilderService.buildUrlFromAgGrid(params);
         this.agGrid.api.showLoadingOverlay();
-        // this.gridOptions.api
-        // this.gridOptions.api!.showLoadingOverlay();
-        // this.gridOptions
         // perform callback from datasource
-        this.dataSourceCallback?.(urlParams)
+        this.dataSource?.(urlParams)
           .pipe(untilDestroyed(this))
           .subscribe((response) => {
             this.agGrid.api.hideOverlay();

@@ -10,6 +10,14 @@ export const USER_GROUPS_ROUTES: Route[] = [
       ),
   },
   {
+    path: 'user-groups/create',
+    title: 'Create User Group',
+    loadComponent: () =>
+      import(
+        './pages/page-user-group-manage/page-user-group-manage.component'
+      ).then((m) => m.PageUserGroupManageComponent),
+  },
+  {
     path: 'user-groups/:id/edit',
     title: 'Edit User Groups',
     loadComponent: () =>

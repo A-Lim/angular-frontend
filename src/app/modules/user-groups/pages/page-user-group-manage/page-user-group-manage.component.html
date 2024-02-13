@@ -14,16 +14,44 @@
         ]"
       ></app-ui-breadcrumb>
     </ng-container>
+
+    <ng-container *ngIf="!id">
+      <app-ui-breadcrumb
+        *transloco="let trans"
+        [title]="trans('user-groups')"
+        [breadcrumbs]="[
+          {
+            name: trans('user-group-list'),
+            icon: 'usergroup-add',
+            url: '/admin/user-groups'
+          },
+          { name: trans('create-user-group') }
+        ]"
+      ></app-ui-breadcrumb>
+    </ng-container>
   </ng-container>
 
   <ng-container content>
-    <nz-card>
-      <nz-tabset *transloco="let trans" [nzAnimated]="false">
+    <nz-card *transloco="let trans">
+      <ng-container *ngIf="id">
+        <nz-alert
+          *noPermissions="['usergroups.update']"
+          class="mb-2"
+          nzShowIcon
+          nzType="warning"
+          [nzMessage]="trans('messages.unauthorized-to-edit-this-resource')"
+        >
+        </nz-alert>
+      </ng-container>
+
+      <nz-tabset [nzAnimated]="false">
         <nz-tab [nzTitle]="trans('general')">
-          <app-form-user-group></app-form-user-group>
+          <app-form-user-group [userGroup]="userGroup$ | async"></app-form-user-group>
         </nz-tab>
-        <nz-tab [nzTitle]="trans('users')">
-          <app-table-usergroup-users></app-table-usergroup-users>
+        <nz-tab *ngIf="userGroup$ | async as userGroup" [nzTitle]="trans('users')">
+          <ng-template nz-tab>
+            <app-table-user-group-users [userGroup]="userGroup"></app-table-user-group-users>
+          </ng-template>
         </nz-tab>
       </nz-tabset>
     </nz-card>

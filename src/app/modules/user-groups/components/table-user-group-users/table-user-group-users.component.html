@@ -1,0 +1,68 @@
+<div class="grid grid-cols-none md:grid-cols-12 gap-x-4 mb-4">
+  <div class="col-span-12 md:col-span-6 col-start-0 md:col-start-9">
+    <app-select-usergroup-users
+      #select
+      [userGroupId]="userGroupId$ | async"
+      (selected)="addUsers($event)"
+    ></app-select-usergroup-users>
+  </div>
+</div>
+
+<app-ui-grid
+  #grid
+  [dataSource]="dataSource$ | async"
+  [columnDefs]="columnDefs$ | async"
+></app-ui-grid>
+
+<ng-template #actionsCell let-row>
+  <ng-container *ngIf="row">
+    <ng-container *transloco="let trans">
+      <a
+        *hasPermissions="['users.view']"
+        class="mr-1"
+        nz-button
+        nz-tooltip
+        nzType="primary"
+        nzShape="circle"
+        [nzTooltipTitle]="trans('view')"
+        [routerLink]="['/admin/users/' + row.id + '/edit']"
+      >
+        <i nz-icon nzType="edit" nzTheme="outline"></i>
+      </a>
+
+      <button
+        *hasPermissions="['usergroups.update']"
+        nz-button
+        nz-tooltip
+        nzDanger
+        nzType="primary"
+        nzShape="circle"
+        [nzTooltipTitle]="trans('remove')"
+        (click)="removeUser(row.id)"
+      >
+        <i nz-icon nzType="close" nzTheme="outline"></i>
+      </button>
+    </ng-container>
+  </ng-container>
+</ng-template>
+
+<ng-template #statusCell let-row>
+  <ng-container *transloco="let trans">
+    <ng-container *ngIf="row">
+      <ng-container [ngSwitch]="row.status">
+        <nz-tag *ngSwitchCase="'active'" nzColor="success">{{
+          trans('user-status-types.' + row.status) | titlecase
+        }}</nz-tag>
+        <nz-tag *ngSwitchCase="'unverified'" nzColor="warning">{{
+          trans('user-status-types.' + row.status) | titlecase
+        }}</nz-tag>
+        <nz-tag *ngSwitchCase="'inactive'" nzColor="warning">{{
+          trans('user-status-types.' + row.status) | titlecase
+        }}</nz-tag>
+        <nz-tag *ngSwitchCase="'locked'" nzColor="error">{{
+          trans('user-status-types.' + row.status) | titlecase
+        }}</nz-tag>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</ng-template>

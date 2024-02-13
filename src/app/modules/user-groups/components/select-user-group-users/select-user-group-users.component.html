@@ -1,0 +1,52 @@
+<nz-input-group nzSearch [nzAddOnAfter]="iconBtn">
+  <!-- [ngModel]="userIds$ | async" -->
+  <nz-select
+    *transloco="let trans"
+    class="w-full"
+    nzAllowClear
+    nzShowSearch
+    nzServerSearch
+    nzAllowClear
+    [(ngModel)]="ids"
+    [nzMode]="'multiple'"
+    [nzOptionHeightPx]="55"
+    [nzLoading]="searching$ | async"
+    [nzMaxTagCount]="2"
+    [nzPlaceHolder]="trans('search-user-by-email')"
+    [nzDisabled]="disabled$ | async"
+    (nzOnSearch)="searchUsers($event)"
+  >
+    <ng-container *ngFor="let user of users$ | async">
+      <nz-option
+        *ngIf="(searching$ | async) === false"
+        [nzValue]="user.id"
+        [nzLabel]="user.name"
+        nzCustomContent
+      >
+        <span class="block">{{ user.name }}</span>
+        <small>{{ user.email }}</small>
+      </nz-option>
+    </ng-container>
+    <nz-option *ngIf="searching$ | async" nzDisabled nzCustomContent> </nz-option>
+  </nz-select>
+</nz-input-group>
+
+<ng-template #iconBtn>
+  <button
+    *transloco="let trans"
+    nz-button
+    nzType="primary"
+    nzSearch
+    nz-tooltip
+    [nzTooltipTitle]="trans('add-users')"
+    [disabled]="disabled$ | async"
+    (click)="add()"
+  >
+    <ng-container *ngIf="loading$ | async">
+      <i nz-icon nzType="loading"></i>
+    </ng-container>
+    <ng-container *ngIf="(loading$ | async) === false">
+      <i nz-icon nzType="plus" nzTheme="outline"></i>
+    </ng-container>
+  </button>
+</ng-template>

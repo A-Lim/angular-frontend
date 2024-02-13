@@ -1,6 +1,7 @@
 import { Injectable, inject } from '@angular/core';
-import { Observable, switchMap } from 'rxjs';
+import { Observable, switchMap, tap } from 'rxjs';
 import { ComponentStore, tapResponse } from '@ngrx/component-store';
+import { Store } from '@ngrx/store';
 import { UserGroup } from '@modules/user-groups/models/usergroup.model';
 import { UserGroupsApiService } from '@modules/user-groups/services/user-groups.api-service';
 
@@ -12,6 +13,7 @@ const PageUserGroupManageInitialState: PageUserGroupManageState = {};
 
 @Injectable()
 export class PageUserGroupManageComponentStore extends ComponentStore<PageUserGroupManageState> {
+  private _store = inject(Store);
   private _userGroupsApiService = inject(UserGroupsApiService);
 
   constructor() {

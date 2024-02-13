@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { IGetRowsParams } from 'ag-grid-community';
 
-@Injectable()
+@Injectable({ providedIn: 'root' })
 export class UtilUrlQueryBuilderService {
   // output eg:
   // {skip: 0, limit: 10, name: "contains:test", email: "contains:john", sort: "asc:email;asc:name"}

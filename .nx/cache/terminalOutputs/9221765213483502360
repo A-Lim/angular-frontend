@@ -1,0 +1,614 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                                    [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m                                                                                              [2m | [22mvendor                                                       [2m | [22m  [96m5.69 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m                                                                                  [2m | [22mstyles                                                       [2m | [22m  [96m1.15 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m                                                                                           [2m | [22mpolyfills                                                    [2m | [22m[96m333.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                                                                [2m | [22mmain                                                         [2m | [22m[96m115.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                             [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                                                                                                      [2m | [22m[1mInitial Total[22m                                                [2m | [22m  [1m7.28 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                                       [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_components_ui-grid_ui-grid_component_ts.js[39m[37m             [39m[37m                         [2m | [22mpages-page-user-groups-page-user-groups-component            [2m | [22m  [96m2.63 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_components_ui-breadcrumb_ui-breadcrumb_component_ts-src_app_shared_lay-38a42f.js[39m[37m[2m | [22mpages-page-user-groups-page-user-groups-component            [2m | [22m[96m469.16 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m        [2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.07 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-select_mjs.js[39m[37m                                [2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m186.46 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-profile_page-profile_component_ts.js[39m[37m                                  [2m | [22mpages-page-profile-page-profile-component                    [2m | [22m [96m41.43 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-user-manage_page-user-manage_component_ts.js[39m[37m                          [2m | [22mpages-page-user-manage-page-user-manage-component            [2m | [22m [96m35.68 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_modules_users_components_user-info_user-info_component_ts-node_modules_ng-zor-12b14c.js[39m[37m[2m | [22mpages-page-user-manage-page-user-manage-component            [2m | [22m [96m35.22 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-users_page-users_component_ts.js[39m[37m                                      [2m | [22mpages-page-users-page-users-component                        [2m | [22m [96m27.66 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-groups_page-user-groups_component_ts.js[39m[37m                    [2m | [22mpages-page-user-groups-page-user-groups-component          [39m[37m  [2m | [22m [96m27.17 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mcommon.js[39m[37m                                                                                              [2m | [22mcommon                                                       [2m | [22m  [96m2.49 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_dashboard_pages_page-main-dashboard_page-main-dashboard_component_ts.js[39m[37m                [2m | [22mpages-page-main-dashboard-page-main-dashboard-component      [2m | [22m  [96m2.12 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:12:39.013Z[39m[37m[22m - Hash: [1m[37mf9e4ad5e61845251[39m[37m[22m - Time: [1m[37m3884[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:13:11.514Z[39m[37m[22m - Hash: [1m[37m0331ea1462f6dba2[39m[37m[22m - Time: [1m[37m2303[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:13:41.924Z[39m[37m[22m - Hash: [1m[37me4d9c603573b62db[39m[37m[22m - Time: [1m[37m984[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:13:48.801Z[39m[37m[22m - Hash: [1m[37m21700f21757c1437[39m[37m[22m - Time: [1m[37m787[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:15:37.819Z[39m[37m[22m - Hash: [1m[37m0a5d7581ee88c84c[39m[37m[22m - Time: [1m[37m839[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m102[0m:[93m41[0m - [91merror[0m[90m TS2551: [0mProperty 'addAsyncValidator' does not exist on type 'AbstractControl<any, any>'. Did you mean 'addAsyncValidators'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m102[0m       state.formGroup?.controls['code'].addAsyncValidator(this._codeExistsValidatiorFn(state.userGroup?.code))[39m[22m
+[1m[31m[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/@angular/forms/index.d.ts[0m:[93m252[0m:[93m5[0m[39m[22m
+[1m[31m    [7m252[0m     addAsyncValidators(validators: AsyncValidatorFn | AsyncValidatorFn[]): void;[39m[22m
+[1m[31m    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'addAsyncValidators' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m215.48 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:17:01.993Z[39m[37m[22m - Hash: [1m[37m49171a18d17ec447[39m[37m[22m - Time: [1m[37m1050[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: /workspaces/angular-frontend/src/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts: 'return' outside of function. (46:0)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 44 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵprov [33m=[39m[31m [90m/*@__PURE__*/[39m[31m i0[33m.[39m[31mɵɵdefineInjectable({ token[33m:[39m[31m [33mFormUserGroupComponentStore[39m[31m[33m,[39m[31m factory[33m:[39m[31m [33mFormUserGroupComponentStore[39m[31m[33m.[39m[31mɵfac })[33m;[39m[31m }[0m[39m[22m
+[1m[31m[0m [90m 45 |[39m[31m }[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 46 |[39m[31m [36mreturn[39m[31m {[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 47 |[39m[31m     [33m...[39m[31mstate[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 48 |[39m[31m     userGroup[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 49 |[39m[31m }[33m;[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m92[0m:[93m19[0m - [91merror[0m[90m TS2551: [0mProperty '_getCheckboxGroups' does not exist on type 'FormUserGroupComponentStore'. Did you mean 'checkboxGroups$'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m92[0m       return this._getCheckboxGroups(permissionGroups, userGroup);[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m89[0m:[93m12[0m[39m[22m
+[1m[31m    [7m89[0m   readonly checkboxGroups$ = this.select([39m[22m
+[1m[31m    [7m  [0m [96m           ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'checkboxGroups$' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m99[0m:[93m36[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m99[0m[39m[22m[1m[31m     (state, userGroup: UserGroup): FormUserGroupState => {[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m102[0m:[93m66[0m - [91merror[0m[90m TS2339: [0mProperty '_codeExistsValidatiorFn' does not exist on type 'FormUserGroupComponentStore'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m102[0m       state.formGroup?.controls['code'].setAsyncValidators([this._codeExistsValidatiorFn(state.userGroup?.code]))[39m[22m
+[1m[31m[7m   [0m [91m                                                                 ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m102[0m:[93m111[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m102[0m       state.formGroup?.controls['code'].setAsyncValidators([this._codeExistsValidatiorFn(state.userGroup?.code]))[39m[22m
+[1m[31m[7m   [0m [91m                                                                                                              ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m102[0m:[93m113[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m102[0m       state.formGroup?.controls['code'].setAsyncValidators([this._codeExistsValidatiorFn(state.userGroup?.code]))[39m[22m
+[1m[31m[7m   [0m [91m                                                                                                                ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m103[0m:[93m7[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m103[0m       return {[39m[22m
+[1m[31m[7m   [0m [91m      ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.compone[39m[22m[1m[31mnt-store.ts[0m:[93m107[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m107[0m     }[39m[22m
+[1m[31m[7m   [0m [91m    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m108[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m108[0m   );[39m[22m
+[1m[31m[7m   [0m [91m  ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m110[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m110[0m   readonly createForm = this.updater((state): FormUserGroupState => {[39m[22m
+[1m[31m[7m   [0m [91m  ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m110[0m:[93m12[0m - [91merror[0m[90m TS2304: [0mCannot find name 'createForm'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m110[0m   readonly createForm = this.updater((state): FormUserGroupState => {[39m[22m
+[1m[31m[7m   [0m [91m           ~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m110[0m:[93m25[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m110[0m   readonly createForm = this.updater((state): FormUserGroupState => {[39m[22m
+[1m[31m[7m   [0m [91m                        ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m110[0m:[93m39[0m - [91merror[0m[90m TS7006: [0mParameter 'state' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m110[0m   readonly createForm = this.updater((state): FormUserGroupState => {[39m[22m
+[1m[31m[7m   [0m [91m                                      ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m135[0m:[93m3[0m - [91merror[0m[90m TS11[39m[22m[1m[31m28: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m135[0m   readonly getPermissions = this.effect((void$: Observable<void>) =>[39m[22m
+[1m[31m[7m   [0m [91m  ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m135[0m:[93m12[0m - [91merror[0m[90m TS2552: [0mCannot find name 'getPermissions'. Did you mean 'Permissions'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m135[0m   readonly getPermissions = this.effect((void$: Observable<void>) =>[39m[22m
+[1m[31m[7m   [0m [91m           ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m17387[0m:[93m13[0m[39m[22m
+[1m[31m    [7m17387[0m declare var Permissions: {[39m[22m
+[1m[31m    [7m     [0m [96m            ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'Permissions' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m135[0m:[93m29[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m135[0m   readonly getPermissions = this.effect((void$: Observable<void>) =>[39m[22m
+[1m[31m[7m   [0m [91m                            ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m138[0m:[93m9[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m138[0m         this._store.dispatch(SessionActions.getResource({ key: 'permissions' }))[39m[22m
+[1m[31m[7m   [0m [91m        ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m143[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m143[0m   readonly submit = this.effect((permissionIds$: Observable<number[]>) =>[39m[22m
+[1m[31m[7m   [0m [91m  ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m143[0m:[93m12[0m - [91merror[0m[90m TS2552: [0mCannot find name 'submit'. Did you[39m[22m[1m[31m mean 'onsubmit'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m143[0m   readonly submit = this.effect((permissionIds$: Observable<number[]>) =>[39m[22m
+[1m[31m[7m   [0m [91m           ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m27586[0m:[93m13[0m[39m[22m
+[1m[31m    [7m27586[0m declare var onsubmit: ((this: Window, ev: SubmitEvent) => any) | null;[39m[22m
+[1m[31m    [7m     [0m [96m            ~~~~~~~~[0m[39m[22m
+[1m[31m    'onsubmit' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m143[0m:[93m21[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m143[0m   readonly submit = this.effect((permissionIds$: Observable<number[]>) =>[39m[22m
+[1m[31m[7m   [0m [91m                    ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m145[0m:[93m31[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m145[0m       concatLatestFrom(() => [this.userGroup$, this.formGroup$]),[39m[22m
+[1m[31m[7m   [0m [91m                              ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m145[0m:[93m48[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m145[0m       concatLatestFrom(() => [this.userGroup$, this.formGroup$]),[39m[22m
+[1m[31m[7m   [0m [91m                                               ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m147[0m:[93m9[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m147[0m         this._markAllDirty(formGroup);[39m[22m
+[1m[31m[7m   [0m [91m        ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m149[0m:[93m11[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m149[0m    [39m[22m[1m[31m       this.setLoading(true);[39m[22m
+[1m[31m[7m   [0m [91m          ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m154[0m:[93m15[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m154[0m             ? this._userGroupsApiService.updateUserGroup(userGroup.id, value)[39m[22m
+[1m[31m[7m   [0m [91m              ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m155[0m:[93m15[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m155[0m             : this._userGroupsApiService.createUserGroup(value);[39m[22m
+[1m[31m[7m   [0m [91m              ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m160[0m:[93m17[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m160[0m                 this._messageSvc.success(response.message ?? '');[39m[22m
+[1m[31m[7m   [0m [91m                ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m160[0m:[93m42[0m - [91merror[0m[90m TS18046: [0m'response' is of type 'unknown'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m160[0m                 this._messageSvc.success(response.message ?? '');[39m[22m
+[1m[31m[7m   [0m [91m                                         ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m162[0m:[93m21[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m162[0m                   ? this._router.navigate(['admin/user-groups'])[39m[22m
+[1m[31m[7m   [0m [91m                    ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m163[0m:[93m21[0m - [91merror[0m[90m TS2532: [0mObject is possibly[39m[22m[1m[31m 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m163[0m                   : this._router.navigate([[39m[22m
+[1m[31m[7m   [0m [91m                    ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m164[0m:[93m44[0m - [91merror[0m[90m TS18046: [0m'response' is of type 'unknown'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m164[0m                       `admin/user-groups/${response.data.id}/edit`,[39m[22m
+[1m[31m[7m   [0m [91m                                           ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m169[0m:[93m28[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m169[0m             finalize(() => this.setLoading(false))[39m[22m
+[1m[31m[7m   [0m [91m                           ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m180[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m180[0m   private _codeExistsValidatiorFn(code?: string): AsyncValidatorFn {[39m[22m
+[1m[31m[7m   [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m180[0m:[93m11[0m - [91merror[0m[90m TS2304: [0mCannot find name '_codeExistsValidatiorFn'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m180[0m   private _codeExistsValidatiorFn(code?: string): AsyncValidatorFn {[39m[22m
+[1m[31m[7m   [0m [91m          ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m180[0m:[93m35[0m - [91merror[0m[90m TS2304: [0mCannot find name 'code'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m180[0m   private _codeExistsValidatiorFn(code?: string): AsyncValidatorFn {[39m[22m
+[1m[31m[7m   [0m [91m                                  ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[39m[22m[1m[31m[93m180[0m:[93m40[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m180[0m   private _codeExistsValidatiorFn(code?: string): AsyncValidatorFn {[39m[22m
+[1m[31m[7m   [0m [91m                                       ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m180[0m:[93m42[0m - [91merror[0m[90m TS2693: [0m'string' only refers to a type, but is being used as a value here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m180[0m   private _codeExistsValidatiorFn(code?: string): AsyncValidatorFn {[39m[22m
+[1m[31m[7m   [0m [91m                                         ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m180[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m180[0m   private _codeExistsValidatiorFn(code?: string): AsyncValidatorFn {[39m[22m
+[1m[31m[7m   [0m [91m                                                ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m180[0m:[93m51[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m180[0m   private _codeExistsValidatiorFn(code?: string): AsyncValidatorFn {[39m[22m
+[1m[31m[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m180[0m:[93m51[0m - [91merror[0m[90m TS2693: [0m'AsyncValidatorFn' only refers to a type, but is being used as a value here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m180[0m   private _codeExistsValidatiorFn(code?: string): AsyncValidatorFn {[39m[22m
+[1m[31m[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m193[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or s[39m[22m[1m[31mtatement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m193[0m   private _getCheckboxGroups([39m[22m
+[1m[31m[7m   [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m193[0m:[93m11[0m - [91merror[0m[90m TS2304: [0mCannot find name '_getCheckboxGroups'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m193[0m   private _getCheckboxGroups([39m[22m
+[1m[31m[7m   [0m [91m          ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m194[0m:[93m5[0m - [91merror[0m[90m TS2552: [0mCannot find name 'permissionGroup'. Did you mean 'Permissions'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m194[0m     permissionGroup?: PermissionGroup[],[39m[22m
+[1m[31m[7m   [0m [91m    ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m17387[0m:[93m13[0m[39m[22m
+[1m[31m    [7m17387[0m declare var Permissions: {[39m[22m
+[1m[31m    [7m     [0m [96m            ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'Permissions' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m194[0m:[93m21[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m194[0m     permissionGroup?: PermissionGroup[],[39m[22m
+[1m[31m[7m   [0m [91m                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m194[0m:[93m23[0m - [91merror[0m[90m TS2693: [0m'PermissionGroup' only refers to a type, but is being used as a value here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m194[0m     permissionGroup?: PermissionGroup[],[39m[22m
+[1m[31m[7m   [0m [91m                      ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m194[0m:[93m39[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m194[0m     permissionGroup?: PermissionGroup[],[39m[22m
+[1m[31m[7m   [0m [91m                                      [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0[39m[22m[1m[31mm[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m195[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userGroup'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m195[0m     userGroup?: UserGroup[39m[22m
+[1m[31m[7m   [0m [91m    ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m195[0m:[93m15[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m195[0m     userGroup?: UserGroup[39m[22m
+[1m[31m[7m   [0m [91m              ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m195[0m:[93m17[0m - [91merror[0m[90m TS2693: [0m'UserGroup' only refers to a type, but is being used as a value here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m195[0m     userGroup?: UserGroup[39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m196[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m196[0m   ): CheckboxGroupDict {[39m[22m
+[1m[31m[7m   [0m [91m   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m196[0m:[93m6[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m196[0m   ): CheckboxGroupDict {[39m[22m
+[1m[31m[7m   [0m [91m     ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m196[0m:[93m6[0m - [91merror[0m[90m TS2693: [0m'CheckboxGroupDict' only refers to a type, but is being used as a value here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m196[0m   ): CheckboxGroupDict {[39m[22m
+[1m[31m[7m   [0m [91m     ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m198[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCann[39m[22m[1m[31mot find name 'userGroup'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m198[0m       userGroup?.permissions?.map((permission) => permission.id) ?? [];[39m[22m
+[1m[31m[7m   [0m [91m      ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m198[0m:[93m36[0m - [91merror[0m[90m TS7006: [0mParameter 'permission' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m198[0m       userGroup?.permissions?.map((permission) => permission.id) ?? [];[39m[22m
+[1m[31m[7m   [0m [91m                                   ~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m202[0m:[93m5[0m - [91merror[0m[90m TS2552: [0mCannot find name 'permissionGroup'. Did you mean 'Permissions'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m202[0m     permissionGroup?.forEach((group) => {[39m[22m
+[1m[31m[7m   [0m [91m    ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m17387[0m:[93m13[0m[39m[22m
+[1m[31m    [7m17387[0m declare var Permissions: {[39m[22m
+[1m[31m    [7m     [0m [96m            ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'Permissions' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m202[0m:[93m31[0m - [91merror[0m[90m TS7006: [0mParameter 'group' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m202[0m     permissionGroup?.forEach((group) => {[39m[22m
+[1m[31m[7m   [0m [91m                              ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m210[0m:[93m34[0m - [91merror[0m[90m TS7006: [0mParameter 'permission' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m210[0m       group.permissions.forEach((permission) => {[39m[22m
+[1m[31m[7m   [0m [91m                                 ~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m216[0m:[93m20[0m - [91merror[0m[90m TS2304: [0mCannot fin[39m[22m[1m[31md name 'userGroup'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m216[0m           checked: userGroup?.is_admin ? true : checked,[39m[22m
+[1m[31m[7m   [0m [91m                   ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m217[0m:[93m21[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userGroup'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m217[0m           disabled: userGroup?.is_admin ?? false,[39m[22m
+[1m[31m[7m   [0m [91m                    ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m224[0m:[93m18[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userGroup'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m224[0m         checked: userGroup?.is_admin[39m[22m
+[1m[31m[7m   [0m [91m                 ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m227[0m:[93m24[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userGroup'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m227[0m         indeterminate: userGroup?.is_admin[39m[22m
+[1m[31m[7m   [0m [91m                       ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m230[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userGroup'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m230[0m         disabled: userGroup?.is_admin ?? false,[39m[22m
+[1m[31m[7m   [0m [91m                  ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts[0m:[93m238[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m238[0m }[39m[22m
+[1m[31m[7m   [0m [91m~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component.ts[0m:[93m77[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty 'createForm' does not exist on type 'FormUserGroupComponentStore'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m77[0m     this._formUserGroupComponentStore.createF[39m[22m[1m[31morm();[39m[22m
+[1m[31m[7m  [0m [91m                                      ~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component.ts[0m:[93m78[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty 'getPermissions' does not exist on type 'FormUserGroupComponentStore'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m78[0m     this._formUserGroupComponentStore.getPermissions();[39m[22m
+[1m[31m[7m  [0m [91m                                      ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/user-groups/components/form-user-group/form-user-group.component.ts[0m:[93m116[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty 'submit' does not exist on type 'FormUserGroupComponentStore'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m116[0m     this._formUserGroupComponentStore.submit(permissionIds);[39m[22m
+[1m[31m[7m   [0m [91m                                      ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:17:15.690Z[39m[37m[22m - Hash: [1m[37me0a5cb5119f9d0d3[39m[37m[22m - Time: [1m[37m762[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:17:48.395Z[39m[37m[22m - Hash: [1m[37m54f7c8f31e98371c[39m[37m[22m - Time: [1m[37m933[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:18:16.319Z[39m[37m[22m - Hash: [1m[37mfa613ea8b4014153[39m[37m[22m - Time: [1m[37m763[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:18:37.908Z[39m[37m[22m - Hash: [1m[37mfd8e5b3c31c5945a[39m[37m[22m - Time: [1m[37m752[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:21:26.796Z[39m[37m[22m - Hash: [1m[37meae5467fb524ea7e[39m[37m[22m - Time: [1m[37m926[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                     [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m[2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m220.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m14 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-03T15:22:25.294Z[39m[37m[22m - Hash: [1m[37m54ac16f766025a47[39m[37m[22m - Time: [1m[37m934[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m

@@ -18,7 +18,7 @@ export class UsersApiService {
     private http: HttpClient
   ) {}
 
-  getUsers(qParams: any) {
+  getUsers(qParams: Dictionary<any>) {
     return this.http.get<Response<Pagination<User | null>>>(`${this.userUrl}`, {
       params: qParams,
     });

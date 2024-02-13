@@ -5,15 +5,12 @@ import { environment } from '@environments/environment';
 import { Dictionary } from '@ngrx/entity';
 import { AuthData } from '@core/models/authdata.model';
 import { Response } from '@core/models/response.model';
-import { User } from '@core/models/user.model';
-import { FileDetail } from '@shared/models/filedetail.model';
 
 @Injectable({ providedIn: 'root' })
 export class AuthApiService {
   private _baseUrl = `${environment.apiUrl}/api/${environment.apiVersion}`;
   private _headers = new HttpHeaders().set('X-Skip-Interceptor', '');
 
-  private _locale = inject(LOCALE_ID);
   private _httpClient = inject(HttpClient);
 
   login(credentials?: Dictionary<any>) {

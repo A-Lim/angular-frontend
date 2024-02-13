@@ -1,12 +1,13 @@
-import { Injectable, NgZone, TemplateRef, inject } from '@angular/core';
-import { Router } from '@angular/router';
+import { formatDate } from '@angular/common';
+import { Injectable, LOCALE_ID, TemplateRef, inject } from '@angular/core';
+import { environment } from '@environments/environment';
 import { ColDef } from 'ag-grid-community';
+import { UiGridLinkCellComponent } from '@shared/components/ui-grid-link-cell/ui-grid-link-cell.component';
 import { UiTemplateRendererComponent } from '@shared/components/ui-template-renderer/ui-template-renderer.component';
 
-@Injectable()
+@Injectable({ providedIn: 'root' })
 export class UtilAggridService {
-  private ngZone = inject(NgZone);
-  private router = inject(Router);
+  private _locale = inject(LOCALE_ID);
 
   getIndexColDef(headerName: string = '#', width: number = 35): ColDef {
     return <ColDef>{
@@ -48,11 +49,39 @@ export class UtilAggridService {
     return colDef;
   }
 
-  getNumberColDef(
+  getLinkColDef(
     headerName: string,
     field: string,
-    filter: boolean = false
+    type: 'mailto' | 'tel',
+    filter: boolean = false,
+    sortable: boolean = false,
+    width?: number
   ): ColDef {
+    let colDef: ColDef = {
+      headerName: headerName,
+      cellClass: 'flex items-center',
+      field: field,
+      filter: filter,
+      sortable: sortable,
+      suppressMenu: true,
+      cellRenderer: UiGridLinkCellComponent,
+      cellRendererParams: {
+        type,
+      },
+    };
+
+    if (filter)
+      colDef.filterParams = {
+        suppressAndOrCondition: true,
+        filterOptions: ['contains', 'equals'],
+      };
+
+    if (width) colDef.width = width;
+
+    return colDef;
+  }
+
+  getNumberColDef(headerName: string, field: string, filter: boolean = false): ColDef {
     let colDef = <ColDef>{
       headerName: headerName,
       field: field,
@@ -80,6 +109,8 @@ export class UtilAggridService {
       filterParams: {
         debounceMs: 500,
       },
+      valueFormatter: (params) =>
+        params.value ? formatDate(params.value, environment.dateFormat, this._locale) : null,
     };
 
     return colDef;
@@ -120,6 +151,7 @@ export class UtilAggridService {
   ): ColDef {
     return <ColDef>{
       headerName: headerName,
+      headerClass: 'centered',
       field: field,
       sortable: true,
       filter: true,
@@ -154,10 +186,5 @@ export class UtilAggridService {
         ngTemplate: template,
       },
     };
-  }
-
-  navigateTo(path: string, id?: string, subpath?: string) {
-    const routeData = [path, id, subpath].filter((x) => x != null);
-    this.ngZone.run(() => this.router.navigate(routeData));
   }
 }

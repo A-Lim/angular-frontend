@@ -7,7 +7,7 @@ import {
 } from '@angular/router';
 import { map } from 'rxjs';
 import { Store } from '@ngrx/store';
-import { selectUser } from '@core/state/auth.selectors';
+import { selectUser } from '@core/states/auth/auth.selectors';
 
 export const authGuardFn: CanActivateFn = (
   _: ActivatedRouteSnapshot,

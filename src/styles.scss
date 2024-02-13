@@ -18,10 +18,19 @@
   vertical-align: 0.2em;
 }
 
+.ant-tabs-tab {
+  padding-top: 0;
+}
+
 input[class^=ag-]:not([type]):focus,
 input[class^=ag-][type=date]:focus,
 input[class^=ag-][type=datetime-local]:focus,
 input[class^=ag-][type=number]:focus, input[class^=ag-][type=tel]:focus,
 input[class^=ag-][type=text]:focus, textarea[class^=ag-]:focus {
   box-shadow: none;
+}
+
+.centered .ag-header-cell-label {
+  display: flex;
+  justify-content: center;
 }

@@ -14,6 +14,8 @@ export const AuthActions = createActionGroup({
     'Store Auth Data': props<{ authData: AuthData }>(),
     'Update Profile': props<{ user: User }>(),
     'Update Avatar': props<{ avatar: FileDetail }>(),
+    'Get My Permissions': emptyProps(),
+    'Get My Permissions Success': props<{ permissions: string[] }>(),
     'Load Auth Data': emptyProps(),
     'Load Auth Data Success': props<{
       user: User;

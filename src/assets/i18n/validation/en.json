@@ -1,5 +1,6 @@
 {
   "required": "{{field}} is required.",
   "email": "{{field}} is invalid.",
-  "match": "{{field}} does not match"
+  "match": "{{field}} does not match.",
+  "exists": "{{field}} is already in used."
 }

@@ -6,8 +6,8 @@ import { concatLatestFrom } from '@ngrx/effects';
 import { Store } from '@ngrx/store';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { User } from '@core/models/user.model';
-import { AuthActions } from '@core/state/auth.actions';
-import { selectUser } from '@core/state/auth.selectors';
+import { AuthActions } from '@core/states/auth/auth.actions';
+import { selectUser } from '@core/states/auth/auth.selectors';
 import { FormComponentStore } from '@shared/component-stores/form.component-store';
 import { ProfileApiService } from '@modules/users/services/profile.api-service';
 

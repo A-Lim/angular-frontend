@@ -1,29 +1,18 @@
-<app-ui-grid
-  [dataSourceCallback]="dataSourceCallback$ | async"
-  [columnDefs]="columnDefs$ | async"
-></app-ui-grid>
-
-<!-- <ng-container *transloco="let trans"> </ng-container> -->
-
-<ng-template #phoneCell let-row>
-  <ng-container *ngIf="row">
-    <a [href]="'tel:' + row.phone">{{ row.phone }}</a>
-  </ng-container>
-</ng-template>
+<app-ui-grid [dataSource]="dataSource$ | async" [columnDefs]="columnDefs$ | async"></app-ui-grid>
 
 <ng-template #actionsCell let-row>
   <ng-container *transloco="let trans">
     <ng-container *ngIf="row">
-      <button
+      <a
         nz-button
         nz-tooltip
         nzType="primary"
         nzShape="circle"
         [nzTooltipTitle]="trans('edit')"
-        (click)="navigateTo('/admin/users/' + row.id + '/edit')"
+        [routerLink]="['/admin/users/' + row.id + '/edit']"
       >
         <i nz-icon nzType="edit" nzTheme="outline"></i>
-      </button>
+      </a>
     </ng-container>
   </ng-container>
 </ng-template>

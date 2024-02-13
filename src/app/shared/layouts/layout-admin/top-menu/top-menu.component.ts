@@ -14,8 +14,8 @@ import { NzAvatarModule } from 'ng-zorro-antd/avatar';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
-import { AuthActions } from '@core/state/auth.actions';
-import { selectUser } from '@core/state/auth.selectors';
+import { AuthActions } from '@core/states/auth/auth.actions';
+import { selectUser } from '@core/states/auth/auth.selectors';
 
 @Component({
   selector: 'app-top-menu',
