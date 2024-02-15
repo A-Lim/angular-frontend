@@ -118,7 +118,7 @@
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "17164727583263376932"
+          "hash": "13098362495853774942"
         },
         {
           "file": ".nx/cache/lockfile.hash",
@@ -172,11 +172,11 @@
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "10349429185418671824"
+          "hash": "13067794479237068280"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "15428904968591127311"
+          "hash": "1814090136100749948"
         },
         {
           "file": ".nx/cache/terminalOutputs/10282923682753078730",
@@ -184,7 +184,7 @@
         },
         {
           "file": ".nx/cache/terminalOutputs/12248178524656736398",
-          "hash": "8740574542659089065"
+          "hash": "18239129609041190057"
         },
         {
           "file": ".nx/cache/terminalOutputs/1408910820811361422",
@@ -239,6 +239,10 @@
           "hash": "8268167690587086241"
         },
         {
+          "file": ".nx/cache/terminalOutputs/3414751528771947396",
+          "hash": "9854662450771851008"
+        },
+        {
           "file": ".nx/cache/terminalOutputs/3933192499867729508",
           "hash": "8791756051366535792"
         },
@@ -257,6 +261,10 @@
         {
           "file": ".nx/cache/terminalOutputs/5308413561120233626",
           "hash": "3500334094716108167"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/6916511189064208205",
+          "hash": "3244421341483603138"
         },
         {
           "file": ".nx/cache/terminalOutputs/7517767730060856286",
@@ -636,7 +644,7 @@
         },
         {
           "file": "src/app/icons-provider.module.ts",
-          "hash": "7371467529350430293",
+          "hash": "11191714445645297773",
           "deps": [
             "npm:@angular/core",
             "npm:@ant-design/icons-angular",
@@ -722,7 +730,7 @@
         },
         {
           "file": "src/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts",
-          "hash": "9403274790958514094",
+          "hash": "14315679206379985589",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/forms",
@@ -738,11 +746,11 @@
         },
         {
           "file": "src/app/modules/user-groups/components/form-user-group/form-user-group.component.html",
-          "hash": "18440209911116816163"
+          "hash": "14327663788183889351"
         },
         {
           "file": "src/app/modules/user-groups/components/form-user-group/form-user-group.component.ts",
-          "hash": "3101164760294703502",
+          "hash": "11878450284194205276",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -754,24 +762,25 @@
         },
         {
           "file": "src/app/modules/user-groups/components/select-user-group-users/select-user-group-users.component-store.ts",
-          "hash": "4768161917134492250",
+          "hash": "9839265317577859132",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
             "npm:@ngrx/component-store",
             "npm:@ngrx/effects",
             "npm:@ngrx/entity",
+            "npm:@ngrx/store",
             "npm:@ngneat/transloco",
             "npm:ng-zorro-antd"
           ]
         },
         {
           "file": "src/app/modules/user-groups/components/select-user-group-users/select-user-group-users.component.html",
-          "hash": "17694310108501599855"
+          "hash": "3513879828428255370"
         },
         {
           "file": "src/app/modules/user-groups/components/select-user-group-users/select-user-group-users.component.ts",
-          "hash": "12497883281014331688",
+          "hash": "3369453645909364507",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1220,7 +1229,7 @@
         },
         {
           "file": "src/app/shared/layouts/layout-admin/side-menu/side-menu.component.html",
-          "hash": "15251171827627921366"
+          "hash": "1003512319423461464"
         },
         {
           "file": "src/app/shared/layouts/layout-admin/side-menu/side-menu.component.ts",

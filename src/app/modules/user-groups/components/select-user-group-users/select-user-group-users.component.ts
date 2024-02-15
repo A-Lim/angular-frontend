@@ -9,9 +9,9 @@ import {
   inject,
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { IconsProviderModule } from 'src/app/icons-provider.module';
 import { TranslocoModule } from '@ngneat/transloco';
 import { NzButtonModule } from 'ng-zorro-antd/button';
-import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
@@ -30,7 +30,7 @@ import { SelectUserGroupUsersComponentStore } from './select-user-group-users.co
     NzInputModule,
     NzSelectModule,
     NzToolTipModule,
-    NzIconModule,
+    IconsProviderModule,
     TranslocoModule,
   ],
   templateUrl: './select-user-group-users.component.html',
