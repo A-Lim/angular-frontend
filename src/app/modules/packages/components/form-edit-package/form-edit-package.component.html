@@ -1,0 +1,78 @@
+<ng-container *transloco="let trans">
+  <form
+    *ngIf="formGroup$ | async as formGroup"
+    nz-form
+    [formGroup]="formGroup"
+    (ngSubmit)="submit()"
+  >
+    <div class="grid grid-cols-none md:grid-cols-6 gap-x-4">
+      <nz-form-item class="col-span-2">
+        <nz-form-control [nzErrorTip]="nameErr">
+          <nz-form-label nzNoColon="true" nzRequired>{{ trans('name') }}</nz-form-label>
+          <input type="text" nz-input formControlName="name" [placeholder]="trans('name')" />
+          <ng-template #nameErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('name')"
+              [control]="formGroup.controls['name']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="defaultCountErr">
+          <nz-form-label nzNoColon="true" nzRequired>{{ trans('default-count') }}</nz-form-label>
+          <input
+            type="number"
+            nz-input
+            formControlName="default_count"
+            [placeholder]="trans('default-count')"
+          />
+          <ng-template #defaultCountErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('default-count')"
+              [control]="formGroup.controls['default_count']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="defaultPriceErr">
+          <nz-form-label nzNoColon="true" nzRequired>{{ trans('default-price') }}</nz-form-label>
+          <input
+            type="number"
+            nz-input
+            formControlName="default_price"
+            [placeholder]="trans('default-price')"
+          />
+          <ng-template #defaultPriceErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('default-price')"
+              [control]="formGroup.controls['default_price']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item class="col-span-2">
+        <nz-form-control>
+          <nz-form-label nzNoColon="true">{{ trans('description') }}</nz-form-label>
+          <textarea
+            type="text"
+            nz-input
+            formControlName="description"
+            rows="2"
+            [placeholder]="trans('description')"
+          ></textarea>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+
+    <div *nzModalFooter class="flex justify-end">
+      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async" (click)="submit()">
+        {{ trans('update') }}
+      </button>
+    </div>
+  </form>
+</ng-container>

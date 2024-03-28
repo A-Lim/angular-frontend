@@ -39,5 +39,11 @@
         <span>{{ trans('customers') }}</span>
       </a>
     </li>
+    <li *hasPermissions="['packages.viewAny']" nz-menu-item nzMatchRouter>
+      <a class="block text-white" routerLink="/admin/packages">
+        <span nz-icon nzType="inbox"></span>
+        <span>{{ trans('packages') }}</span>
+      </a>
+    </li>
   </ul>
 </ng-container>

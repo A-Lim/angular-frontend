@@ -1,0 +1,128 @@
+<ng-container *transloco="let trans">
+  <form *ngIf="formGroup$ | async as formGroup" nz-form [formGroup]="formGroup">
+    <div class="divide-y sm:divide-y-0">
+      <ng-container formArrayName="packages">
+        <ng-container
+          *ngFor="let row of (formGroup | toFormArray : 'packages').controls; let i = index"
+          [formGroupName]="i"
+        >
+          <div
+            class="grid grid-cols-none md:grid-cols-6 gap-x-4"
+            [ngClass]="{
+              'pt-6 sm:pt-0': i !== 0
+            }"
+          >
+            <nz-form-item class="col-span-2">
+              <nz-form-control [nzErrorTip]="nameErr">
+                <nz-form-label
+                  *ngIf="i === 0"
+                  nzNoColon="true"
+                  nzRequired
+                  class="hidden sm:inline-flex"
+                  >{{ trans('name') }}</nz-form-label
+                >
+                <input type="text" nz-input formControlName="name" [placeholder]="trans('name')" />
+                <ng-template #nameErr let-control>
+                  <app-ui-form-control-errors
+                    [name]="trans('name')"
+                    [control]="(row | toFormGroup).controls['name']"
+                  ></app-ui-form-control-errors>
+                </ng-template>
+              </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+              <nz-form-control [nzErrorTip]="defaultCountErr">
+                <nz-form-label *ngIf="i === 0" nzNoColon="true" class="hidden sm:inline-flex">{{
+                  trans('default-count')
+                }}</nz-form-label>
+                <input
+                  type="number"
+                  nz-input
+                  formControlName="default_count"
+                  [placeholder]="trans('default-count')"
+                />
+                <ng-template #defaultCountErr let-control>
+                  <app-ui-form-control-errors
+                    [name]="trans('default-count')"
+                    [control]="(row | toFormGroup).controls['default_count']"
+                  ></app-ui-form-control-errors>
+                </ng-template>
+              </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+              <nz-form-control [nzErrorTip]="defaultPriceErr">
+                <nz-form-label *ngIf="i === 0" nzNoColon="true" class="hidden sm:inline-flex">{{
+                  trans('default-price')
+                }}</nz-form-label>
+                <input
+                  type="number"
+                  nz-input
+                  formControlName="default_price"
+                  [placeholder]="trans('default-price')"
+                />
+                <ng-template #defaultPriceErr let-control>
+                  <app-ui-form-control-errors
+                    [name]="trans('default-price')"
+                    [control]="(row | toFormGroup).controls['default_price']"
+                  ></app-ui-form-control-errors>
+                </ng-template>
+              </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item class="col-span-2">
+              <nz-form-control>
+                <nz-form-label *ngIf="i === 0" nzNoColon="true" class="hidden sm:inline-flex">{{
+                  trans('description')
+                }}</nz-form-label>
+                <div class="flex space-x-2">
+                  <textarea
+                    type="text"
+                    nz-input
+                    formControlName="description"
+                    [placeholder]="trans('description')"
+                    rows="2"
+                  ></textarea>
+                  <button
+                    *ngIf="i === 0; else deleteBtn"
+                    nz-button
+                    nz-tooltip
+                    type="button"
+                    nzType="primary"
+                    nzShape="circle"
+                    [nzTooltipTitle]="trans('add')"
+                    (click)="addRows()"
+                  >
+                    <i nz-icon nzType="plus" nzTheme="outline"></i>
+                  </button>
+
+                  <ng-template #deleteBtn>
+                    <button
+                      nz-button
+                      nz-tooltip
+                      nzDanger
+                      nzType="primary"
+                      nzShape="circle"
+                      type="button"
+                      [nzTooltipTitle]="trans('delete')"
+                      (click)="deleteRow(i)"
+                    >
+                      <i nz-icon nzType="delete" nzTheme="outline"></i>
+                    </button>
+                  </ng-template>
+                </div>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+        </ng-container>
+      </ng-container>
+    </div>
+
+    <div *nzModalFooter class="flex justify-end">
+      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async" (click)="submit()">
+        {{ trans('create') }}
+      </button>
+    </div>
+  </form>
+</ng-container>

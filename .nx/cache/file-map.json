@@ -118,7 +118,7 @@
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "4386159592458185090"
+          "hash": "3379465125264855786"
         },
         {
           "file": ".nx/cache/lockfile.hash",
@@ -176,11 +176,11 @@
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "6003047880070089688"
+          "hash": "12358946035718483757"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "7241033956147695363"
+          "hash": "6788884344009447954"
         },
         {
           "file": ".nx/cache/terminalOutputs/10282923682753078730",
@@ -188,7 +188,7 @@
         },
         {
           "file": ".nx/cache/terminalOutputs/12232304084089320290",
-          "hash": "3244421341483603138"
+          "hash": "3110719254302211979"
         },
         {
           "file": ".nx/cache/terminalOutputs/12248178524656736398",
@@ -289,6 +289,10 @@
         {
           "file": ".nx/cache/terminalOutputs/6916511189064208205",
           "hash": "3983049120995009715"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/7289138344567032058",
+          "hash": "3244421341483603138"
         },
         {
           "file": ".nx/cache/terminalOutputs/7517767730060856286",
@@ -882,6 +886,131 @@
           ]
         },
         {
+          "file": "src/app/modules/packages/components/form-create-packages/form-create-packages.component-store.ts",
+          "hash": "11337708255325423863",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:lodash-es",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/effects",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/components/form-create-packages/form-create-packages.component.html",
+          "hash": "6984831746824987645"
+        },
+        {
+          "file": "src/app/modules/packages/components/form-create-packages/form-create-packages.component.ts",
+          "hash": "14834726233955073781",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/components/form-edit-package/form-edit-package.component-store.ts",
+          "hash": "1064166276289159778",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/effects",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/components/form-edit-package/form-edit-package.component.html",
+          "hash": "9507034112428212185"
+        },
+        {
+          "file": "src/app/modules/packages/components/form-edit-package/form-edit-package.component.ts",
+          "hash": "15856948962543950593",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/components/table-packages/table-packages.component-store.ts",
+          "hash": "17760648273677892420",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/components/table-packages/table-packages.component.html",
+          "hash": "1343820444730140231"
+        },
+        {
+          "file": "src/app/modules/packages/components/table-packages/table-packages.component.ts",
+          "hash": "15035564854099065529",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/models/package.model.ts",
+          "hash": "17363343126134624291"
+        },
+        {
+          "file": "src/app/modules/packages/packages.api-service.ts",
+          "hash": "14550700988010594999",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@ngrx/entity"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/packages.routes.ts",
+          "hash": "9118709650446586762",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/pages/page-packages/page-packages.component-store.ts",
+          "hash": "9160760859191636270",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/packages/pages/page-packages/page-packages.component.html",
+          "hash": "10216068946357055847"
+        },
+        {
+          "file": "src/app/modules/packages/pages/page-packages/page-packages.component.ts",
+          "hash": "12918154238388206089",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
           "file": "src/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts",
           "hash": "14315679206379985589",
           "deps": [
@@ -1382,7 +1511,7 @@
         },
         {
           "file": "src/app/shared/layouts/layout-admin/side-menu/side-menu.component.html",
-          "hash": "10549606142533672629"
+          "hash": "6305082478925414349"
         },
         {
           "file": "src/app/shared/layouts/layout-admin/side-menu/side-menu.component.ts",
@@ -1523,7 +1652,7 @@
         },
         {
           "file": "src/assets/i18n/en.json",
-          "hash": "3405456264009496405"
+          "hash": "10935868410020597037"
         },
         {
           "file": "src/assets/i18n/validation/en.json",
