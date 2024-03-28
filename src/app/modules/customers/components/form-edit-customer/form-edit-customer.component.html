@@ -5,7 +5,7 @@
     [formGroup]="formGroup"
     (ngSubmit)="submit()"
   >
-    <div class="grid grid-cols-none md:grid-cols-3 gap-x-4">
+    <div class="grid grid-cols-none md:grid-cols-4 gap-x-4">
       <nz-form-item>
         <nz-form-control [nzErrorTip]="nameErr">
           <nz-form-label nzNoColon="true" nzRequired>{{ trans('name') }}</nz-form-label>
@@ -33,22 +33,28 @@
       </nz-form-item>
 
       <nz-form-item>
-        <nz-form-control [nzErrorTip]="phoneErr">
+        <nz-form-control>
           <nz-form-label nzNoColon="true">{{ trans('phone') }}</nz-form-label>
           <input type="text" nz-input formControlName="phone" [placeholder]="trans('phone')" />
+        </nz-form-control>
+      </nz-form-item>
 
-          <ng-template #phoneErr let-control>
-            <app-ui-form-control-errors
-              [name]="trans('phone')"
-              [control]="formGroup.controls['phone']"
-            ></app-ui-form-control-errors>
-          </ng-template>
+      <nz-form-item>
+        <nz-form-control>
+          <nz-form-label nzNoColon="true">{{ trans('remarks') }}</nz-form-label>
+          <textarea
+            type="text"
+            nz-input
+            formControlName="remarks"
+            rows="2"
+            [placeholder]="trans('remarks')"
+          ></textarea>
         </nz-form-control>
       </nz-form-item>
     </div>
 
     <div *nzModalFooter class="flex justify-end">
-      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async">
+      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async" (click)="submit()">
         {{ trans('update') }}
       </button>
     </div>

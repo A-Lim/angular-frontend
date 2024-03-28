@@ -7,20 +7,20 @@ import { concatLatestFrom } from '@ngrx/effects';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzModalRef } from 'ng-zorro-antd/modal';
 import { FormComponentStore } from '@shared/component-stores/form.component-store';
-import { ContactsApiService } from '@modules/contacts/contacts.api-service';
+import { CustomersApiService } from '@modules/customers/customers.api-service';
 
-export interface FormCreateContactsState {
+export interface FormCreateCustomersState {
   loading: boolean;
   formGroup?: FormGroup;
 }
 
-export const FormCreateContactsInitialState: FormCreateContactsState = {
+export const FormCreateCustomersInitialState: FormCreateCustomersState = {
   loading: false,
 };
 
 @Injectable()
-export class FormCreateContactsComponentStore extends FormComponentStore<FormCreateContactsState> {
-  private _contactsApiService = inject(ContactsApiService);
+export class FormCreateCustomersComponentStore extends FormComponentStore<FormCreateCustomersState> {
+  private _customersApiService = inject(CustomersApiService);
   private _messageSvc = inject(NzMessageService);
   private _modalRef = inject(NzModalRef, { optional: true });
 
@@ -28,19 +28,20 @@ export class FormCreateContactsComponentStore extends FormComponentStore<FormCre
     name: new FormControl(null, [Validators.required]),
     email: new FormControl(null, [Validators.email]),
     phone: new FormControl(null),
+    remarks: new FormControl(null),
   };
 
   constructor() {
-    super(FormCreateContactsInitialState);
+    super(FormCreateCustomersInitialState);
   }
 
   // #region SELECTORS
   // #endregion
 
   // #region UPDATERS
-  readonly createForm = this.updater((state): FormCreateContactsState => {
+  readonly createForm = this.updater((state): FormCreateCustomersState => {
     const formGroup = new FormGroup({
-      contacts: new FormArray([new FormGroup(cloneDeep(this._formGroup))]),
+      customers: new FormArray([new FormGroup(cloneDeep(this._formGroup))]),
     });
     return {
       ...state,
@@ -48,14 +49,16 @@ export class FormCreateContactsComponentStore extends FormComponentStore<FormCre
     };
   });
 
-  readonly addRows = this.updater((state): FormCreateContactsState => {
-    (state.formGroup?.get('contacts') as FormArray).push(new FormGroup(cloneDeep(this._formGroup)));
+  readonly addRows = this.updater((state): FormCreateCustomersState => {
+    (state.formGroup?.get('customers') as FormArray).push(
+      new FormGroup(cloneDeep(this._formGroup))
+    );
 
     return state;
   });
 
-  readonly deleteRow = this.updater((state, index: number): FormCreateContactsState => {
-    (state.formGroup?.get('contacts') as FormArray).removeAt(index);
+  readonly deleteRow = this.updater((state, index: number): FormCreateCustomersState => {
+    (state.formGroup?.get('customers') as FormArray).removeAt(index);
 
     return state;
   });
@@ -71,7 +74,7 @@ export class FormCreateContactsComponentStore extends FormComponentStore<FormCre
         if (formGroup && formGroup.valid) {
           this.setLoading(true);
 
-          return this._contactsApiService.bulkCreateContacts(formGroup.value.contacts).pipe(
+          return this._customersApiService.bulkCreateCustomers(formGroup.value.customers).pipe(
             tapResponse(
               (response) => {
                 this._messageSvc.success(response.message ?? '');

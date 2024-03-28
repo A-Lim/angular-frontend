@@ -1,47 +1,44 @@
-import { EventEmitter, Injectable, inject } from '@angular/core';
-import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
-import cloneDeep from 'lodash-es/cloneDeep';
+import { Injectable, inject } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { EMPTY, Observable, finalize, switchMap, tap } from 'rxjs';
 import { tapResponse } from '@ngrx/component-store';
 import { concatLatestFrom } from '@ngrx/effects';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { NZ_MODAL_DATA, NzModalRef } from 'ng-zorro-antd/modal';
 import { FormComponentStore } from '@shared/component-stores/form.component-store';
-import { ContactsApiService } from '@modules/contacts/contacts.api-service';
-import { Contact } from '@modules/contacts/models/contact.model';
+import { CustomersApiService } from '@modules/customers/customers.api-service';
+import { Customer } from '@modules/customers/models/customer.model';
 
-export interface FormEditContactState {
-  contact?: Contact;
+export interface FormEditCustomerState {
   loading: boolean;
   formGroup?: FormGroup;
 }
 
-export const FormEditContactInitialState: FormEditContactState = {
+export const FormEditCustomerInitialState: FormEditCustomerState = {
   loading: false,
 };
 
 @Injectable()
-export class FormEditContactComponentStore extends FormComponentStore<FormEditContactState> {
-  private _contact = inject(NZ_MODAL_DATA);
-  private _contactsApiService = inject(ContactsApiService);
+export class FormEditCustomerComponentStore extends FormComponentStore<FormEditCustomerState> {
+  private _customer: Customer = inject(NZ_MODAL_DATA);
+  private _customersApiService = inject(CustomersApiService);
   private _messageSvc = inject(NzMessageService);
   private _modalRef = inject(NzModalRef, { optional: true });
 
   constructor() {
-    super(FormEditContactInitialState);
+    super(FormEditCustomerInitialState);
   }
 
   // #region SELECTORS
-  readonly contact = this.select((state) => state.contact);
   // #endregion
 
   // #region UPDATERS
-  readonly createForm = this.updater((state): FormEditContactState => {
-    console.log(this._contact);
+  readonly createForm = this.updater((state): FormEditCustomerState => {
     const formGroup = new FormGroup({
-      name: new FormControl(null, [Validators.required]),
-      email: new FormControl(null, [Validators.email]),
-      phone: new FormControl(null),
+      name: new FormControl(this._customer.name, [Validators.required]),
+      email: new FormControl(this._customer.email, [Validators.email]),
+      phone: new FormControl(this._customer.phone),
+      remarks: new FormControl(this._customer.remarks),
     });
     return {
       ...state,
@@ -53,14 +50,14 @@ export class FormEditContactComponentStore extends FormComponentStore<FormEditCo
   // #region EFFECTS
   readonly submit = this.effect((void$: Observable<void>) =>
     void$.pipe(
-      concatLatestFrom(() => [this.contact, this.formGroup$]),
-      switchMap(([, contact, formGroup]) => {
+      concatLatestFrom(() => this.formGroup$),
+      switchMap(([, formGroup]) => {
         this._markAllDirty(formGroup);
 
         if (formGroup && formGroup.valid) {
           this.setLoading(true);
 
-          return this._contactsApiService.updateContact(contact!.id, formGroup.value.contacts).pipe(
+          return this._customersApiService.updateCustomer(this._customer.id, formGroup.value).pipe(
             tapResponse(
               (response) => {
                 this._messageSvc.success(response.message ?? '');

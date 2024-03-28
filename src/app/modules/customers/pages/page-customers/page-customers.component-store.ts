@@ -3,10 +3,10 @@ import { Observable, forkJoin, of, switchMap, take, tap } from 'rxjs';
 import { ComponentStore } from '@ngrx/component-store';
 import { TranslocoService } from '@ngneat/transloco';
 import { NzModalService } from 'ng-zorro-antd/modal';
-import { FormCreateContactsComponent } from '@modules/contacts/components/form-create-contacts/form-create-contacts.component';
+import { FormCreateCustomersComponent } from '@modules/customers/components/form-create-customers/form-create-customers.component';
 
 @Injectable()
-export class PageContactsComponentStore extends ComponentStore<object> {
+export class PageCustomersComponentStore extends ComponentStore<object> {
   private _modalService = inject(NzModalService);
   private _translocoService = inject(TranslocoService);
 
@@ -21,19 +21,19 @@ export class PageContactsComponentStore extends ComponentStore<object> {
   // #endRegion
 
   // #region EFFECTS
-  readonly createContactsModal = this.effect((onOk$: Observable<() => void>) =>
+  readonly createCustomersModal = this.effect((onOk$: Observable<() => void>) =>
     onOk$.pipe(
       switchMap((onOk) =>
         forkJoin([
-          this._translocoService.selectTranslate<string>('create-contacts').pipe(take(1)),
+          this._translocoService.selectTranslate<string>('customer.create').pipe(take(1)),
           of(onOk),
         ])
       ),
       tap(([nzTitle, onOk]) => {
         this._modalService.create({
           nzTitle,
-          nzWidth: 800,
-          nzContent: FormCreateContactsComponent,
+          nzWidth: 1024,
+          nzContent: FormCreateCustomersComponent,
           nzOnOk: onOk,
         });
       })

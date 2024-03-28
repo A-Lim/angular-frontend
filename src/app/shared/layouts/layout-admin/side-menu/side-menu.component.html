@@ -33,10 +33,10 @@
         <span>{{ trans('user-groups') }}</span>
       </a>
     </li>
-    <li *hasPermissions="['contacts.viewAny']" nz-menu-item nzMatchRouter>
-      <a class="block text-white" routerLink="/admin/contacts">
+    <li *hasPermissions="['customers.viewAny']" nz-menu-item nzMatchRouter>
+      <a class="block text-white" routerLink="/admin/customers">
         <span nz-icon nzType="book"></span>
-        <span>{{ trans('contacts') }}</span>
+        <span>{{ trans('customers') }}</span>
       </a>
     </li>
   </ul>

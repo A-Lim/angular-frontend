@@ -2,8 +2,8 @@
   <app-ui-breadcrumb
     breadcrumb
     *transloco="let trans"
-    [title]="trans('contacts')"
-    [breadcrumbs]="[{ name: trans('contact-list') }]"
+    [title]="trans('customers')"
+    [breadcrumbs]="[{ name: trans('customer.list') }]"
   ></app-ui-breadcrumb>
 
   <ng-container content>
@@ -14,13 +14,13 @@
             *transloco="let trans"
             nz-button
             [nzType]="'primary'"
-            (click)="createContactsModal()"
+            (click)="createCustomersModal()"
           >
-            {{ trans('create-contacts') }}
+            {{ trans('customer.create') }}
           </button>
         </div>
 
-        <app-table-contacts #tableContacts></app-table-contacts>
+        <app-table-customers #tableCustomers></app-table-customers>
       </div>
     </nz-card>
   </ng-container>

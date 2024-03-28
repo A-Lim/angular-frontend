@@ -1,6 +1,7 @@
-export interface Contact {
+export interface Customer {
   id: number;
   name: string;
   phone: string;
   email: string;
+  remarks: string;
 }

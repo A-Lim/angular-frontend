@@ -6,14 +6,14 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzInputModule } from 'ng-zorro-antd/input';
-import { NzModalModule } from 'ng-zorro-antd/modal';
+import { NZ_MODAL_DATA, NzModalModule } from 'ng-zorro-antd/modal';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { UiFormControlErrorsComponent } from '@shared/components/ui-form-control-errors/ui-form-control-errors.component';
-import { Contact } from '@modules/contacts/models/contact.model';
-import { FormEditContactComponentStore } from './form-edit-contact.component-store';
+import { Customer } from '@modules/customers/models/customer.model';
+import { FormEditCustomerComponentStore } from './form-edit-customer.component-store';
 
 @Component({
-  selector: 'app-form-edit-contact',
+  selector: 'app-form-edit-customer',
   standalone: true,
   imports: [
     AsyncPipe,
@@ -29,23 +29,21 @@ import { FormEditContactComponentStore } from './form-edit-contact.component-sto
     UiFormControlErrorsComponent,
     TranslocoModule,
   ],
-  templateUrl: './form-edit-contact.component.html',
+  templateUrl: './form-edit-customer.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [FormEditContactComponentStore],
+  providers: [FormEditCustomerComponentStore],
 })
-export class FormEditContactComponent implements OnInit {
-  @Input() contact?: Contact;
+export class FormEditCustomerComponent implements OnInit {
+  private _formEditCustomerComponentStore = inject(FormEditCustomerComponentStore);
 
-  private _formEditContactComponentStore = inject(FormEditContactComponentStore);
-
-  readonly formGroup$ = this._formEditContactComponentStore.formGroup$;
-  readonly loading$ = this._formEditContactComponentStore.loading$;
+  readonly formGroup$ = this._formEditCustomerComponentStore.formGroup$;
+  readonly loading$ = this._formEditCustomerComponentStore.loading$;
 
   ngOnInit() {
-    this._formEditContactComponentStore.createForm();
+    this._formEditCustomerComponentStore.createForm();
   }
 
   submit() {
-    this._formEditContactComponentStore.submit();
+    this._formEditCustomerComponentStore.submit();
   }
 }

@@ -17,12 +17,11 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { UiGridComponent } from '@shared/components/ui-grid/ui-grid.component';
 import { UiTemplateRendererComponent } from '@shared/components/ui-template-renderer/ui-template-renderer.component';
 import { HasPermissionDirective } from '@shared/directives/has-permission.directive';
-import { UtilAggridService } from '@shared/services/util-aggrid.service';
-import { UtilUrlQueryBuilderService } from '@shared/services/util.urlquerybuilder.service';
-import { TableContactsComponentStore } from './table-contacts.component-store';
+import { Customer } from '@modules/customers/models/customer.model';
+import { TableCustomersComponentStore } from './table-customers.component-store';
 
 @Component({
-  selector: 'app-table-contacts',
+  selector: 'app-table-customers',
   standalone: true,
   imports: [
     NgIf,
@@ -41,31 +40,31 @@ import { TableContactsComponentStore } from './table-contacts.component-store';
     NzIconModule,
     TranslocoModule,
   ],
-  templateUrl: './table-contacts.component.html',
+  templateUrl: './table-customers.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [TableContactsComponentStore],
+  providers: [TableCustomersComponentStore],
 })
-export class TableContactsComponent implements OnInit {
+export class TableCustomersComponent implements OnInit {
   @ViewChild('grid', { static: true }) grid!: UiGridComponent;
   @ViewChild('actionsCell', { static: true }) actionsCell!: TemplateRef<any>;
 
-  private _tableContactsComponentStore = inject(TableContactsComponentStore);
-  readonly columnDefs$ = this._tableContactsComponentStore.columnDefs$;
-  readonly dataSource$ = this._tableContactsComponentStore.dataSource$;
+  private _tableCustomersComponentStore = inject(TableCustomersComponentStore);
+  readonly columnDefs$ = this._tableCustomersComponentStore.columnDefs$;
+  readonly dataSource$ = this._tableCustomersComponentStore.dataSource$;
 
   ngOnInit() {
-    this._tableContactsComponentStore.setActionCell(this.actionsCell);
+    this._tableCustomersComponentStore.setActionCell(this.actionsCell);
   }
 
-  editContactModal(id: number) {
-    this._tableContactsComponentStore.editContactModal({
-      id,
+  editCustomerModal(customer: Customer) {
+    this._tableCustomersComponentStore.editCustomerModal({
+      customer,
       onOk: () => this.grid.refreshTable(),
     });
   }
 
-  deleteContact(id: number) {
-    this._tableContactsComponentStore.deleteContact({
+  deleteCustomer(id: number) {
+    this._tableCustomersComponentStore.deleteCustomer({
       id,
       onComplete: () => this.grid.refreshTable(),
     });

@@ -1,4 +1,4 @@
-import { AsyncPipe, NgFor, NgIf } from '@angular/common';
+import { AsyncPipe, NgClass, NgFor, NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, OnInit, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { TranslocoModule } from '@ngneat/transloco';
@@ -11,15 +11,16 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { UiFormControlErrorsComponent } from '@shared/components/ui-form-control-errors/ui-form-control-errors.component';
 import { FormArrayCastPipe } from '@shared/pipes/form-array-cast.pipe';
 import { FormGroupCastPipe } from '@shared/pipes/form-group-cast.pipe';
-import { FormCreateContactsComponentStore } from './form-create-contacts.component-store';
+import { FormCreateCustomersComponentStore } from './form-create-customers.component-store';
 
 @Component({
-  selector: 'app-form-create-contacts',
+  selector: 'app-form-create-customers',
   standalone: true,
   imports: [
     AsyncPipe,
     FormArrayCastPipe,
     FormGroupCastPipe,
+    NgClass,
     NgIf,
     NgFor,
     ReactiveFormsModule,
@@ -32,29 +33,29 @@ import { FormCreateContactsComponentStore } from './form-create-contacts.compone
     UiFormControlErrorsComponent,
     TranslocoModule,
   ],
-  templateUrl: './form-create-contacts.component.html',
+  templateUrl: './form-create-customers.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [FormCreateContactsComponentStore],
+  providers: [FormCreateCustomersComponentStore],
 })
-export class FormCreateContactsComponent implements OnInit {
-  private _formCreateContactsComponentStore = inject(FormCreateContactsComponentStore);
+export class FormCreateCustomersComponent implements OnInit {
+  private _formCreateCustomersComponentStore = inject(FormCreateCustomersComponentStore);
 
-  readonly formGroup$ = this._formCreateContactsComponentStore.formGroup$;
-  readonly loading$ = this._formCreateContactsComponentStore.loading$;
+  readonly formGroup$ = this._formCreateCustomersComponentStore.formGroup$;
+  readonly loading$ = this._formCreateCustomersComponentStore.loading$;
 
   ngOnInit() {
-    this._formCreateContactsComponentStore.createForm();
+    this._formCreateCustomersComponentStore.createForm();
   }
 
   addRows() {
-    this._formCreateContactsComponentStore.addRows();
+    this._formCreateCustomersComponentStore.addRows();
   }
 
   deleteRow(index: number) {
-    this._formCreateContactsComponentStore.deleteRow(index);
+    this._formCreateCustomersComponentStore.deleteRow(index);
   }
 
   submit() {
-    this._formCreateContactsComponentStore.submit();
+    this._formCreateCustomersComponentStore.submit();
   }
 }

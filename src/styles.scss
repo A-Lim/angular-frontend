@@ -37,4 +37,12 @@ input[class^=ag-][type=text]:focus, textarea[class^=ag-]:focus {
 
 .ant-btn-primary {
   @apply bg-primary;
-} 
+}
+
+.ant-form-item-label {
+  padding-bottom: 0 !important;
+}
+
+.ant-form-item-label > label {
+  height: auto;
+}

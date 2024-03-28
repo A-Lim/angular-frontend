@@ -3,6 +3,7 @@ import {
   DashboardOutline,
   EditOutline,
   FormOutline,
+  InboxOutline,
   MenuFoldOutline,
   MenuUnfoldOutline,
   PlusOutline,
@@ -20,6 +21,7 @@ const icons = [
   PlusOutline,
   RightOutline,
   UserOutline,
+  InboxOutline,
 ];
 
 @NgModule({
