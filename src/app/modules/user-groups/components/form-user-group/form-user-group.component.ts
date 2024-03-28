@@ -1,6 +1,5 @@
 import {
   AsyncPipe,
-  JsonPipe,
   KeyValuePipe,
   NgFor,
   NgIf,
@@ -25,7 +24,6 @@ import { CheckboxGroupDict, FormUserGroupComponentStore } from './form-user-grou
   selector: 'app-form-user-group',
   standalone: true,
   imports: [
-    JsonPipe,
     AsyncPipe,
     KeyValuePipe,
     TitleCasePipe,

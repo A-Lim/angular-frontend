@@ -1,5 +1,5 @@
 import '@angular/common';
-import { AsyncPipe, JsonPipe, NgFor, NgIf } from '@angular/common';
+import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -24,7 +24,6 @@ import { SelectUserGroupUsersComponentStore } from './select-user-group-users.co
     NgIf,
     NgFor,
     AsyncPipe,
-    JsonPipe,
     FormsModule,
     NzButtonModule,
     NzInputModule,

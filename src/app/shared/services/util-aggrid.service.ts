@@ -4,6 +4,7 @@ import { environment } from '@environments/environment';
 import { ColDef } from 'ag-grid-community';
 import { UiGridLinkCellComponent } from '@shared/components/ui-grid-link-cell/ui-grid-link-cell.component';
 import { UiTemplateRendererComponent } from '@shared/components/ui-template-renderer/ui-template-renderer.component';
+import { LinkType } from '@shared/types/link.type';
 
 @Injectable({ providedIn: 'root' })
 export class UtilAggridService {
@@ -52,7 +53,7 @@ export class UtilAggridService {
   getLinkColDef(
     headerName: string,
     field: string,
-    type: 'mailto' | 'tel',
+    type: LinkType,
     filter: boolean = false,
     sortable: boolean = false,
     width?: number

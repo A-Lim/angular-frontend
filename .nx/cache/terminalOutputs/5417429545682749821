@@ -1,0 +1,1488 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                                    [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m                                                                                              [2m | [22mvendor                                                       [2m | [22m  [96m5.70 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m                                                                                  [2m | [22mstyles                                                       [2m | [22m  [96m1.15 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m                                                                                           [2m | [22mpolyfills                                                    [2m | [22m[96m333.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                                                                [2m | [22mmain                                                         [2m | [22m[96m122.76 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                             [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                                                                                                      [2m | [22m[1mInitial Total[22m                                                [2m | [22m  [1m7.30 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                                       [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_components_ui-grid_ui-grid_component_ts.js[39m[37m             [39m[37m                         [2m | [22mpages-page-contacts-page-contacts-component                  [2m | [22m  [96m2.62 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_components_ui-breadcrumb_ui-breadcrumb_component_ts-src_app_shared_lay-38a42f.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component                  [2m | [22m[96m469.16 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m        [2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m271.66 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-select_mjs.js[39m[37m                                [2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m186.46 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_services_util-modal_service_ts.js[39m[37m                                               [2m | [22mpages-page-contacts-page-contacts-component                  [2m | [22m[96m127.28 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m                             [2m | [22mpages-page-contacts-page-contacts-component                  [2m | [22m [96m48.69 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-profile_page-profile_component_ts.js[39m[37m                                  [2m | [22mpages-page-profile-page-profile-component                    [2m | [22m [96m41.43 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-user-manage_page-user-manage_component_ts.js[39m[37m                          [2m | [22mpages-page-user-manage-page-user-manage-component            [2m | [22m [96m35.68 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_modules_users_components_user-info_user-info_component_ts-node_modules_ng-zor-12b14c.js[39m[37m[2m | [22mpages-page-user-manage-page-user-manage-component          [39m[37m  [2m | [22m [96m35.22 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-groups_page-user-groups_component_ts.js[39m[37m                    [2m | [22mpages-page-user-groups-page-user-groups-component            [2m | [22m [96m30.10 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-users_page-users_component_ts.js[39m[37m                                      [2m | [22mpages-page-users-page-users-component                        [2m | [22m [96m25.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mcommon.js[39m[37m                                                                                              [2m | [22mcommon                                                       [2m | [22m  [96m3.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_dashboard_pages_page-main-dashboard_page-main-dashboard_component_ts.js[39m[37m                [2m | [22mpages-page-main-dashboard-page-main-dashboard-component      [2m | [22m  [96m2.12 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:02:10.650Z[39m[37m[22m - Hash: [1m[37m9ac1d5290e111433[39m[37m[22m - Time: [1m[37m4877[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m48.69 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:07:54.023Z[39m[37m[22m - Hash: [1m[37mc12d729381407ef6[39m[37m[22m - Time: [1m[37m2707[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m48.78 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:08:37.186Z[39m[37m[22m - Hash: [1m[37m81bacdc5dd8e91e6[39m[37m[22m - Time: [1m[37m1216[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m48.80 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:08:49.088Z[39m[37m[22m - Hash: [1m[37m19cd24ab579fdbc9[39m[37m[22m - Time: [1m[37m1052[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m49.50 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:09:31.632Z[39m[37m[22m - Hash: [1m[37m5d9792dbaf9a9e7c[39m[37m[22m - Time: [1m[37m1154[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m49.50 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:19:08.127Z[39m[37m[22m - Hash: [1m[37mec969aa89f2ba88c[39m[37m[22m - Time: [1m[37m1094[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m49.50 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:19:11.358Z[39m[37m[22m - Hash: [1m[37mc86b77adaab73860[39m[37m[22m - Time: [1m[37m659[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m49.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:19:32.364Z[39m[37m[22m - Hash: [1m[37m4d1b8b4ec2b6c455[39m[37m[22m - Time: [1m[37m942[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m49.50 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:19:42.281Z[39m[37m[22m - Hash: [1m[37mc86b77adaab73860[39m[37m[22m - Time: [1m[37m892[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m49.76 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:19:58.199Z[39m[37m[22m - Hash: [1m[37m20d2ab26e4b93aed[39m[37m[22m - Time: [1m[37m1366[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m51.55 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:22:12.512Z[39m[37m[22m - Hash: [1m[37m90fe12329ef60878[39m[37m[22m - Time: [1m[37m977[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html[0m:[93m82[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteRow' does not exist on type 'FormCreateContactsComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m82[0m                         (click)="deleteRow(i)"[39m[22m
+[1m[31m[7m  [0m [91m                                 ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m29[0m:[93m16[0m[39m[22m
+[1m[31m    [7m29[0m   templateUrl: './form-create-contacts.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCreateContactsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m51.58 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:22:19.582Z[39m[37m[22m - Hash: [1m[37m143824afbe7435e1[39m[37m[22m - Time: [1m[37m1000[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m51.58 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:22:46.496Z[39m[37m[22m - Hash: [1m[37m34abbc750ba4bb6f[39m[37m[22m - Time: [1m[37m1022[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m51.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:24:12.010Z[39m[37m[22m - Hash: [1m[37m397e9a04e6365f60[39m[37m[22m - Time: [1m[37m1099[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m51.77 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:24:31.975Z[39m[37m[22m - Hash: [1m[37m4fed85ccbdd955eb[39m[37m[22m - Time: [1m[37m1060[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:25:29.092Z[39m[37m[22m - Hash: [1m[37m92ac5bec6e12aab1[39m[37m[22m - Time: [1m[37m1182[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.85 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:33:17.568Z[39m[37m[22m - Hash: [1m[37mec212232e2a23046[39m[37m[22m - Time: [1m[37m974[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component-store.ts[0m:[93m67[0m:[93m5[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.[39m[22m
+[1m[31m  Type 'Observable<unknown>' has no call signatures.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m67[0m     void$.pipe(concatLatestFrom(() => this.formGroup$))()[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component-store.ts[0m:[93m67[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'concatLatestFrom'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m67[0m     void$.pipe(concatLatestFrom(() => this.formGroup$))()[39m[22m
+[1m[31m[7m  [0m [91m               ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m201.17 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:33:46.845Z[39m[37m[22m - Hash: [1m[37m05806f24437b241f[39m[37m[22m - Time: [1m[37m685[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component-store.ts[0m:[93m70[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m70[0m       tap(x => console.log(x))[39m[22m
+[1m[31m[7m  [0m [91m      ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m201.17 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:33:51.794Z[39m[37m[22m - Hash: [1m[37m88c24c2a82854473[39m[37m[22m - Time: [1m[37m787[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:34:38.290Z[39m[37m[22m - Hash: [1m[37m1ff9763a090b04cb[39m[37m[22m - Time: [1m[37m1087[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.45 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:35:04.097Z[39m[37m[22m - Hash: [1m[37mbd11349155563fcd[39m[37m[22m - Time: [1m[37m1083[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.50 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:35:43.424Z[39m[37m[22m - Hash: [1m[37meb2eac69f62b8a51[39m[37m[22m - Time: [1m[37m1047[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T07:36:06.581Z[39m[37m[22m - Hash: [1m[37mfa20849f28929949[39m[37m[22m - Time: [1m[37m1153[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.36 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T11:59:03.916Z[39m[37m[22m - Hash: [1m[37m659dbbe6a2388c22[39m[37m[22m - Time: [1m[37m1515[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.79 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T11:59:26.541Z[39m[37m[22m - Hash: [1m[37m5cb6d3adbd18ccf1[39m[37m[22m - Time: [1m[37m953[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m17 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:01:50.962Z[39m[37m[22m - Hash: [1m[37md97c5f35d1779882[39m[37m[22m - Time: [1m[37m1538[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:01:52.026Z[39m[37m[22m - Hash: [1m[37md97c5f35d1779882[39m[37m[22m - Time: [1m[37m735[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m17 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:04:08.477Z[39m[37m[22m - Hash: [1m[37m28477aff15a01926[39m[37m[22m - Time: [1m[37m1369[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:04:12.440Z[39m[37m[22m - Hash: [1m[37m20a85c0891f4aa48[39m[37m[22m - Time: [1m[37m3560[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:13:02.946Z[39m[37m[22m - Hash: [1m[37m20a85c0891f4aa48[39m[37m[22m - Time: [1m[37m1419[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:13:19.886Z[39m[37m[22m - Hash: [1m[37m20a85c0891f4aa48[39m[37m[22m - Time: [1m[37m965[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.48 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:13:39.852Z[39m[37m[22m - Hash: [1m[37m36b8f0f5982f0b61[39m[37m[22m - Time: [1m[37m1259[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:14:19.926Z[39m[37m[22m - Hash: [1m[37m36b8f0f5982f0b61[39m[37m[22m - Time: [1m[37m1011[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m201.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:18:31.460Z[39m[37m[22m - Hash: [1m[37m67dfdd9875e6388f[39m[37m[22m - Time: [1m[37m1128[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html[0m:[93m46[0m:[93m67[0m - [91merror[0m[90m NG8004: [0mNo pipe found with name 'formArrayControl'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m                       [control]="formGroup.controls['contacts'] | formArrayControl : i : 'email'"[39m[22m
+[1m[31m[7m  [0m [91m                                                                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m29[0m:[93m16[0m[39m[22m
+[1m[31m    [7m29[0m   templateUrl: './form-create-contacts.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCreateContactsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:19:48.551Z[39m[37m[22m - Hash: [1m[37m67dfdd9875e6388f[39m[37m[22m - Time: [1m[37m1024[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html[0m:[93m46[0m:[93m67[0m - [91merror[0m[90m NG8004: [0mNo pipe found with name 'formArrayControl'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m                       [control]="formGroup.controls['contacts'] | formArrayControl : i : 'email'"[39m[22m
+[1m[31m[7m  [0m [91m                                                                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m29[0m:[93m16[0m[39m[22m
+[1m[31m    [7m29[0m   templateUrl: './form-create-contacts.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCreateContactsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:20:00.607Z[39m[37m[22m - Hash: [1m[37m67dfdd9875e6388f[39m[37m[22m - Time: [1m[37m567[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html[0m:[93m46[0m:[93m67[0m - [91merror[0m[90m NG8004: [0mNo pipe found with name 'formArrayControl'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m                       [control]="formGroup.controls['contacts'] | formArrayControl : i : 'email'"[39m[22m
+[1m[31m[7m  [0m [91m                                                                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m29[0m:[93m16[0m[39m[22m
+[1m[31m    [7m29[0m   templateUrl: './form-create-contacts.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCreateContactsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m202.50 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:20:06.259Z[39m[37m[22m - Hash: [1m[37mc24caaa64fca153f[39m[37m[22m - Time: [1m[37m1182[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:20:54.806Z[39m[37m[22m - Hash: [1m[37mc24caaa64fca153f[39m[37m[22m - Time: [1m[37m1248[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:21:02.555Z[39m[37m[22m - Hash: [1m[37mc24caaa64fca153f[39m[37m[22m - Time: [1m[37m755[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:21:07.667Z[39m[37m[22m - Hash: [1m[37mc24caaa64fca153f[39m[37m[22m - Time: [1m[37m820[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:21:37.912Z[39m[37m[22m - Hash: [1m[37mc24caaa64fca153f[39m[37m[22m - Time: [1m[37m850[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:22:52.693Z[39m[37m[22m - Hash: [1m[37mc24caaa64fca153f[39m[37m[22m - Time: [1m[37m875[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:22:59.888Z[39m[37m[22m - Hash: [1m[37mc24caaa64fca153f[39m[37m[22m - Time: [1m[37m644[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m202.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:46:53.184Z[39m[37m[22m - Hash: [1m[37m9b7fc3c4cfe595c1[39m[37m[22m - Time: [1m[37m1802[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m201.37 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:49:57.258Z[39m[37m[22m - Hash: [1m[37m626b0d5050796e94[39m[37m[22m - Time: [1m[37m1226[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html[0m:[93m10[0m:[93m41[0m - [91merror[0m[90m NG8004: [0mNo pipe found with name 'formArray'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m         *ngFor="let row of (formGroup | formArray : 'contacts').controls; let i = index"[39m[22m
+[1m[31m[7m  [0m [91m                                        ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m31[0m:[93m16[0m[39m[22m
+[1m[31m    [7m31[0m   templateUrl: './form-create-contacts.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCreateContactsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html[0m:[93m20[0m:[93m30[0m - [91merror[0m[90m TS2551: [0mProperty 'contactsFormArray' does not exist on type 'FormCreateContactsComponent'. Did you mean 'contactsFormArray$'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m                   [control]="contactsFormArray.controls[i]"[39m[22m
+[1m[31m[7m  [0m [91m                             ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m31[0m:[93m16[0m[39m[22m
+[1m[31m    [7m31[0m   templateUrl: './form-create-contacts.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCreateContactsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m198.42 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:50:20.860Z[39m[37m[22m - Hash: [1m[37m3e897eeb99a86877[39m[37m[22m - Time: [1m[37m876[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html[0m:[93m10[0m:[93m41[0m - [91merror[0m[90m NG8004: [0mNo pipe found with name 'formArray'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m         *ngFor="let row of (formGroup | formArray : 'contacts').controls; let i = index"[39m[22m
+[1m[31m[7m  [0m [91m                                        ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m31[0m:[93m16[0m[39m[22m
+[1m[31m    [7m31[0m   templateUrl: './form-create-contacts.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCreateContactsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:50:23.178Z[39m[37m[22m - Hash: [1m[37mc544f45e7c336d8f[39m[37m[22m - Time: [1m[37m1169[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.66 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:51:13.788Z[39m[37m[22m - Hash: [1m[37me7c451db24189aa8[39m[37m[22m - Time: [1m[37m1187[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.84 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:52:19.586Z[39m[37m[22m - Hash: [1m[37mfc05ee291c23c56d[39m[37m[22m - Time: [1m[37m1092[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m202.19 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:53:34.730Z[39m[37m[22m - Hash: [1m[37m68235185e75b8db2[39m[37m[22m - Time: [1m[37m1374[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m202.01 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:53:36.196Z[39m[37m[22m - Hash: [1m[37m86c62bb4238429e9[39m[37m[22m - Time: [1m[37m1033[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m202.06 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:54:50.506Z[39m[37m[22m - Hash: [1m[37m8bf7cbd9e956eb26[39m[37m[22m - Time: [1m[37m1168[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m202.06 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:54:54.002Z[39m[37m[22m - Hash: [1m[37m038b0f4a18a18dd1[39m[37m[22m - Time: [1m[37m975[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m201.03 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:55:47.903Z[39m[37m[22m - Hash: [1m[37m7e9ebb0c1caba0c3[39m[37m[22m - Time: [1m[37m1163[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.95 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:55:59.272Z[39m[37m[22m - Hash: [1m[37me939a94c6a96c67f[39m[37m[22m - Time: [1m[37m982[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.90 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:56:47.968Z[39m[37m[22m - Hash: [1m[37m1f2a73ee4bae8f52[39m[37m[22m - Time: [1m[37m1096[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.90 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:58:25.577Z[39m[37m[22m - Hash: [1m[37mde45031b072db991[39m[37m[22m - Time: [1m[37m1534[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:58:42.857Z[39m[37m[22m - Hash: [1m[37mde45031b072db991[39m[37m[22m - Time: [1m[37m890[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m187.17 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:59:36.324Z[39m[37m[22m - Hash: [1m[37m004f4225968b0a22[39m[37m[22m - Time: [1m[37m1133[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[39m[31m[0m:[0m[93m37:38-58[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'FormArrayControlPipe' (imported as 'FormArrayControlPipe') was not found in '@shared/pipes/form-array-control.pipe' (possible exports: FormGroupPipe)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@shared/pipes/form-array-control.pipe"' has no exported member 'FormArrayControlPipe'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m import { FormArrayControlPipe } from '@shared/pipes/form-array-control.pipe';[39m[22m
+[1m[31m[7m  [0m [91m         ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m18[0m:[93m12[0m - [91merror[0m[90m NG1010: [0m'imports' must be an array of components, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value is of type '[AsyncPipe, FormArrayPipe, (not statically analyzable), NgIf, NgForOf, ReactiveFormsModule, NzButtonModule, NzFormModule, NzInputModule, NzToolTipModule, NzIconModule, UiFormControlErrorsComponent, TranslocoModule]'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m 18[0m   imports: [[39m[22m
+[1m[31m[7m   [0m [91m           ~[0m[39m[22m
+[1m[31m[7m 19[0m     AsyncPipe,[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m 31[0m     TranslocoModule,[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 32[0m   ],[39m[22m
+[1m[31m[7m   [0m [91m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m186.27 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T13:59:46.986Z[39m[37m[22m - Hash: [1m[37mf9a37e56c68a99ad[39m[37m[22m - Time: [1m[37m2085[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[39m[31m[0m:[0m[93m12:0-77[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve '@shared/pipes/form-array-control.pipe' in '/workspaces/angular-frontend/src/app/modules/contacts/components/form-create-contacts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m11[0m:[93m38[0m - [91merror[0m[90m TS2307: [0mCannot find module '@shared/pipes/form-array-control.pipe' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m import { FormArrayControlPipe } from '@shared/pipes/form-array-control.pipe';[39m[22m
+[1m[31m[7m  [0m [91m                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m18[0m:[93m12[0m - [91merror[0m[90m NG1010: [0m'imports' must be an array of components, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value is of type '[AsyncPipe, FormArrayPipe, (not statically analyzable), NgIf, NgForOf, ReactiveFormsModule, NzButtonModule, NzFormModule, NzInputModule, NzToolTipModule, NzIconModule, UiFormControlErrorsComponent, TranslocoModule]'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m 18[0m   imports: [[39m[22m
+[1m[31m[7m   [0m [91m           ~[0m[39m[22m
+[1m[31m[7m 19[0m     AsyncPipe,[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m 31[0m     TranslocoModule,[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 32[0m   ],[39m[22m
+[1m[31m[7m   [0m [91m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m199.56 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:00:04.938Z[39m[37m[22m - Hash: [1m[37m7806ad0ae173cfd0[39m[37m[22m - Time: [1m[37m1124[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html[0m:[93m21[0m:[93m36[0m - [91merror[0m[90m NG8004: [0mNo pipe found with name 'formArrayControl'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m21[0m                   [control]="row | formArrayControl : i : 'name'"[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m33[0m:[93m16[0m[39m[22m
+[1m[31m    [7m33[0m   templateUrl: './form-create-contacts.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCreateContactsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m200.67 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:00:27.387Z[39m[37m[22m - Hash: [1m[37m96c71bcf6748972b[39m[37m[22m - Time: [1m[37m1577[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m201.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:00:52.534Z[39m[37m[22m - Hash: [1m[37mfc1553fe97c075f4[39m[37m[22m - Time: [1m[37m1081[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m204.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:02:01.935Z[39m[37m[22m - Hash: [1m[37m738f11abed8a69aa[39m[37m[22m - Time: [1m[37m1468[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:04:53.255Z[39m[37m[22m - Hash: [1m[37md2eea8069da774bd[39m[37m[22m - Time: [1m[37m1784[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.37 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:05:05.024Z[39m[37m[22m - Hash: [1m[37m44e525156b479e57[39m[37m[22m - Time: [1m[37m948[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:05:41.761Z[39m[37m[22m - Hash: [1m[37m1deb184e14b65076[39m[37m[22m - Time: [1m[37m1363[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[39m[31m[0m:[0m[93m4:0-38[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve 'stream' in '/workspaces/angular-frontend/src/app/modules/contacts/components/form-create-contacts'[39m[22m
+[1m[31m[39m[22m
+[1m[31mBREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.[39m[22m
+[1m[31mThis is no longer the case. Verify if you need this module and configure a polyfill for it.[39m[22m
+[1m[31m[39m[22m
+[1m[31mIf you want to include a polyfill, you need to:[39m[22m
+[1m[31m	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'[39m[22m
+[1m[31m	- install 'stream-browserify'[39m[22m
+[1m[31mIf you don't want to include a polyfill, you can use an empty module like this:[39m[22m
+[1m[31m	resolve.fallback: { "stream": false }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m4[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module 'stream' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m4[0m import { EventEmitter } from 'stream';[39m[22m
+[1m[31m[7m [0m [91m                             ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.50 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:05:52.490Z[39m[37m[22m - Hash: [1m[37m324b8ee61427c1b5[39m[37m[22m - Time: [1m[37m1141[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.50 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:06:00.504Z[39m[37m[22m - Hash: [1m[37m79af9616b6da98b1[39m[37m[22m - Time: [1m[37m1078[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.84 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:06:30.729Z[39m[37m[22m - Hash: [1m[37m415bc6efaf186ccd[39m[37m[22m - Time: [1m[37m1314[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component-store.ts[0m:[93m22[0m:[93m4[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Output'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m22[0m   @Output() completed = new EventEmitter<void>();[39m[22m
+[1m[31m[7m  [0m [91m   ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component-store.ts[0m:[93m22[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'EventEmitter'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m22[0m   @Output() completed = new EventEmitter<void>();[39m[22m
+[1m[31m[7m  [0m [91m                            ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.58 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:06:42.357Z[39m[37m[22m - Hash: [1m[37m001229516185ca8f[39m[37m[22m - Time: [1m[37m1073[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.61 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:06:53.809Z[39m[37m[22m - Hash: [1m[37m4572a2d2722239cd[39m[37m[22m - Time: [1m[37m1264[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.59 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:07:07.026Z[39m[37m[22m - Hash: [1m[37m29285716581f9e68[39m[37m[22m - Time: [1m[37m929[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m45[0m:[93m3[0m - [91merror[0m[90m TS1329: [0m'Output' accepts too few arguments to be used as a decorator here. Did you mean to call it first and write '@Output()'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m   @Output completed = this._formUserComponentStore.completed;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m45[0m:[93m28[0m - [91merror[0m[90m TS2729: [0mProperty '_formUserComponentStore' is used before its initialization.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m   @Output completed = this._formUserComponentStore.completed;[39m[22m
+[1m[31m[7m  [0m [91m                           ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts[0m:[93m47[0m:[93m11[0m[39m[22m
+[1m[31m    [7m47[0m   private _formUserComponentStore = inject(FormCreateContactsComponentStore);[39m[22m
+[1m[31m    [7m  [0m [96m          ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    '_formUserComponentStore' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.59 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:07:32.241Z[39m[37m[22m - Hash: [1m[37m31bb9aa529f3621c[39m[37m[22m - Time: [1m[37m1302[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.57 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T14:07:51.125Z[39m[37m[22m - Hash: [1m[37m52dd459c0a341de9[39m[37m[22m - Time: [1m[37m1117[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m18 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:45:06.053Z[39m[37m[22m - Hash: [1m[37m52dd459c0a341de9[39m[37m[22m - Time: [1m[37m1612[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.54 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:46:25.216Z[39m[37m[22m - Hash: [1m[37m9f55edd1121424d1[39m[37m[22m - Time: [1m[37m1805[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.84 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:46:52.813Z[39m[37m[22m - Hash: [1m[37mbad2aa147368759e[39m[37m[22m - Time: [1m[37m1767[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.10 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:47:21.142Z[39m[37m[22m - Hash: [1m[37m7a975c7d8ee86473[39m[37m[22m - Time: [1m[37m1393[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:48:03.597Z[39m[37m[22m - Hash: [1m[37m0de79e1c199a43cc[39m[37m[22m - Time: [1m[37m1614[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.85 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:48:23.429Z[39m[37m[22m - Hash: [1m[37m7546ee87da6a723a[39m[37m[22m - Time: [1m[37m882[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.73 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:49:34.183Z[39m[37m[22m - Hash: [1m[37mc73d8128a924f0b6[39m[37m[22m - Time: [1m[37m1477[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/components/form-create-contacts/form-create-contacts.component-store.ts[0m:[93m76[0m:[93m36[0m - [91merror[0m[90m TS2552: [0mCannot find name 'response'. Did you mean 'Response'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m76[0m           this._messageSvc.success(response.message ?? '');[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m18748[0m:[93m13[0m[39m[22m
+[1m[31m    [7m18748[0m declare var Response: {[39m[22m
+[1m[31m    [7m     [0m [96m            ~~~~~~~~[0m[39m[22m
+[1m[31m    'Response' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.73 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:49:37.133Z[39m[37m[22m - Hash: [1m[37mdce10a10aecc7fa2[39m[37m[22m - Time: [1m[37m932[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.85 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:50:06.495Z[39m[37m[22m - Hash: [1m[37m7bb711a70ece2d67[39m[37m[22m - Time: [1m[37m1158[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m205.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:51:37.702Z[39m[37m[22m - Hash: [1m[37m446edfb66e1f168e[39m[37m[22m - Time: [1m[37m1562[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:56:49.194Z[39m[37m[22m - Hash: [1m[37m7aa0588e89cdc16e[39m[37m[22m - Time: [1m[37m1803[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.27 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:57:15.170Z[39m[37m[22m - Hash: [1m[37m0513da1e290748a2[39m[37m[22m - Time: [1m[37m1343[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:57:30.482Z[39m[37m[22m - Hash: [1m[37maed87e91da9f3002[39m[37m[22m - Time: [1m[37m1097[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-17T23:57:53.546Z[39m[37m[22m - Hash: [1m[37m0c3397c337a5d062[39m[37m[22m - Time: [1m[37m1150[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:00:53.658Z[39m[37m[22m - Hash: [1m[37mea6a2e12613b549d[39m[37m[22m - Time: [1m[37m1744[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.94 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:02:32.625Z[39m[37m[22m - Hash: [1m[37m670bdc5f9e70de9a[39m[37m[22m - Time: [1m[37m1636[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.94 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:02:34.123Z[39m[37m[22m - Hash: [1m[37me9a07d3ca8e275da[39m[37m[22m - Time: [1m[37m953[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m207.16 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:02:59.661Z[39m[37m[22m - Hash: [1m[37ma0454192b5149c01[39m[37m[22m - Time: [1m[37m1490[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m207.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:03:11.905Z[39m[37m[22m - Hash: [1m[37m1a3d5576085cf225[39m[37m[22m - Time: [1m[37m1076[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m207.22 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:03:37.387Z[39m[37m[22m - Hash: [1m[37m21d7f9b57e3b1863[39m[37m[22m - Time: [1m[37m1152[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m207.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:05:33.639Z[39m[37m[22m - Hash: [1m[37m076d930168c4e18e[39m[37m[22m - Time: [1m[37m1090[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/pages/page-contacts/page-contacts.component.ts[0m:[93m34[0m:[93m54[0m - [91merror[0m[90m TS2345: [0mArgument of type '() => void' is not assignable to parameter of type 'void | Observable<void> | undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m34[0m     this._pageContactsComponentStore.showFormInModal(() => this.tableContacts.grid.refreshTable());[39m[22m
+[1m[31m[7m  [0m [91m                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/contacts/pages/page-contacts/page-contacts.component.ts[0m:[93m34[0m:[93m54[0m[39m[22m
+[1m[31m    [7m34[0m     this._pageContactsComponentStore.showFormInModal(() => this.tableContacts.grid.refreshTable());[39m[22m
+[1m[31m    [7m  [0m [96m                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Did you mean to call this expression?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:05:38.422Z[39m[37m[22m - Hash: [1m[37me1a67ebea40581d6[39m[37m[22m - Time: [1m[37m1032[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m206.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:06:49.376Z[39m[37m[22m - Hash: [1m[37mb82d4064cd0284a3[39m[37m[22m - Time: [1m[37m1472[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/contacts/pages/page-contacts/page-contacts.component.ts[0m:[93m34[0m:[93m79[0m - [91merror[0m[90m TS2339: [0mProperty 'refresh' does not exist on type 'TableContactsComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m34[0m     this._pageContactsComponentStore.showFormInModal(() => this.tableContacts.refresh());[39m[22m
+[1m[31m[7m  [0m [91m                                                                              ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m207.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:06:50.963Z[39m[37m[22m - Hash: [1m[37mead7215690e5e23b[39m[37m[22m - Time: [1m[37m958[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_contacts_pages_page-contacts_page-contacts_component_ts.js[39m[37m[2m | [22mpages-page-contacts-page-contacts-component[2m | [22m[96m207.01 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m16 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-18T00:08:58.974Z[39m[37m[22m - Hash: [1m[37m97f45a67193f3b00[39m[37m[22m - Time: [1m[37m1380[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m

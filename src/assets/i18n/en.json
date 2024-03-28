@@ -1,9 +1,13 @@
 {
+  "add": "Add",
   "profile": "Profile",
   "logout": "Logout",
   "edit": "Edit",
   "delete": "Delete",
   "create": "Create",
+  "create-contacts": "Create Contacts",
+  "contacts": "Contacts",
+  "contact-list": "Contact List",
   "update": "Update",
   "status": "Status",
   "add-users": "Add Users",
@@ -35,6 +39,10 @@
     "delete-message": "Are you sure you want to delete this user group?",
     "remove-user": "Remove User",
     "remove-user-message": "Are you sure you want to remove this user from this user group?"
+  },
+  "contact": {
+    "delete": "Delete Contact",
+    "delete-message": "Are you sure you want to delete this contact?"
   },
   "user-status-types": {
     "active": "Active",

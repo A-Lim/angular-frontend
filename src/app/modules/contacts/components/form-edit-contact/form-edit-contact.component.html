@@ -1,0 +1,56 @@
+<ng-container *transloco="let trans">
+  <form
+    *ngIf="formGroup$ | async as formGroup"
+    nz-form
+    [formGroup]="formGroup"
+    (ngSubmit)="submit()"
+  >
+    <div class="grid grid-cols-none md:grid-cols-3 gap-x-4">
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="nameErr">
+          <nz-form-label nzNoColon="true" nzRequired>{{ trans('name') }}</nz-form-label>
+          <input type="text" nz-input formControlName="name" [placeholder]="trans('name')" />
+          <ng-template #nameErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('name')"
+              [control]="formGroup.controls['name']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="emailErr">
+          <nz-form-label nzNoColon="true">{{ trans('email') }}</nz-form-label>
+          <input type="text" nz-input formControlName="email" [placeholder]="trans('email')" />
+          <ng-template #emailErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('email')"
+              [control]="formGroup.controls['email']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="phoneErr">
+          <nz-form-label nzNoColon="true">{{ trans('phone') }}</nz-form-label>
+          <input type="text" nz-input formControlName="phone" [placeholder]="trans('phone')" />
+
+          <ng-template #phoneErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('phone')"
+              [control]="formGroup.controls['phone']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+
+    <div *nzModalFooter class="flex justify-end">
+      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async">
+        {{ trans('update') }}
+      </button>
+    </div>
+  </form>
+</ng-container>

@@ -33,8 +33,8 @@ export class TableUsersComponentStore extends ComponentStore<TableUsersState> {
       const colDefs = [
         this._utilAggridService.getIndexColDef(),
         this._utilAggridService.getColDef('Name', 'name', true, true),
-        this._utilAggridService.getLinkColDef('Email', 'email', 'mailto', true, true),
-        this._utilAggridService.getLinkColDef('Phone', 'phone', 'tel', true, true),
+        this._utilAggridService.getLinkColDef('Email', 'email', 'email', true, true),
+        this._utilAggridService.getLinkColDef('Phone', 'phone', 'phone', true, true),
         this._utilAggridService.getDateColDef('Date Of Birth', 'date_of_birth'),
       ];
 

@@ -1,10 +1,4 @@
-import {
-  AsyncPipe,
-  JsonPipe,
-  NgFor,
-  NgIf,
-  TitleCasePipe,
-} from '@angular/common';
+import { AsyncPipe, NgFor, NgIf, TitleCasePipe } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -34,7 +28,6 @@ import { FormProfileComponentStore } from './form-profile.component-store';
   standalone: true,
   imports: [
     AsyncPipe,
-    JsonPipe,
     NgIf,
     NgFor,
     TitleCasePipe,

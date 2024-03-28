@@ -118,7 +118,7 @@
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "13098362495853774942"
+          "hash": "17909474089310659731"
         },
         {
           "file": ".nx/cache/lockfile.hash",
@@ -172,11 +172,11 @@
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "13067794479237068280"
+          "hash": "5302922710217925730"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "1814090136100749948"
+          "hash": "16672769771291886981"
         },
         {
           "file": ".nx/cache/terminalOutputs/10282923682753078730",
@@ -207,6 +207,10 @@
           "hash": "10977619759261442076"
         },
         {
+          "file": ".nx/cache/terminalOutputs/15209659784167469262",
+          "hash": "9695629449762659182"
+        },
+        {
           "file": ".nx/cache/terminalOutputs/15267579166436036770",
           "hash": "3479490571231926887"
         },
@@ -225,6 +229,10 @@
         {
           "file": ".nx/cache/terminalOutputs/18384028074489028351",
           "hash": "6924238728230372690"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/18388347588372425530",
+          "hash": "14169019479402633437"
         },
         {
           "file": ".nx/cache/terminalOutputs/2293003656219065786",
@@ -263,8 +271,12 @@
           "hash": "3500334094716108167"
         },
         {
+          "file": ".nx/cache/terminalOutputs/5417429545682749821",
+          "hash": "15803454396642437363"
+        },
+        {
           "file": ".nx/cache/terminalOutputs/6916511189064208205",
-          "hash": "3244421341483603138"
+          "hash": "3983049120995009715"
         },
         {
           "file": ".nx/cache/terminalOutputs/7517767730060856286",
@@ -416,7 +428,7 @@
         },
         {
           "file": "src/app/app-routing.module.ts",
-          "hash": "606056358085324976",
+          "hash": "2355817496335636598",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -644,7 +656,7 @@
         },
         {
           "file": "src/app/icons-provider.module.ts",
-          "hash": "11191714445645297773",
+          "hash": "7371467529350430293",
           "deps": [
             "npm:@angular/core",
             "npm:@ant-design/icons-angular",
@@ -710,6 +722,105 @@
           ]
         },
         {
+          "file": "src/app/modules/contacts/components/form-create-contacts/form-create-contacts.component-store.ts",
+          "hash": "7642941192172061394",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:lodash-es",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/effects",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.html",
+          "hash": "5749603121208169135"
+        },
+        {
+          "file": "src/app/modules/contacts/components/form-create-contacts/form-create-contacts.component.ts",
+          "hash": "9192389092494452078",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/contacts/components/table-contacts/table-contacts.component-store.ts",
+          "hash": "11412471772569758612",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/contacts/components/table-contacts/table-contacts.component.html",
+          "hash": "5024517575560950427"
+        },
+        {
+          "file": "src/app/modules/contacts/components/table-contacts/table-contacts.component.ts",
+          "hash": "16293773924806108149",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/contacts/contacts.api-service.ts",
+          "hash": "4306701351063331358",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@ngrx/entity"
+          ]
+        },
+        {
+          "file": "src/app/modules/contacts/contacts.routes.ts",
+          "hash": "14188974348083604549",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/modules/contacts/models/contacts.model.ts",
+          "hash": "6185604850766639761"
+        },
+        {
+          "file": "src/app/modules/contacts/pages/page-contacts/page-contacts.component-store.ts",
+          "hash": "13402736951590387248",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/contacts/pages/page-contacts/page-contacts.component.html",
+          "hash": "18430445766048497229"
+        },
+        {
+          "file": "src/app/modules/contacts/pages/page-contacts/page-contacts.component.ts",
+          "hash": "15482225268066989276",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
           "file": "src/app/modules/dashboard/dashboard.routes.ts",
           "hash": "15516226731165893104",
           "deps": [
@@ -750,7 +861,7 @@
         },
         {
           "file": "src/app/modules/user-groups/components/form-user-group/form-user-group.component.ts",
-          "hash": "11878450284194205276",
+          "hash": "12368520943791174604",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -780,7 +891,7 @@
         },
         {
           "file": "src/app/modules/user-groups/components/select-user-group-users/select-user-group-users.component.ts",
-          "hash": "3369453645909364507",
+          "hash": "8285726341610228899",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -897,7 +1008,7 @@
         },
         {
           "file": "src/app/modules/user-groups/services/user-groups.api-service.ts",
-          "hash": "4992394136295200049",
+          "hash": "4247551840340165130",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -930,7 +1041,7 @@
         },
         {
           "file": "src/app/modules/users/components/form-profile/form-profile.component.ts",
-          "hash": "17503635377023234813",
+          "hash": "16145990660739446828",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -969,7 +1080,7 @@
         },
         {
           "file": "src/app/modules/users/components/table-users/table-users.component-store.ts",
-          "hash": "3865713022706599098",
+          "hash": "13891069608257527285",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -1174,7 +1285,7 @@
         },
         {
           "file": "src/app/shared/components/ui-grid-link-cell/ui-grid-link-cell.component.ts",
-          "hash": "7159176854823222610",
+          "hash": "9128320456873649961",
           "deps": [
             "npm:@angular/core",
             "npm:ag-grid-angular",
@@ -1229,7 +1340,7 @@
         },
         {
           "file": "src/app/shared/layouts/layout-admin/side-menu/side-menu.component.html",
-          "hash": "1003512319423461464"
+          "hash": "1884686455867376116"
         },
         {
           "file": "src/app/shared/layouts/layout-admin/side-menu/side-menu.component.ts",
@@ -1285,8 +1396,24 @@
           "hash": "17688365640986096397"
         },
         {
+          "file": "src/app/shared/pipes/form-array.pipe.ts",
+          "hash": "17935945196483605529",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "src/app/shared/pipes/form-group.pipe.ts",
+          "hash": "2050794721009218447",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms"
+          ]
+        },
+        {
           "file": "src/app/shared/services/permissions.api-service.ts",
-          "hash": "7946601207312747344",
+          "hash": "6071388277777071692",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core"
@@ -1294,7 +1421,7 @@
         },
         {
           "file": "src/app/shared/services/util-aggrid.service.ts",
-          "hash": "7930189326728338608",
+          "hash": "14416725376244240992",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1317,6 +1444,10 @@
             "npm:@angular/core",
             "npm:ag-grid-community"
           ]
+        },
+        {
+          "file": "src/app/shared/types/link.type.ts",
+          "hash": "7663120840036775584"
         },
         {
           "file": "src/app/shared/validators/form-control.validators.ts",
@@ -1350,7 +1481,7 @@
         },
         {
           "file": "src/assets/i18n/en.json",
-          "hash": "8456696213782849393"
+          "hash": "9577613181240488448"
         },
         {
           "file": "src/assets/i18n/validation/en.json",
@@ -1377,7 +1508,7 @@
         },
         {
           "file": "src/styles.scss",
-          "hash": "13263530135768902029"
+          "hash": "6874884027905479359"
         },
         {
           "file": "src/test-setup.ts",
@@ -1392,7 +1523,7 @@
         },
         {
           "file": "tailwind.config.js",
-          "hash": "4616538962241029475",
+          "hash": "2154052665093843750",
           "deps": [
             "npm:@nx/angular",
             "npm:path"

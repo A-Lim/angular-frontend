@@ -34,3 +34,7 @@ input[class^=ag-][type=text]:focus, textarea[class^=ag-]:focus {
   display: flex;
   justify-content: center;
 }
+
+.ant-btn-primary {
+  @apply bg-primary;
+} 

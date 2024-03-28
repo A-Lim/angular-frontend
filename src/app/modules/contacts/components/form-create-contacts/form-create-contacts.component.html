@@ -1,0 +1,94 @@
+<ng-container *transloco="let trans">
+  <form *ngIf="formGroup$ | async as formGroup" nz-form [formGroup]="formGroup">
+    <ng-container formArrayName="contacts">
+      <ng-container
+        *ngFor="let row of (formGroup | toFormArray : 'contacts').controls; let i = index"
+        [formGroupName]="i"
+      >
+        <div class="grid grid-cols-none md:grid-cols-3 gap-x-4">
+          <nz-form-item>
+            <nz-form-control [nzErrorTip]="nameErr">
+              <nz-form-label *ngIf="i === 0" nzNoColon="true" nzRequired>{{
+                trans('name')
+              }}</nz-form-label>
+              <input type="text" nz-input formControlName="name" [placeholder]="trans('name')" />
+              <ng-template #nameErr let-control>
+                <app-ui-form-control-errors
+                  [name]="trans('name')"
+                  [control]="(row | toFormGroup).controls['name']"
+                ></app-ui-form-control-errors>
+              </ng-template>
+            </nz-form-control>
+          </nz-form-item>
+
+          <nz-form-item>
+            <nz-form-control [nzErrorTip]="emailErr">
+              <nz-form-label *ngIf="i === 0" nzNoColon="true">{{ trans('email') }}</nz-form-label>
+              <input type="text" nz-input formControlName="email" [placeholder]="trans('email')" />
+              <ng-template #emailErr let-control>
+                <app-ui-form-control-errors
+                  [name]="trans('email')"
+                  [control]="(row | toFormGroup).controls['email']"
+                ></app-ui-form-control-errors>
+              </ng-template>
+            </nz-form-control>
+          </nz-form-item>
+
+          <nz-form-item>
+            <nz-form-control [nzErrorTip]="phoneErr">
+              <nz-form-label *ngIf="i === 0" nzNoColon="true">{{ trans('phone') }}</nz-form-label>
+              <div class="flex space-x-2">
+                <input
+                  type="text"
+                  nz-input
+                  formControlName="phone"
+                  [placeholder]="trans('phone')"
+                />
+                <button
+                  *ngIf="i === 0; else deleteBtn"
+                  nz-button
+                  nz-tooltip
+                  type="button"
+                  nzType="primary"
+                  nzShape="circle"
+                  [nzTooltipTitle]="trans('add')"
+                  (click)="addRows()"
+                >
+                  <i nz-icon nzType="plus" nzTheme="outline"></i>
+                </button>
+
+                <ng-template #deleteBtn>
+                  <button
+                    nz-button
+                    nz-tooltip
+                    nzDanger
+                    nzType="primary"
+                    nzShape="circle"
+                    type="button"
+                    [nzTooltipTitle]="trans('delete')"
+                    (click)="deleteRow(i)"
+                  >
+                    <i nz-icon nzType="delete" nzTheme="outline"></i>
+                  </button>
+                </ng-template>
+              </div>
+
+              <ng-template #phoneErr let-control>
+                <app-ui-form-control-errors
+                  [name]="trans('phone')"
+                  [control]="(row | toFormGroup).controls['phone']"
+                ></app-ui-form-control-errors>
+              </ng-template>
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+      </ng-container>
+    </ng-container>
+
+    <div *nzModalFooter class="flex justify-end">
+      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async" (click)="submit()">
+        {{ trans('create') }}
+      </button>
+    </div>
+  </form>
+</ng-container>
