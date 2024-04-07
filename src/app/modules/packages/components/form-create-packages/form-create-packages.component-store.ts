@@ -7,6 +7,7 @@ import { concatLatestFrom } from '@ngrx/effects';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzModalRef } from 'ng-zorro-antd/modal';
 import { FormComponentStore } from '@shared/component-stores/form.component-store';
+import { FormGroupType } from '@shared/types/form-group.type';
 import { PackagesApiService } from '@modules/packages/packages.api-service';
 
 export interface FormCreatePackagesState {
@@ -24,7 +25,7 @@ export class FormCreatePackagesComponentStore extends FormComponentStore<FormCre
   private _messageSvc = inject(NzMessageService);
   private _modalRef = inject(NzModalRef, { optional: true });
 
-  private readonly _formGroup = {
+  private readonly _formGroupTemplate: FormGroupType = {
     name: new FormControl(null, [Validators.required]),
     default_count: new FormControl(null, [Validators.required]),
     default_price: new FormControl(null, [Validators.required]),
@@ -33,24 +34,26 @@ export class FormCreatePackagesComponentStore extends FormComponentStore<FormCre
 
   constructor() {
     super(FormCreatePackagesInitialState);
+    this._createForm();
   }
 
   // #region SELECTORS
   // #endregion
 
   // #region UPDATERS
-  readonly createForm = this.updater((state): FormCreatePackagesState => {
-    const formGroup = new FormGroup({
-      packages: new FormArray([new FormGroup(cloneDeep(this._formGroup))]),
-    });
-    return {
+  private readonly _createForm = this.updater(
+    (state): FormCreatePackagesState => ({
       ...state,
-      formGroup,
-    };
-  });
+      formGroup: new FormGroup({
+        packages: new FormArray([new FormGroup(cloneDeep(this._formGroupTemplate))]),
+      }),
+    })
+  );
 
   readonly addRows = this.updater((state): FormCreatePackagesState => {
-    (state.formGroup?.get('packages') as FormArray).push(new FormGroup(cloneDeep(this._formGroup)));
+    (state.formGroup?.get('packages') as FormArray).push(
+      new FormGroup(cloneDeep(this._formGroupTemplate))
+    );
 
     return state;
   });
@@ -77,6 +80,7 @@ export class FormCreatePackagesComponentStore extends FormComponentStore<FormCre
               (response) => {
                 this._messageSvc.success(response.message ?? '');
                 this._modalRef?.triggerOk();
+                this._modalRef?.destroy();
               },
               () => undefined
             ),

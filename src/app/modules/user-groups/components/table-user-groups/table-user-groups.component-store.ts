@@ -83,8 +83,8 @@ export class TableUserGroupsComponentStore extends ComponentStore<TableUserGroup
             id: number;
             onComplete: () => void;
           }>(
-            this._translocoService.selectTranslate('usergroup.delete'),
-            this._translocoService.selectTranslate('usergroup.delete-message'),
+            this._translocoService.selectTranslate('usergroup-module.delete'),
+            this._translocoService.selectTranslate('usergroup-module.delete-message'),
             data
           )
         ),

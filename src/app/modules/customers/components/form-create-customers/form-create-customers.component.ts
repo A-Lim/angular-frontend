@@ -7,6 +7,7 @@ import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzModalModule } from 'ng-zorro-antd/modal';
+import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { UiFormControlErrorsComponent } from '@shared/components/ui-form-control-errors/ui-form-control-errors.component';
 import { FormArrayCastPipe } from '@shared/pipes/form-array-cast.pipe';
@@ -28,6 +29,7 @@ import { FormCreateCustomersComponentStore } from './form-create-customers.compo
     NzFormModule,
     NzInputModule,
     NzToolTipModule,
+    NzTableModule,
     NzIconModule,
     NzModalModule,
     UiFormControlErrorsComponent,
@@ -37,25 +39,21 @@ import { FormCreateCustomersComponentStore } from './form-create-customers.compo
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [FormCreateCustomersComponentStore],
 })
-export class FormCreateCustomersComponent implements OnInit {
-  private _formCreateCustomersComponentStore = inject(FormCreateCustomersComponentStore);
+export class FormCreateCustomersComponent {
+  private _componentStore = inject(FormCreateCustomersComponentStore);
 
-  readonly formGroup$ = this._formCreateCustomersComponentStore.formGroup$;
-  readonly loading$ = this._formCreateCustomersComponentStore.loading$;
-
-  ngOnInit() {
-    this._formCreateCustomersComponentStore.createForm();
-  }
+  readonly formGroup$ = this._componentStore.formGroup$;
+  readonly loading$ = this._componentStore.loading$;
 
   addRows() {
-    this._formCreateCustomersComponentStore.addRows();
+    this._componentStore.addRows();
   }
 
   deleteRow(index: number) {
-    this._formCreateCustomersComponentStore.deleteRow(index);
+    this._componentStore.deleteRow(index);
   }
 
   submit() {
-    this._formCreateCustomersComponentStore.submit();
+    this._componentStore.submit();
   }
 }

@@ -1,15 +1,11 @@
-<div class="flex items-center mb-4">
+<div class="flex flex-col md:flex-row items-start md:items-center mb-4">
   <h2 class="text-bold text-lg">{{ title | titlecase }}</h2>
-  <nz-divider nzType="vertical"></nz-divider>
+  <nz-divider class="hidden md:inline" nzType="vertical"></nz-divider>
   <nz-breadcrumb>
     <nz-breadcrumb-item *ngFor="let breadcrumb of breadcrumbs">
       <ng-container *ngIf="breadcrumb.url; else staticBreadcrumb">
         <a [routerLink]="[breadcrumb.url]">
-          <span
-            *ngIf="breadcrumb.icon"
-            nz-icon
-            [nzType]="breadcrumb.icon"
-          ></span>
+          <span *ngIf="breadcrumb.icon" nz-icon [nzType]="breadcrumb.icon"></span>
           <span>{{ breadcrumb.name }}</span>
         </a>
       </ng-container>

@@ -22,6 +22,7 @@ import {
 import { Observable, auditTime, fromEvent } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { UiGridDateFilterComponent } from '@shared/components/ui-grid-date-filter/ui-grid-date-filter.component';
+import { ResizeGridInViewDirective } from '@shared/directives/resize-grid-inview.directive';
 import { UtilAggridService } from '@shared/services/util-aggrid.service';
 import { UtilUrlQueryBuilderService } from '@shared/services/util.urlquerybuilder.service';
 
@@ -29,7 +30,7 @@ import { UtilUrlQueryBuilderService } from '@shared/services/util.urlquerybuilde
 @Component({
   selector: 'app-ui-grid',
   standalone: true,
-  imports: [AgGridModule],
+  imports: [ResizeGridInViewDirective, AgGridModule],
   templateUrl: './ui-grid.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
@@ -90,7 +91,6 @@ export class UiGridComponent implements OnInit, OnChanges, AfterViewInit {
 
   onGridReady(event: GridReadyEvent) {
     this.agGrid.api.setGridOption('datasource', this._dataSource);
-    event.api.sizeColumnsToFit();
   }
 
   private setDataSource() {

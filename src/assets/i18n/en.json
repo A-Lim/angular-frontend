@@ -29,9 +29,10 @@
   "code": "Code",
   "gender": "Gender",
   "admin": "Admin",
+  "add-package": "Add Package",
   "permissions": "Permissions",
   "search-user-by-email": "Search user by email",
-  "usergroup": {
+  "usergroup-module": {
     "delete": "Delete User Group",
     "delete-message": "Are you sure you want to delete this user group?",
     "remove-user": "Remove User",
@@ -41,15 +42,22 @@
   "default-count": "Default Count",
   "default-price": "Default Price",
   "packages": "Packages",
-  "package": {
+  "transactions": "Transactions",
+  "appointments": "Appointments",
+  "package": "Package",
+  "price": "Price",
+  "count": "Count",
+  "add-another": "Add Another",
+  "package-module": {
     "create": "Create Packages",
     "list": "Package List",
     "edit": "Edit Package",
     "delete": "Delete Package",
     "delete-message": "Are you sure you want to delete this package?"
   },
+  "amount-paid": "Amount Paid",
   "customers": "Customers",
-  "customer": {
+  "customer-module": {
     "create": "Create Customers",
     "list": "Customer List",
     "edit": "Edit Customer",

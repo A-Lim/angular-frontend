@@ -12,7 +12,11 @@ export class PackagesApiService {
   private _baseUrl = `${environment.apiUrl}/api/${environment.apiVersion}`;
   private _packagesUrl = `${this._baseUrl}/packages`;
 
-  getPackages(qParams: Dictionary<any>) {
+  getAllPackages() {
+    return this._http.get<Response<Package[]>>(`${this._packagesUrl}/all`);
+  }
+
+  getPackages(qParams?: Dictionary<any>) {
     return this._http.get<Response<Pagination<Package | null>>>(`${this._packagesUrl}`, {
       params: qParams,
     });

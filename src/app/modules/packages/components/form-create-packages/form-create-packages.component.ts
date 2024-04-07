@@ -37,15 +37,11 @@ import { FormCreatePackagesComponentStore } from './form-create-packages.compone
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [FormCreatePackagesComponentStore],
 })
-export class FormCreatePackagesComponent implements OnInit {
+export class FormCreatePackagesComponent {
   private _formCreatePackagesComponentStore = inject(FormCreatePackagesComponentStore);
 
   readonly formGroup$ = this._formCreatePackagesComponentStore.formGroup$;
   readonly loading$ = this._formCreatePackagesComponentStore.loading$;
-
-  ngOnInit() {
-    this._formCreatePackagesComponentStore.createForm();
-  }
 
   addRows() {
     this._formCreatePackagesComponentStore.addRows();

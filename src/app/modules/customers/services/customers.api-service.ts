@@ -4,7 +4,9 @@ import { environment } from '@environments/environment';
 import { Dictionary } from '@ngrx/entity';
 import { Pagination } from '@core/models/pagination.model';
 import { Response } from '@core/models/response.model';
-import { Customer } from './models/customer.model';
+import { CustomerPackage } from '../models/customer-package.model';
+import { Customer } from '../models/customer.model';
+import { Transaction } from '../models/transaction.model';
 
 @Injectable({ providedIn: 'root' })
 export class CustomersApiService {
@@ -22,12 +24,37 @@ export class CustomersApiService {
     return this._http.get<Response<Customer>>(`${this._customersUrl}/${id}`);
   }
 
+  getPackages(id: number, qParams: Dictionary<any>) {
+    return this._http.get<Response<Pagination<CustomerPackage | null>>>(
+      `${this._customersUrl}/${id}/packages`,
+      {
+        params: qParams,
+      }
+    );
+  }
+
+  getTransactions(id: number, qParams: Dictionary<any>) {
+    return this._http.get<Response<Pagination<Transaction[] | null>>>(
+      `${this._customersUrl}/${id}/transactions`,
+      {
+        params: qParams,
+      }
+    );
+  }
+
   bulkCreateCustomers(data: Dictionary<any>[]) {
     return this._http.post<Response<void>>(`${this._customersUrl}/bulk`, data);
   }
 
-  updateCustomer(id: number, value: Dictionary<any>) {
-    return this._http.patch<Response<Customer>>(`${this._customersUrl}/${id}`, value);
+  bulkPurchasePackages(id: number, data: Dictionary<any>[]) {
+    return this._http.post<Response<void>>(
+      `${this._customersUrl}/${id}/packages/bulk-purchase`,
+      data
+    );
+  }
+
+  updateCustomer(id: number, data: Dictionary<any>) {
+    return this._http.patch<Response<Customer>>(`${this._customersUrl}/${id}`, data);
   }
 
   deleteCustomer(id: number) {

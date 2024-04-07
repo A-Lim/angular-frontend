@@ -25,7 +25,7 @@ export class PageCustomersComponentStore extends ComponentStore<object> {
     onOk$.pipe(
       switchMap((onOk) =>
         forkJoin([
-          this._translocoService.selectTranslate<string>('customer.create').pipe(take(1)),
+          this._translocoService.selectTranslate<string>('customer-module.create').pipe(take(1)),
           of(onOk),
         ])
       ),

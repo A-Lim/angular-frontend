@@ -5,7 +5,7 @@
     [formGroup]="formGroup"
     (ngSubmit)="submit()"
   >
-    <div class="grid grid-cols-none md:grid-cols-4 gap-x-4">
+    <div class="grid grid-cols-none md:grid-cols-2 gap-x-4">
       <nz-form-item>
         <nz-form-control [nzErrorTip]="nameErr">
           <nz-form-label nzNoColon="true" nzRequired>{{ trans('name') }}</nz-form-label>
@@ -35,7 +35,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-form-label nzNoColon="true">{{ trans('phone') }}</nz-form-label>
-          <input type="text" nz-input formControlName="phone" [placeholder]="trans('phone')" />
+          <input type="tel" nz-input formControlName="phone" [placeholder]="trans('phone')" />
         </nz-form-control>
       </nz-form-item>
 
@@ -51,12 +51,6 @@
           ></textarea>
         </nz-form-control>
       </nz-form-item>
-    </div>
-
-    <div *nzModalFooter class="flex justify-end">
-      <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async" (click)="submit()">
-        {{ trans('update') }}
-      </button>
     </div>
   </form>
 </ng-container>

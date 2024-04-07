@@ -175,8 +175,8 @@ export class TableUserGroupUsersComponentStore extends ComponentStore<TableUserG
           id: number;
           onComplete: () => void;
         }>(
-          this._translocoService.selectTranslate('usergroup.remove-user'),
-          this._translocoService.selectTranslate('usergroup.remove-user-message'),
+          this._translocoService.selectTranslate('usergroup-module.remove-user'),
+          this._translocoService.selectTranslate('usergroup-module.remove-user-message'),
           data
         )
       ),

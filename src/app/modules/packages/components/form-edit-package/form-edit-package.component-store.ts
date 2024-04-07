@@ -1,6 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { EMPTY, Observable, finalize, switchMap, tap } from 'rxjs';
+import { EMPTY, Observable, finalize, switchMap } from 'rxjs';
 import { tapResponse } from '@ngrx/component-store';
 import { concatLatestFrom } from '@ngrx/effects';
 import { NzMessageService } from 'ng-zorro-antd/message';
@@ -27,24 +27,24 @@ export class FormEditPackageComponentStore extends FormComponentStore<FormEditPa
 
   constructor() {
     super(FormEditPackageInitialState);
+    this._createForm();
   }
 
   // #region SELECTORS
   // #endregion
 
   // #region UPDATERS
-  readonly createForm = this.updater((state): FormEditPackageState => {
-    const formGroup = new FormGroup({
-      name: new FormControl(this._package.name, [Validators.required]),
-      default_count: new FormControl(this._package.default_count, [Validators.required]),
-      default_price: new FormControl(this._package.default_price, [Validators.required]),
-      description: new FormControl(this._package.description),
-    });
-    return {
+  private readonly _createForm = this.updater(
+    (state): FormEditPackageState => ({
       ...state,
-      formGroup,
-    };
-  });
+      formGroup: new FormGroup({
+        name: new FormControl(this._package.name, [Validators.required]),
+        default_count: new FormControl(this._package.default_count, [Validators.required]),
+        default_price: new FormControl(this._package.default_price, [Validators.required]),
+        description: new FormControl(this._package.description),
+      }),
+    })
+  );
   // #endregion
 
   // #region EFFECTS

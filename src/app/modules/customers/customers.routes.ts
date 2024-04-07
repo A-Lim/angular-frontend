@@ -9,4 +9,12 @@ export const CUSTOMERS_ROUTES: Route[] = [
         (m) => m.PageCustomersComponent
       ),
   },
+  {
+    path: 'customers/:id/edit',
+    title: 'Edit Customer',
+    loadComponent: () =>
+      import('./pages/page-customer-manage/page-customer-manage.component').then(
+        (m) => m.PageCustomerManageComponent
+      ),
+  },
 ];

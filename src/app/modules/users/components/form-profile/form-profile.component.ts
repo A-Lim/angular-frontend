@@ -1,13 +1,5 @@
 import { AsyncPipe, NgFor, NgIf, TitleCasePipe } from '@angular/common';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  Input,
-  OnChanges,
-  OnInit,
-  SimpleChanges,
-  inject,
-} from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, OnInit, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { environment } from '@environments/environment';
 import { TranslocoModule } from '@ngneat/transloco';

@@ -1,13 +1,17 @@
-import { AsyncPipe, CommonModule, NgFor, NgIf } from '@angular/common';
-import { ChangeDetectionStrategy, Component, Input, OnInit, inject } from '@angular/core';
+import { AsyncPipe, NgIf } from '@angular/common';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  Input,
+  OnChanges,
+  SimpleChanges,
+  inject,
+} from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { TranslocoModule } from '@ngneat/transloco';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzFormModule } from 'ng-zorro-antd/form';
-import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzInputModule } from 'ng-zorro-antd/input';
-import { NZ_MODAL_DATA, NzModalModule } from 'ng-zorro-antd/modal';
-import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { UiFormControlErrorsComponent } from '@shared/components/ui-form-control-errors/ui-form-control-errors.component';
 import { Customer } from '@modules/customers/models/customer.model';
 import { FormEditCustomerComponentStore } from './form-edit-customer.component-store';
@@ -18,14 +22,10 @@ import { FormEditCustomerComponentStore } from './form-edit-customer.component-s
   imports: [
     AsyncPipe,
     NgIf,
-    NgFor,
     ReactiveFormsModule,
     NzButtonModule,
     NzFormModule,
     NzInputModule,
-    NzToolTipModule,
-    NzIconModule,
-    NzModalModule,
     UiFormControlErrorsComponent,
     TranslocoModule,
   ],
@@ -33,17 +33,22 @@ import { FormEditCustomerComponentStore } from './form-edit-customer.component-s
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [FormEditCustomerComponentStore],
 })
-export class FormEditCustomerComponent implements OnInit {
-  private _formEditCustomerComponentStore = inject(FormEditCustomerComponentStore);
+export class FormEditCustomerComponent implements OnChanges {
+  @Input() customer: Customer | undefined | null;
 
+  private _formEditCustomerComponentStore = inject(FormEditCustomerComponentStore);
   readonly formGroup$ = this._formEditCustomerComponentStore.formGroup$;
   readonly loading$ = this._formEditCustomerComponentStore.loading$;
 
-  ngOnInit() {
-    this._formEditCustomerComponentStore.createForm();
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['customer'] && this.customer) {
+      this._formEditCustomerComponentStore.patchForm(this.customer);
+    }
   }
 
   submit() {
-    this._formEditCustomerComponentStore.submit();
+    if (this.customer) {
+      this._formEditCustomerComponentStore.submit(this.customer.id);
+    }
   }
 }

@@ -39,7 +39,7 @@ export class UiGridDateFilterComponent {
 
   onChange() {
     this._params?.parentFilterInstance((instance: any) => {
-      if (this.date) instance.onFloatingFilterChanged('equals', this.date.toISOString());
+      if (this.date) instance.onFloatingFilterChanged('equals', this.date);
       else instance.onFloatingFilterChanged(null, null);
     });
   }

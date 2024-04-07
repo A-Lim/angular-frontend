@@ -1,7 +1,7 @@
 import { formatDate } from '@angular/common';
 import { Injectable, LOCALE_ID, TemplateRef, inject } from '@angular/core';
 import { environment } from '@environments/environment';
-import { ColDef } from 'ag-grid-community';
+import { ColDef, ValueGetterFunc } from 'ag-grid-community';
 import { UiGridLinkCellComponent } from '@shared/components/ui-grid-link-cell/ui-grid-link-cell.component';
 import { UiTemplateRendererComponent } from '@shared/components/ui-template-renderer/ui-template-renderer.component';
 import { LinkType } from '@shared/types/link.type';
@@ -28,7 +28,8 @@ export class UtilAggridService {
     field: string,
     filter: boolean = false,
     sortable: boolean = false,
-    width: number | undefined = undefined
+    width: number | undefined = undefined,
+    valueGetter: ValueGetterFunc<any, any> | undefined = undefined
   ): ColDef {
     let colDef: ColDef = {
       headerName: headerName,
@@ -37,6 +38,7 @@ export class UtilAggridService {
       filter: filter,
       sortable: sortable,
       suppressMenu: true,
+      valueGetter: valueGetter,
     };
 
     if (filter)
@@ -82,7 +84,12 @@ export class UtilAggridService {
     return colDef;
   }
 
-  getNumberColDef(headerName: string, field: string, filter: boolean = false): ColDef {
+  getNumberColDef(
+    headerName: string,
+    field: string,
+    filter: boolean = false,
+    valueGetter: ValueGetterFunc<any, any> | undefined = undefined
+  ): ColDef {
     let colDef = <ColDef>{
       headerName: headerName,
       field: field,
@@ -91,6 +98,7 @@ export class UtilAggridService {
       suppressMenu: true,
       width: 100,
       floatingFilterComponentParams: { suppressFilterButton: true },
+      valueGetter: valueGetter,
     };
 
     if (filter) colDef.filter = 'agNumberColumnFilter';
@@ -98,11 +106,12 @@ export class UtilAggridService {
     return colDef;
   }
 
-  getDateColDef(headerName: string, field: string): ColDef {
+  getDateColDef(headerName: string, field: string, width?: number): ColDef {
     let colDef = <ColDef>{
       headerName: headerName,
       field: field,
       filter: 'agDateColumnFilter',
+      cellClass: 'flex items-center',
       sortable: true,
       suppressMenu: true,
       floatingFilterComponent: 'dateFilterComponent',
@@ -113,6 +122,8 @@ export class UtilAggridService {
       valueFormatter: (params) =>
         params.value ? formatDate(params.value, environment.dateFormat, this._locale) : null,
     };
+
+    if (width) colDef.width = width;
 
     return colDef;
   }

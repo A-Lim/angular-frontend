@@ -6,8 +6,8 @@ import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzModalService } from 'ng-zorro-antd/modal';
 import { UtilAggridService } from '@shared/services/util-aggrid.service';
 import { UtilModalService } from '@shared/services/util-modal.service';
-import { CustomersApiService } from '@modules/customers/customers.api-service';
 import { Customer } from '@modules/customers/models/customer.model';
+import { CustomersApiService } from '@modules/customers/services/customers.api-service';
 import { FormEditCustomerComponent } from '../form-edit-customer/form-edit-customer.component';
 
 interface TableCustomersState {
@@ -71,7 +71,7 @@ export class TableCustomersComponentStore extends ComponentStore<TableCustomersS
         switchMap(({ customer, onOk }) =>
           forkJoin([
             of(customer),
-            this._translocoService.selectTranslate<string>('customer.edit').pipe(take(1)),
+            this._translocoService.selectTranslate<string>('customer-module.edit').pipe(take(1)),
             of(onOk),
           ])
         ),
@@ -100,8 +100,8 @@ export class TableCustomersComponentStore extends ComponentStore<TableCustomersS
             id: number;
             onComplete: () => void;
           }>(
-            this._translocoService.selectTranslate('customer.delete'),
-            this._translocoService.selectTranslate('customer.delete-message'),
+            this._translocoService.selectTranslate('customer-module.delete'),
+            this._translocoService.selectTranslate('customer-module.delete-message'),
             data
           )
         ),

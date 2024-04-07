@@ -3,7 +3,7 @@
     breadcrumb
     *transloco="let trans"
     [title]="trans('customers')"
-    [breadcrumbs]="[{ name: trans('customer.list') }]"
+    [breadcrumbs]="[{ name: trans('customer-module.list') }]"
   ></app-ui-breadcrumb>
 
   <ng-container content>
@@ -16,7 +16,7 @@
             [nzType]="'primary'"
             (click)="createCustomersModal()"
           >
-            {{ trans('customer.create') }}
+            {{ trans('customer-module.create') }}
           </button>
         </div>
 

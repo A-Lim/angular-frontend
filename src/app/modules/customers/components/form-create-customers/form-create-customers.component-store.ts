@@ -1,13 +1,14 @@
-import { EventEmitter, Injectable, inject } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import cloneDeep from 'lodash-es/cloneDeep';
-import { EMPTY, Observable, finalize, switchMap, tap } from 'rxjs';
+import { EMPTY, Observable, finalize, switchMap } from 'rxjs';
 import { tapResponse } from '@ngrx/component-store';
 import { concatLatestFrom } from '@ngrx/effects';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzModalRef } from 'ng-zorro-antd/modal';
 import { FormComponentStore } from '@shared/component-stores/form.component-store';
-import { CustomersApiService } from '@modules/customers/customers.api-service';
+import { FormGroupType } from '@shared/types/form-group.type';
+import { CustomersApiService } from '@modules/customers/services/customers.api-service';
 
 export interface FormCreateCustomersState {
   loading: boolean;
@@ -23,8 +24,7 @@ export class FormCreateCustomersComponentStore extends FormComponentStore<FormCr
   private _customersApiService = inject(CustomersApiService);
   private _messageSvc = inject(NzMessageService);
   private _modalRef = inject(NzModalRef, { optional: true });
-
-  private readonly _formGroup = {
+  private readonly _formGroupTemplate: FormGroupType = {
     name: new FormControl(null, [Validators.required]),
     email: new FormControl(null, [Validators.email]),
     phone: new FormControl(null),
@@ -33,25 +33,25 @@ export class FormCreateCustomersComponentStore extends FormComponentStore<FormCr
 
   constructor() {
     super(FormCreateCustomersInitialState);
+    this._createForm();
   }
 
   // #region SELECTORS
   // #endregion
 
   // #region UPDATERS
-  readonly createForm = this.updater((state): FormCreateCustomersState => {
-    const formGroup = new FormGroup({
-      customers: new FormArray([new FormGroup(cloneDeep(this._formGroup))]),
-    });
-    return {
+  private readonly _createForm = this.updater(
+    (state): FormCreateCustomersState => ({
       ...state,
-      formGroup,
-    };
-  });
+      formGroup: new FormGroup({
+        customers: new FormArray([new FormGroup(cloneDeep(this._formGroupTemplate))]),
+      }),
+    })
+  );
 
   readonly addRows = this.updater((state): FormCreateCustomersState => {
     (state.formGroup?.get('customers') as FormArray).push(
-      new FormGroup(cloneDeep(this._formGroup))
+      new FormGroup(cloneDeep(this._formGroupTemplate))
     );
 
     return state;

@@ -56,12 +56,12 @@ export class TableCustomersComponent implements OnInit {
     this._tableCustomersComponentStore.setActionCell(this.actionsCell);
   }
 
-  editCustomerModal(customer: Customer) {
-    this._tableCustomersComponentStore.editCustomerModal({
-      customer,
-      onOk: () => this.grid.refreshTable(),
-    });
-  }
+  // editCustomerModal(customer: Customer) {
+  //   this._tableCustomersComponentStore.editCustomerModal({
+  //     customer,
+  //     onOk: () => this.grid.refreshTable(),
+  //   });
+  // }
 
   deleteCustomer(id: number) {
     this._tableCustomersComponentStore.deleteCustomer({

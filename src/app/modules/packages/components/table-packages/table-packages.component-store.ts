@@ -72,7 +72,7 @@ export class TablePackagesComponentStore extends ComponentStore<TablePackagesSta
         switchMap(({ pckage, onOk }) =>
           forkJoin([
             of(pckage),
-            this._translocoService.selectTranslate<string>('package.edit').pipe(take(1)),
+            this._translocoService.selectTranslate<string>('package-module.edit').pipe(take(1)),
             of(onOk),
           ])
         ),
@@ -101,8 +101,8 @@ export class TablePackagesComponentStore extends ComponentStore<TablePackagesSta
             id: number;
             onComplete: () => void;
           }>(
-            this._translocoService.selectTranslate('package.delete'),
-            this._translocoService.selectTranslate('package.delete-message'),
+            this._translocoService.selectTranslate('package-module.delete'),
+            this._translocoService.selectTranslate('package-module.delete-message'),
             data
           )
         ),
