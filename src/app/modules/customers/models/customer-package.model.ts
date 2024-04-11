@@ -3,5 +3,9 @@ export interface CustomerPackage {
   name: string;
   price: number;
   count: number;
-  purchased_date: string;
+  customer_id: number;
+  package_id: number;
+  purchased_at: string;
+  remarks: string;
+  status: string;
 }

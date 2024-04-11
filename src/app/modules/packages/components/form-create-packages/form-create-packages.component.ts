@@ -43,8 +43,8 @@ export class FormCreatePackagesComponent {
   readonly formGroup$ = this._formCreatePackagesComponentStore.formGroup$;
   readonly loading$ = this._formCreatePackagesComponentStore.loading$;
 
-  addRows() {
-    this._formCreatePackagesComponentStore.addRows();
+  addRow() {
+    this._formCreatePackagesComponentStore.addRow();
   }
 
   deleteRow(index: number) {

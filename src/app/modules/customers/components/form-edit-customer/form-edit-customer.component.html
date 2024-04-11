@@ -1,10 +1,5 @@
 <ng-container *transloco="let trans">
-  <form
-    *ngIf="formGroup$ | async as formGroup"
-    nz-form
-    [formGroup]="formGroup"
-    (ngSubmit)="submit()"
-  >
+  <form *ngIf="formGroup$ | async as formGroup" nz-form [formGroup]="formGroup">
     <div class="grid grid-cols-none md:grid-cols-2 gap-x-4">
       <nz-form-item>
         <nz-form-control [nzErrorTip]="nameErr">
@@ -53,4 +48,10 @@
       </nz-form-item>
     </div>
   </form>
+
+  <div *nzModalFooter class="flex justify-end">
+    <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async" (click)="submit()">
+      {{ trans('update') }}
+    </button>
+  </div>
 </ng-container>

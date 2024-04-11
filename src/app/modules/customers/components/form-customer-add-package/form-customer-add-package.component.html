@@ -13,7 +13,7 @@
             }"
           >
             <nz-form-item class="col-span-2 md:col-span-2">
-              <nz-form-control>
+              <nz-form-control [nzErrorTip]="packageErr">
                 <nz-form-label
                   nzNoColon="true"
                   nzRequired
@@ -38,11 +38,18 @@
                     ></nz-option>
                   </ng-container>
                 </nz-select>
+
+                <ng-template #packageErr let-control>
+                  <app-ui-form-control-errors
+                    [name]="trans('package')"
+                    [control]="(row | toFormGroup).controls['package_id']"
+                  ></app-ui-form-control-errors>
+                </ng-template>
               </nz-form-control>
             </nz-form-item>
 
             <nz-form-item>
-              <nz-form-control>
+              <nz-form-control [nzErrorTip]="priceErr">
                 <nz-form-label
                   nzNoColon="true"
                   nzRequired
@@ -59,10 +66,17 @@
                   [placeholder]="trans('price')"
                 />
               </nz-form-control>
+
+              <ng-template #priceErr let-control>
+                <app-ui-form-control-errors
+                  [name]="trans('price')"
+                  [control]="(row | toFormGroup).controls['price']"
+                ></app-ui-form-control-errors>
+              </ng-template>
             </nz-form-item>
 
             <nz-form-item>
-              <nz-form-control>
+              <nz-form-control [nzErrorTip]="countErr">
                 <nz-form-label
                   nzNoColon="true"
                   nzRequired
@@ -79,6 +93,13 @@
                   [placeholder]="trans('count')"
                 />
               </nz-form-control>
+
+              <ng-template #countErr let-control>
+                <app-ui-form-control-errors
+                  [name]="trans('count')"
+                  [control]="(row | toFormGroup).controls['count']"
+                ></app-ui-form-control-errors>
+              </ng-template>
             </nz-form-item>
 
             <nz-form-item>

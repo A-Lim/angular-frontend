@@ -4,34 +4,47 @@
   [columnDefs]="columnDefs$ | async"
 ></app-ui-grid>
 
+<ng-template #statusCell let-row>
+  <ng-container *transloco="let trans">
+    <ng-container *ngIf="row">
+      <ng-container [ngSwitch]="row.status">
+        <nz-tag *ngSwitchCase="'active'" nzColor="success">{{
+          trans('customer-package-status-types.' + row.status) | titlecase
+        }}</nz-tag>
+        <nz-tag *ngSwitchCase="'completed'" nzColor="default">{{
+          trans('customer-package-status-types.' + row.status) | titlecase
+        }}</nz-tag>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</ng-template>
+
 <ng-template #actionsCell let-row>
   <ng-container *transloco="let trans">
     <div *ngIf="row" class="space-x-2">
-      <a
+      <button
         nz-button
         nz-tooltip
         nzType="primary"
         nzShape="circle"
-        [routerLink]="['/admin/customers/' + row.id + '/edit']"
+        (click)="editCustomerPackageModal(row)"
         [nzTooltipTitle]="trans('edit')"
       >
         <i nz-icon nzType="edit" nzTheme="outline"></i>
-      </a>
+      </button>
 
-      <ng-container *ngIf="!row.is_admin">
-        <button
-          *hasPermissions="['customers.delete']"
-          nz-button
-          nz-tooltip
-          nzDanger
-          nzType="primary"
-          nzShape="circle"
-          [nzTooltipTitle]="trans('delete')"
-          (click)="deleteCustomer(row.id)"
-        >
-          <i nz-icon nzType="delete" nzTheme="outline"></i>
-        </button>
-      </ng-container>
+      <button
+        *hasPermissions="['customers.delete']"
+        nz-button
+        nz-tooltip
+        nzDanger
+        nzType="primary"
+        nzShape="circle"
+        [nzTooltipTitle]="trans('delete')"
+        (click)="deleteCustomerPackage(row.id)"
+      >
+        <i nz-icon nzType="delete" nzTheme="outline"></i>
+      </button>
     </div>
   </ng-container>
 </ng-template>

@@ -7,6 +7,7 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzTabsModule } from 'ng-zorro-antd/tabs';
 import { UiBreadcrumbComponent } from '@shared/components/ui-breadcrumb/ui-breadcrumb.component';
 import { LayoutPageContentComponent } from '@shared/layouts/layout-page-content/layout-page-content.component';
+import { CustomerInfoComponent } from '@modules/customers/components/customer-info/customer-info.component';
 import { FormEditCustomerComponent } from '@modules/customers/components/form-edit-customer/form-edit-customer.component';
 import { TabCustomerPackagesComponent } from '@modules/customers/components/tab-customer-packages/tab-customer-packages.component';
 import { TabCustomerTransactionsComponent } from '@modules/customers/components/tab-customer-transactions/tab-customer-transactions.component';
@@ -20,7 +21,7 @@ import { PageCustomerManageComponentStore } from './page-customer-manage.compone
     NgIf,
     AsyncPipe,
     RouterLink,
-    FormEditCustomerComponent,
+    CustomerInfoComponent,
     TabCustomerPackagesComponent,
     TabCustomerTransactionsComponent,
     LayoutPageContentComponent,

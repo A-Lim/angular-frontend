@@ -50,7 +50,7 @@ export class FormCreatePackagesComponentStore extends FormComponentStore<FormCre
     })
   );
 
-  readonly addRows = this.updater((state): FormCreatePackagesState => {
+  readonly addRow = this.updater((state): FormCreatePackagesState => {
     (state.formGroup?.get('packages') as FormArray).push(
       new FormGroup(cloneDeep(this._formGroupTemplate))
     );

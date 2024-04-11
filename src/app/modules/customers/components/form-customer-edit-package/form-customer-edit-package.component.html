@@ -1,0 +1,49 @@
+<ng-container *transloco="let trans">
+  <form *ngIf="formGroup$ | async as formGroup" [formGroup]="formGroup">
+    <div class="grid grid-cols-none md:grid-cols-3 gap-x-4">
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="countErr">
+          <nz-form-label>{{ trans('count') }}</nz-form-label>
+          <input type="number" nz-input formControlName="count" [placeholder]="trans('count')" />
+          <ng-template #countErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('count')"
+              [control]="formGroup.controls['count']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzErrorTip]="priceErr">
+          <nz-form-label>{{ trans('price') }}</nz-form-label>
+          <input type="number" nz-input formControlName="price" [placeholder]="trans('price')" />
+          <ng-template #priceErr let-control>
+            <app-ui-form-control-errors
+              [name]="trans('price')"
+              [control]="formGroup.controls['price']"
+            ></app-ui-form-control-errors>
+          </ng-template>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control>
+          <nz-form-label>{{ trans('remarks') }}</nz-form-label>
+          <textarea
+            rows="3"
+            nz-input
+            formControlName="remarks"
+            [placeholder]="trans('remarks')"
+          ></textarea>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+  </form>
+
+  <div *nzModalFooter class="flex justify-end">
+    <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async" (click)="submit()">
+      {{ trans('update') }}
+    </button>
+  </div>
+</ng-container>

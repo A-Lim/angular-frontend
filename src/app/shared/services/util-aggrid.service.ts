@@ -32,6 +32,7 @@ export class UtilAggridService {
     valueGetter: ValueGetterFunc<any, any> | undefined = undefined
   ): ColDef {
     let colDef: ColDef = {
+      minWidth: 100,
       headerName: headerName,
       cellClass: 'flex items-center',
       field: field,
@@ -61,6 +62,7 @@ export class UtilAggridService {
     width?: number
   ): ColDef {
     let colDef: ColDef = {
+      minWidth: 100,
       headerName: headerName,
       cellClass: 'flex items-center',
       field: field,
@@ -91,6 +93,7 @@ export class UtilAggridService {
     valueGetter: ValueGetterFunc<any, any> | undefined = undefined
   ): ColDef {
     let colDef = <ColDef>{
+      minWidth: 100,
       headerName: headerName,
       field: field,
       type: 'numericColumn',
@@ -108,6 +111,7 @@ export class UtilAggridService {
 
   getDateColDef(headerName: string, field: string, width?: number): ColDef {
     let colDef = <ColDef>{
+      minWidth: 120,
       headerName: headerName,
       field: field,
       filter: 'agDateColumnFilter',
@@ -187,6 +191,7 @@ export class UtilAggridService {
     template: TemplateRef<any>
   ): ColDef {
     return <ColDef>{
+      minWidth: 100,
       headerName: headerName,
       field: field,
       sortable: false,

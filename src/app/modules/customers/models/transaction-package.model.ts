@@ -1,5 +1,5 @@
 export interface TransactionPackage {
-  id: number;
+  customerpackage_id: number;
   name: string;
-  amount_paid: number;
+  amount: number;
 }

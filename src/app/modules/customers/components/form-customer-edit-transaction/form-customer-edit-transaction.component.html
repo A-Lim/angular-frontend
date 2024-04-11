@@ -1,0 +1,145 @@
+<ng-container *transloco="let trans">
+  <form nz-form *ngIf="formGroup$ | async as formGroup" [formGroup]="formGroup">
+    <div class="grid grid-cols-none md:grid-cols-2 gap-x-4">
+      <nz-form-item>
+        <nz-form-control>
+          <nz-form-label nzNoColon="true">{{ trans('transaction-date') }}</nz-form-label>
+          <nz-date-picker
+            class="block"
+            nz-input
+            [nzShowTime]="true"
+            [nzAllowClear]="true"
+            [nzInputReadOnly]="true"
+            [nzFormat]="DATETIME_FORMAT"
+            formControlName="created_at"
+          >
+          </nz-date-picker>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label nzNoColon="true">{{ trans('remarks') }}</nz-form-label>
+        <textarea
+          type="text"
+          nz-input
+          formControlName="remarks"
+          [placeholder]="trans('remarks')"
+          rows="2"
+        ></textarea>
+      </nz-form-item>
+    </div>
+
+    <h2 class="font-medium text-base mb-4">{{ trans('packages') }}</h2>
+
+    <div class="divide-y sm:divide-y-0">
+      <ng-container formArrayName="customerpackages">
+        <ng-container
+          *ngFor="let row of (formGroup | toFormArray : 'customerpackages').controls; let i = index"
+          [formGroupName]="i"
+        >
+          <div
+            class="grid grid-cols-0 md:grid-cols-2 gap-x-4"
+            [ngClass]="{
+              'pt-4 sm:pt-0': i !== 0
+            }"
+          >
+            <nz-form-item>
+              <nz-form-control [nzErrorTip]="packageErr">
+                <nz-form-label
+                  nzNoColon="true"
+                  nzRequired
+                  [ngClass]="{
+                    block: i === 0,
+                    'block sm:hidden': i !== 0
+                  }"
+                  >{{ trans('package') }}</nz-form-label
+                >
+                <nz-select
+                  nzShowSearch
+                  nzAllowClear
+                  formControlName="id"
+                  [nzPlaceHolder]="trans('package')"
+                  [nzOptionHeightPx]="55"
+                >
+                  <ng-container *ngIf="customerPackageBalances$ | async as balances">
+                    <nz-option
+                      *ngFor="let balance of balances"
+                      [nzValue]="balance.customerpackage_id"
+                      [nzLabel]="balance.name"
+                      nzCustomContent
+                    >
+                      <span class="block">{{ balance.name }}</span>
+                      <small class="font-bold">
+                        {{ trans('balance') }}: RM{{ balance.balance }}
+                      </small>
+                    </nz-option>
+                  </ng-container>
+                </nz-select>
+
+                <ng-template #packageErr let-control>
+                  <app-ui-form-control-errors
+                    [name]="trans('package')"
+                    [control]="(row | toFormGroup).controls['id']"
+                  ></app-ui-form-control-errors>
+                </ng-template>
+              </nz-form-control>
+            </nz-form-item>
+
+            <nz-form-item>
+              <nz-form-control [nzErrorTip]="amountErr">
+                <nz-form-label
+                  nzNoColon="true"
+                  [ngClass]="{
+                    block: i === 0,
+                    'block sm:hidden': i !== 0
+                  }"
+                  >{{ trans('amount') }}</nz-form-label
+                >
+                <div class="flex space-x-2">
+                  <input
+                    type="number"
+                    nz-input
+                    formControlName="amount"
+                    [placeholder]="trans('amount')"
+                  />
+
+                  <button
+                    *ngIf="i !== 0"
+                    nz-button
+                    nz-tooltip
+                    nzDanger
+                    nzType="primary"
+                    nzShape="circle"
+                    type="button"
+                    [nzTooltipTitle]="trans('delete')"
+                    (click)="deleteRow(1)"
+                  >
+                    <i nz-icon nzType="delete" nzTheme="outline"></i>
+                  </button>
+                </div>
+
+                <ng-template #amountErr let-control>
+                  <app-ui-form-control-errors
+                    [name]="trans('amount')"
+                    [control]="(row | toFormGroup).controls['amount']"
+                  ></app-ui-form-control-errors>
+                </ng-template>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+        </ng-container>
+      </ng-container>
+    </div>
+
+    <button nz-button nzType="dashed" class="w-full" (click)="addRow()">
+      <span nz-icon nzType="plus"></span>
+      {{ trans('add-another') }}
+    </button>
+  </form>
+
+  <div *nzModalFooter class="flex justify-end">
+    <button nz-button [nzType]="'primary'" [nzLoading]="loading$ | async" (click)="submit()">
+      {{ trans('add') }}
+    </button>
+  </div>
+</ng-container>

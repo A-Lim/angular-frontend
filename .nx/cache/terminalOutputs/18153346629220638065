@@ -1,0 +1,1054 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                                    [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m                                                                                              [2m | [22mvendor                                                       [2m | [22m  [96m5.70 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m                                                                                  [2m | [22mstyles                                                       [2m | [22m  [96m1.15 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m                                                                                           [2m | [22mpolyfills                                                    [2m | [22m[96m333.22 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                                                                [2m | [22mmain                                                         [2m | [22m[96m130.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                             [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                                                                                                      [2m | [22m[1mInitial Total[22m                                                [2m | [22m  [1m7.31 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                                       [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_components_ui-grid_ui-grid_component_ts.js[39m[37m             [39m[37m                         [2m | [22mpages-page-customers-page-customers-component                [2m | [22m  [96m2.62 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_components_ui-breadcrumb_ui-breadcrumb_component_ts-src_app_shared_lay-38a42f.js[39m[37m[2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m469.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customers_page-customers_component_ts.js[39m[37m                          [2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m393.09 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-select_mjs.js[39m[37m                                [2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m186.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m              [2m | [22mpages-page-customer-manage-page-customer-manage-component    [2m | [22m[96m184.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_pipes_form-array-cast_pipe_ts-src_app_shared_pipes_form-group-cast_pip-dfe17b.js[39m[37m[2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m150.80 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m        [2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m132.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_services_util-modal_service_ts.js[39m[37m                                               [2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m127.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-tabs_mjs.js[39m[37m                                  [2m | [22mpages-page-customer-manage-page-customer-manage-component  [39m[37m  [2m | [22m[96m114.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_packages_pages_page-packages_page-packages_component_ts.js[39m[37m                             [2m | [22mpages-page-packages-page-packages-component                  [2m | [22m [96m79.49 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-profile_page-profile_component_ts.js[39m[37m                                  [2m | [22mpages-page-profile-page-profile-component                    [2m | [22m [96m41.49 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-user-manage_page-user-manage_component_ts.js[39m[37m                          [2m | [22mpages-page-user-manage-page-user-manage-component            [2m | [22m [96m35.72 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_modules_users_components_user-info_user-info_component_ts-node_modules_ng-zor-12b14c.js[39m[37m[2m | [22mpages-page-user-manage-page-user-manage-component            [2m | [22m [96m35.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-groups_page-user-groups_component_ts.js[39m[37m                    [2m | [22mpages-page-user-groups-page-user-groups-component            [2m | [22m [96m30.14 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-checkbox_mjs.js[39m[37m                              [2m | [22mpages-page-customers-page-customers-component                [2m | [22m [96m25.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-users_page-users_component_ts.js[39m[37m                                      [2m | [22mpages-page-users-page-users-component                        [2m | [22m [96m25.03 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_modules_customers_components_form-edit-customer_form-edit-customer_component_ts.js[39m[37m     [2m | [22mpages-page-customers-page-customers-component                [2m | [22m [96m22.19 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mcommon.js[39m[37m                       [39m[37m                                                                       [2m | [22mcommon                                                       [2m | [22m  [96m3.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_dashboard_pages_page-main-dashboard_page-main-dashboard_component_ts.js[39m[37m                [2m | [22mpages-page-main-dashboard-page-main-dashboard-component      [2m | [22m  [96m2.13 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T08:16:47.507Z[39m[37m[22m - Hash: [1m[37mcf78d17c3fe1c141[39m[37m[22m - Time: [1m[37m5696[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m184.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T08:21:51.922Z[39m[37m[22m - Hash: [1m[37mab8b1ada8f1d6964[39m[37m[22m - Time: [1m[37m3600[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.ts[0m:[93m53[0m:[93m26[0m - [91merror[0m[90m TS2339: [0mProperty 'addRow' does not exist on type 'FormCustomerAddTransactionComponentStore'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m53[0m     this._componentStore.addRow();[39m[22m
+[1m[31m[7m  [0m [91m                         ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.ts[0m:[93m57[0m:[93m26[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteRow' does not exist on type 'FormCustomerAddTransactionComponentStore'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m57[0m     this._componentStore.deleteRow(index);[39m[22m
+[1m[31m[7m  [0m [91m                         ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customers_page-customers_component_ts.js[39m[37m            [2m | [22mpages-page-customers-page-customers-component            [2m | [22m[96m393.09 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m184.47 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_packages_pages_page-packages_page-packages_component_ts.js[39m[37m               [2m | [22mpages-page-packages-page-packages-component              [2m | [22m [96m79.49 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m20 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T08:21:53.881Z[39m[37m[22m - Hash: [1m[37m17432fcaf4d45eda[39m[37m[22m - Time: [1m[37m1642[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T08:32:51.573Z[39m[37m[22m - Hash: [1m[37m17432fcaf4d45eda[39m[37m[22m - Time: [1m[37m1588[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m184.47 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T08:38:26.840Z[39m[37m[22m - Hash: [1m[37mbba8800233b71509[39m[37m[22m - Time: [1m[37m2210[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T08:38:35.576Z[39m[37m[22m - Hash: [1m[37mbba8800233b71509[39m[37m[22m - Time: [1m[37m832[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T08:38:42.777Z[39m[37m[22m - Hash: [1m[37mbba8800233b71509[39m[37m[22m - Time: [1m[37m625[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T08:38:47.249Z[39m[37m[22m - Hash: [1m[37mbba8800233b71509[39m[37m[22m - Time: [1m[37m623[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                               [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                        [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                                  [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customers_page-customers_component_ts.js[39m[37m                     [2m | [22mpages-page-customers-page-customers-component            [2m | [22m[96m393.09 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m         [2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m184.47 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_modules_customers_components_form-edit-customer_form-edit-customer_component_ts.js[39m[37m[2m | [22mpages-page-customers-page-customers-component            [2m | [22m [96m22.33 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m20 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:27:32.035Z[39m[37m[22m - Hash: [1m[37mb92f08c2e2098bc0[39m[37m[22m - Time: [1m[37m2188[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m185.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:31:28.692Z[39m[37m[22m - Hash: [1m[37m1277563f3d859659[39m[37m[22m - Time: [1m[37m1207[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component-store.ts[0m:[93m65[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m65[0m   });[39m[22m
+[1m[31m[7m  [0m [91m    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m185.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:31:30.719Z[39m[37m[22m - Hash: [1m[37ma2918bc7c529322b[39m[37m[22m - Time: [1m[37m1052[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m185.54 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:31:34.210Z[39m[37m[22m - Hash: [1m[37m54c19289be8f0af4[39m[37m[22m - Time: [1m[37m936[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m185.64 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:32:38.368Z[39m[37m[22m - Hash: [1m[37mebcaf23dd0a5cade[39m[37m[22m - Time: [1m[37m1069[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m185.89 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:34:22.502Z[39m[37m[22m - Hash: [1m[37m499499d61c4ab717[39m[37m[22m - Time: [1m[37m1104[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m185.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:34:25.178Z[39m[37m[22m - Hash: [1m[37mc050d87019122cfb[39m[37m[22m - Time: [1m[37m1126[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m185.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:35:07.126Z[39m[37m[22m - Hash: [1m[37m11b5654f01e1f75d[39m[37m[22m - Time: [1m[37m1225[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m185.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:35:34.961Z[39m[37m[22m - Hash: [1m[37m8cca3968525627b9[39m[37m[22m - Time: [1m[37m1223[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m187.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:37:36.225Z[39m[37m[22m - Hash: [1m[37mc9b99113a70bfeb0[39m[37m[22m - Time: [1m[37m907[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.html[0m:[93m57[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'customerPackageBalances$' does not exist on type 'FormCustomerAddTransactionComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m57[0m                   <ng-container *ngIf="customerPackageBalances$ | async as balances">[39m[22m
+[1m[31m[7m  [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.ts[0m:[93m39[0m:[93m16[0m[39m[22m
+[1m[31m    [7m39[0m   templateUrl: './form-customer-add-transaction.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCustomerAddTransactionComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.html[0m:[93m59[0m:[93m43[0m - [91merror[0m[90m TS2322: [0mType 'unknown' is not assignable to type 'NgIterable<any> | null | undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m59[0m                       *ngFor="let balance of balances"[39m[22m
+[1m[31m[7m  [0m [91m                                          ~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.ts[0m:[93m39[0m:[93m16[0m[39m[22m
+[1m[31m    [7m39[0m   templateUrl: './form-customer-add-transaction.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCustomerAddTransactionComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m187.99 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:37:41.163Z[39m[37m[22m - Hash: [1m[37m179839d7a01b45d8[39m[37m[22m - Time: [1m[37m895[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.html[0m:[93m59[0m:[93m43[0m - [91merror[0m[90m TS2322: [0mType 'unknown' is not assignable to type 'NgIterable<any> | null | undefined'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m59[0m                       *ngFor="let balance of balances"[39m[22m
+[1m[31m[7m  [0m [91m                                          ~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.ts[0m:[93m39[0m:[93m16[0m[39m[22m
+[1m[31m    [7m39[0m   templateUrl: './form-customer-add-transaction.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component FormCustomerAddTransactionComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.ts[0m:[93m48[0m:[93m60[0m - [91merror[0m[90m TS2551: [0mProperty 'customerPackageBalances$' does not exist on type 'FormCustomerAddTransactionComponentStore'. Did you mean 'setCustomerPackageBalances'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m   readonly customerPackageBalances$ = this._componentStore.customerPackageBalances$;[39m[22m
+[1m[31m[7m  [0m [91m                                                           ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component-store.ts[0m:[93m66[0m:[93m12[0m[39m[22m
+[1m[31m    [7m66[0m   readonly setCustomerPackageBalances = this.updater([39m[22m
+[1m[31m    [7m  [0m [96m           ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'setCustomerPackageBalances' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.07 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:37:45.209Z[39m[37m[22m - Hash: [1m[37mf77c158784b6eb7e[39m[37m[22m - Time: [1m[37m915[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:38:23.606Z[39m[37m[22m - Hash: [1m[37m4e328fc506b661b9[39m[37m[22m - Time: [1m[37m1106[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:38:45.033Z[39m[37m[22m - Hash: [1m[37m6f83942f6b9e17db[39m[37m[22m - Time: [1m[37m1203[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:40:43.129Z[39m[37m[22m - Hash: [1m[37m050df2c5d3772b78[39m[37m[22m - Time: [1m[37m1100[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:41:09.463Z[39m[37m[22m - Hash: [1m[37m797668cb81d24f32[39m[37m[22m - Time: [1m[37m1090[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.73 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:41:34.385Z[39m[37m[22m - Hash: [1m[37ma9293df3f3528f12[39m[37m[22m - Time: [1m[37m1234[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.77 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:42:15.077Z[39m[37m[22m - Hash: [1m[37m5518ff0687bfb16f[39m[37m[22m - Time: [1m[37m1166[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.79 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:42:55.440Z[39m[37m[22m - Hash: [1m[37me26aa1410fb8c232[39m[37m[22m - Time: [1m[37m1083[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.84 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:43:44.041Z[39m[37m[22m - Hash: [1m[37m488f1b3ac775536e[39m[37m[22m - Time: [1m[37m1160[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:44:55.301Z[39m[37m[22m - Hash: [1m[37m488f1b3ac775536e[39m[37m[22m - Time: [1m[37m779[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:44:57.383Z[39m[37m[22m - Hash: [1m[37m149f540f31885cc8[39m[37m[22m - Time: [1m[37m901[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:45:05.096Z[39m[37m[22m - Hash: [1m[37mf4d9643ccf18bf85[39m[37m[22m - Time: [1m[37m985[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:45:27.918Z[39m[37m[22m - Hash: [1m[37m715a8fb908f1056b[39m[37m[22m - Time: [1m[37m1151[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.98 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:47:22.634Z[39m[37m[22m - Hash: [1m[37mc966438f9acd57ea[39m[37m[22m - Time: [1m[37m982[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m189.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:47:47.680Z[39m[37m[22m - Hash: [1m[37mfc44290c4efcb775[39m[37m[22m - Time: [1m[37m1107[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m188.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:49:18.209Z[39m[37m[22m - Hash: [1m[37m3d1eae1304cdb2a0[39m[37m[22m - Time: [1m[37m1419[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:50:35.373Z[39m[37m[22m - Hash: [1m[37m3d1eae1304cdb2a0[39m[37m[22m - Time: [1m[37m1368[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:52:43.307Z[39m[37m[22m - Hash: [1m[37m3d1eae1304cdb2a0[39m[37m[22m - Time: [1m[37m1114[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m192.36 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:53:44.997Z[39m[37m[22m - Hash: [1m[37md960f22dafe19bc5[39m[37m[22m - Time: [1m[37m1360[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component-store.ts[0m:[93m118[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'finalize'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m118[0m             finalize(() => this.setLoading(false))[39m[22m
+[1m[31m[7m   [0m [91m            ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component-store.ts[0m:[93m121[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'EMPTY'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m121[0m         return EMPTY;[39m[22m
+[1m[31m[7m   [0m [91m               ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m192.63 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:53:59.014Z[39m[37m[22m - Hash: [1m[37mbf716bf61601fe4a[39m[37m[22m - Time: [1m[37m856[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m192.90 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:56:56.829Z[39m[37m[22m - Hash: [1m[37mc4a211fd26fd0163[39m[37m[22m - Time: [1m[37m1673[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m192.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T09:56:58.117Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m957[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:09:20.954Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m1220[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:09:29.838Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m841[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:09:40.156Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m801[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:09:52.620Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m905[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:09:57.018Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m729[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:10:03.494Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m740[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:11:09.555Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m1145[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:11:14.508Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m606[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:12:30.739Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m1076[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:12:43.687Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m622[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:13:31.738Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m1025[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:15:41.798Z[39m[37m[22m - Hash: [1m[37m835f3eba0969fb0d[39m[37m[22m - Time: [1m[37m895[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.13 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:16:23.640Z[39m[37m[22m - Hash: [1m[37mc12a233e2a9743cc[39m[37m[22m - Time: [1m[37m2481[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.13 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:16:57.564Z[39m[37m[22m - Hash: [1m[37m0c78e2b172112030[39m[37m[22m - Time: [1m[37m2180[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:17:28.068Z[39m[37m[22m - Hash: [1m[37m38cbcf1767fa9f74[39m[37m[22m - Time: [1m[37m1298[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:22:33.079Z[39m[37m[22m - Hash: [1m[37mbf9ffbdb20a7bc4f[39m[37m[22m - Time: [1m[37m2084[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component-store.ts[0m:[93m77[0m:[93m46[0m - [91merror[0m[90m TS2339: [0mProperty 'amount_paid' does not exist on type 'TransactionPackage'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m77[0m           ?.map((p: TransactionPackage) => p.amount_paid)[39m[22m
+[1m[31m[7m  [0m [91m                                             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T10:22:53.216Z[39m[37m[22m - Hash: [1m[37m96eaea9d9e90084d[39m[37m[22m - Time: [1m[37m1382[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T11:48:53.860Z[39m[37m[22m - Hash: [1m[37m23123cfb46e53486[39m[37m[22m - Time: [1m[37m1355[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T11:50:40.144Z[39m[37m[22m - Hash: [1m[37ma1e0801857a79ef2[39m[37m[22m - Time: [1m[37m1268[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.99 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T11:50:41.699Z[39m[37m[22m - Hash: [1m[37m6ccc8ef16f848953[39m[37m[22m - Time: [1m[37m1007[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T13:31:17.762Z[39m[37m[22m - Hash: [1m[37md506da2338302de3[39m[37m[22m - Time: [1m[37m1216[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T13:31:32.658Z[39m[37m[22m - Hash: [1m[37m4ee5092e595e1393[39m[37m[22m - Time: [1m[37m905[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.13 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T13:33:34.049Z[39m[37m[22m - Hash: [1m[37mc3bffd59e58205cd[39m[37m[22m - Time: [1m[37m1092[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:09:44.862Z[39m[37m[22m - Hash: [1m[37m9a644f63c980af67[39m[37m[22m - Time: [1m[37m1378[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:10:03.774Z[39m[37m[22m - Hash: [1m[37m85b3de1ff8b069c4[39m[37m[22m - Time: [1m[37m1016[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:10:22.535Z[39m[37m[22m - Hash: [1m[37m504cfcb608425a9a[39m[37m[22m - Time: [1m[37m1948[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.58 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:10:40.627Z[39m[37m[22m - Hash: [1m[37mb3cfb07504399c17[39m[37m[22m - Time: [1m[37m1368[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:12:31.873Z[39m[37m[22m - Hash: [1m[37m12f788b85f582dfc[39m[37m[22m - Time: [1m[37m1943[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:12:46.201Z[39m[37m[22m - Hash: [1m[37m12f788b85f582dfc[39m[37m[22m - Time: [1m[37m784[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:13:09.237Z[39m[37m[22m - Hash: [1m[37m12f788b85f582dfc[39m[37m[22m - Time: [1m[37m681[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:13:28.641Z[39m[37m[22m - Hash: [1m[37m962a5754995db606[39m[37m[22m - Time: [1m[37m992[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component.html[0m:[93m30[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteCustomer' does not exist on type 'TableCustomerTransactionsComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m30[0m           (click)="deleteCustomer(row.id)"[39m[22m
+[1m[31m[7m  [0m [91m                   ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component.ts[0m:[93m43[0m:[93m16[0m[39m[22m
+[1m[31m    [7m43[0m   templateUrl: './table-customer-transactions.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component TableCustomerTransactionsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component.ts[0m:[93m79[0m:[93m26[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteCustomer' does not exist on type 'TableCustomerTransactionsComponentStore'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m79[0m     this._componentStore.deleteCustomer({[39m[22m
+[1m[31m[7m  [0m [91m                         ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.98 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:13:31.163Z[39m[37m[22m - Hash: [1m[37m867eef33ca79eabe[39m[37m[22m - Time: [1m[37m743[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component.html[0m:[93m30[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteCustomer' does not exist on type 'TableCustomerTransactionsComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m30[0m           (click)="deleteCustomer(row.id)"[39m[22m
+[1m[31m[7m  [0m [91m                   ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component.ts[0m:[93m43[0m:[93m16[0m[39m[22m
+[1m[31m    [7m43[0m   templateUrl: './table-customer-transactions.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component TableCustomerTransactionsComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.99 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:13:35.234Z[39m[37m[22m - Hash: [1m[37m8cb91783050e7af1[39m[37m[22m - Time: [1m[37m701[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.20 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:13:50.718Z[39m[37m[22m - Hash: [1m[37m73d7b0273294af21[39m[37m[22m - Time: [1m[37m941[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m228.20 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:15:27.212Z[39m[37m[22m - Hash: [1m[37m7aa13b0a9231584d[39m[37m[22m - Time: [1m[37m1132[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.43 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:15:33.482Z[39m[37m[22m - Hash: [1m[37mfd2515737887d42a[39m[37m[22m - Time: [1m[37m1192[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                   [2m | [22mruntime                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                             [2m | [22m[1mNames[22m                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customers_page-customers_component_ts.js[39m[37m[2m | [22mpages-page-customers-page-customers-component[2m | [22m[96m392.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:15:38.808Z[39m[37m[22m - Hash: [1m[37m8144d7b025e68d43[39m[37m[22m - Time: [1m[37m1111[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                       [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                [2m | [22mruntime                                    [2m | [22m[96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                          [2m | [22m[1mNames[22m                                      [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_packages_pages_page-packages_page-packages_component_ts.js[39m[37m[2m | [22mpages-page-packages-page-packages-component[2m | [22m[96m78.72 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:15:43.432Z[39m[37m[22m - Hash: [1m[37m1a9c53471ad2f2d0[39m[37m[22m - Time: [1m[37m866[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m

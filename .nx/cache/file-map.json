@@ -118,11 +118,11 @@
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "17720820274414032300"
+          "hash": "14393136888078177255"
         },
         {
           "file": ".nx/cache/lockfile.hash",
-          "hash": "10580385622394959996"
+          "hash": "14903260465571469300"
         },
         {
           "file": ".nx/cache/nx-console-project-graph/project-graph.html",
@@ -134,7 +134,7 @@
         },
         {
           "file": ".nx/cache/nx-console-project-graph/static/environment.js",
-          "hash": "17679370359975761840"
+          "hash": "8920441906093910290"
         },
         {
           "file": ".nx/cache/nx-console-project-graph/static/favicon.ico",
@@ -172,19 +172,23 @@
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "10593189486302889003"
+          "hash": "8646176056585768845"
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "13745703934947674067"
+          "hash": "721146210891914067"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "17138024313450022164"
+          "hash": "5818838759360687217"
         },
         {
           "file": ".nx/cache/terminalOutputs/10282923682753078730",
           "hash": "2157057855075656103"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/11321907900950308715",
+          "hash": "13570459634414639321"
         },
         {
           "file": ".nx/cache/terminalOutputs/12232304084089320290",
@@ -235,8 +239,16 @@
           "hash": "5047891806848792075"
         },
         {
+          "file": ".nx/cache/terminalOutputs/17280638770883575997",
+          "hash": "7982570620813955602"
+        },
+        {
           "file": ".nx/cache/terminalOutputs/17974336613186977999",
           "hash": "9536394556551078427"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/18153346629220638065",
+          "hash": "13507456823181998817"
         },
         {
           "file": ".nx/cache/terminalOutputs/18384028074489028351",
@@ -252,7 +264,7 @@
         },
         {
           "file": ".nx/cache/terminalOutputs/2677866518885764580",
-          "hash": "3244421341483603138"
+          "hash": "16356972422259917984"
         },
         {
           "file": ".nx/cache/terminalOutputs/2942407142901121264",
@@ -323,6 +335,10 @@
           "hash": "8494290511989314922"
         },
         {
+          "file": ".nx/cache/terminalOutputs/8965737767859750372",
+          "hash": "9004592455864530129"
+        },
+        {
           "file": ".nx/cache/terminalOutputs/9221765213483502360",
           "hash": "2139784713978664962"
         },
@@ -379,7 +395,7 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "14049785484226641697"
+          "hash": "1283660602580521005"
         },
         {
           "file": "package.json",
@@ -639,7 +655,7 @@
         },
         {
           "file": "src/app/core/states/session/session.api-service.ts",
-          "hash": "8361458647795691369",
+          "hash": "18322261997910303185",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -672,7 +688,7 @@
         },
         {
           "file": "src/app/core/states/session/session.state.ts",
-          "hash": "4560418130512701666"
+          "hash": "7646338328407749657"
         },
         {
           "file": "src/app/environments/environment.prod.ts",
@@ -750,8 +766,56 @@
           ]
         },
         {
+          "file": "src/app/modules/customers/components/customer-info/customer-info.component-store.ts",
+          "hash": "16431557500986422974",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/customer-info/customer-info.component.html",
+          "hash": "8337770195927929600"
+        },
+        {
+          "file": "src/app/modules/customers/components/customer-info/customer-info.component.ts",
+          "hash": "5151755677267380560",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/customer-package-info/customer-package-info.component-store.ts",
+          "hash": "8335383633296504961",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/customer-package-info/customer-package-info.component.html",
+          "hash": "13130874091180212125"
+        },
+        {
+          "file": "src/app/modules/customers/components/customer-package-info/customer-package-info.component.ts",
+          "hash": "10386482258775604114",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
           "file": "src/app/modules/customers/components/form-create-customers/form-create-customers.component-store.ts",
-          "hash": "16359403805605454278",
+          "hash": "7712929129935319676",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/forms",
@@ -764,11 +828,123 @@
         },
         {
           "file": "src/app/modules/customers/components/form-create-customers/form-create-customers.component.html",
-          "hash": "5356220273260555364"
+          "hash": "1330520806936461905"
         },
         {
           "file": "src/app/modules/customers/components/form-create-customers/form-create-customers.component.ts",
-          "hash": "5890534263976319404",
+          "hash": "5729737097263044325",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-add-package/form-customer-add-package.component-store.ts",
+          "hash": "6837115130510409552",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:lodash-es",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/effects",
+            "npm:@ngrx/store",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-add-package/form-customer-add-package.component.html",
+          "hash": "1262951940939471524"
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-add-package/form-customer-add-package.component.ts",
+          "hash": "8206464323341984202",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component-store.ts",
+          "hash": "3574228529485816320",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:lodash-es",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/effects",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.html",
+          "hash": "559398584587697678"
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.ts",
+          "hash": "10904820717909493168",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-edit-package/form-customer-edit-package.component-store.ts",
+          "hash": "4143102930153801112",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/effects",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-edit-package/form-customer-edit-package.component.html",
+          "hash": "12643694940888853443"
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-edit-package/form-customer-edit-package.component.ts",
+          "hash": "5984678955487370859",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-edit-transaction/form-customer-edit-transaction.component-store.ts",
+          "hash": "12033924501147695909",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:lodash-es",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/effects",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-edit-transaction/form-customer-edit-transaction.component.html",
+          "hash": "5463845215656499554"
+        },
+        {
+          "file": "src/app/modules/customers/components/form-customer-edit-transaction/form-customer-edit-transaction.component.ts",
+          "hash": "10662282564189003893",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -779,22 +955,23 @@
         },
         {
           "file": "src/app/modules/customers/components/form-edit-customer/form-edit-customer.component-store.ts",
-          "hash": "3494475866933013989",
+          "hash": "4199069850648966758",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/forms",
             "npm:rxjs",
+            "npm:@ngrx/component-store",
             "npm:@ngrx/effects",
             "npm:ng-zorro-antd"
           ]
         },
         {
           "file": "src/app/modules/customers/components/form-edit-customer/form-edit-customer.component.html",
-          "hash": "11037449372123796522"
+          "hash": "1435395718260139305"
         },
         {
           "file": "src/app/modules/customers/components/form-edit-customer/form-edit-customer.component.ts",
-          "hash": "14805611403919660413",
+          "hash": "471935881191442451",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -804,8 +981,46 @@
           ]
         },
         {
+          "file": "src/app/modules/customers/components/tab-customer-packages/tab-customer-packages.component-store.ts",
+          "hash": "540818884521194553",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/tab-customer-packages/tab-customer-packages.component.ts",
+          "hash": "6860179117378595776",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/tab-customer-transactions/tab-customer-transactions.component-store.ts",
+          "hash": "2831214210471685733",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/tab-customer-transactions/tab-customer-transactions.component.ts",
+          "hash": "10839762295233256677",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
           "file": "src/app/modules/customers/components/table-customer-packages/table-customer-packages.component-store.ts",
-          "hash": "17710349454002398381",
+          "hash": "6166119785704373036",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -817,11 +1032,11 @@
         },
         {
           "file": "src/app/modules/customers/components/table-customer-packages/table-customer-packages.component.html",
-          "hash": "1123327211471638315"
+          "hash": "3313573828916875237"
         },
         {
           "file": "src/app/modules/customers/components/table-customer-packages/table-customer-packages.component.ts",
-          "hash": "9984151722460463166",
+          "hash": "9062764550137389330",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -832,7 +1047,7 @@
         },
         {
           "file": "src/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component-store.ts",
-          "hash": "10239477239849398424",
+          "hash": "9546204365448950004",
           "deps": [
             "npm:@angular/core",
             "npm:ag-grid-community",
@@ -845,11 +1060,11 @@
         },
         {
           "file": "src/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component.html",
-          "hash": "1123327211471638315"
+          "hash": "15384958574373179012"
         },
         {
           "file": "src/app/modules/customers/components/table-customer-transactions/table-customer-transactions.component.ts",
-          "hash": "3207340222929146959",
+          "hash": "8188360433066165964",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -860,7 +1075,7 @@
         },
         {
           "file": "src/app/modules/customers/components/table-customers/table-customers.component-store.ts",
-          "hash": "4969598553085880447",
+          "hash": "11871440892897430523",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -871,7 +1086,7 @@
         },
         {
           "file": "src/app/modules/customers/components/table-customers/table-customers.component.html",
-          "hash": "1123327211471638315"
+          "hash": "10467677889828593741"
         },
         {
           "file": "src/app/modules/customers/components/table-customers/table-customers.component.ts",
@@ -892,16 +1107,24 @@
           ]
         },
         {
+          "file": "src/app/modules/customers/models/customer-package-balance.model.ts",
+          "hash": "2970670039482118362"
+        },
+        {
           "file": "src/app/modules/customers/models/customer-package.model.ts",
-          "hash": "1409590406843619398"
+          "hash": "5478380387869490389"
         },
         {
           "file": "src/app/modules/customers/models/customer.model.ts",
           "hash": "4602870154642937548"
         },
         {
+          "file": "src/app/modules/customers/models/transaction-package.model.ts",
+          "hash": "16686646366327913787"
+        },
+        {
           "file": "src/app/modules/customers/models/transaction.model.ts",
-          "hash": "701016837522232588"
+          "hash": "18185935179164174201"
         },
         {
           "file": "src/app/modules/customers/pages/page-customer-manage/page-customer-manage.component-store.ts",
@@ -914,11 +1137,11 @@
         },
         {
           "file": "src/app/modules/customers/pages/page-customer-manage/page-customer-manage.component.html",
-          "hash": "11527325988809446125"
+          "hash": "290495862162628086"
         },
         {
           "file": "src/app/modules/customers/pages/page-customer-manage/page-customer-manage.component.ts",
-          "hash": "7705099671677188759",
+          "hash": "5222372207107652000",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -929,7 +1152,7 @@
         },
         {
           "file": "src/app/modules/customers/pages/page-customers/page-customers.component-store.ts",
-          "hash": "1882087045871472758",
+          "hash": "1810265981785435509",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -940,7 +1163,7 @@
         },
         {
           "file": "src/app/modules/customers/pages/page-customers/page-customers.component.html",
-          "hash": "4691209481854345897"
+          "hash": "5010059019700238606"
         },
         {
           "file": "src/app/modules/customers/pages/page-customers/page-customers.component.ts",
@@ -953,7 +1176,16 @@
         },
         {
           "file": "src/app/modules/customers/services/customers.api-service.ts",
-          "hash": "13232007141649440440",
+          "hash": "7989969530785416093",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@ngrx/entity"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/services/transactions.api-service.ts",
+          "hash": "17797968580815825936",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -981,7 +1213,7 @@
         },
         {
           "file": "src/app/modules/packages/components/form-create-packages/form-create-packages.component-store.ts",
-          "hash": "18256846171181364802",
+          "hash": "14270805361144522809",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/forms",
@@ -994,11 +1226,11 @@
         },
         {
           "file": "src/app/modules/packages/components/form-create-packages/form-create-packages.component.html",
-          "hash": "6984831746824987645"
+          "hash": "13238466728453590365"
         },
         {
           "file": "src/app/modules/packages/components/form-create-packages/form-create-packages.component.ts",
-          "hash": "10882488927835284885",
+          "hash": "9736843612630526874",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1009,7 +1241,7 @@
         },
         {
           "file": "src/app/modules/packages/components/form-edit-package/form-edit-package.component-store.ts",
-          "hash": "6778263468187954759",
+          "hash": "11129646029942764883",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/forms",
@@ -1036,7 +1268,7 @@
         },
         {
           "file": "src/app/modules/packages/components/table-packages/table-packages.component-store.ts",
-          "hash": "17760648273677892420",
+          "hash": "5701613667965557276",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -1047,7 +1279,7 @@
         },
         {
           "file": "src/app/modules/packages/components/table-packages/table-packages.component.html",
-          "hash": "1343820444730140231"
+          "hash": "12381792167680169173"
         },
         {
           "file": "src/app/modules/packages/components/table-packages/table-packages.component.ts",
@@ -1066,7 +1298,7 @@
         },
         {
           "file": "src/app/modules/packages/packages.api-service.ts",
-          "hash": "14550700988010594999",
+          "hash": "13970353184220292865",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1082,7 +1314,7 @@
         },
         {
           "file": "src/app/modules/packages/pages/page-packages/page-packages.component-store.ts",
-          "hash": "9160760859191636270",
+          "hash": "13397371229676512536",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -1093,7 +1325,7 @@
         },
         {
           "file": "src/app/modules/packages/pages/page-packages/page-packages.component.html",
-          "hash": "10216068946357055847"
+          "hash": "2349547461244156442"
         },
         {
           "file": "src/app/modules/packages/pages/page-packages/page-packages.component.ts",
@@ -1106,7 +1338,7 @@
         },
         {
           "file": "src/app/modules/user-groups/components/form-user-group/form-user-group.component-store.ts",
-          "hash": "14315679206379985589",
+          "hash": "15137606034614555123",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/forms",
@@ -1167,7 +1399,7 @@
         },
         {
           "file": "src/app/modules/user-groups/components/table-user-group-users/table-user-group-users.component-store.ts",
-          "hash": "12577170648719308857",
+          "hash": "12722348151909930854",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -1195,7 +1427,7 @@
         },
         {
           "file": "src/app/modules/user-groups/components/table-user-groups/table-user-groups.component-store.ts",
-          "hash": "7293372183231256591",
+          "hash": "126966305792552909",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -1306,7 +1538,7 @@
         },
         {
           "file": "src/app/modules/users/components/form-profile/form-profile.component.ts",
-          "hash": "16145990660739446828",
+          "hash": "10361753429756536871",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1529,7 +1761,7 @@
         },
         {
           "file": "src/app/shared/components/ui-grid/ui-grid.component.ts",
-          "hash": "5329901988848169967",
+          "hash": "9449865924431222180",
           "deps": [
             "npm:@angular/core",
             "npm:ag-grid-angular",
@@ -1694,7 +1926,7 @@
         },
         {
           "file": "src/app/shared/services/util-aggrid.service.ts",
-          "hash": "10633992072750853077",
+          "hash": "14566878720511616574",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1711,11 +1943,27 @@
           ]
         },
         {
+          "file": "src/app/shared/services/util-transloco.service.ts",
+          "hash": "12614857768533183220",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngneat/transloco"
+          ]
+        },
+        {
           "file": "src/app/shared/services/util.urlquerybuilder.service.ts",
           "hash": "2991089341850096493",
           "deps": [
             "npm:@angular/core",
             "npm:ag-grid-community"
+          ]
+        },
+        {
+          "file": "src/app/shared/types/form-group.type.ts",
+          "hash": "11862454206372473186",
+          "deps": [
+            "npm:@angular/forms"
           ]
         },
         {
@@ -1754,7 +2002,7 @@
         },
         {
           "file": "src/assets/i18n/en.json",
-          "hash": "18077002576102518781"
+          "hash": "4477557881895809241"
         },
         {
           "file": "src/assets/i18n/validation/en.json",

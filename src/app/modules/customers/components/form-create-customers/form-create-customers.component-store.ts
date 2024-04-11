@@ -49,7 +49,7 @@ export class FormCreateCustomersComponentStore extends FormComponentStore<FormCr
     })
   );
 
-  readonly addRows = this.updater((state): FormCreateCustomersState => {
+  readonly addRow = this.updater((state): FormCreateCustomersState => {
     (state.formGroup?.get('customers') as FormArray).push(
       new FormGroup(cloneDeep(this._formGroupTemplate))
     );

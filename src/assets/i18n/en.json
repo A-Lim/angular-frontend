@@ -8,10 +8,13 @@
   "update": "Update",
   "status": "Status",
   "add-users": "Add Users",
+  "amount": "Amount",
   "view": "View",
   "remove": "Remove",
   "phone": "Phone",
+  "balance": "Balance",
   "loading": "Loading",
+  "transaction-date": "Transaction Date",
   "date-of-birth": "Date of Birth",
   "name": "Name",
   "log-in": "Log in",
@@ -30,6 +33,7 @@
   "gender": "Gender",
   "admin": "Admin",
   "add-package": "Add Package",
+  "add-transaction": "Add Transaction",
   "permissions": "Permissions",
   "search-user-by-email": "Search user by email",
   "usergroup-module": {
@@ -56,13 +60,20 @@
     "delete-message": "Are you sure you want to delete this package?"
   },
   "amount-paid": "Amount Paid",
+  "purchased_at": "Purchased At",
   "customers": "Customers",
   "customer-module": {
     "create": "Create Customers",
     "list": "Customer List",
     "edit": "Edit Customer",
+    "edit-package": "Edit Customer's Package",
+    "edit-transaction": "Edit Customer's Transaction",
     "delete": "Delete Customer",
-    "delete-message": "Are you sure you want to delete this customer?"
+    "delete-package": "Delete Customer's Package",
+    "delete-transaction": "Delete Customer's Transaction",
+    "delete-message": "Are you sure you want to delete this customer?",
+    "delete-package-message": "Are you sure you want to delete this customer's package? This will delete all related transactions.",
+    "delete-transaction-message": "Are you sure you want to delete this customer's transaction?"
   },
   "remarks": "Remarks",
   "user-status-types": {
@@ -70,6 +81,10 @@
     "inactive": "Inactive",
     "locked": "Locked",
     "unverified": "Unverified"
+  },
+  "customer-package-status-types": {
+    "active": "Active",
+    "completed": "Completed"
   },
   "messages": {
     "sign-in-to-your-account": "Sign in to your account",

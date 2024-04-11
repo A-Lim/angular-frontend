@@ -1,0 +1,28 @@
+<ng-container *transloco="let trans">
+  <div *nzModalTitle class="space-x-2 flex">
+    <ng-container *ngIf="customerPackage$ | async as customerPackage">
+      <span>{{ customerPackage.name }}</span>
+
+      <ng-container [ngSwitch]="customerPackage.status">
+        <nz-tag *ngSwitchCase="'active'" nzColor="success">{{
+          trans('customer-package-status-types.' + customerPackage.status) | titlecase
+        }}</nz-tag>
+        <nz-tag *ngSwitchCase="'completed'" nzColor="default">{{
+          trans('customer-package-status-types.' + customerPackage.status) | titlecase
+        }}</nz-tag>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <ng-container *ngIf="customerPackage$ | async as customerPackage">
+    <app-form-customer-edit-package
+      [customerPackage]="customerPackage"
+    ></app-form-customer-edit-package>
+
+    <h1 class="text-base mb-4 font-medium">{{ trans('transactions') }}</h1>
+    <app-table-customer-transactions
+      [customerId]="customerPackage.customer_id"
+      [customerPackageId]="customerPackage.id"
+    ></app-table-customer-transactions>
+  </ng-container>
+</ng-container>

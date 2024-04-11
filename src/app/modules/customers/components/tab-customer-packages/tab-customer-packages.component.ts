@@ -19,7 +19,7 @@ import { TabCustomerPackagesComponentStore } from './tab-customer-packages.compo
   ],
   template: `
     <div class="flex justify-end mb-4" *transloco="let trans">
-      <button nz-button [nzType]="'primary'" (click)="openAddPackageFormModal()">
+      <button nz-button [nzType]="'primary'" (click)="openAddPackageModal()">
         {{ trans('add-package') }}
       </button>
     </div>
@@ -38,8 +38,8 @@ export class TabCustomerPackagesComponent {
 
   private _componentStore = inject(TabCustomerPackagesComponentStore);
 
-  openAddPackageFormModal() {
-    this._componentStore.openAddPackageFormModal({
+  openAddPackageModal() {
+    this._componentStore.openAddPackageModal({
       customer: this.customer,
       onOk: () => this.tableCustomerPackages.refreshTable(),
     });

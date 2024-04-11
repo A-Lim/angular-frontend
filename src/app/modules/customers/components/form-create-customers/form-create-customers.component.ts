@@ -45,8 +45,8 @@ export class FormCreateCustomersComponent {
   readonly formGroup$ = this._componentStore.formGroup$;
   readonly loading$ = this._componentStore.loading$;
 
-  addRows() {
-    this._componentStore.addRows();
+  addRow() {
+    this._componentStore.addRow();
   }
 
   deleteRow(index: number) {

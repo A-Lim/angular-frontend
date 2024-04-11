@@ -18,6 +18,7 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { UiGridComponent } from '@shared/components/ui-grid/ui-grid.component';
 import { UiTemplateRendererComponent } from '@shared/components/ui-template-renderer/ui-template-renderer.component';
 import { HasPermissionDirective } from '@shared/directives/has-permission.directive';
+import { CustomerPackage } from '@modules/customers/models/customer-package.model';
 import { TableCustomerPackagesComponentStore } from './table-customer-packages.component-store';
 
 @Component({
@@ -51,12 +52,14 @@ export class TableCustomerPackagesComponent implements OnInit {
     this._componentStore.setCustomerId(value);
   }
   @ViewChild('grid', { static: true }) grid!: UiGridComponent;
+  @ViewChild('statusCell', { static: true }) statusCell!: TemplateRef<any>;
   @ViewChild('actionsCell', { static: true }) actionsCell!: TemplateRef<any>;
 
   readonly columnDefs$ = this._componentStore.columnDefs$;
   readonly dataSource$ = this._componentStore.dataSource$;
 
   ngOnInit() {
+    this._componentStore.setStatusCell(this.statusCell);
     this._componentStore.setActionCell(this.actionsCell);
   }
 
@@ -64,15 +67,15 @@ export class TableCustomerPackagesComponent implements OnInit {
     this.grid.refreshTable();
   }
 
-  // editCustomerModal(customer: Customer) {
-  //   this._componentStore.editCustomerModal({
-  //     customer,
-  //     onOk: () => this.grid.refreshTable(),
-  //   });
-  // }
+  editCustomerPackageModal(customerPackage: CustomerPackage) {
+    this._componentStore.editCustomerPackageModal({
+      customerPackage,
+      onOk: () => this.grid.refreshTable(),
+    });
+  }
 
-  deleteCustomer(id: number) {
-    this._componentStore.deleteCustomer({
+  deleteCustomerPackage(id: number) {
+    this._componentStore.deleteCustomerPackage({
       id,
       onComplete: () => this.grid.refreshTable(),
     });

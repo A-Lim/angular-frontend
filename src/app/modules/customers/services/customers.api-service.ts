@@ -4,6 +4,7 @@ import { environment } from '@environments/environment';
 import { Dictionary } from '@ngrx/entity';
 import { Pagination } from '@core/models/pagination.model';
 import { Response } from '@core/models/response.model';
+import { CustomerPackageBalance } from '../models/customer-package-balance.model';
 import { CustomerPackage } from '../models/customer-package.model';
 import { Customer } from '../models/customer.model';
 import { Transaction } from '../models/transaction.model';
@@ -13,6 +14,7 @@ export class CustomersApiService {
   private _http = inject(HttpClient);
   private _baseUrl = `${environment.apiUrl}/api/${environment.apiVersion}`;
   private _customersUrl = `${this._baseUrl}/customers`;
+  private _customerPackageUrl = `${this._baseUrl}/customerpackages`;
 
   getCustomers(qParams: Dictionary<any>) {
     return this._http.get<Response<Pagination<Customer | null>>>(`${this._customersUrl}`, {
@@ -27,6 +29,15 @@ export class CustomersApiService {
   getPackages(id: number, qParams: Dictionary<any>) {
     return this._http.get<Response<Pagination<CustomerPackage | null>>>(
       `${this._customersUrl}/${id}/packages`,
+      {
+        params: qParams,
+      }
+    );
+  }
+
+  getPackageBalances(id: number, qParams: Dictionary<any>) {
+    return this._http.get<Response<CustomerPackageBalance[]>>(
+      `${this._customersUrl}/${id}/packages/balances`,
       {
         params: qParams,
       }
@@ -57,7 +68,18 @@ export class CustomersApiService {
     return this._http.patch<Response<Customer>>(`${this._customersUrl}/${id}`, data);
   }
 
+  updateCustomerPackage(customerPackageId: number, data: Dictionary<any>) {
+    return this._http.patch<Response<CustomerPackage>>(
+      `${this._customerPackageUrl}/${customerPackageId}`,
+      data
+    );
+  }
+
   deleteCustomer(id: number) {
     return this._http.delete<Response<null>>(`${this._customersUrl}/${id}`);
+  }
+
+  deleteCustomerPackage(customerPackageId: number) {
+    return this._http.delete<Response<null>>(`${this._customerPackageUrl}/${customerPackageId}`);
   }
 }

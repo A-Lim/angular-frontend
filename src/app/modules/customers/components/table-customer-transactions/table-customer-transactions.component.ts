@@ -18,6 +18,7 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { UiGridComponent } from '@shared/components/ui-grid/ui-grid.component';
 import { UiTemplateRendererComponent } from '@shared/components/ui-template-renderer/ui-template-renderer.component';
 import { HasPermissionDirective } from '@shared/directives/has-permission.directive';
+import { Transaction } from '@modules/customers/models/transaction.model';
 import { TableCustomerTransactionsComponentStore } from './table-customer-transactions.component-store';
 
 @Component({
@@ -29,7 +30,6 @@ import { TableCustomerTransactionsComponentStore } from './table-customer-transa
     NgSwitchCase,
     AsyncPipe,
     TitleCasePipe,
-    RouterLink,
     HasPermissionDirective,
     UiGridComponent,
     UiTemplateRendererComponent,
@@ -50,6 +50,10 @@ export class TableCustomerTransactionsComponent implements OnInit {
   @Input({ required: true }) set customerId(value: number) {
     this._componentStore.setCustomerId(value);
   }
+  @Input() set customerPackageId(value: number) {
+    this._componentStore.setCustomerPackageId(value);
+  }
+
   @ViewChild('grid', { static: true }) grid!: UiGridComponent;
   @ViewChild('actionsCell', { static: true }) actionsCell!: TemplateRef<any>;
 
@@ -60,17 +64,21 @@ export class TableCustomerTransactionsComponent implements OnInit {
     this._componentStore.setActionCell(this.actionsCell);
   }
 
-  // editCustomerModal(customer: Customer) {
-  //   this._componentStore.editCustomerModal({
-  //     customer,
-  //     onOk: () => this.grid.refreshTable(),
-  //   });
-  // }
+  refreshTable() {
+    this.grid.refreshTable();
+  }
 
-  deleteCustomer(id: number) {
-    // this._componentStore.deleteCustomer({
-    //   id,
-    //   onComplete: () => this.grid.refreshTable(),
-    // });
+  editCustomerTransactionModal(transaction: Transaction) {
+    this._componentStore.editCustomerTransactionModal({
+      transaction,
+      onOk: () => this.grid.refreshTable(),
+    });
+  }
+
+  deleteCustomerTransaction(id: number) {
+    this._componentStore.deleteCustomerTransaction({
+      id,
+      onComplete: () => this.grid.refreshTable(),
+    });
   }
 }

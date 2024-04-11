@@ -11,6 +11,7 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { UiFormControlErrorsComponent } from '@shared/components/ui-form-control-errors/ui-form-control-errors.component';
 import { FormArrayCastPipe } from '@shared/pipes/form-array-cast.pipe';
+import { FormGroupCastPipe } from '@shared/pipes/form-group-cast.pipe';
 import { FormCustomerAddPackageComponentStore } from './form-customer-add-package.component-store';
 
 @Component({
@@ -19,6 +20,7 @@ import { FormCustomerAddPackageComponentStore } from './form-customer-add-packag
   imports: [
     AsyncPipe,
     FormArrayCastPipe,
+    FormGroupCastPipe,
     NgClass,
     NgFor,
     NgIf,
@@ -53,7 +55,7 @@ export class FormCustomerAddPackageComponent implements OnInit {
   }
 
   addRow() {
-    this._componentStore.addRows();
+    this._componentStore.addRow();
   }
 
   deleteRow(index: number) {

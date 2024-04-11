@@ -44,6 +44,7 @@ export class UiGridComponent implements OnInit, OnChanges, AfterViewInit {
   @Input() dataSource?: ((qParams: any) => Observable<any>) | null;
   @Input() columnDefs?: ColDef[] | null;
   @Input() gridOptions: GridOptions = {
+    alwaysShowHorizontalScroll: true,
     defaultColDef: {
       sortable: true,
     },

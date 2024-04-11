@@ -17,45 +17,60 @@
   </ng-container>
 
   <ng-container content>
-    <nz-card *transloco="let trans">
-      <ng-container *ngIf="customer$ | async as customer">
-        <app-form-edit-customer [customer]="customer"></app-form-edit-customer>
+    <div class="grid grid-cols-12 gap-x-4 space-y-4 lg:space-y-0" *transloco="let trans">
+      <div class="col-span-12 lg:col-span-3 xl:col-span-2">
+        <nz-card>
+          <app-customer-info
+            *ngIf="customer$ | async as customer"
+            [customer]="customer"
+          ></app-customer-info>
+        </nz-card>
+      </div>
 
-        <nz-tabset>
-          <nz-tab [nzTitle]="packageTitle">
-            <ng-template #packageTitle>
-              <div class="flex items-center px-2">
-                <i nz-icon nzType="inbox" nzTheme="outline"></i>
-                <span class="hidden ml-2 sm:block">{{ trans('packages') }}</span>
-              </div>
-            </ng-template>
+      <div class="col-span-12 lg:col-span-9 xl:col-span-10">
+        <nz-card>
+          <ng-container *ngIf="customer$ | async as customer">
+            <!-- <app-form-edit-customer [customer]="customer"></app-form-edit-customer> -->
 
-            <app-tab-customer-packages [customer]="customer"></app-tab-customer-packages>
-          </nz-tab>
+            <nz-tabset>
+              <nz-tab [nzTitle]="packageTitle">
+                <ng-template #packageTitle>
+                  <div class="flex items-center px-2">
+                    <i nz-icon nzType="inbox" nzTheme="outline"></i>
+                    <span class="hidden ml-2 sm:block">{{ trans('packages') }}</span>
+                  </div>
+                </ng-template>
 
-          <nz-tab [nzTitle]="transactionTitle">
-            <ng-template #transactionTitle>
-              <div class="flex items-center px-2">
-                <i nz-icon nzType="dollar" nzTheme="outline"></i>
-                <span class="hidden ml-2 sm:block">{{ trans('transactions') }}</span>
-              </div>
-            </ng-template>
+                <app-tab-customer-packages [customer]="customer"></app-tab-customer-packages>
+              </nz-tab>
 
-            <ng-template nz-tab>
-              <app-tab-customer-transactions [customer]="customer"></app-tab-customer-transactions>
-            </ng-template>
-          </nz-tab>
+              <nz-tab [nzTitle]="transactionTitle">
+                <ng-template #transactionTitle>
+                  <div class="flex items-center px-2">
+                    <i nz-icon nzType="dollar" nzTheme="outline"></i>
+                    <span class="hidden ml-2 sm:block">{{ trans('transactions') }}</span>
+                  </div>
+                </ng-template>
 
-          <nz-tab [nzTitle]="appointmentTitle">
-            <ng-template #appointmentTitle>
-              <div class="flex items-center px-2">
-                <i nz-icon nzType="calendar" nzTheme="outline"></i>
-                <span class="hidden ml-2 sm:block">{{ trans('appointments') }}</span>
-              </div>
-            </ng-template>
-          </nz-tab>
-        </nz-tabset>
-      </ng-container>
-    </nz-card>
+                <ng-template nz-tab>
+                  <app-tab-customer-transactions
+                    [customer]="customer"
+                  ></app-tab-customer-transactions>
+                </ng-template>
+              </nz-tab>
+
+              <nz-tab [nzTitle]="appointmentTitle">
+                <ng-template #appointmentTitle>
+                  <div class="flex items-center px-2">
+                    <i nz-icon nzType="calendar" nzTheme="outline"></i>
+                    <span class="hidden ml-2 sm:block">{{ trans('appointments') }}</span>
+                  </div>
+                </ng-template>
+              </nz-tab>
+            </nz-tabset>
+          </ng-container>
+        </nz-card>
+      </div>
+    </div>
   </ng-container>
 </app-layout-page-content>

@@ -1,8 +1,10 @@
 import { Injectable, inject } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { EMPTY, Observable, switchMap } from 'rxjs';
+import { EMPTY, Observable, finalize, switchMap } from 'rxjs';
+import { tapResponse } from '@ngrx/component-store';
 import { concatLatestFrom } from '@ngrx/effects';
 import { NzMessageService } from 'ng-zorro-antd/message';
+import { NZ_MODAL_DATA, NzModalRef } from 'ng-zorro-antd/modal';
 import { FormComponentStore } from '@shared/component-stores/form.component-store';
 import { Customer } from '@modules/customers/models/customer.model';
 import { CustomersApiService } from '@modules/customers/services/customers.api-service';
@@ -18,6 +20,8 @@ export const FormEditCustomerInitialState: FormEditCustomerState = {
 
 @Injectable()
 export class FormEditCustomerComponentStore extends FormComponentStore<FormEditCustomerState> {
+  private readonly _customer = inject(NZ_MODAL_DATA);
+  private readonly _modalRef = inject(NzModalRef);
   private _customersApiService = inject(CustomersApiService);
   private _messageSvc = inject(NzMessageService);
 
@@ -34,23 +38,18 @@ export class FormEditCustomerComponentStore extends FormComponentStore<FormEditC
     (state): FormEditCustomerState => ({
       ...state,
       formGroup: new FormGroup({
-        name: new FormControl(null, [Validators.required]),
-        email: new FormControl(null, [Validators.email]),
-        phone: new FormControl(null),
-        remarks: new FormControl(null),
+        name: new FormControl(this._customer.name, [Validators.required]),
+        email: new FormControl(this._customer.email, [Validators.email]),
+        phone: new FormControl(this._customer.phone),
+        remarks: new FormControl(this._customer.remarks),
       }),
     })
   );
-
-  readonly patchForm = this.updater((state, customer: Customer): FormEditCustomerState => {
-    state.formGroup?.patchValue(customer);
-    return state;
-  });
   // #endregion
 
   // #region EFFECTS
-  readonly submit = this.effect((customerId$: Observable<number>) =>
-    customerId$.pipe(
+  readonly submit = this.effect((void$: Observable<void>) =>
+    void$.pipe(
       concatLatestFrom(() => this.formGroup$),
       switchMap(([, formGroup]) => {
         this._markAllDirty(formGroup);
@@ -58,16 +57,16 @@ export class FormEditCustomerComponentStore extends FormComponentStore<FormEditC
         if (formGroup && formGroup.valid) {
           this.setLoading(true);
 
-          // return this._customersApiService.updateCustomer(this._customer.id, formGroup.value).pipe(
-          //   tapResponse(
-          //     (response) => {
-          //       this._messageSvc.success(response.message ?? '');
-          //       this._modalRef?.triggerOk();
-          //     },
-          //     () => undefined
-          //   ),
-          //   finalize(() => this.setLoading(false))
-          // );
+          return this._customersApiService.updateCustomer(this._customer.id, formGroup.value).pipe(
+            tapResponse(
+              (response) => {
+                this._messageSvc.success(response.message ?? '');
+                this._modalRef.close(response.data);
+              },
+              () => undefined
+            ),
+            finalize(() => this.setLoading(false))
+          );
         }
         return EMPTY;
       })

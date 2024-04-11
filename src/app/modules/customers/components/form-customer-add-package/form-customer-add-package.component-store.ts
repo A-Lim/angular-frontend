@@ -48,7 +48,7 @@ export class FormCustomerAddPackageComponentStore extends FormComponentStore<For
   // #endregion
 
   // #region UPDATERS
-  readonly _createForm = this.updater(
+  private readonly _createForm = this.updater(
     (state): FormCustomerAddPackageState => ({
       ...state,
       formGroup: new FormGroup({
@@ -57,7 +57,7 @@ export class FormCustomerAddPackageComponentStore extends FormComponentStore<For
     })
   );
 
-  readonly addRows = this.updater((state): FormCustomerAddPackageState => {
+  readonly addRow = this.updater((state): FormCustomerAddPackageState => {
     (state.formGroup?.get('packages') as FormArray).push(
       new FormGroup(cloneDeep(this._formGroupTemplate))
     );
@@ -112,7 +112,6 @@ export class FormCustomerAddPackageComponentStore extends FormComponentStore<For
                 (response) => {
                   this._messageService.success(response.message ?? '');
                   this._modalRef?.triggerOk();
-                  this._modalRef?.destroy();
                 },
                 () => undefined
               ),

@@ -18,20 +18,18 @@
         <i nz-icon nzType="edit" nzTheme="outline"></i>
       </button>
 
-      <ng-container *ngIf="!row.is_admin">
-        <button
-          *hasPermissions="['packages.delete']"
-          nz-button
-          nz-tooltip
-          nzDanger
-          nzType="primary"
-          nzShape="circle"
-          [nzTooltipTitle]="trans('delete')"
-          (click)="deletePackage(row.id)"
-        >
-          <i nz-icon nzType="delete" nzTheme="outline"></i>
-        </button>
-      </ng-container>
+      <button
+        *hasPermissions="['packages.delete']"
+        nz-button
+        nz-tooltip
+        nzDanger
+        nzType="primary"
+        nzShape="circle"
+        [nzTooltipTitle]="trans('delete')"
+        (click)="deletePackage(row.id)"
+      >
+        <i nz-icon nzType="delete" nzTheme="outline"></i>
+      </button>
     </div>
   </ng-container>
 </ng-template>

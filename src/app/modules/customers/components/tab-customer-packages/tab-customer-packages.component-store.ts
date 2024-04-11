@@ -15,7 +15,7 @@ export class TabCustomerPackagesComponentStore extends ComponentStore<object> {
     super({});
   }
 
-  readonly openAddPackageFormModal = this.effect(
+  readonly openAddPackageModal = this.effect(
     (
       data$: Observable<{
         customer: Customer;
