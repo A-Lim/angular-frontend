@@ -1,0 +1,35 @@
+<app-ui-grid
+  #grid
+  [dataSource]="dataSource$ | async"
+  [columnDefs]="columnDefs$ | async"
+></app-ui-grid>
+
+<ng-template #actionsCell let-row>
+  <ng-container *transloco="let trans">
+    <div *ngIf="row" class="space-x-2">
+      <a
+        nz-button
+        nz-tooltip
+        nzType="primary"
+        nzShape="circle"
+        (click)="editCustomerAppointmentModal(row)"
+        [nzTooltipTitle]="trans('edit')"
+      >
+        <i nz-icon nzType="edit" nzTheme="outline"></i>
+      </a>
+
+      <button
+        *hasPermissions="['customers.delete']"
+        nz-button
+        nz-tooltip
+        nzDanger
+        nzType="primary"
+        nzShape="circle"
+        [nzTooltipTitle]="trans('delete')"
+        (click)="deleteCustomerAppointment(row.id)"
+      >
+        <i nz-icon nzType="delete" nzTheme="outline"></i>
+      </button>
+    </div>
+  </ng-container>
+</ng-template>

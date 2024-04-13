@@ -35,6 +35,7 @@
     "@angular/cli": "~16.2.0",
     "@angular/compiler-cli": "~16.2.0",
     "@angular/language-service": "~16.2.0",
+    "@jsverse/transloco-optimize": "^7.0.0",
     "@ngrx/schematics": "~16.0.0",
     "@ngrx/store-devtools": "~16.0.0",
     "@nx/eslint-plugin": "16.10.0",
@@ -71,7 +72,7 @@
       "src/app/core/*"
     ],
     "@environments/*": [
-      "src/app/environments/*"
+      "src/environments/*"
     ],
     "@modules/*": [
       "src/app/modules/*"
@@ -101,6 +102,38 @@
           "hash": "3888646179945963699"
         },
         {
+          "file": ".nx/cache/15623397656765405379/code",
+          "hash": "1838281907459330133"
+        },
+        {
+          "file": ".nx/cache/15623397656765405379/source",
+          "hash": "8326215075452459268"
+        },
+        {
+          "file": ".nx/cache/15623397656765405379/terminalOutput",
+          "hash": "13072807421558999778"
+        },
+        {
+          "file": ".nx/cache/15623397656765405379.commit",
+          "hash": "4664556114322093609"
+        },
+        {
+          "file": ".nx/cache/9076689193019008775/code",
+          "hash": "1838281907459330133"
+        },
+        {
+          "file": ".nx/cache/9076689193019008775/source",
+          "hash": "17720599889895785444"
+        },
+        {
+          "file": ".nx/cache/9076689193019008775/terminalOutput",
+          "hash": "4518009137087330976"
+        },
+        {
+          "file": ".nx/cache/9076689193019008775.commit",
+          "hash": "4664556114322093609"
+        },
+        {
           "file": ".nx/cache/d/daemon-error.log",
           "hash": "1026752897356499472"
         },
@@ -118,11 +151,11 @@
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "14393136888078177255"
+          "hash": "12872151785329856618"
         },
         {
           "file": ".nx/cache/lockfile.hash",
-          "hash": "14903260465571469300"
+          "hash": "9552635828810722228"
         },
         {
           "file": ".nx/cache/nx-console-project-graph/project-graph.html",
@@ -134,7 +167,7 @@
         },
         {
           "file": ".nx/cache/nx-console-project-graph/static/environment.js",
-          "hash": "8920441906093910290"
+          "hash": "12862490601930424180"
         },
         {
           "file": ".nx/cache/nx-console-project-graph/static/favicon.ico",
@@ -172,15 +205,15 @@
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "8646176056585768845"
+          "hash": "74324998752756142"
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "721146210891914067"
+          "hash": "3840973121388496250"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "5818838759360687217"
+          "hash": "4012101550592436119"
         },
         {
           "file": ".nx/cache/terminalOutputs/10282923682753078730",
@@ -197,6 +230,10 @@
         {
           "file": ".nx/cache/terminalOutputs/12248178524656736398",
           "hash": "18239129609041190057"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/12821821871860650893",
+          "hash": "2852054110928338290"
         },
         {
           "file": ".nx/cache/terminalOutputs/13312215684805389989",
@@ -229,6 +266,18 @@
         {
           "file": ".nx/cache/terminalOutputs/15267579166436036770",
           "hash": "3479490571231926887"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/15295711080498151771",
+          "hash": "10821934748983561012"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/15623397656765405379",
+          "hash": "13072807421558999778"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/15632555028120937134",
+          "hash": "4506448797957625983"
         },
         {
           "file": ".nx/cache/terminalOutputs/15999998183906859441",
@@ -311,6 +360,10 @@
           "hash": "3983049120995009715"
         },
         {
+          "file": ".nx/cache/terminalOutputs/7139459109358085049",
+          "hash": "15528575716637016430"
+        },
+        {
           "file": ".nx/cache/terminalOutputs/7289138344567032058",
           "hash": "18007876774228942874"
         },
@@ -337,6 +390,10 @@
         {
           "file": ".nx/cache/terminalOutputs/8965737767859750372",
           "hash": "9004592455864530129"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/9076689193019008775",
+          "hash": "4518009137087330976"
         },
         {
           "file": ".nx/cache/terminalOutputs/9221765213483502360",
@@ -395,11 +452,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "1283660602580521005"
+          "hash": "2654633217133977525"
         },
         {
           "file": "package.json",
-          "hash": "1827211412911936905",
+          "hash": "1676780839522274289",
           "deps": [
             "npm:@angular/animations",
             "npm:@angular/common",
@@ -434,6 +491,7 @@
             "npm:@angular/cli",
             "npm:@angular/compiler-cli",
             "npm:@angular/language-service",
+            "npm:@jsverse/transloco-optimize",
             "npm:@ngrx/schematics",
             "npm:@ngrx/store-devtools",
             "npm:@nx/eslint-plugin",
@@ -468,7 +526,11 @@
         },
         {
           "file": "project.json",
-          "hash": "5292673073427614210"
+          "hash": "8742668941532616561"
+        },
+        {
+          "file": "src/.htaccess",
+          "hash": "10713422917909936285"
         },
         {
           "file": "src/app/app-routing.module.ts",
@@ -691,14 +753,6 @@
           "hash": "7646338328407749657"
         },
         {
-          "file": "src/app/environments/environment.prod.ts",
-          "hash": "16353597580647124299"
-        },
-        {
-          "file": "src/app/environments/environment.ts",
-          "hash": "2268254522528339585"
-        },
-        {
           "file": "src/app/icons-provider.module.ts",
           "hash": "7036634087209623466",
           "deps": [
@@ -885,7 +939,7 @@
         },
         {
           "file": "src/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.html",
-          "hash": "559398584587697678"
+          "hash": "5463845215656499554"
         },
         {
           "file": "src/app/modules/customers/components/form-customer-add-transaction/form-customer-add-transaction.component.ts",
@@ -940,7 +994,7 @@
         },
         {
           "file": "src/app/modules/customers/components/form-customer-edit-transaction/form-customer-edit-transaction.component.html",
-          "hash": "5463845215656499554"
+          "hash": "2940328522685068135"
         },
         {
           "file": "src/app/modules/customers/components/form-customer-edit-transaction/form-customer-edit-transaction.component.ts",
@@ -981,6 +1035,25 @@
           ]
         },
         {
+          "file": "src/app/modules/customers/components/tab-customer-appointments/tab-customer-appointments.component-store.ts",
+          "hash": "18037886539458309805",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/tab-customer-appointments/tab-customer-appointments.component.ts",
+          "hash": "17476602864813199226",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
           "file": "src/app/modules/customers/components/tab-customer-packages/tab-customer-packages.component-store.ts",
           "hash": "540818884521194553",
           "deps": [
@@ -1001,7 +1074,7 @@
         },
         {
           "file": "src/app/modules/customers/components/tab-customer-transactions/tab-customer-transactions.component-store.ts",
-          "hash": "2831214210471685733",
+          "hash": "17267306838322808815",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -1013,6 +1086,33 @@
           "file": "src/app/modules/customers/components/tab-customer-transactions/tab-customer-transactions.component.ts",
           "hash": "10839762295233256677",
           "deps": [
+            "npm:@angular/core",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/table-customer-appointments/table-customer-appointments.component-store.ts",
+          "hash": "8168978058275489921",
+          "deps": [
+            "npm:@angular/core",
+            "npm:ag-grid-community",
+            "npm:rxjs",
+            "npm:@ngrx/component-store",
+            "npm:@ngrx/entity",
+            "npm:@ngneat/transloco",
+            "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/components/table-customer-appointments/table-customer-appointments.component.html",
+          "hash": "7737949012577505098"
+        },
+        {
+          "file": "src/app/modules/customers/components/table-customer-appointments/table-customer-appointments.component.ts",
+          "hash": "4255996799602651696",
+          "deps": [
+            "npm:@angular/common",
             "npm:@angular/core",
             "npm:@ngneat/transloco",
             "npm:ng-zorro-antd"
@@ -1107,6 +1207,14 @@
           ]
         },
         {
+          "file": "src/app/modules/customers/models/appontment-package.model.ts",
+          "hash": "14073177913108420072"
+        },
+        {
+          "file": "src/app/modules/customers/models/appontment.model.ts",
+          "hash": "8449753227787994413"
+        },
+        {
           "file": "src/app/modules/customers/models/customer-package-balance.model.ts",
           "hash": "2970670039482118362"
         },
@@ -1137,11 +1245,11 @@
         },
         {
           "file": "src/app/modules/customers/pages/page-customer-manage/page-customer-manage.component.html",
-          "hash": "290495862162628086"
+          "hash": "11546157170798324104"
         },
         {
           "file": "src/app/modules/customers/pages/page-customer-manage/page-customer-manage.component.ts",
-          "hash": "5222372207107652000",
+          "hash": "496807261777715843",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1172,6 +1280,15 @@
             "npm:@angular/core",
             "npm:@ngneat/transloco",
             "npm:ng-zorro-antd"
+          ]
+        },
+        {
+          "file": "src/app/modules/customers/services/appointments.api-service.ts",
+          "hash": "14154513183219989613",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@ngrx/entity"
           ]
         },
         {
@@ -2002,7 +2119,7 @@
         },
         {
           "file": "src/assets/i18n/en.json",
-          "hash": "4477557881895809241"
+          "hash": "5135685081915065205"
         },
         {
           "file": "src/assets/i18n/validation/en.json",
@@ -2011,6 +2128,18 @@
         {
           "file": "src/assets/scss/utilities.scss",
           "hash": "2997544295668256325"
+        },
+        {
+          "file": "src/environments/environment.base.ts",
+          "hash": "12810182960711200885"
+        },
+        {
+          "file": "src/environments/environment.prod.ts",
+          "hash": "9733183012360021766"
+        },
+        {
+          "file": "src/environments/environment.ts",
+          "hash": "8462087965185955333"
         },
         {
           "file": "src/favicon.ico",
@@ -2064,7 +2193,7 @@
         },
         {
           "file": "tsconfig.json",
-          "hash": "10279267566630246692"
+          "hash": "16358715568820410880"
         },
         {
           "file": "tsconfig.spec.json",

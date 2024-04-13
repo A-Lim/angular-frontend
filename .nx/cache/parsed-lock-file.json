@@ -1260,6 +1260,15 @@
         "hash": "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w=="
       }
     },
+    "npm:lru-cache@10.2.0": {
+      "type": "npm",
+      "name": "npm:lru-cache@10.2.0",
+      "data": {
+        "version": "10.2.0",
+        "packageName": "lru-cache",
+        "hash": "sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q=="
+      }
+    },
     "npm:magic-string@0.30.1": {
       "type": "npm",
       "name": "npm:magic-string@0.30.1",
@@ -3267,6 +3276,15 @@
         "hash": "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw=="
       }
     },
+    "npm:minimatch@9.0.4": {
+      "type": "npm",
+      "name": "npm:minimatch@9.0.4",
+      "data": {
+        "version": "9.0.4",
+        "packageName": "minimatch",
+        "hash": "sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw=="
+      }
+    },
     "npm:minimatch@9.0.3": {
       "type": "npm",
       "name": "npm:minimatch@9.0.3",
@@ -3645,40 +3663,13 @@
         "hash": "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg=="
       }
     },
-    "npm:@leichtgewicht/ip-codec": {
+    "npm:@jsverse/transloco-optimize": {
       "type": "npm",
-      "name": "npm:@leichtgewicht/ip-codec",
+      "name": "npm:@jsverse/transloco-optimize",
       "data": {
-        "version": "2.0.4",
-        "packageName": "@leichtgewicht/ip-codec",
-        "hash": "sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A=="
-      }
-    },
-    "npm:@ngneat/transloco": {
-      "type": "npm",
-      "name": "npm:@ngneat/transloco",
-      "data": {
-        "version": "6.0.0",
-        "packageName": "@ngneat/transloco",
-        "hash": "sha512-hpL3tgY2EYZTTDsCRSN6v+7I0neA0lSLmMVEwTU90ZkRKOV1wIh9TIFXd1slWKklxe2xQHa1AFIn3NkHRP7R+A=="
-      }
-    },
-    "npm:@ngneat/transloco-persist-translations": {
-      "type": "npm",
-      "name": "npm:@ngneat/transloco-persist-translations",
-      "data": {
-        "version": "5.0.0",
-        "packageName": "@ngneat/transloco-persist-translations",
-        "hash": "sha512-QLM9X9aDRPLZhNK8f8h/4eqjhSJvHoGHRSQ+CoS3qkOXteEdOQXeYzWPHSmvDHc5lN3zNRy6sjHrBQEiZQLCKw=="
-      }
-    },
-    "npm:@ngneat/transloco-utils": {
-      "type": "npm",
-      "name": "npm:@ngneat/transloco-utils",
-      "data": {
-        "version": "5.0.0",
-        "packageName": "@ngneat/transloco-utils",
-        "hash": "sha512-e0S+GWyBTmLix9KfYWW/rScYdqQz3z3znNSb+foaA5T3jWs4CPLVo+PV0No7kGjqom8Wy8H3lLvztfhHxYSLyA=="
+        "version": "7.0.0",
+        "packageName": "@jsverse/transloco-optimize",
+        "hash": "sha512-qQJ3gXwXuyg6p+uPOXKaN8gQfELCLbwlsCLKhoRoXMJx/NesYJRpYGYcdBBR9liMSIVCZB8Vjhcgm5HJV8+0Bg=="
       }
     },
     "npm:brace-expansion@2.0.1": {
@@ -3699,22 +3690,13 @@
         "hash": "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA=="
       }
     },
-    "npm:flat@6.0.0": {
+    "npm:glob@10.3.12": {
       "type": "npm",
-      "name": "npm:flat@6.0.0",
+      "name": "npm:glob@10.3.12",
       "data": {
-        "version": "6.0.0",
-        "packageName": "flat",
-        "hash": "sha512-/aYW7n5yD9HyW9ZHCzW2LGSpyTmbXEdRWdH5ded6K/a2ETgowOripjBqJorQ4/PBa3VPFub28fNruWp+onmIUg=="
-      }
-    },
-    "npm:flat": {
-      "type": "npm",
-      "name": "npm:flat",
-      "data": {
-        "version": "5.0.2",
-        "packageName": "flat",
-        "hash": "sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ=="
+        "version": "10.3.12",
+        "packageName": "glob",
+        "hash": "sha512-TCNv8vJ+xz4QiqTpfOJA7HvYv+tNIRHKfUWw/q+v2jdgN4ebz+KY9tGx5J4rHP0o84mNP+ApH66HRX8us3Khqg=="
       }
     },
     "npm:glob@10.3.10": {
@@ -3787,6 +3769,60 @@
         "version": "3.3.6",
         "packageName": "minipass",
         "hash": "sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw=="
+      }
+    },
+    "npm:@leichtgewicht/ip-codec": {
+      "type": "npm",
+      "name": "npm:@leichtgewicht/ip-codec",
+      "data": {
+        "version": "2.0.4",
+        "packageName": "@leichtgewicht/ip-codec",
+        "hash": "sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A=="
+      }
+    },
+    "npm:@ngneat/transloco": {
+      "type": "npm",
+      "name": "npm:@ngneat/transloco",
+      "data": {
+        "version": "6.0.0",
+        "packageName": "@ngneat/transloco",
+        "hash": "sha512-hpL3tgY2EYZTTDsCRSN6v+7I0neA0lSLmMVEwTU90ZkRKOV1wIh9TIFXd1slWKklxe2xQHa1AFIn3NkHRP7R+A=="
+      }
+    },
+    "npm:@ngneat/transloco-persist-translations": {
+      "type": "npm",
+      "name": "npm:@ngneat/transloco-persist-translations",
+      "data": {
+        "version": "5.0.0",
+        "packageName": "@ngneat/transloco-persist-translations",
+        "hash": "sha512-QLM9X9aDRPLZhNK8f8h/4eqjhSJvHoGHRSQ+CoS3qkOXteEdOQXeYzWPHSmvDHc5lN3zNRy6sjHrBQEiZQLCKw=="
+      }
+    },
+    "npm:@ngneat/transloco-utils": {
+      "type": "npm",
+      "name": "npm:@ngneat/transloco-utils",
+      "data": {
+        "version": "5.0.0",
+        "packageName": "@ngneat/transloco-utils",
+        "hash": "sha512-e0S+GWyBTmLix9KfYWW/rScYdqQz3z3znNSb+foaA5T3jWs4CPLVo+PV0No7kGjqom8Wy8H3lLvztfhHxYSLyA=="
+      }
+    },
+    "npm:flat@6.0.0": {
+      "type": "npm",
+      "name": "npm:flat@6.0.0",
+      "data": {
+        "version": "6.0.0",
+        "packageName": "flat",
+        "hash": "sha512-/aYW7n5yD9HyW9ZHCzW2LGSpyTmbXEdRWdH5ded6K/a2ETgowOripjBqJorQ4/PBa3VPFub28fNruWp+onmIUg=="
+      }
+    },
+    "npm:flat": {
+      "type": "npm",
+      "name": "npm:flat",
+      "data": {
+        "version": "5.0.2",
+        "packageName": "flat",
+        "hash": "sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ=="
       }
     },
     "npm:@ngneat/until-destroy": {
@@ -5373,6 +5409,15 @@
         "hash": "sha512-R5iJ5lkuHybztUfuOAznmboyjWq8O6sqNqtK7CLOqdydi54VNbORp49mb14KbWgG1QD3JFO9hJdZ+y4KutfdOQ=="
       }
     },
+    "npm:array-back": {
+      "type": "npm",
+      "name": "npm:array-back",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "array-back",
+        "hash": "sha512-TkuxA4UCOvxuDK6NZYXCalszEzj+TLszyASooky+i742l9TqsOdYCMJJupxRic61hwquNtppB3hgcuq9SVSH1Q=="
+      }
+    },
     "npm:array-buffer-byte-length": {
       "type": "npm",
       "name": "npm:array-buffer-byte-length",
@@ -6298,6 +6343,15 @@
         "version": "1.0.8",
         "packageName": "combined-stream",
         "hash": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg=="
+      }
+    },
+    "npm:command-line-args": {
+      "type": "npm",
+      "name": "npm:command-line-args",
+      "data": {
+        "version": "5.2.1",
+        "packageName": "command-line-args",
+        "hash": "sha512-H4UfQhZyakIjC74I9d34fGYDwk3XpSr17QhEd0Q3I9Xq1CETHo4Hcuo87WyWHpAF1aSLjLRf5lD9ZGX2qStUvg=="
       }
     },
     "npm:common-path-prefix": {
@@ -7540,6 +7594,15 @@
         "version": "1.2.0",
         "packageName": "finalhandler",
         "hash": "sha512-5uXcUVftlQMFnWC9qu/svkWv3GTd2PfUhK/3PLkYNAe7FbqJMt3515HaxE6eRL74GdsriiwujiawdaB1BpEISg=="
+      }
+    },
+    "npm:find-replace": {
+      "type": "npm",
+      "name": "npm:find-replace",
+      "data": {
+        "version": "3.0.0",
+        "packageName": "find-replace",
+        "hash": "sha512-6Tb2myMioCAgv5kfvP5/PkZZ/ntTpVK39fHY7WkWBgvbeE+VHd/tZuZ4mrC+bxh4cfOZeYKVPaJIZtZXV7GNCQ=="
       }
     },
     "npm:flat-cache": {
@@ -9486,6 +9549,15 @@
         "hash": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw=="
       }
     },
+    "npm:lodash.camelcase": {
+      "type": "npm",
+      "name": "npm:lodash.camelcase",
+      "data": {
+        "version": "4.3.0",
+        "packageName": "lodash.camelcase",
+        "hash": "sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA=="
+      }
+    },
     "npm:lodash.debounce": {
       "type": "npm",
       "name": "npm:lodash.debounce",
@@ -10381,9 +10453,9 @@
       "type": "npm",
       "name": "npm:path-scurry",
       "data": {
-        "version": "1.10.1",
+        "version": "1.10.2",
         "packageName": "path-scurry",
-        "hash": "sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ=="
+        "hash": "sha512-7xTavNy5RQXnsjANvVvMkEjvloOinkAjv/Z6Ildz9v2RinZ4SBKTWFOVRbaF8p0vpHnyjV/UwNDdKuUv6M5qcA=="
       }
     },
     "npm:path-to-regexp": {
@@ -12022,6 +12094,15 @@
         "version": "5.1.6",
         "packageName": "typescript",
         "hash": "sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA=="
+      }
+    },
+    "npm:typical": {
+      "type": "npm",
+      "name": "npm:typical",
+      "data": {
+        "version": "4.0.0",
+        "packageName": "typical",
+        "hash": "sha512-VAH4IvQ7BDFYglMd7BPRDfLgxZZX4O4TFcRDA6EN5X7erNJJq+McIEp8np9aVtxrCJ6qx4GTYVfOWNjcqwZgRw=="
       }
     },
     "npm:unicode-canonical-property-names-ecmascript": {
@@ -18154,6 +18235,56 @@
       "type": "static"
     },
     {
+      "source": "npm:@jsverse/transloco-optimize",
+      "target": "npm:command-line-args",
+      "type": "static"
+    },
+    {
+      "source": "npm:@jsverse/transloco-optimize",
+      "target": "npm:flat",
+      "type": "static"
+    },
+    {
+      "source": "npm:@jsverse/transloco-optimize",
+      "target": "npm:glob@10.3.12",
+      "type": "static"
+    },
+    {
+      "source": "npm:brace-expansion@2.0.1",
+      "target": "npm:balanced-match",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.12",
+      "target": "npm:foreground-child",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.12",
+      "target": "npm:jackspeak",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.12",
+      "target": "npm:minimatch@9.0.4",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.12",
+      "target": "npm:minipass@7.0.4",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.12",
+      "target": "npm:path-scurry",
+      "type": "static"
+    },
+    {
+      "source": "npm:minimatch@9.0.4",
+      "target": "npm:brace-expansion@2.0.1",
+      "type": "static"
+    },
+    {
       "source": "npm:@ngneat/transloco",
       "target": "npm:@angular/core",
       "type": "static"
@@ -21454,6 +21585,26 @@
       "type": "static"
     },
     {
+      "source": "npm:command-line-args",
+      "target": "npm:array-back",
+      "type": "static"
+    },
+    {
+      "source": "npm:command-line-args",
+      "target": "npm:find-replace",
+      "type": "static"
+    },
+    {
+      "source": "npm:command-line-args",
+      "target": "npm:lodash.camelcase",
+      "type": "static"
+    },
+    {
+      "source": "npm:command-line-args",
+      "target": "npm:typical",
+      "type": "static"
+    },
+    {
       "source": "npm:compressible",
       "target": "npm:mime-db",
       "type": "static"
@@ -23111,6 +23262,11 @@
     {
       "source": "npm:find-cache-dir",
       "target": "npm:pkg-dir",
+      "type": "static"
+    },
+    {
+      "source": "npm:find-replace",
+      "target": "npm:array-back",
       "type": "static"
     },
     {
@@ -27350,7 +27506,7 @@
     },
     {
       "source": "npm:path-scurry",
-      "target": "npm:lru-cache@10.1.0",
+      "target": "npm:lru-cache@10.2.0",
       "type": "static"
     },
     {

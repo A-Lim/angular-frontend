@@ -7,7 +7,7 @@ import { Customer } from '@modules/customers/models/customer.model';
 import { FormCustomerAddTransactionComponent } from '../form-customer-add-transaction/form-customer-add-transaction.component';
 
 @Injectable()
-export class TabCustomerTransactionsComponentStore extends ComponentStore<object> {
+export class TabCustomerAppointmentsComponentStore extends ComponentStore<object> {
   private _modalService = inject(NzModalService);
   private _utilTranslocoService = inject(UtilTranslocoService);
 
@@ -24,16 +24,16 @@ export class TabCustomerTransactionsComponentStore extends ComponentStore<object
     ) =>
       data$.pipe(
         switchMap((data) =>
-          forkJoin([this._utilTranslocoService.translate(['add-transaction']), of(data)])
+          forkJoin([this._utilTranslocoService.translate(['add-appointment']), of(data)])
         ),
         tap(([[nzTitle], data]) => {
-          this._modalService.create({
-            nzTitle,
-            nzWidth: 1024,
-            nzContent: FormCustomerAddTransactionComponent,
-            nzOnOk: data.onOk,
-            nzData: data.customer,
-          });
+          // this._modalService.create({
+          //   nzTitle,
+          //   nzWidth: 1024,
+          //   nzContent: FormCustomerAddTransactionComponent,
+          //   nzOnOk: data.onOk,
+          //   nzData: data.customer,
+          // });
         })
       )
   );

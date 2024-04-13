@@ -4,8 +4,9 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "build": "nx build",
-    "test": "nx test"
+    "build": "nx build && npm run transloco:optimize",
+    "test": "nx test",
+    "transloco:optimize": "transloco-optimize dist/melos/assets/i18n"
   },
   "private": true,
   "dependencies": {
@@ -44,6 +45,7 @@
     "@angular/cli": "~16.2.0",
     "@angular/compiler-cli": "~16.2.0",
     "@angular/language-service": "~16.2.0",
+    "@jsverse/transloco-optimize": "^7.0.0",
     "@ngrx/schematics": "~16.0.0",
     "@ngrx/store-devtools": "~16.0.0",
     "@nx/eslint-plugin": "16.10.0",

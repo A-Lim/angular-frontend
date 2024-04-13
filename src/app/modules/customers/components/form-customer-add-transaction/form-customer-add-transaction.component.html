@@ -19,7 +19,13 @@
 
       <nz-form-item>
         <nz-form-label nzNoColon="true">{{ trans('remarks') }}</nz-form-label>
-        <textarea type="text" nz-input [placeholder]="trans('remarks')" rows="2"></textarea>
+        <textarea
+          type="text"
+          nz-input
+          formControlName="remarks"
+          [placeholder]="trans('remarks')"
+          rows="2"
+        ></textarea>
       </nz-form-item>
     </div>
 

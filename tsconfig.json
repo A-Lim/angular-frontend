@@ -15,7 +15,7 @@
     "baseUrl": ".",
     "paths": {
       "@core/*": ["src/app/core/*"],
-      "@environments/*": ["src/app/environments/*"],
+      "@environments/*": ["src/environments/*"],
       "@modules/*": ["src/app/modules/*"],
       "@shared/*": ["src/app/shared/*"]
     },

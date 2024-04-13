@@ -1,0 +1,392 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                                    [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m                                                                                              [2m | [22mvendor                                                       [2m | [22m  [96m5.70 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m                                                                                  [2m | [22mstyles                                                       [2m | [22m  [96m1.15 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m                                                                                           [2m | [22mpolyfills                                                    [2m | [22m[96m333.22 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                                                                [2m | [22mmain                                                         [2m | [22m[96m130.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                             [2m | [22mruntime                                                      [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                                                                                                      [2m | [22m[1mInitial Total[22m                                                [2m | [22m  [1m7.31 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                                       [2m | [22m[1mNames[22m                                                        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_components_ui-grid_ui-grid_component_ts.js[39m[37m             [39m[37m                         [2m | [22mpages-page-customers-page-customers-component                [2m | [22m  [96m2.62 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_components_ui-breadcrumb_ui-breadcrumb_component_ts-src_app_shared_lay-38a42f.js[39m[37m[2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m469.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customers_page-customers_component_ts.js[39m[37m                          [2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m392.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m              [2m | [22mpages-page-customer-manage-page-customer-manage-component    [2m | [22m[96m227.49 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-select_mjs.js[39m[37m                                [2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m186.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_pipes_form-array-cast_pipe_ts-src_app_shared_pipes_form-group-cast_pip-dfe17b.js[39m[37m[2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m150.80 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-group-manage_page-user-group-manage_component_ts.js[39m[37m        [2m | [22mpages-page-user-group-manage-page-user-group-manage-component[2m | [22m[96m132.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_shared_services_util-modal_service_ts.js[39m[37m                                               [2m | [22mpages-page-customers-page-customers-component                [2m | [22m[96m127.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-tabs_mjs.js[39m[37m                                  [2m | [22mpages-page-customer-manage-page-customer-manage-component  [39m[37m  [2m | [22m[96m114.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_packages_pages_page-packages_page-packages_component_ts.js[39m[37m                             [2m | [22mpages-page-packages-page-packages-component                  [2m | [22m [96m78.72 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-profile_page-profile_component_ts.js[39m[37m                                  [2m | [22mpages-page-profile-page-profile-component                    [2m | [22m [96m41.49 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-user-manage_page-user-manage_component_ts.js[39m[37m                          [2m | [22mpages-page-user-manage-page-user-manage-component            [2m | [22m [96m35.72 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_modules_users_components_user-info_user-info_component_ts-node_modules_ng-zor-12b14c.js[39m[37m[2m | [22mpages-page-user-manage-page-user-manage-component            [2m | [22m [96m35.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_user-groups_pages_page-user-groups_page-user-groups_component_ts.js[39m[37m                    [2m | [22mpages-page-user-groups-page-user-groups-component            [2m | [22m [96m30.14 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-checkbox_mjs.js[39m[37m                              [2m | [22mpages-page-customers-page-customers-component                [2m | [22m [96m25.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_users_pages_page-users_page-users_component_ts.js[39m[37m                                      [2m | [22mpages-page-users-page-users-component                        [2m | [22m [96m25.03 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdefault-src_app_modules_customers_components_form-edit-customer_form-edit-customer_component_ts.js[39m[37m     [2m | [22mpages-page-customers-page-customers-component                [2m | [22m [96m22.33 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mcommon.js[39m[37m                       [39m[37m                                                                       [2m | [22mcommon                                                       [2m | [22m  [96m3.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92msrc_app_modules_dashboard_pages_page-main-dashboard_page-main-dashboard_component_ts.js[39m[37m                [2m | [22mpages-page-main-dashboard-page-main-dashboard-component      [2m | [22m  [96m2.13 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:53:09.807Z[39m[37m[22m - Hash: [1m[37mbe12816a0e87561b[39m[37m[22m - Time: [1m[37m6764[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:57:27.302Z[39m[37m[22m - Hash: [1m[37me771d3197bd27a07[39m[37m[22m - Time: [1m[37m2015[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:59:01.427Z[39m[37m[22m - Hash: [1m[37me771d3197bd27a07[39m[37m[22m - Time: [1m[37m899[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:59:07.958Z[39m[37m[22m - Hash: [1m[37me771d3197bd27a07[39m[37m[22m - Time: [1m[37m930[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:59:19.511Z[39m[37m[22m - Hash: [1m[37me771d3197bd27a07[39m[37m[22m - Time: [1m[37m1009[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T14:59:28.117Z[39m[37m[22m - Hash: [1m[37me771d3197bd27a07[39m[37m[22m - Time: [1m[37m994[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m227.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:00:18.371Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m1528[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:00:36.002Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m745[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:00:45.043Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m935[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:01:36.724Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m1498[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:01:57.251Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m942[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:01:58.857Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m580[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:02:05.465Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m825[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:02:15.691Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m961[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:02:49.744Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m1016[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:03:45.316Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m912[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:03:55.492Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m795[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:04:16.738Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m695[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:04:24.396Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m763[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:04:32.874Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m803[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:04:40.929Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m920[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:04:46.356Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m691[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:04:50.801Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m819[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:05:20.667Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m1043[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:06:54.157Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m1251[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:06:57.386Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m636[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:07:03.212Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m714[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:07:12.271Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m659[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:08:14.646Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m1265[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:09:10.390Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m1075[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:09:14.167Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m599[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:09:21.695Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m535[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:09:23.839Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m641[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:09:57.843Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m1145[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:10:01.905Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m662[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:10:23.843Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m872[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:10:41.321Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m778[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:11:10.391Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m704[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:11:16.961Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m599[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:11:19.612Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m770[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:11:26.107Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m639[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:11:34.748Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m586[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:11:43.747Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m810[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:11:47.967Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m914[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:12:09.282Z[39m[37m[22m - Hash: [1m[37me95e93ee9dd45c94[39m[37m[22m - Time: [1m[37m734[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                                                  [2m | [22mmain                                                     [2m | [22m[96m130.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m257.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m21 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:13:21.442Z[39m[37m[22m - Hash: [1m[37maf38bbbf5acfe9ae[39m[37m[22m - Time: [1m[37m2477[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                      [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                               [2m | [22mruntime                                                  [2m | [22m [96m12.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                    [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92msrc_app_modules_customers_pages_page-customer-manage_page-customer-manage_component_ts.js[39m[37m[2m | [22mpages-page-customer-manage-page-customer-manage-component[2m | [22m[96m257.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m22 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:15:38.243Z[39m[37m[22m - Hash: [1m[37mb6dd7f2c21a0816f[39m[37m[22m - Time: [1m[37m1375[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m24 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-04-11T15:15:55.394Z[39m[37m[22m - Hash: [1m[37mb6dd7f2c21a0816f[39m[37m[22m - Time: [1m[37m761[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m

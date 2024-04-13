@@ -30,8 +30,6 @@
       <div class="col-span-12 lg:col-span-9 xl:col-span-10">
         <nz-card>
           <ng-container *ngIf="customer$ | async as customer">
-            <!-- <app-form-edit-customer [customer]="customer"></app-form-edit-customer> -->
-
             <nz-tabset>
               <nz-tab [nzTitle]="packageTitle">
                 <ng-template #packageTitle>
@@ -66,6 +64,10 @@
                     <span class="hidden ml-2 sm:block">{{ trans('appointments') }}</span>
                   </div>
                 </ng-template>
+
+                <app-tab-customer-appointments
+                  [customer]="customer"
+                ></app-tab-customer-appointments>
               </nz-tab>
             </nz-tabset>
           </ng-container>
